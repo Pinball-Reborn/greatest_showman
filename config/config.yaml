@@ -1,47 +1,45 @@
 #config_version=5
 
 hardware:
-    platform: fast
-    driverboards: fast
-
-fast:
-    ports: com4, com5
 
 switches:
     s_left_flipper: 
-        number: 
+        number: 4-38 #fifth board, switch 38
         tags: left_flipper
     s_left_flipper_eos:
-        number: #left flipper end of stroke switch
+        number: 0-3 #left flipper end of stroke switch first board, switch 3
         tags:  left_flipper_eos
     s_right_flipper: 
-        number: 
+        number: 4-39 #fifth board, switch 39
         tags: right_flipper
     s_right_flipper_eos:
-        number: #right flipper end of stroke switch
+        number: 0-4 #right flipper end of stroke switch first board, switch 4
         tags: right_flipper_eos
-    s_right_upper:
-        number: #right upper flipper
+    s_right_upper: 
+        number: 5-40 #right upper flipper
         tags: right_upper
     s_right_upper_eos:
-        number: #right upper flipper end of stroke switch
+        number: 3-25 #right upper flipper end of stroke switch
    
 
 coils:
     c_flipper_left_main: 
-        number: 
+        number: 0-2 #first driver board, driver 2 
+        default_pulse_ms: 20
     c_flipper_left_hold:
-        number: 
+        number: 2-22
         allow_enable: true
     c_flipper_right_main: 
-        number: 
+        number: 0-3
+        default_pulse_ms: 20
     c_flipper_right_hold: 
-        number: 
+        number: 2-23
         allow_enable: true
     c_right_upper_main: 
-        number:
+        number: 2-17
+        default_pulse_ms: 20
     c_right_upper_hold: 
-        number: 
+        number: 3-24
         allow_enable: true
         
 
@@ -70,6 +68,34 @@ flippers:
         eos_switch:  s_right_upper_eos
         enable_events: machine_reset_phase_3
     
+displays:
+    window:
+        width: 800
+        height: 600
 
+slides:
+    welcome_slide:
+        widgets: 
+            - type: text
+              text: PINBALL!
+              font_size: 50
+              color: red
+            - type: rectangle
+              width: 240
+              height: 60
+    attract_started:
+        widgets:
+            - text: ATTRACT MODE
+              type: text
+slide_player:
+    init_done: welcome_slide
+    mode_attract_started: attract_started
+
+
+keyboard:
+    z:
+        switch: s_left_flipper
+    m:
+        switch: s_right_flipper
 
 
