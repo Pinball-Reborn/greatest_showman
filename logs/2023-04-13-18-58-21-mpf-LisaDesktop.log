@@ -1,0 +1,54 @@
+2023-04-13 18:58:21,670 : INFO : root : Loading config.
+2023-04-13 18:58:21,672 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2023-04-13 18:58:21,673 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\greatest_showman\config\config.yaml
+2023-04-13 18:58:21,673 : INFO : ConfigProcessor : Loading config from file C:\Users\lisas\.local\pipx\venvs\mpf\lib\site-packages\mpf\mpfconfig.yaml.
+2023-04-13 18:58:21,722 : INFO : ConfigProcessor : Loading config: C:\Users\lisas\.local\pipx\venvs\mpf\lib\site-packages\mpf\mpfconfig.yaml
+2023-04-13 18:58:21,723 : INFO : ConfigProcessor : Loading config from file C:\pinball\greatest_showman\config\config.yaml.
+2023-04-13 18:58:21,733 : INFO : ConfigProcessor : Loading config: C:\pinball\greatest_showman\config\config.yaml
+2023-04-13 18:58:21,734 : INFO : ConfigProcessor : Config file cache created: C:\Users\lisas\AppData\Local\Temp\c5e3c6a6b44933afaf432493a3c7f734.mpf_cache
+2023-04-13 18:58:21,799 : INFO : ConfigProcessor : Loading config from cache: C:\Users\lisas\AppData\Local\Temp\2591d1a5aee1eec0eefe4740cb1b00b0.mpf_cache
+2023-04-13 18:58:21,799 : INFO : ConfigProcessor : Loading config from cache: C:\Users\lisas\AppData\Local\Temp\b5a4e895e7586a66014791409c611ae3.mpf_cache
+2023-04-13 18:58:21,800 : INFO : Machine : Mission Pinball Framework Core Engine v0.56.0
+2023-04-13 18:58:21,800 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2023-04-13-18-58-21-mpf-LisaDesktop.log', 'pause': False, 'production': False, 'text_ui': False, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2023-04-13 18:58:21,800 : INFO : Machine : MPF path: C:\Users\lisas\.local\pipx\venvs\mpf\lib\site-packages\mpf
+2023-04-13 18:58:21,800 : INFO : Machine : Machine path: C:\pinball\greatest_showman
+2023-04-13 18:58:21,800 : INFO : Machine : Platform: win32
+2023-04-13 18:58:21,800 : INFO : Machine : Python executable location: C:\Users\lisas\.local\pipx\venvs\mpf\Scripts\python.exe
+2023-04-13 18:58:21,800 : INFO : Machine : Python version: 3.9.13 (64-bit)
+2023-04-13 18:58:21,802 : INFO : Machine : Initialise MPF.
+2023-04-13 18:58:21,870 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,907 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,908 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.56.0', 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,908 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.56.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,908 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.9.13', 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,919 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.22621-SP0', 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,919 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,919 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,919 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22621', 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,919 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,919 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2023-04-13 18:58:21,929 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2023-04-13 18:58:21,934 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2023-04-13 18:58:21,935 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2023-04-13 18:58:21,936 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,936 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,936 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_upper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,936 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,936 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,936 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2023-04-13 18:58:21,937 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2023-04-13 18:58:21,937 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2023-04-13 18:58:21,937 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2023-04-13 18:58:21,937 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2023-04-13 18:58:21,937 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2023-04-13 18:58:21,938 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2023-04-13 18:58:21,938 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2023-04-13 18:58:21,938 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2023-04-13 18:58:21,938 : INFO : Mode.attract : Started. Priority: 10
+2023-04-13 18:58:21,938 : INFO : EventManager : Event: ======'modes_active_modes_changed'====== Args={}
+2023-04-13 18:58:21,938 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2023-04-13 18:58:21,938 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2023-04-13 18:58:21,938 : INFO : Machine : Starting the main run loop.
+2023-04-13 19:23:07,496 : INFO : Machine : Shutting down...
+2023-04-13 19:23:07,497 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2023-04-13 19:23:07,501 : INFO : root : MPF run loop ended.

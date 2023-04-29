@@ -1,0 +1,75 @@
+#config_version=5
+
+hardware:
+    platform: fast
+    driverboards: fast
+
+fast:
+    ports: com4, com5
+
+switches:
+    s_left_flipper: 
+        number: 
+        tags: left_flipper
+    s_left_flipper_eos:
+        number: #left flipper end of stroke switch
+        tags:  left_flipper_eos
+    s_right_flipper: 
+        number: 
+        tags: right_flipper
+    s_right_flipper_eos:
+        number: #right flipper end of stroke switch
+        tags: right_flipper_eos
+    s_right_upper:
+        number: #right upper flipper
+        tags: right_upper
+    s_right_upper_eos:
+        number: #right upper flipper end of stroke switch
+   
+
+coils:
+    c_flipper_left_main: 
+        number: 
+    c_flipper_left_hold:
+        number: 
+        allow_enable: true
+    c_flipper_right_main: 
+        number: 
+    c_flipper_right_hold: 
+        number: 
+        allow_enable: true
+    c_right_upper_main: 
+        number:
+    c_right_upper_hold: 
+        number: 
+        allow_enable: true
+        
+
+playfields: 
+    playfield: 
+        tags: default
+        default_source_device: None
+
+flippers: 
+    left_flipper:
+        main_coil: c_flipper_left_main
+        hold_coil: c_flipper_left_hold
+        activation_switch: s_left_flipper
+        eos_switch: s_left_flipper_eos
+        enable_events: machine_reset_phase_3 
+    right_flipper: 
+        main_coil: c_flipper_right_main
+        hold_coil: c_flipper_right_hold
+        activation_switch: s_right_flipper
+        eos_switch: s_right_flipper_eos
+        enable_events: machine_reset_phase_3
+    right_upper:
+        main_coil: c_right_upper_main
+        hold_coil: c_right_upper_hold
+        activation_switch: s_right_upper
+        eos_switch:  s_right_upper_eos
+        enable_events: machine_reset_phase_3
+    
+
+
+
