@@ -1,0 +1,26 @@
+events:
+  game_ended: 1
+  game_started: 1
+player:
+  score:
+    average: 0.0
+    top:
+    - 0
+    total: 1
+switches:
+  s_left_flipper: 63
+  s_left_flipper_eos: 0
+  s_plunger: 0
+  s_right_flipper: 63
+  s_right_flipper_eos: 0
+  s_right_inlane: 0
+  s_right_upper: 0
+  s_right_upper_eos: 0
+  s_start: 0
+  s_trough1: 11
+  s_trough2: 2
+  s_trough3: 1
+  s_trough4: 1
+  s_trough5: 1
+  s_trough6: 1
+  s_trough_jam: 0
