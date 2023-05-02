@@ -50,9 +50,126 @@ switches:
     s_right_inlane:
         number: 1-8
         tags: playfield_active
+    s_left_inlane:
+        number: 0-7
+        tags: playfield_active
+    s_left_outlane:
+        number: 0-6
+        tags: playfield_active
+    s_right_outlane:
+        number: 1-9
+        tags: playfield_active
+    s_ball_lock1:
+        number: 0-0
+    s_ball_lock2:
+        number: 0-1
+    s_ball_lock3:
+        number: 0-2
+    s_slingshot_left:
+        number: 1-10
+        tags: playfield_active
+    s_slingshot_right:
+        number: 1-11
+        tags: playfield_active
+    s_bumper_right:
+        number: 1-12
+        tags: playfield_active
+    s_bumper_left:
+        number: 1-13
+        tags: playfield_active
+    s_ticket_booth_right:
+        number: 1-14
+    s_ticket_booth_left:
+        number: 1-15
+    s_pop_bumper_lower_left:
+        number: 2-16
+        tags: playfield_active
+    s_pop_bumper_lower_right:
+        number: 2-17
+        tags: playfield_active
+    s_pop_bumper_lower_top:
+        number: 2-18
+        tags: playfield_active
+    s_pop_bumper_upper_left:
+        number: 2-19
+        tags: playfield_active
+    s_pop_bumper_upper_bottom:
+        number: 2-20
+        tags: playfield_active
+    s_pop_bumper_upper_right:
+        number: 2-21
+        tags: playfield_active
+    s_drop_target_bottom:
+        number: 2-22
+    s_drop_target_middle:
+        number: 2-23
+    s_drop_target_top:
+        number: 3-24
+    s_spinner:
+        number: 3-26
+        tags: playfield_active
+    s_saucer:
+        number: 3-27
+        tags: playfield_active
+    s_ramp_left_entry:
+        number: 3-28
+        tags: playfield_active
+    s_inner_orbit_entry:
+        number: 3-29
+        tags: playfield_active
+    s_outer_orbit_entry_left_top:
+        number: 3-30
+        tags: playfield_active
+    s_outer_orbit_entry_right_top:
+        number: 3-31
+        tags: playfield_active
+    s_drop_target_single:
+        number: 4-32
+    s_lift_flap_up_down:
+        number: 4-33
+    s_target_upper:
+        number: 4-34
+        tags: playfield_active
+    s_target_right_ramp_right:
+        number: 4-35
+        tags: playfield_active
+    s_target_left_mid:
+        number: 4-36
+        tags: playfield_active
+    s_target_right_mid:
+        number: 4-37
+        tags: playfield_active
+    s_tilt:
+        number: 5-42
+    s_target_right_ramp_left:
+        number: 5-43
+        tags: playfield_active
+    s_left_ramp_top:
+        number: 6-50
+        tags: playfield_active
+    s_left_ramp_bottom:
+        number: 6-51
+        tags: playfield_active
+    s_right_ramp_top:
+        number: 6-52
+        tags: playfield_active
+    s_right_ramp_bottom:
+        number: 6-53
+        tags: playfield_active
+    s_outer_orbit_entry_left_bottom:
+        number: 6-54
+        tags: playfield_active
+    s_outer_orbit_entry_right_bottom:
+        number: 6-55
+        tags: playfield_active
 
 
-   
+
+
+
+
+
+ 
 
 coils:
     c_flipper_left_main: 
@@ -105,8 +222,8 @@ flippers:
     
 displays:
     window:
-        width: 800
-        height: 600
+        width: 1920
+        height: 1080
 
 slides:
     welcome_slide:
