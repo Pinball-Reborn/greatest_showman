@@ -110,7 +110,6 @@ switches:
         tags: playfield_active
     s_saucer:
         number: 3-27
-        tags: playfield_active
     s_ramp_left_entry:
         number: 3-28
         tags: playfield_active
