@@ -1,7 +1,7 @@
 #config_version=6
 
 hardware:
-    platoform: fast
+    platform: fast
 
 fast:
   net:
