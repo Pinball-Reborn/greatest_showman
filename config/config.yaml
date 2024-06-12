@@ -2,22 +2,24 @@
 
 switches:
     s_left_flipper:
-        number: cab-7
+        number: cab-6
         tags: left_flipper
     s_right_flipper:
-        number: cab-2
+        number: cab-1
         tags: right_flipper
 
 coils:
     c_flipper_left_main:
-        number: 3208-4 #mid lug
+        number: 3208-3 #mid lug
+        default_pulse_ms: 20
     c_flipper_left_hold:
-        number: 3208-5 #outer lug
+        number: 3208-4 #outer lug
         allow_enable: true
     c_flipper_right_main:
-        number: 3208-2 #mid lug
+        number: 3208-1 #mid lug
+        default_pulse_ms: 20
     c_flipper_right_hold:
-        number: 3208-3 #outer lug
+        number: 3208-2 #outer lug
         allow_enable: true
 
 playfields:
