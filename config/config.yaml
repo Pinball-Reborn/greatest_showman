@@ -64,11 +64,4 @@ slides:
     slide_player:
         init_done: welcome_slide
         mode_attract_started: attract_started
-            test
-            advance_time_and_run .1
-            assert_slide_on_top attract_started
-            assert_text_on_top_slide "ATTRACT MODE"
-            start_game
-            post show_slide_event
-            advance_time_and_run .1
-            assert_slide_active welcome_slide
+           
