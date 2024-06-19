@@ -1,0 +1,50 @@
+2024-06-17 20:14:07,239 : INFO : root : Loading config.
+2024-06-17 20:14:07,243 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-06-17 20:14:07,244 : INFO : ConfigProcessor : Loading config from cache: C:\Users\lisas\AppData\Local\Temp\ac8ec9c990419bd3c50c7eb371dae584.mpf_cache
+2024-06-17 20:14:07,302 : INFO : ConfigProcessor : Loading config from cache: C:\Users\lisas\AppData\Local\Temp\59e27ec4283b25a8181e590d80956807.mpf_cache
+2024-06-17 20:14:07,303 : INFO : ConfigProcessor : Loading config from cache: C:\Users\lisas\AppData\Local\Temp\6bac8aad2a108e0027ae5775410f0221.mpf_cache
+2024-06-17 20:14:07,303 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.1
+2024-06-17 20:14:07,303 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-06-17-20-14-07-mpf-LisaDesktop.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-06-17 20:14:07,303 : INFO : Machine : MPF path: C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf
+2024-06-17 20:14:07,303 : INFO : Machine : Machine path: C:\pinball\greatest_showman
+2024-06-17 20:14:07,303 : INFO : Machine : Platform: win32
+2024-06-17 20:14:07,303 : INFO : Machine : Python executable location: C:\Users\lisas\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-06-17 20:14:07,304 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2024-06-17 20:14:07,305 : INFO : Machine : Initializing MPF...
+2024-06-17 20:14:07,323 : ERROR : ConfigValidator : Your config contains a value for the setting "fast:net:contoller", but this is not a valid setting name.
+2024-06-17 20:14:07,323 : ERROR : Machine : Failed to initialize MPF
+Traceback (most recent call last):
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 675, in initialize_mpf
+    raise init.exception()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 247, in initialize
+    await self.initialize_core_and_hardware()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 233, in initialize_core_and_hardware
+    self._load_hardware_platforms()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 479, in _load_hardware_platforms
+    self.add_platform(hardware_platform)
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 609, in add_platform
+    self.hardware_platforms[name] = hardware_platform(self)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\platforms\fast\fast.py", line 57, in __init__
+    self.config = self.machine.config_validator.validate_config("fast", self.machine.config['fast'])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 243, in validate_config_item
+    return self.validate_item(item, validation, validation_failure_info)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 686, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 355, in _validate_type_subconfig
+    return self._validate_config(attribute, item, validation_failure_info=validation_failure_info,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 177, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 335, in check_for_invalid_sections
+    raise ConfigFileError('Your config contains a value for the '
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Your config contains a value for the setting "fast:net:contoller", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://missionpinball.org/logs)

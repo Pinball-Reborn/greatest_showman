@@ -1,5 +1,8 @@
 #config_version=6
 
+hardware:
+    platform: smart_virtual
+
 switches:
     s_left_flipper:
         number: cab-6
@@ -38,8 +41,34 @@ flippers:
         hold_coil: c_flipper_right_hold
         activation_switch: s_right_flipper
         enable_events: machine_reset_phase_3
-    
 
-         
+displays:
+    window:
+        width: 800
+        height: 600
 
-
+slides:
+    welcome_slide:
+        widgets:
+          - type: text
+            text: PINBALL!
+            font_size: 50
+            color: red
+          - type: rectangle
+            width: 240
+            height: 60
+    attract_started:
+        widgets:
+          - text: ATTRACT MODE
+            type: text
+    slide_player:
+        init_done: welcome_slide
+        mode_attract_started: attract_started
+            test
+            advance_time_and_run .1
+            assert_slide_on_top attract_started
+            assert_text_on_top_slide "ATTRACT MODE"
+            start_game
+            post show_slide_event
+            advance_time_and_run .1
+            assert_slide_active welcome_slide
