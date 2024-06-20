@@ -1,0 +1,98 @@
+2024-06-20 17:11:03,348 : INFO : root : Loading config.
+2024-06-20 17:11:03,351 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-06-20 17:11:03,351 : INFO : ConfigProcessor : Loading config from cache: C:\Users\lisas\AppData\Local\Temp\ac8ec9c990419bd3c50c7eb371dae584.mpf_cache
+2024-06-20 17:11:03,415 : INFO : ConfigProcessor : Loading config from cache: C:\Users\lisas\AppData\Local\Temp\59e27ec4283b25a8181e590d80956807.mpf_cache
+2024-06-20 17:11:03,416 : INFO : ConfigProcessor : Loading config from cache: C:\Users\lisas\AppData\Local\Temp\6bac8aad2a108e0027ae5775410f0221.mpf_cache
+2024-06-20 17:11:03,416 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.1
+2024-06-20 17:11:03,417 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-06-20-17-11-03-mpf-LisaDesktop.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-06-20 17:11:03,417 : INFO : Machine : MPF path: C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf
+2024-06-20 17:11:03,417 : INFO : Machine : Machine path: C:\pinball\greatest_showman
+2024-06-20 17:11:03,417 : INFO : Machine : Platform: win32
+2024-06-20 17:11:03,417 : INFO : Machine : Python executable location: C:\Users\lisas\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-06-20 17:11:03,417 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2024-06-20 17:11:03,418 : INFO : Machine : Initializing MPF...
+2024-06-20 17:11:03,622 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,659 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,659 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,659 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.1', 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,659 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,659 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,667 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.22631-SP0', 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,667 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,667 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,667 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22631', 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,667 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-06-20 17:11:03,667 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-06-20 17:11:03,676 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<SystemWideDevice.device_added_system_wide() done, defined at C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py:15> exception=ConfigFileError('No path to trough but device is tagged as drain')>
+Traceback (most recent call last):
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_device.py", line 90, in _initialize
+    self._configure_targets()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_device.py", line 365, in _configure_targets
+    self._validate_config()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_device.py", line 344, in _validate_config
+    self.raise_config_error("No path to trough but device is tagged as drain", 11)
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ball_device.bd_trough: No path to trough but device is tagged as drain Error Code: CFE-ball_device-11 (https://missionpinball.org/logs)
+2024-06-20 17:11:03,678 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-06-20 17:11:03,678 : INFO : Machine : Starting the main run loop.
+2024-06-20 17:11:03,678 : INFO : Machine : Shutting down...
+2024-06-20 17:11:03,679 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-06-20 17:11:03,679 : INFO : SwitchController : Found active switch: ('2-40', <Platform.SmartVirtual>) <switch.s_trough1>
+2024-06-20 17:11:03,679 : INFO : SwitchController : Found active switch: ('2-41', <Platform.SmartVirtual>) <switch.s_trough2>
+2024-06-20 17:11:03,679 : INFO : SwitchController : Found active switch: ('2-42', <Platform.SmartVirtual>) <switch.s_trough3>
+2024-06-20 17:11:03,679 : INFO : SwitchController : Found active switch: ('2-43', <Platform.SmartVirtual>) <switch.s_trough4>
+2024-06-20 17:11:03,680 : INFO : SwitchController : Found active switch: ('2-44', <Platform.SmartVirtual>) <switch.s_trough5>
+2024-06-20 17:11:03,680 : INFO : SwitchController : Found active switch: ('2-45', <Platform.SmartVirtual>) <switch.s_trough6>
+2024-06-20 17:11:03,681 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-06-20 17:11:03,682 : ERROR : asyncio : Exception in callback EventManager.process_event_queue()
+handle: <Handle EventManager.process_event_queue()>
+Traceback (most recent call last):
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\events.py", line 755, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\text_ui.py", line 456, in _bcp_connection_attempt
+    self._pending_bcp_connection = PopUpDialog(self.screen,
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\asciimatics\widgets\popupdialog.py", line 39, in __init__
+    string_len = wcswidth if screen.unicode_aware else len
+                             ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'unicode_aware'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\events.py", line 846, in process_event_queue
+    self._process_event(event=event[0],
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\events.py", line 808, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\events.py", line 757, in _run_handlers
+    raise EventHandlerException(
+mpf.core.events.EventHandlerException: Exception while processing RegisteredHandler(callback=<bound method TextUi._bcp_connection_attempt of <mpf.core.text_ui.TextUi object at 0x00000255029B6D60>>, priority=1, kwargs={}, key=UUID('68d78a1b-b8ac-4ed8-898e-43dd04ff602f'), condition=None, blocking_facility=None) for event bcp_connection_attempt. 'NoneType' object has no attribute 'unicode_aware'
+2024-06-20 17:11:03,684 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-06-20 17:11:04,685 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\system_wide_device.py", line 17, in device_added_system_wide
+    await self._initialize()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_device.py", line 90, in _initialize
+    self._configure_targets()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_device.py", line 365, in _configure_targets
+    self._validate_config()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_device.py", line 344, in _validate_config
+    self.raise_config_error("No path to trough but device is tagged as drain", 11)
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\logging.py", line 174, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name if self.log else "", context, self._url_base) \
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ball_device.bd_trough: No path to trough but device is tagged as drain Error Code: CFE-ball_device-11 (https://missionpinball.org/logs)
+2024-06-20 17:11:04,832 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-38' coro=<BCPClientSocket.connect() done, defined at C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\bcp\bcp_socket_client.py:229> wait_for=<_OverlappedFuture cancelled> cb=[BcpTransportManager.register_transport(BCPClientSocket.local_display)(), _wait.<locals>._on_completion() at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:519]>
+2024-06-20 17:11:04,832 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-39' coro=<wait() done, defined at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py:399> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[Bcp._setup_bcp_connections.<locals>.<lambda>() at C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\bcp\bcp.py:88, Bcp._bcp_clients_connected()]>
+2024-06-20 17:11:14,556 : INFO : root : MPF run loop ended.
