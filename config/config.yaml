@@ -55,7 +55,7 @@ coils:
     number: 2-33 #mid lug
     default_pulse_ms: 20
   c_flipper_right_hold:
-    number: 2-36 #outer lug
+    number: 2-34 #outer lug
     allow_enable: true
   c_trough_eject:
     number: 2-39
@@ -108,7 +108,7 @@ slide_player:
 
 ball_devices:
   bd_trough:
-    ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_tough_jam
+    ball_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6, s_trough_jam
     eject_coil: c_trough_eject
     tags: trough, home, drain
     jam_switch: s_trough_jam
