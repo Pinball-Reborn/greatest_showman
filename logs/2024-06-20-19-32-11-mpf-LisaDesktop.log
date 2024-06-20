@@ -1,0 +1,131 @@
+2024-06-20 19:32:11,093 : INFO : root : Loading config.
+2024-06-20 19:32:11,097 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-06-20 19:32:11,097 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\greatest_showman\config\config.yaml
+2024-06-20 19:32:11,097 : INFO : ConfigProcessor : Loading config from file C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml.
+2024-06-20 19:32:11,106 : INFO : ConfigProcessor : Loading config: C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml
+2024-06-20 19:32:11,106 : INFO : ConfigProcessor : Loading config from file C:\pinball\greatest_showman\config\config.yaml.
+2024-06-20 19:32:11,109 : INFO : ConfigProcessor : Loading config: C:\pinball\greatest_showman\config\config.yaml
+2024-06-20 19:32:11,110 : INFO : ConfigProcessor : Config file cache created: C:\Users\lisas\AppData\Local\Temp\ac8ec9c990419bd3c50c7eb371dae584.mpf_cache
+2024-06-20 19:32:11,175 : INFO : ConfigProcessor : Loading config from cache: C:\Users\lisas\AppData\Local\Temp\59e27ec4283b25a8181e590d80956807.mpf_cache
+2024-06-20 19:32:11,177 : INFO : ConfigProcessor : Loading config from cache: C:\Users\lisas\AppData\Local\Temp\6bac8aad2a108e0027ae5775410f0221.mpf_cache
+2024-06-20 19:32:11,178 : INFO : Machine : Mission Pinball Framework Core Engine v0.57.1
+2024-06-20 19:32:11,178 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'platform_integration_test': False, 'jsonlogging': False, 'logfile': 'logs\\2024-06-20-19-32-11-mpf-LisaDesktop.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2024-06-20 19:32:11,178 : INFO : Machine : MPF path: C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf
+2024-06-20 19:32:11,178 : INFO : Machine : Machine path: C:\pinball\greatest_showman
+2024-06-20 19:32:11,178 : INFO : Machine : Platform: win32
+2024-06-20 19:32:11,178 : INFO : Machine : Python executable location: C:\Users\lisas\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+2024-06-20 19:32:11,178 : INFO : Machine : Python version: 3.11.9 (64-bit)
+2024-06-20 19:32:11,180 : INFO : Machine : Initializing MPF...
+2024-06-20 19:32:11,280 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,317 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,317 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,317 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'Mission Pinball Framework v0.57.1', 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,317 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'Mission Pinball Framework v0.57.1, Config version:6, Show version: 6, BCP version:1.1', 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,317 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.11.9', 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,326 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-10-10.0.22631-SP0', 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,326 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,326 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '10', 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,326 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '10.0.22631', 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,326 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2024-06-20 19:32:11,326 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2024-06-20 19:32:11,336 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2024-06-20 19:32:11,336 : INFO : SwitchController : Found active switch: ('2-40', <Platform.SmartVirtual>) <switch.s_trough1>
+2024-06-20 19:32:11,336 : INFO : SwitchController : Found active switch: ('2-41', <Platform.SmartVirtual>) <switch.s_trough2>
+2024-06-20 19:32:11,336 : INFO : SwitchController : Found active switch: ('2-42', <Platform.SmartVirtual>) <switch.s_trough3>
+2024-06-20 19:32:11,336 : INFO : SwitchController : Found active switch: ('2-43', <Platform.SmartVirtual>) <switch.s_trough4>
+2024-06-20 19:32:11,336 : INFO : SwitchController : Found active switch: ('2-44', <Platform.SmartVirtual>) <switch.s_trough5>
+2024-06-20 19:32:11,336 : INFO : SwitchController : Found active switch: ('2-45', <Platform.SmartVirtual>) <switch.s_trough6>
+2024-06-20 19:32:11,337 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2024-06-20 19:32:11,338 : INFO : BCPClientSocket : Connecting BCP to 'local_display' at localhost:5050...
+2024-06-20 19:32:13,401 : INFO : BCPClientSocket : Connected BCP to 'local_display' localhost:5050
+2024-06-20 19:32:13,402 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2024-06-20 19:32:13,528 : ERROR : asyncio : Task exception was never retrieved
+future: <Task finished name='Task-40' coro=<BallDevice._initialize_async() done, defined at C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_device.py:196> exception=ConfigFileError('Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_tough_jam" is not valid. Device "s_tough_jam" not found in "switches:" section in your config.')>
+Traceback (most recent call last):
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_device.py", line 198, in _initialize_async
+    await self.ball_count_handler.initialize()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_count_handler.py", line 92, in initialize
+    self.counter = counter_class(self.ball_device, self.ball_device.config.get("counter", {}))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\switch_counter.py", line 27, in __init__
+    self.config = self.machine.config_validator.validate_config("ball_device_counter_ball_switches", self.config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 256, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 686, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 400, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_tough_jam" is not valid. Device "s_tough_jam" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
+2024-06-20 19:32:13,556 : INFO : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.57.0', 'prev_value': None, 'change': True}
+2024-06-20 19:32:13,557 : INFO : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.57.0 (config_version=6, BCP v1.1,                      Requires MPF API compatibility v0.57.0 or newer)', 'prev_value': None, 'change': True}
+2024-06-20 19:32:13,575 : INFO : ball_device.bd_plunger : BCH: Initial count: 0
+2024-06-20 19:32:13,575 : INFO : Machine : Starting the main run loop.
+2024-06-20 19:32:13,575 : INFO : ball_device.bd_plunger : State: idle
+2024-06-20 19:32:13,576 : INFO : Machine : Shutting down...
+2024-06-20 19:32:13,576 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2024-06-20 19:32:13,583 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2024-06-20 19:32:13,584 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2024-06-20 19:32:13,585 : ERROR : asyncio : Exception in callback Util.raise_exceptions(<Task finishe...unt_stable'")>) at C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\utility_functions.py:790
+handle: <Handle Util.raise_exceptions(<Task finishe...unt_stable'")>) at C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\utility_functions.py:790>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\utility_functions.py", line 798, in raise_exceptions
+    future.result()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\ball_controller.py", line 90, in _add_new_balls_to_playfield
+    self.num_balls_known = await self._count_all_balls_in_devices()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\ball_controller.py", line 129, in _count_all_balls_in_devices
+    futures.append(asyncio.ensure_future(device.ball_count_handler.counter.wait_for_count_stable()))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'wait_for_count_stable'
+2024-06-20 19:32:13,603 : ERROR : asyncio : Exception in callback EventManager._queue_task_done(<Task finishe...right_hold>')>)
+handle: <Handle EventManager._queue_task_done(<Task finishe...right_hold>')>)>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\events.py", line 795, in _queue_task_done
+    future.result()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\events.py", line 708, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\driver.py", line 58, in _check_duplicate_coil_numbers
+    raise AssertionError("Duplicate coil number {} for coil {}".format(coil.hw_driver.number, coil))
+AssertionError: Duplicate coil number 2-36 for coil <coil.c_flipper_right_hold>
+2024-06-20 19:32:14,600 : ERROR : asyncio : Task was destroyed but it is pending!
+task: <Task pending name='Task-58' coro=<IocpProactor.accept.<locals>.accept_coro() running at C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\windows_events.py:608> wait_for=<_OverlappedFuture cancelled>>
+2024-06-20 19:32:14,601 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\machine.py", line 793, in _run_loop
+    raise self._exception['exception']
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_device.py", line 198, in _initialize_async
+    await self.ball_count_handler.initialize()
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\ball_count_handler.py", line 92, in initialize
+    self.counter = counter_class(self.ball_device, self.ball_device.config.get("counter", {}))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\devices\ball_device\switch_counter.py", line 27, in __init__
+    self.config = self.machine.config_validator.validate_config("ball_device_counter_ball_switches", self.config)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 164, in validate_config
+    return self._validate_config(config_spec, source, base_spec=base_spec, add_missing_keys=add_missing_keys,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 204, in _validate_config
+    processed_config[k] = self.validate_config_item(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 256, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 686, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\core\config_validator.py", line 400, in _validate_type_machine
+    raise self.validation_error(item, validation_failure_info,
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_device_counter_ball_switches:ball_device_counter_ball_switches:ball_switches = "s_tough_jam" is not valid. Device "s_tough_jam" not found in "switches:" section in your config. Error Code: CFE-ConfigValidator-6 (https://missionpinball.org/logs)
