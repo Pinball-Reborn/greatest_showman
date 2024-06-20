@@ -36,6 +36,13 @@ switches:
     type: NC
   s_plunger:
     number: 2-37
+  s_start:
+    number: 0-7
+    tags: start
+  s_right_inlane
+    number: 2-15
+    tags: playfield_active
+
 
 
 keyboard:
@@ -43,6 +50,11 @@ keyboard:
     switch: s_left_flipper
   '/':
     switch: s_right_flipper
+  s:
+    switch: s_start
+  q:
+    switch: s_right_inlane
+
 
 coils:
   c_flipper_left_main:
