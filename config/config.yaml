@@ -39,9 +39,14 @@ switches:
   s_start:
     number: 0-7
     tags: start
-  s_right_inlane
+  s_right_inlane:
     number: 2-15
     tags: playfield_active
+
+virtual_platform_start_active_switches:
+  - s_trough1
+  - s_trough2
+  - s_trough3
 
 
 
@@ -54,6 +59,24 @@ keyboard:
     switch: s_start
   q:
     switch: s_right_inlane
+  1:
+    switch: s_trough1
+    toggle: true
+  2:
+    switch: s_trough2
+    toggle: true
+  3:
+    switch: s_trough3
+    toggle: true
+  4:
+    switch: s_trough4
+    toggle: true
+  5:
+    switch: s_trough5
+    toggle: true
+  p:
+    switch: s_plunger
+    toggle: true
 
 
 coils:
@@ -86,13 +109,12 @@ flippers:
   left_flipper:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
-    activation_switch: s_left_flipper
-    enable_events: machine_reset_phase_3
+    activation_switch: s_left_flipper 
   right_flipper:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_right_flipper
-    enable_events: machine_reset_phase_3
+    
 
 displays:
   window:
@@ -117,6 +139,10 @@ slides:
 slide_player:
   init_done: welcome_slide
   mode_attract_started: attract_started
+  ball_started:
+    widgets:
+      type: text
+      text: PLAYER (number) BALL (ball)
 
 ball_devices:
   bd_trough:
@@ -134,6 +160,6 @@ ball_devices:
     eject_timeouts: 3s
     
 
-virtual_platform_start_active_switches: s_trough1, s_trough2, s_trough3, s_trough4, s_trough5, s_trough6
+
 
            
