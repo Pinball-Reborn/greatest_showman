@@ -1,7 +1,24 @@
 #config_version=6
 
 hardware:
-  platform: smart_virtual
+  platform: fast
+
+fast:
+  net:
+    controller: neuron
+    io_loop:
+      0:
+        model: FP-I/O-1616-2A
+        order: 1
+      1:
+        model: FP-I/O-1616-2A
+        order: 2
+      2:
+        model: FP-I/O-3208-3
+        order: 3
+    watchdog: 1s
+
+
 
 switches:
   s_left_flipper:
