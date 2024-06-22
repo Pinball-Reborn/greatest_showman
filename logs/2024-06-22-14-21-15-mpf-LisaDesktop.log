@@ -1,0 +1,6 @@
+2024-06-22 14:21:15,643 : INFO : root : Loading config.
+2024-06-22 14:21:15,647 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2024-06-22 14:21:15,647 : WARNING : ConfigProcessor : Config file in cache changed: C:\pinball\greatest_showman\config\config.yaml
+2024-06-22 14:21:15,647 : INFO : ConfigProcessor : Loading config from file C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml.
+2024-06-22 14:21:15,656 : INFO : ConfigProcessor : Loading config: C:\Users\lisas\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\mpf\mpfconfig.yaml
+2024-06-22 14:21:15,656 : INFO : ConfigProcessor : Loading config from file C:\pinball\greatest_showman\config\config.yaml.

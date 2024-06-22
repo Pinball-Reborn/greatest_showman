@@ -21,44 +21,164 @@ fast:
 
 
 switches:
-  s_left_flipper:
+  s_left_flipper: #left flipper
     number: 0-6
     tags: left_flipper
-  s_right_flipper:
+  s_right_flipper: #right flipper
     number: 0-1
     tags: right_flipper
-  s_right_upper_flipper:
+  s_right_upper_flipper: #right upper flipper
     number: 0-0
     tags: right_upper_flipper
-  s_trough1:
+  s_trough1: #trough 1
     number: 2-40
     type: NC
-  s_trough2:
+  s_trough2: #trough 2
     number: 2-41
     type: NC
-  s_trough3:
+  s_trough3: #trough 3
     number: 2-42
     type: NC
-  s_trough4:
+  s_trough4: #trough 4
     number: 2-43
     type: NC
-  s_trough5:
+  s_trough5: #trough 5
     number: 2-44
     type: NC
-  s_trough6:
+  s_trough6: #trough 6
     number: 2-45
     type: NC
-  s_trough_jam:
+  s_trough_jam: #trough jam
     number: 2-46
     type: NC
-  s_plunger:
+  s_plunger: #plunger or shooter lane
     number: 2-37
-  s_start:
+  s_start: #start
     number: 0-7
     tags: start
-  s_right_inlane:
+  s_right_inlane: #right inlane
     number: 2-15
     tags: playfield_active
+  s_back_ramp_made: #back ramp made
+    number: 0-2
+    tags: playfield_active
+  s_tilt: #tilt
+    number: 0-5
+  s_1_bank_drop_target: #1 bank drop target
+    number: 1-16
+    type: NC
+  s_left_pop_bumpers_left: #left pop bumper left
+    number: 1-17
+    tags: playfield_active
+  s_right_ticket_booth:  #right ticket booth
+    number: 1-18
+  s_left_pop_bumpers_right:  #left pop bumpers right
+    number: 1-19
+    tags:  playfield_active
+  s_left_ticket_booth:  #left ticket booth
+    number: 1-20
+  s_3_bank_drop_target_1: # 3 bank drop target 1
+    number: 1-21
+    type: NC
+  s_3_bank_drop_target_2: #3 bank drop target 2
+    number: 1-22
+    type: NC
+  s_3_bank_drop_target_3: #3 bank drop target 3
+    number: 1-23
+    type: NC
+  s_left_stand_up_target: #left stand up target near ticket booth
+    number: 1-24
+    tags: playfield_active
+  s_left_pop_bumpers_top: #left pop bumpers top
+    number: 1-25
+    tags: playfield_active
+  s_middle_stand_up_target:  #middle stand up target below upper pop bumper
+    number: 1-26
+    tags: playfield_active
+  s_top_pop_bumpers_bottom:  #top pop bumpers bottom
+    number: 1-27
+    tags: playfield_active
+  s_left_orbit_top: #left orbit top
+    number: 1-28
+    tags: playfield_active
+  s_top_pop_bumpers_left: #top pop bumpers left
+    number: 1-29
+    tags: playfield_active
+  s_left_orbit_bottom: #left orbit bottom
+    number: 1-30
+    tags: playfield_active
+  s_inner_orbit_enter: #inner orbit enter
+    number: 1-31
+    tags: playfield_active
+  s_stand_up_target_right: #stand up target right
+    number: 2-32
+    tags: playfield_active
+  s_upper_right_flipper_eos:  #upper right flipper end of stroke
+    number: 2-33
+  s_right_bounce_mid_playfield: # right bounce mid playfield
+    number: 2-34
+    tags: playfield_active
+  s_right_drain: #right drain
+    number: 2-35
+    tags: playfield_active
+  s_right_flipper_eos: #right flipper end of stroke 
+    number: 2-36
+  s_right_return_lane: #right return lane or inlane
+    number: 2-38
+    tags: playfield_active
+  s_slingshot_right: #slingshot right
+    number: 2-39
+    tags: playfield_active
+  s_left_ramp_made: #left ramp made
+    number: 2-47
+    tags: playfield_active
+  s_top_pop_bumpers_top: #top pop bumpers top
+    number: 2-48
+    tags: playfield_active
+  s_spinner: #spinner
+    number: 2-49
+  s_left_stand_up_target_lift_ramp: #left stand up target lift ramp
+    number: 2-50
+    tags: playfield_active
+  s_right_stand_up_target_lift_ramp: #right stand up target lift ramp
+    number: 2-51
+    tags: playfield_active
+  s_right_orbit_bottom: #right orbit bottom
+    number: 2-52
+    tags: playfield_active
+  s_ramp_down: # ramp down
+    number: 2-53
+  s_under_lift_ramp_eject: #under lift ramp eject
+    number: 2-54
+  s_right_orbit_top: #right orbit top
+    number: 2-55
+    tags: playfield_active
+  s_left_drain:  #left drain
+    number: 2-56
+    tags: playfield_active
+  s_left_lock_upper: #left lock upper
+    number: 2-57
+  s_left_lock_mid: #left lock mid
+    number: 2-58
+  s_left_lock_lower: #left lock lower
+    number: 2-59
+  s_slighshot_left: #slingshot left
+    number: 2-60
+    tags: playfield_active
+  s_left_bounce_mid_playfield: #left bounce mid playfield
+    number: 2-61
+    tags: playfield_active
+  s_left_flipper_eos: #left flipper end of stroke
+    number: 2-62
+  s_left_return_lane: #left return lane
+    number: 2-63
+    tags: playfield_active
+
+  
+
+
+
+
 
 virtual_platform_start_active_switches:
   - s_trough1
@@ -97,22 +217,28 @@ keyboard:
 
 
 coils:
-  c_flipper_left_main:
+  c_flipper_left_main: #left flipper main
     number: 2-35 #mid lug
     default_pulse_ms: 20
-  c_flipper_left_hold:
+  c_flipper_left_hold: #left flipper hold
     number: 2-36 #outer lug
     allow_enable: true
-  c_flipper_right_main:
+  c_flipper_right_main: #right flipper main
     number: 2-33 #mid lug
     default_pulse_ms: 20
-  c_flipper_right_hold:
+  c_flipper_right_hold: #right flipper hold
     number: 2-34 #outer lug
     allow_enable: true
-  c_trough_eject:
+  c_flipper_right_upper_main: #right upper flipper main
+    number: 1-16
+    default_pulse_ms: 20
+  c_flipper_right_upper_hold:  #right upper flipper hold
+    number: 1-17
+    allow_enable: true
+  c_trough_eject: #trough eject
     number: 2-39
     default_pulse_ms: 20
-  c_plunger:
+  c_plunger: #plunger or shooter lane
     number: 2-32
     default_pulse_ms: 20
 
