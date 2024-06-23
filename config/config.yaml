@@ -7,7 +7,7 @@ fast:
   net:
     controller: neuron
     io_loop:
-      0:
+      "0":
         model: FP-I/O-1616-2A
         order: 1
       1:
@@ -16,7 +16,15 @@ fast:
       2:
         model: FP-I/O-3208-3
         order: 3
+    port: auto
+    baud: 921600
+    debug: false
     watchdog: 1s
+    default_quick_debounce_open: 2ms
+    default_quick_debounce_close: 2ms
+    default_normal_debounce_open: 4ms
+    default_normal_debounce_close: 4ms
+    
 
 
 
@@ -24,12 +32,15 @@ switches:
   s_left_flipper: #left flipper
     number: 0-6
     tags: left_flipper
+    debounce: quick
   s_right_flipper: #right flipper
     number: 0-1
     tags: right_flipper
+    debounce: quick
   s_right_upper_flipper: #right upper flipper
     number: 0-0
     tags: right_upper_flipper
+    debounce: quick
   s_trough1: #trough 1
     number: 2-40
     type: NC
@@ -70,11 +81,13 @@ switches:
   s_left_pop_bumpers_left: #left pop bumper left
     number: 1-17
     tags: playfield_active
+    debounce: quick
   s_right_ticket_booth:  #right ticket booth
     number: 1-18
   s_left_pop_bumpers_right:  #left pop bumpers right
     number: 1-19
     tags:  playfield_active
+    debounce: quick
   s_left_ticket_booth:  #left ticket booth
     number: 1-20
   s_3_bank_drop_target_1: # 3 bank drop target 1
@@ -92,18 +105,21 @@ switches:
   s_left_pop_bumpers_top: #left pop bumpers top
     number: 1-25
     tags: playfield_active
+    debounce: quick
   s_middle_stand_up_target:  #middle stand up target below upper pop bumper
     number: 1-26
     tags: playfield_active
   s_top_pop_bumpers_bottom:  #top pop bumpers bottom
     number: 1-27
     tags: playfield_active
+    debounce: quick
   s_left_orbit_top: #left orbit top
     number: 1-28
     tags: playfield_active
   s_top_pop_bumpers_left: #top pop bumpers left
     number: 1-29
     tags: playfield_active
+    debounce: quick
   s_left_orbit_bottom: #left orbit bottom
     number: 1-30
     tags: playfield_active
@@ -129,6 +145,7 @@ switches:
   s_slingshot_right: #slingshot right
     number: 2-39
     tags: playfield_active
+    debounce: quick
   s_left_ramp_made: #left ramp made
     number: 2-47
     tags: playfield_active
@@ -165,6 +182,7 @@ switches:
   s_slighshot_left: #slingshot left
     number: 2-60
     tags: playfield_active
+    debounce: quick
   s_left_bounce_mid_playfield: #left bounce mid playfield
     number: 2-61
     tags: playfield_active
