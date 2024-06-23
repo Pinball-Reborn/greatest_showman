@@ -367,7 +367,7 @@ ball_devices:
     eject_coil: c_under_ramp_eject
     eject_timeouts: 2s
   bd_ball_lock:
-    ball_switches: s_left_lock_upper, s_left_lock-mid, s_left_lock_lower
+    ball_switches: s_left_lock_upper, s_left_lock_mid, s_left_lock_lower
     eject_coil: c_triple_lock_eject
     eject_timeouts: 2s
 
