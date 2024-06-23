@@ -358,6 +358,24 @@ ball_devices:
     eject_coil: c_plunger
     mechanical_eject: true
     eject_timeouts: 3s
+  bd_ticket_booth: 
+    ball_switches: s_left_ticket_booth
+    eject_coil: c_ticket_booth_eject
+    eject_timeouts: 2s
+  bd_under_ramp:
+    ball_switches: s_under_lift_ramp_eject
+    eject_coil: c_under_ramp_eject
+    eject_timeouts: 2s
+  bd_ball_lock:
+    ball_switches: s_left_lock_upper, s_left_lock-mid, s_left_lock_lower
+    eject_coil: c_triple_lock_eject
+    eject_timeouts: 2s
+
+    
+
+  
+    
+
     
 
 
