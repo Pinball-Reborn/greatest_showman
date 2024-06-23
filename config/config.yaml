@@ -80,13 +80,11 @@ switches:
     type: NC
   s_left_pop_bumpers_left: #left pop bumper left
     number: 1-17
-    tags: playfield_active
     debounce: quick
   s_right_ticket_booth:  #right ticket booth
     number: 1-18
   s_left_pop_bumpers_right:  #left pop bumpers right
     number: 1-19
-    tags:  playfield_active
     debounce: quick
   s_left_ticket_booth:  #left ticket booth
     number: 1-20
@@ -104,21 +102,18 @@ switches:
     tags: playfield_active
   s_left_pop_bumpers_top: #left pop bumpers top
     number: 1-25
-    tags: playfield_active
     debounce: quick
   s_middle_stand_up_target:  #middle stand up target below upper pop bumper
     number: 1-26
     tags: playfield_active
   s_top_pop_bumpers_bottom:  #top pop bumpers bottom
     number: 1-27
-    tags: playfield_active
     debounce: quick
   s_left_orbit_top: #left orbit top
     number: 1-28
     tags: playfield_active
   s_top_pop_bumpers_left: #top pop bumpers left
     number: 1-29
-    tags: playfield_active
     debounce: quick
   s_left_orbit_bottom: #left orbit bottom
     number: 1-30
@@ -144,14 +139,13 @@ switches:
     tags: playfield_active
   s_slingshot_right: #slingshot right
     number: 2-39
-    tags: playfield_active
     debounce: quick
   s_left_ramp_made: #left ramp made
     number: 2-47
     tags: playfield_active
   s_top_pop_bumpers_top: #top pop bumpers top
     number: 2-48
-    tags: playfield_active
+    debounce: quick
   s_spinner: #spinner
     number: 2-49
   s_left_stand_up_target_lift_ramp: #left stand up target lift ramp
@@ -179,9 +173,8 @@ switches:
     number: 2-58
   s_left_lock_lower: #left lock lower
     number: 2-59
-  s_slighshot_left: #slingshot left
+  s_slingshot_left: #slingshot left
     number: 2-60
-    tags: playfield_active
     debounce: quick
   s_left_bounce_mid_playfield: #left bounce mid playfield
     number: 2-61
@@ -296,9 +289,7 @@ coils:
 
 
 
-  
-
-
+ 
 
 playfields:
   playfield:
@@ -370,6 +361,34 @@ ball_devices:
     ball_switches: s_left_lock_upper, s_left_lock_mid, s_left_lock_lower
     eject_coil: c_triple_lock_eject
     eject_timeouts: 2s
+
+
+autofire_coils:
+  left_slingshot:
+    coil: c_left_slingshot
+    switch: s_slingshot_left
+  right_slingshot:
+    coil: c_right_slingshot
+    switch: s_slingshot_right
+  left_pop_bumpers_left:
+    coil: c_left_pop_bumpers_left
+    switch: s_left_pop_bumpers_left
+  left_pop_bumpers_right:
+    coil: c_left_pop_bumpers_right
+    switch: s_left_pop_bumpers_right
+  left_pop_bumpers_top:
+    coil: c_left_pop_bumpers_top
+    switch: s_left_pop_bumpers_top
+  top_pop_bumpers_bottom:
+    coil: c_top_pop_bumpers_bottom
+    switch: s_top_pop_bumpers_bottom
+  top_pop_bumpers_left:
+    coil: c_top_pop_bumpers_left
+    switch: s_top_pop_bumpers_left
+  top_pop_bumpers_top:
+    coil: c_top_pop_bumpers_top
+    switch: s_top_pop_bumpers_top
+  
 
     
 
