@@ -67,8 +67,8 @@ switches:
   s_start: #start
     number: 0-7
     tags: start
-  s_right_inlane: #right inlane
-    number: 2-15
+  s_right_inlane: #right inlane or return lane
+    number: 2-6
     tags: playfield_active
   s_back_ramp_made: #back ramp made
     number: 0-2
@@ -134,9 +134,6 @@ switches:
     tags: playfield_active
   s_right_flipper_eos: #right flipper end of stroke 
     number: 2-4
-  s_right_return_lane: #right return lane or inlane
-    number: 2-6
-    tags: playfield_active
   s_slingshot_right: #slingshot right
     number: 2-7
     debounce: quick
@@ -301,10 +298,20 @@ flippers:
     main_coil: c_flipper_left_main
     hold_coil: c_flipper_left_hold
     activation_switch: s_left_flipper 
+    eos_switch: s_left_flipper_eos
+    use_eos: true
   right_flipper:
     main_coil: c_flipper_right_main
     hold_coil: c_flipper_right_hold
     activation_switch: s_right_flipper
+    eos_switch: s_right_flipper_eos
+    use_eos: true
+  upper_right_flipper:
+    main_coil: c_flipper_right_upper_main
+    hold_coil: c_flipper_right_upper_hold
+    activation_switch: s_right_upper_flipper
+    eos_switch: s_upper_right_flipper_eos
+    use_eos: true
     
 
 displays:
