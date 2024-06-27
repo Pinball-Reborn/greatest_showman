@@ -252,7 +252,7 @@ coils:
     number: 1-3
   c_under_ramp_eject: #under ramp eject
     number: 1-4
-    default_pulse_ms: 50ms
+    default_pulse_ms: 15ms
     default_pulse_power: 1.0
   c_top_pop_bumpers_bottom:  #top pop bumpers bottom
     number: 1-5
