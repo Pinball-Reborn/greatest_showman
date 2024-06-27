@@ -30,7 +30,7 @@ fast:
 
 switches:
   s_left_flipper: #left flipper
-    number: 0-6
+    number: 0-5
     tags: left_flipper
     debounce: quick
   s_right_flipper: #right flipper
@@ -74,7 +74,7 @@ switches:
     number: 0-2
     tags: playfield_active
   s_tilt: #tilt
-    number: 0-5
+    number: 0-6
   s_1_bank_drop_target: #1 bank drop target
     number: 1-0
     type: NC
@@ -270,6 +270,8 @@ coils:
     number: 1-12
   c_ticket_booth_eject: #ticket booth eject
     number: 1-13
+    default_pulse_ms: 50ms
+    default_pulse_power: 1.0
   c_ramp_diverter: #ramp diverter
     number: 1-14
   c_triple_lock_eject: #triple lock eject
