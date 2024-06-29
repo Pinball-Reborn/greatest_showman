@@ -64,7 +64,6 @@ switches:
     type: NC
   s_plunger: #plunger or shooter lane
     number: 2-5
-    ignore_window_ms: 5000ms
   s_start: #start
     number: 0-7
     tags: start
@@ -358,12 +357,12 @@ ball_devices:
     jam_switch: s_trough_jam
     eject_coil_jam_pulse: 15ms
     eject_targets: bd_plunger
-    debug: true
+    eject_timeouts: 3s
   bd_plunger:
     ball_switches: s_plunger
     eject_coil: c_plunger
     mechanical_eject: true
-    eject_timeouts: 8s
+    eject_timeouts: 3s
   bd_ticket_booth: 
     ball_switches: s_left_ticket_booth
     eject_coil: c_ticket_booth_eject
