@@ -64,6 +64,7 @@ switches:
     type: NC
   s_plunger: #plunger or shooter lane
     number: 2-5
+    ignore_window_ms: 5000ms
   s_start: #start
     number: 0-7
     tags: start
