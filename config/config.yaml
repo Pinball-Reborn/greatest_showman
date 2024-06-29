@@ -433,7 +433,9 @@ modes:
   - base
 
   
-  
+player_vars:
+  potato:
+    initial_value: 0 
 
     
 
