@@ -326,8 +326,8 @@ flippers:
 
 displays:
   window:
-    width: 1920
-    height: 1080
+    width: 800
+    height: 600
 
 slides:
   welcome_slide:
@@ -347,10 +347,7 @@ slides:
 slide_player:
   init_done: welcome_slide
   mode_attract_started: attract_started
-  ball_started:
-    widgets:
-      type: text
-      text: PLAYER (number) BALL (ball)
+
 
 ball_devices:
   bd_trough:
@@ -422,6 +419,18 @@ drop_target_banks:
     drop_targets: d_front, d_middle, d_back
     reset_coils: c_3_drop_target_reset
     reset_on_complete: 1s
+
+diverters:
+  ramp_up_down_coils:
+    activation_coil: c_ramp_up
+    deactivation_coil: c_ramp_down
+    type: pulse
+  ramp_diverter_coil:
+    activation_coil: c_ramp_diverter
+    type: hold
+
+modes:
+  - base
 
   
   
