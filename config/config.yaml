@@ -100,12 +100,16 @@ switches:
   s_left_stand_up_target: #left stand up target near ticket booth
     number: 1-8
     tags: playfield_active
+    debounce: quick
+    ignore_window_ms: 1000ms
   s_left_pop_bumpers_top: #left pop bumpers top
     number: 1-9
     debounce: quick
   s_middle_stand_up_target:  #middle stand up target below upper pop bumper
     number: 1-10
     tags: playfield_active
+    debounce: quick
+    ignore_window_ms: 1000ms
   s_top_pop_bumpers_bottom:  #top pop bumpers bottom
     number: 1-11
     debounce: quick
@@ -124,6 +128,8 @@ switches:
   s_stand_up_target_right: #stand up target right
     number: 2-0
     tags: playfield_active
+    debounce: quick
+    ignore_window_ms: 1000ms
   s_upper_right_flipper_eos:  #upper right flipper end of stroke
     number: 2-1
   s_right_bounce_mid_playfield: # right bounce mid playfield
@@ -359,7 +365,7 @@ ball_devices:
     ball_switches: s_plunger
     eject_coil: c_plunger
     mechanical_eject: true
-    eject_timeouts: 3s
+    eject_timeouts: 8s
   bd_ticket_booth: 
     ball_switches: s_left_ticket_booth
     eject_coil: c_ticket_booth_eject
@@ -399,6 +405,25 @@ autofire_coils:
   top_pop_bumpers_top:
     coil: c_top_pop_bumpers_top
     switch: s_top_pop_bumpers_top
+
+drop_targets:
+  d_1_bank_drop_target:
+    switch: s_1_bank_drop_target
+    reset_coil: c_single_drop_target_reset
+  d_front:
+    switch: s_3_bank_drop_target_1
+  d_middle:
+    switch: s_3_bank_drop_target_2
+  d_back:
+    switch: s_3_bank_drop_target_3
+
+drop_target_banks:
+  3_drop_target_bank:
+    drop_targets: d_front, d_middle, d_back
+    reset_coils: c_3_drop_target_reset
+    reset_on_complete: 1s
+
+  
   
 
     
