@@ -2,10 +2,10 @@
 
 - duration: 3s
   slides:
-    awesome_slide:
+    greatest_showman_slide:
       widgets:
       - type: text
-        text: YOU ARE AWESOME
+        text: THE GREATEST SHOWMAN
         font_size: 50
       transition:
         type: push
@@ -39,10 +39,10 @@
 
 - duration: 3
   slides:
-    mission_pinball:
+    this_is_the_greatest_show:
       widgets:
       - type: text
-        text: MISSION PINBALL
+        text: THIS IS THE GREATEST SHOW
         color: red
       transition:
         type: move_in
