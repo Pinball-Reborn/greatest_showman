@@ -1,7 +1,7 @@
 #show_version=6
 - duration: 1
   lights:
-    collect_oddities_1: gold
+    collect_oddities_1: blue
 - duration: 1
   lights:
     collect_oddities_2: gold
@@ -25,7 +25,7 @@
     collect_oddities_8: gold
 - duration: 1
   lights:
-    collect_oddities_1: red
+    collect_oddities_1: green
 - duration: 1
   lights:
     collect_oddities_2: red
