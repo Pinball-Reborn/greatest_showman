@@ -1,0 +1,28 @@
+#show_version=6
+show: attract_light_show
+
+- duration: 1
+  lights:
+    challenges_f: 0
+    challenges_a: ff
+- duration: 1
+  lights:
+    challenges_a: 0
+    challenges_b: ff
+- duration: 1
+  lights:
+    challenges_b: 0
+    challenges_c: ff
+- duration: 1
+  lights:
+    challenges_c: 0
+    challenges_d: ff
+- duration: 1
+  lights:
+    challenges_d: 0
+    challenges_e: ff
+- duration: 1
+  lights:
+    challenges_e: 0
+    challenges_f: ff
+
