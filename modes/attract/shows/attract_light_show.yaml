@@ -1,28 +1,34 @@
 #show_version=6
-
-
 - duration: 1
   lights:
-    challenges_f: 0
-    challenges_a: ff
+    challenges_a: red
+    challenges_b: red
+    challenges_c: red
+    challenges_d: red
+    challenges_e: red
+    challenges_f: red
 - duration: 1
   lights:
-    challenges_a: 0
-    challenges_b: ff
+    challenges_a: lime
+    challenges_b: lime
+    challenges_c: lime
+    challenges_d: lime
+    challenges_e: lime
+    challenges_f: lime
 - duration: 1
   lights:
-    challenges_b: 0
-    challenges_c: ff
+    challenges_a: blue
+    challenges_b: blue
+    challenges_c: blue
+    challenges_d: blue
+    challenges_e: blue
+    challenges_f: blue
 - duration: 1
   lights:
-    challenges_c: 0
-    challenges_d: ff
-- duration: 1
-  lights:
-    challenges_d: 0
-    challenges_e: ff
-- duration: 1
-  lights:
-    challenges_e: 0
-    challenges_f: ff
+    challenges_a: white
+    challenges_b: white
+    challenges_c: white
+    challenges_d: white
+    challenges_e: white
+    challenges_f: white
 
