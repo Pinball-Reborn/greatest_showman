@@ -42,22 +42,22 @@ switches:
     tags: right_upper_flipper
     debounce: quick
   s_trough1: #trough 1
-    number: 2-8
+    number: 2-10
     type: NC
   s_trough2: #trough 2
     number: 2-9
     type: NC
   s_trough3: #trough 3
-    number: 2-10
+    number: 2-8
     type: NC
   s_trough4: #trough 4
-    number: 2-11
+    number: 2-13
     type: NC
   s_trough5: #trough 5
     number: 2-12
     type: NC
   s_trough6: #trough 6
-    number: 2-13
+    number: 2-11
     type: NC
   s_trough_jam: #trough jam
     number: 2-14
