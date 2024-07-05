@@ -28,22 +28,22 @@
     collect_oddities_1: green
 - duration: 1
   lights:
-    collect_oddities_2: red
+    collect_oddities_2: darkkhaki
 - duration: 1
   lights:
-    collect_oddities_3: red
+    collect_oddities_3: darkkhaki
 - duration: 1
   lights:
-    collect_oddities_4: red
+    collect_oddities_4: darkkhaki
 - duration: 1
   lights:
-    collect_oddities_5: red
+    collect_oddities_5: darkkhaki
 - duration: 1
   lights:
-    collect_oddities_6: red
+    collect_oddities_6: darkkhaki
 - duration: 1
   lights:
-    collect_oddities_7: red
+    collect_oddities_7: darkkhaki
 - duration: 1
   lights:
-    collect_oddities_8: red
+    collect_oddities_8: crimson
