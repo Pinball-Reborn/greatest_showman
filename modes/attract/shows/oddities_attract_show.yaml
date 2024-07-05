@@ -1,0 +1,49 @@
+#show_version=6
+- duration: 1
+  lights:
+    collect_oddities_1: gold
+- duration: 1
+  lights:
+    collect_oddities_2: gold
+- duration: 1
+  lights:
+    collect_oddities_3: gold
+- duration: 1
+  lights:
+    collect_oddities_4: gold
+- duration: 1
+  lights:
+    collect_oddities_5: gold
+- duration: 1
+  lights:
+    collect_oddities_6: gold
+- duration: 1
+  lights:
+    collect_oddities_7: gold
+- duration: 1
+  lights:
+    collect_oddities_8: gold
+- duration: 1
+  lights:
+    collect_oddities_1: red
+- duration: 1
+  lights:
+    collect_oddities_2: red
+- duration: 1
+  lights:
+    collect_oddities_3: red
+- duration: 1
+  lights:
+    collect_oddities_4: red
+- duration: 1
+  lights:
+    collect_oddities_5: red
+- duration: 1
+  lights:
+    collect_oddities_6: red
+- duration: 1
+  lights:
+    collect_oddities_7: red
+- duration: 1
+  lights:
+    collect_oddities_8: red

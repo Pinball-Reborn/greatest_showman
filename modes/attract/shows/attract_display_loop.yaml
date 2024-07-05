@@ -42,8 +42,9 @@
     this_is_the_greatest_show:
       widgets:
       - type: text
-        text: THIS IS THE GREATEST SHOW
+        text: THIS IS THE GREATEST SHIT SHOW
         color: red
+        font_size: 50
       transition:
         type: move_in
         duration: 1s
