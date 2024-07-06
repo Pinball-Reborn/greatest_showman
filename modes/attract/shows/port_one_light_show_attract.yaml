@@ -67,7 +67,7 @@
     arrow_left_ramp_target_right: teal
 - duration: 1
   lights:
-    lock: magenta
+    lock: teal
 - duration: 1
   lights:
     arrow_left_ramp_target_left: teal
