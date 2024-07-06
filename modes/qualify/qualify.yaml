@@ -1,0 +1,16 @@
+#config_version=6
+mode:
+  start_events: ball_started
+
+counters:
+  right_inlane_qualify_counter:
+    starting_count: 0
+    count_complete_value: 3
+    events_when_complete: disable_qualify, start_mode_mode2
+    enable_events: enable_qualify
+    disable_events: disable_qualify
+    start_enabled: true
+    persist_state: true
+    reset_on_complete: false
+    restart_events: reset_qualify_modes
+    count_events: right_inlane_hit
