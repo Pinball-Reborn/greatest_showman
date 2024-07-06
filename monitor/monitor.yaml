@@ -98,9 +98,16 @@ switch:
   s_right_flipper:
     x: 0.941495513459621
     y: 0.8983050847457626
+  s_right_inlane:
+    rotation: 230
+    shape: RECTANGLE
+    size: 0.04
+    x: 0.7694915254237287
+    y: 0.7746759720837486
   s_right_upper_flipper:
     x: 0.9731804586241275
     y: 0.8973080757726819
   s_start:
+    size: 0.02
     x: 0.14258225324027915
     y: 0.9700897308075772
