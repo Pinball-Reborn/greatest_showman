@@ -8,3 +8,5 @@ show_player:
       speed: 4
     oddities_attract_show:
       speed: 2
+    port_one_light_show_attract:
+      speed: 3

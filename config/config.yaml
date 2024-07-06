@@ -307,7 +307,7 @@ lights:
   top_right_eject: #under lift ramp
     number: playfield-1-1
     type: grb
-  hat: #right orbit
+  hat_right_orbit: 
     number: playfield-1-2
     type: grb
   arrow_right_orbit:

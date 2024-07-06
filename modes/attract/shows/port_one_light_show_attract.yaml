@@ -1,0 +1,110 @@
+#show_version=6
+- duration: 1
+  lights:
+    top_right_eject: magenta
+- duration: 1
+  lights:
+    hat_right_orbit: magenta
+- duration: 1
+  lights:
+    arrow_right_orbit: magenta
+- duration: 1
+  lights:
+    arrow_left_ramp_target_right: magenta
+- duration: 1
+  lights:
+    lock: magenta
+- duration: 1
+  lights:
+    arrow_left_ramp_target_left: magenta
+- duration: 1
+  lights:
+    lind: magenta
+- duration: 1
+  lights:
+    jenny: magenta
+- duration: 1
+  lights:
+    miss: magenta
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: magenta
+- duration: 1
+  lights:
+    hat_upper_pop_bumpers: magenta
+- duration: 1
+  lights:
+    extra_ball: magenta
+- duration: 1
+  lights:
+    light_extra_ball: magenta
+- duration: 1
+  lights:
+    one: magenta
+- duration: 1
+  lights:
+    two: magenta
+- duration: 1
+  lights: 
+    five_million_when_lit: magenta
+- duration: 1
+  lights: 
+    three: magenta
+- duration: 1
+  lights: 
+    four: magenta
+- duration: 1
+  lights:
+    top_right_eject: teal
+- duration: 1
+  lights:
+    hat_right_orbit: teal
+- duration: 1
+  lights:
+    arrow_right_orbit: teal
+- duration: 1
+  lights:
+    arrow_left_ramp_target_right: teal
+- duration: 1
+  lights:
+    lock: magenta
+- duration: 1
+  lights:
+    arrow_left_ramp_target_left: teal
+- duration: 1
+  lights:
+    lind: teal
+- duration: 1
+  lights:
+    jenny: teal
+- duration: 1
+  lights:
+    miss: teal
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: teal
+- duration: 1
+  lights:
+    hat_upper_pop_bumpers: teal
+- duration: 1
+  lights:
+    extra_ball: teal
+- duration: 1
+  lights:
+    light_extra_ball: teal
+- duration: 1
+  lights:
+    one: teal
+- duration: 1
+  lights:
+    two: teal
+- duration: 1
+  lights: 
+    five_million_when_lit: teal
+- duration: 1
+  lights: 
+    three: teal
+- duration: 1
+  lights: 
+    four: teal
+

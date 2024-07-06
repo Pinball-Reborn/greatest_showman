@@ -1,8 +1,0 @@
-#config_version=6
-show: attract_display_loop
-- duration: .1
-  events: ok_super
-  mode: attract
-
-show_player:
-  mode_attract_started: attract_display_loop
