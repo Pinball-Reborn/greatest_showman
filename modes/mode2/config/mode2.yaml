@@ -1,5 +1,4 @@
 #config_version=6
-# mode2 config file
 
 mode:
   start_events: start_mode_mode2
@@ -15,7 +14,7 @@ widgets:
     font_size: 50
     color: lime
     y: 80%
-    expire: 1s
+    expire: 3s
 
 widget_player:
   mode_mode2_started: mode2_start_banner
@@ -28,6 +27,7 @@ variable_player:
 
 shots:
   my_first_shot_mode2:
+    switch: s_right_inlane
     profile: mode2
 
 shot_profiles:

@@ -1,11 +1,9 @@
 #config_version=6
-# qualify mode config
-
 mode:
   start_events: ball_started
 
 counters:
-  right_inlane_qualify_counter:
+  mode2_qualify_counter:
     starting_count: 0
     count_complete_value: 3
     events_when_complete: disable_qualify, start_mode_mode2
@@ -15,4 +13,4 @@ counters:
     persist_state: true
     reset_on_complete: false
     restart_events: reset_qualify_modes
-    count_events: right_inlane_hit
+    count_events: my_first_shot_hit

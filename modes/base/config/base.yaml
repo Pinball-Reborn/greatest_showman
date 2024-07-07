@@ -38,6 +38,8 @@ variable_player:
     score: 100
   my_first_shot_my_first_profile_flashing_hit:
     score: 1000
+  my_first_shot_hit:
+    my_first_shot: 1
   s_left_flipper_active:
     potato: 1
   s_right_flipper_active:

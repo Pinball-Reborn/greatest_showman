@@ -1,3 +1,7 @@
+ball_device:
+  bd_trough:
+    x: 0.8464406779661016
+    y: 0.909272183449651
 device_size: 0.02
 light:
   arrow_left_ramp_target_right:
