@@ -443,14 +443,6 @@ lights:
   arrow_bottom_left:
     number: playfield-3-10
     type: grb
-
-
-  
-  
-
-
-
-
  
 
 playfields:
@@ -585,6 +577,7 @@ modes:
   - base
   - mode2
   - qualify
+  - pop_bumpers
 
 
   

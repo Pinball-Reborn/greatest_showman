@@ -1,62 +1,57 @@
 events:
   game_ended: 1
-  game_started: 27
+  game_started: 35
 missing_switches:
-  s_1_bank_drop_target: 24
-  s_3_bank_drop_target_1: 24
-  s_3_bank_drop_target_2: 24
-  s_3_bank_drop_target_3: 24
-  s_back_ramp_made: 24
-  s_inner_orbit_enter: 24
-  s_left_bounce_mid_playfield: 24
-  s_left_drain: 24
-  s_left_flipper: 3
-  s_left_flipper_eos: 24
-  s_left_lock_lower: 24
-  s_left_lock_mid: 24
-  s_left_lock_upper: 24
-  s_left_orbit_bottom: 24
-  s_left_orbit_top: 24
-  s_left_pop_bumpers_left: 24
-  s_left_pop_bumpers_right: 24
-  s_left_pop_bumpers_top: 24
-  s_left_ramp_made: 24
-  s_left_return_lane: 24
-  s_left_stand_up_target: 24
-  s_left_stand_up_target_lift_ramp: 24
-  s_left_ticket_booth: 24
-  s_middle_stand_up_target: 24
-  s_plunger: 8
-  s_ramp_down: 24
-  s_right_bounce_mid_playfield: 24
-  s_right_drain: 24
-  s_right_flipper: 3
-  s_right_flipper_eos: 24
-  s_right_orbit_bottom: 24
-  s_right_orbit_top: 24
+  s_1_bank_drop_target: 32
+  s_3_bank_drop_target_1: 32
+  s_3_bank_drop_target_2: 32
+  s_3_bank_drop_target_3: 32
+  s_back_ramp_made: 32
+  s_inner_orbit_enter: 32
+  s_left_bounce_mid_playfield: 32
+  s_left_drain: 32
+  s_left_flipper: 11
+  s_left_flipper_eos: 32
+  s_left_lock_lower: 32
+  s_left_lock_mid: 32
+  s_left_lock_upper: 32
+  s_left_orbit_bottom: 32
+  s_left_orbit_top: 32
+  s_left_ramp_made: 32
+  s_left_return_lane: 32
+  s_left_stand_up_target: 32
+  s_left_stand_up_target_lift_ramp: 32
+  s_left_ticket_booth: 32
+  s_middle_stand_up_target: 32
+  s_plunger: 16
+  s_ramp_down: 32
+  s_right_bounce_mid_playfield: 32
+  s_right_drain: 32
+  s_right_flipper: 11
+  s_right_flipper_eos: 32
+  s_right_inlane: 1
+  s_right_orbit_bottom: 32
+  s_right_orbit_top: 32
   s_right_return_lane: 2
-  s_right_stand_up_target_lift_ramp: 24
-  s_right_ticket_booth: 24
-  s_right_upper_flipper: 26
+  s_right_stand_up_target_lift_ramp: 32
+  s_right_ticket_booth: 32
+  s_right_upper_flipper: 34
   s_slighshot_left: 1
-  s_slingshot_left: 23
-  s_slingshot_right: 24
-  s_spinner: 24
-  s_stand_up_target_right: 24
-  s_start: 26
-  s_tilt: 24
-  s_top_pop_bumpers_bottom: 24
-  s_top_pop_bumpers_left: 24
-  s_top_pop_bumpers_top: 24
-  s_trough1: 24
-  s_trough2: 24
-  s_trough3: 24
-  s_trough4: 25
-  s_trough5: 26
-  s_trough6: 26
-  s_trough_jam: 26
-  s_under_lift_ramp_eject: 24
-  s_upper_right_flipper_eos: 24
+  s_slingshot_left: 31
+  s_slingshot_right: 32
+  s_spinner: 32
+  s_stand_up_target_right: 32
+  s_start: 34
+  s_tilt: 32
+  s_trough1: 32
+  s_trough2: 32
+  s_trough3: 32
+  s_trough4: 33
+  s_trough5: 34
+  s_trough6: 34
+  s_trough_jam: 34
+  s_under_lift_ramp_eject: 32
+  s_upper_right_flipper_eos: 32
 player:
   score:
     average: 0.0
@@ -64,8 +59,17 @@ player:
     - 0
     total: 1
 shots:
-  my_first_shot: 70
+  left_pop_bumpers_left: 2
+  left_pop_bumpers_right: 1
+  left_pop_bumpers_right_pop_bumpers: 1
+  left_pop_bumpers_top: 2
+  my_first_shot: 76
   my_first_shot_mode2: 1
+  top_pop_bumpers_bottom: 2
+  top_pop_bumpers_bottom_pop_bumpers: 3
+  top_pop_bumpers_left: 2
+  top_pop_bumpers_top: 32
+  top_pop_bumpers_top_pop_bumpers: 10
 switches:
   s_1_bank_drop_target: 0
   s_3_bank_drop_target_1: 0
@@ -82,9 +86,9 @@ switches:
   s_left_lock_upper: 0
   s_left_orbit_bottom: 0
   s_left_orbit_top: 0
-  s_left_pop_bumpers_left: 0
-  s_left_pop_bumpers_right: 0
-  s_left_pop_bumpers_top: 0
+  s_left_pop_bumpers_left: 13
+  s_left_pop_bumpers_right: 4
+  s_left_pop_bumpers_top: 4
   s_left_ramp_made: 0
   s_left_return_lane: 0
   s_left_stand_up_target: 0
@@ -97,7 +101,7 @@ switches:
   s_right_drain: 0
   s_right_flipper: 107
   s_right_flipper_eos: 0
-  s_right_inlane: 86
+  s_right_inlane: 92
   s_right_orbit_bottom: 0
   s_right_orbit_top: 0
   s_right_return_lane: 0
@@ -113,9 +117,9 @@ switches:
   s_stand_up_target_right: 0
   s_start: 0
   s_tilt: 0
-  s_top_pop_bumpers_bottom: 0
-  s_top_pop_bumpers_left: 0
-  s_top_pop_bumpers_top: 0
+  s_top_pop_bumpers_bottom: 8
+  s_top_pop_bumpers_left: 6
+  s_top_pop_bumpers_top: 42
   s_trough1: 15
   s_trough2: 3
   s_trough3: 2

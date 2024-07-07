@@ -5,7 +5,7 @@ mode:
   stop_events: stop_mode_mode2
   priority: 200
 event_player:
-  right_inlane_complete: stop_mode_mode2, enable_qualify
+  my_first_shot_complete: start_mode_mode2, enable_qualify
 
 widgets:
   mode2_start_banner:

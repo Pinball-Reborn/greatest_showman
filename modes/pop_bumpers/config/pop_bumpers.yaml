@@ -1,0 +1,67 @@
+#config_version=6
+mode:
+  start_events: start_mode_pop_bumpers
+  stop_events: stop_mode_pop_bumpers
+  priority: 200
+event_player:
+  pop_bumpers_complete: start_mode_pop_bumpers
+
+widgets:
+  pop_bumpers_start_banner:
+    type: text
+    text: POP BUMPERS COMPLETED
+    font_size: 50
+    color: lime
+    y: 80%
+    expire: 3s
+
+widget_player:
+  mode_pop_bumpers_started: pop_bumpers_start_banner
+
+variable_player:
+  top_pop_bumpers_top_pop_bumpers_hit:
+    score: 1000
+  top_pop_bumpers_bottom_pop_bumpers_hit:
+    score: 1000
+  top_pop_bumpers_left_pop_bumpers_hit:
+    score: 1000
+  left_pop_bumpers_top_pop_bumpers_hit:
+    score: 1000
+  left_pop_bumpers_right_pop_bumpers_hit:
+    score: 1000
+  left_pop_bumpers_left_pop_bumpers_hit:
+    score: 1000
+
+shots:
+  top_pop_bumpers_top_pop_bumpers:
+    switch: s_top_pop_bumpers_top
+    profile: pop_bumpers
+  top_pop_bumpers_bottom_pop_bumpers:
+    switch: s_top_pop_bumpers_bottom
+    profile: pop_bumpers
+  top_pop_bumpers_left_pop_bumpers:
+    switch: s_top_pop_bumpers_left
+    profile: pop_bumpers
+  left_pop_bumpers_top_pop_bumpers:
+    switch: s_left_pop_bumpers_top
+    profile: pop_bumpers
+  left_pop_bumpers_right_pop_bumpers:
+    switch: s_left_pop_bumpers_right
+    profile: pop_bumpers
+  left_pop_bumpers_left_pop_bumpers:
+    switch: s_left_pop_bumpers_left
+    profile: pop_bumpers
+
+shot_profiles:
+  pop_bumpers:
+    states:
+    - name: flashing
+      show: flash
+    loop: false
+    block: true
+
+
+
+  
+  
+  

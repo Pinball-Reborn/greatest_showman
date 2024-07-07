@@ -48,11 +48,11 @@ variable_player:
     score: 100
   s_1_bank_drop_target_active:
     score: 100
-  s_left_pop_bumpers_left_active:
+  left_pop_bumpers_left_hit:
     score: 100
   s_right_ticket_booth_active:
     score: 100
-  s_left_pop_bumpers_right_active:
+  left_pop_bumpers_right_hit:
     score: 100
   s_left_ticket_booth_active:
     score: 100
@@ -64,15 +64,15 @@ variable_player:
     score: 100
   s_left_stand_up_target_active:
     score: 100
-  s_left_pop_bumpers_top_active:
+  left_pop_bumpers_top_hit:
     score: 100
   s_middle_stand_up_target_active:
     score: 100
-  s_top_pop_bumpers_bottom_active:
+  top_pop_bumpers_bottom_hit:
     score: 100
   s_left_orbit_top_active:
     score: 100
-  s_top_pop_bumpers_left_active:
+  top_pop_bumpers_left_hit:
     score: 100
   s_left_orbit_bottom_active:
     score: 100
@@ -88,8 +88,9 @@ variable_player:
     score: 100
   s_left_ramp_made_acitve:
     score: 100
-  s_top_pop_bumpers_top_acitve:
+  top_pop_bumpers_top_hit:
     score: 100
+    pop_bumpers: 1
   s_spinner_active:
     score: 100
   s_left_stand_up_target_lift_ramp_active:
@@ -117,6 +118,36 @@ shots:
     show_tokens:
       lights: save_the_show_right
     profile: my_first_profile
+  top_pop_bumpers_top:
+    switch: s_top_pop_bumpers_top
+    show_tokens:
+      lights: hat_upper_pop_bumpers
+    profile: top_pop_bumpers_top_profile
+  top_pop_bumpers_bottom:
+    switch: s_top_pop_bumpers_bottom
+    show_tokens:
+      lights: hat_upper_pop_bumpers
+    profile: top_pop_bumpers_bottom_profile
+  top_pop_bumpers_left:
+    switch: s_top_pop_bumpers_left
+    show_tokens:
+      lights: hat_upper_pop_bumpers
+    profile: top_pop_bumpers_left_profile
+  left_pop_bumpers_top:
+    switch: s_left_pop_bumpers_top
+    show_tokens:
+      lights: hat_left_pop_bumpers
+    profile: left_pop_bumpers_top_profile
+  left_pop_bumpers_right:
+    switch: s_left_pop_bumpers_right
+    show_tokens:
+      lights: hat_left_pop_bumpers
+    profile: left_pop_bumpers_right_profile
+  left_pop_bumpers_left:
+    switch: s_left_pop_bumpers_left
+    show_tokens:
+      lights: hat_left_pop_bumpers
+    profile: left_pop_bumpers_left_profile
 
 shot_profiles:
   my_first_profile:
@@ -128,6 +159,31 @@ shot_profiles:
       - name: lit
         show: on
     loop: true
+  top_pop_bumpers_top_profile:
+    states:
+      - name: flashing
+        show: flash
+  top_pop_bumpers_bottom_profile:
+    states:
+      - name: flashing
+        show: flash
+  top_pop_bumpers_left_profile:
+    states:
+      - name: flashing
+        show: flash
+  left_pop_bumpers_top_profile:
+    states:
+      - name: flashing
+        show: flash
+  left_pop_bumpers_right_profile:
+    states:
+      - name: flashing
+        show: flash
+  left_pop_bumpers_left_profile:
+    states:
+      - name: flashing
+        show: flash
+
 
 
 
