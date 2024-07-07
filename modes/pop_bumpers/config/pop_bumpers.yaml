@@ -1,22 +1,26 @@
 #config_version=6
 mode:
   start_events: start_mode_pop_bumpers
-  stop_events: stop_mode_pop_bumpers
+  stop_events: timer_pop_bumpers_timer_complete
   priority: 200
 event_player:
   pop_bumpers_complete: start_mode_pop_bumpers
 
-widgets:
-  pop_bumpers_start_banner:
-    type: text
-    text: POP BUMPERS COMPLETED
-    font_size: 50
-    color: lime
-    y: 80%
-    expire: 3s
+timers:
+  pop_bumpers_timer:
+    start_value: 20
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - action: start
+        event: mode_pop_bumpers_started
+    start_running: false
 
-widget_player:
-  mode_pop_bumpers_started: pop_bumpers_start_banner
+show_player:
+  mode_pop_bumpers_started: 
+    pop_bumpers_show:
+      speed: 1
 
 variable_player:
   top_pop_bumpers_top_pop_bumpers_hit:
@@ -31,6 +35,10 @@ variable_player:
     score: 1000
   left_pop_bumpers_left_pop_bumpers_hit:
     score: 1000
+  timer_pop_bumpers_timer_tick:
+    pop_bumpers_timer_seconds:
+      int: device.timers.pop_bumpers_timer.ticks % 60
+      action: set
 
 shots:
   top_pop_bumpers_top_pop_bumpers:

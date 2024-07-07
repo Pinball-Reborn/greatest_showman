@@ -1,0 +1,28 @@
+#show_version=6
+
+- duration: 1s
+  slides:
+    pop_bumpers_completed_slide:
+      widgets:
+      - type: text
+        text: POP BUMPERS COMPLETED
+        font_size: 50
+        color: lime
+      transition:
+        type: push
+        duration: 1s
+        direction: left
+ 
+- duration: 20s
+  slides:
+    show_timer:
+      widgets:
+      - type: text
+        text: 'SUPER POP BUMPERS TIME LEFT: (player|pop_bumpers_timer_seconds)'
+        font_size: 20
+        color: gold
+
+
+
+
+
