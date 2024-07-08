@@ -1,0 +1,45 @@
+#show_version=6
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: darkred
+    hat_upper_pop_bumpers: darkred
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: palevioletred
+    hat_upper_pop_bumpers: palevioletred
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: orange
+    hat_upper_pop_bumpers: orange
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: gold
+    hat_upper_pop_bumpers: gold
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: purple
+    hat_upper_pop_bumpers: purple
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: darkslateblue
+    hat_upper_pop_bumpers: darkslateblue
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: darkgreen
+    hat_upper_pop_bumpers: darkgreen
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: teal
+    hat_upper_pop_bumpers: teal
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: navy
+    hat_upper_pop_bumpers: navy
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: brown
+    hat_upper_pop_bumpers: brown
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: red
+    hat_upper_pop_bumpers: red

@@ -21,6 +21,15 @@ show_player:
   mode_pop_bumpers_started: 
     pop_bumpers_show:
       speed: 1
+    pop_bumpers_lights:
+      speed: 10
+
+
+
+sound_player:
+  mode_pop_bumpers_started:
+    Pop_bumper_challenge_completed:
+      action: play
 
 variable_player:
   top_pop_bumpers_top_pop_bumpers_hit:
