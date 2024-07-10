@@ -1,11 +1,23 @@
 #show_version=6
 
-- duration: 3s
+- duration: 8s
   slides:
     pop_bumpers_completed_slide:
       widgets:
       - type: image
         image: pop_bumpers_completed
+        scale: .9
+        animations:
+          show_slide:
+            - property: rotation
+              value: 0
+              relative: false
+              duration: 0
+            - property: rotation
+              value: 360
+              duration: 2s
+              repeat: false
+
 
  
 - duration: 20s
