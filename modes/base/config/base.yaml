@@ -12,13 +12,11 @@ slide_player:
         number_grouping: true
         min_digits: 2
         font_size: 100
+        y: 22%
       - type: text
         text: PLAYER (number)
-        y: 10
-        x: 10
+        y: 32%
         font_size: 50
-        anchor_x: left
-        anchor_y: bottom
       - type: text
         text: BALL (ball)
         y: 10
@@ -29,6 +27,8 @@ slide_player:
       - type: text
         text: 'POTATO VALUE: (potato)'
         y: 40%
+      - type: image
+        image: main_screen
 
 
 
