@@ -1,6 +1,6 @@
 #show_version=6
 
-- duration: 8s
+- duration: 3s
   slides:
     pop_bumpers_completed_slide:
       widgets:
@@ -20,14 +20,17 @@
 
 
  
-- duration: 20s
+- duration: 22s
   slides:
     show_timer:
       widgets:
       - type: text
         text: 'SUPER POP BUMPERS TIME LEFT: (player|pop_bumpers_timer_seconds)'
-        font_size: 20
+        font_size: 100
         color: gold
+        bold: true
+      - type:  image
+        image: main_screen_bar
 
 
 
