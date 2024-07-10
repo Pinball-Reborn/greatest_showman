@@ -1,17 +1,12 @@
 #show_version=6
 
-- duration: 1s
+- duration: 3s
   slides:
     pop_bumpers_completed_slide:
       widgets:
-      - type: text
-        text: POP BUMPERS COMPLETED
-        font_size: 50
-        color: lime
-      transition:
-        type: push
-        duration: 1s
-        direction: left
+      - type: image
+        image: pop_bumpers_completed
+
  
 - duration: 20s
   slides:
