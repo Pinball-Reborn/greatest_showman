@@ -12,7 +12,7 @@ slide_player:
         number_grouping: true
         min_digits: 2
         font_size: 100
-        y: 22%
+        y: 23%
       - type: text
         text: PLAYER (number)
         y: 32%
@@ -29,6 +29,7 @@ slide_player:
         y: 40%
       - type: image
         image: main_screen
+        scale: .95
 
 
 
