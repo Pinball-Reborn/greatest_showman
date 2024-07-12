@@ -486,6 +486,7 @@ slides:
         color: red
       - type: image
         image: curtains
+        scale: .9
 
 
 slide_player:

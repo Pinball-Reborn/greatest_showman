@@ -9,6 +9,7 @@
         font_size: 60
       - type: image
         image: curtains
+        scale: .9
       transition:
         type: push
         duration: 1s
@@ -38,6 +39,7 @@
         anchor_y: bottom
       - type: image
         image: curtains
+        scale: .9
       transition:
         type: move_in
         duration: 1s
@@ -54,6 +56,7 @@
         font_size: 70
       - type: image
         image: curtains
+        scale: .9
       transition:
         type: move_in
         duration: 1s
@@ -75,6 +78,7 @@
         y: 40%
       - type: image
         image: curtains
+        scale: .9
 
 - duration: 3
   slides:
@@ -82,3 +86,4 @@
       widgets:
       - type: image
         image: pinball_reborn
+        scale: .9
