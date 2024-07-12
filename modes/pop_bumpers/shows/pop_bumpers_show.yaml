@@ -25,7 +25,7 @@
     show_timer:
       widgets:
       - type: text
-        text: 'SUPER POP BUMPERS TIME LEFT: (player|pop_bumpers_timer_seconds)'
+        text: 'SUPER POP BUMPERS!: (player|pop_bumpers_timer_seconds)'
         font_size: 100
         color: gold
         bold: true

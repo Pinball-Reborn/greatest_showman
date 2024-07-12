@@ -580,6 +580,7 @@ modes:
   - mode2
   - qualify
   - pop_bumpers
+  - challenges
   
 player_vars:
   potato:

@@ -1,6 +1,6 @@
 #show_version=6
 
-- duration: 3s
+- duration: 9s
   slides:
     greatest_showman_slide:
       widgets:
@@ -15,7 +15,7 @@
         duration: 1s
         direction: left
 
-- duration: 3s
+- duration: 9s
   slides:
     press_start:
       widgets:
@@ -46,7 +46,7 @@
         direction: right
 
 
-- duration: 3
+- duration: 9s
   slides:
     this_is_the_greatest_show:
       widgets:
@@ -62,7 +62,7 @@
         duration: 1s
         direction: top
 
-- duration: 3
+- duration: 9s
   slides:
     last_game_score_slide:
       widgets:
@@ -80,7 +80,7 @@
         image: curtains
         scale: .9
 
-- duration: 3
+- duration: 9s
   slides:
     pinball_reborn_slide:
       widgets:

@@ -1,0 +1,13 @@
+#config_version=6
+
+achievements:
+  pop_bumpers:
+    show_tokens:
+      lights: challenges_e
+    show_when_started: flash
+    show_when_completed: on
+    events_when_started: mode_pop_bumpers_started
+    enable_events: initialize_pop_bumpers, reset_pop_bumpers
+    complete_events: mode_pop_bumpers_started
+    reset_events: reset_pop_bumpers
+
