@@ -552,18 +552,19 @@ drop_targets:
   d_1_bank_drop_target:
     switch: s_1_bank_drop_target
     reset_coil: c_single_drop_target_reset
-  d_front:
+  front:
     switch: s_3_bank_drop_target_1
-  d_middle:
+  middle:
     switch: s_3_bank_drop_target_2
-  d_back:
+  back:
     switch: s_3_bank_drop_target_3
 
 drop_target_banks:
   3_drop_target_bank:
-    drop_targets: d_front, d_middle, d_back
+    drop_targets: front, middle, back
     reset_coils: c_3_drop_target_reset
     reset_on_complete: 1s
+    reset_events: game_started, ball_started
 
 diverters:
   ramp_up_down_coils:
