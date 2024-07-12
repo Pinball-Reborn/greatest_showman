@@ -481,12 +481,11 @@ slides:
   welcome_slide:
     widgets:
       - type: text
-        text: PINBALL!
+        text: Greatest Showman Custom Pinball
         font_size: 100
         color: red
-      - type: rectangle
-        width: 480
-        height: 120
+      - type: image
+        image: curtains
 
 
 slide_player:
