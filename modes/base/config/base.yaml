@@ -71,13 +71,11 @@ variable_player:
     score: 100
   top_pop_bumpers_bottom_hit:
     score: 100
-  s_left_orbit_top_active:
+  left_orbit_hit:
     score: 100
   top_pop_bumpers_left_hit:
     score: 100
-  s_left_orbit_bottom_active:
-    score: 100
-  s_inner_orbit_enter_active:
+  inner_orbit_enter_hit:
     score: 100
   s_stand_up_target_right_active:
     score: 100
@@ -91,18 +89,15 @@ variable_player:
     score: 100
   top_pop_bumpers_top_hit:
     score: 100
-    pop_bumpers: 1
   s_spinner_active:
     score: 100
   s_left_stand_up_target_lift_ramp_active:
     score: 100
   s_right_stand_up_target_lift_ramp_active:
     score: 100
-  s_right_orbit_bottom_active:
-    score: 100
   s_under_ramp_eject_active:
     score: 100
-  s_right_orbit_top_active:
+  right_orbit_hit:
     score: 100
   s_left_drain_active:
     score: 100
@@ -149,6 +144,11 @@ shots:
     show_tokens:
       lights: hat_left_pop_bumpers
     profile: left_pop_bumpers_left_profile
+  inner_orbit_enter:
+    switch: s_inner_orbit_enter
+    show_tokens:
+      lights: arrow_left_inner_orbit
+    profile: inner_orbit_enter_profile
 
 shot_profiles:
   my_first_profile:
@@ -184,6 +184,23 @@ shot_profiles:
     states:
       - name: flashing
         show: flash
+  inner_orbit_enter_profile:
+    states:
+      - name: flashing
+        show: flash
+
+
+sequence_shots:
+  left_orbit:
+    switch_sequence: s_left_orbit_bottom, s_left_orbit_top
+    sequence_timeout: 3s
+  right_orbit:
+    switch_sequence: s_right_orbit_bottom, s_right_orbit_top
+    sequence_timeout: 3s
+
+
+
+
 
 
 
