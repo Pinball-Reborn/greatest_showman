@@ -152,7 +152,7 @@ shots:
   shot_left_orbit:
     enable_events: left_orbit_hit
     show_tokens:
-      lights: arrow_left_outer_orbit, hat_left_pop_bumpers
+      lights: arrow_outer_left_orbit, hat_left_pop_bumpers
     profile: shot_left_orbit_profile
 
 shot_profiles:
