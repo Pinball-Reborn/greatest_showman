@@ -37,4 +37,4 @@ counters:
     persist_state: true
     reset_on_complete: false
     restart_events: reset_qualify_modes
-    count_events:  inner_orbit_enter_hit, right_orbit_hit, left_orbit_hit 
+    count_events:  inner_orbit_enter_hit, right_orbit_hit, shot_left_orbit 

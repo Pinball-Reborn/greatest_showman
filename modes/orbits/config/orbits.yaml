@@ -27,23 +27,25 @@ show_player:
 
 sound_player:
   mode_pop_bumpers_started:
-    orbits_challenge_completed:
+    orbits_challenge_completed_1:
       action: play
 
 variable_player:
-  top_pop_bumpers_top_pop_bumpers_hit:
+  inner_orbit_enter_orbits_hit:
     score: 1000
-  top_pop_bumpers_bottom_pop_bumpers_hit:
+  right_orbit_orbits_hit:
     score: 1000
-  top_pop_bumpers_left_pop_bumpers_hit:
+  left_orbit_orbits_hit:
     score: 1000
-  left_pop_bumpers_top_pop_bumpers_hit:
-    score: 1000
-  left_pop_bumpers_right_pop_bumpers_hit:
-    score: 1000
-  left_pop_bumpers_left_pop_bumpers_hit:
-    score: 1000
-  timer_pop_bumpers_timer_tick:
-    pop_bumpers_timer_seconds:
+  orbits_bumpers_timer_tick:
+    orbits_timer_seconds:
       int: device.timers.pop_bumpers_timer.ticks % 60
       action: set
+
+shots:
+   inner_orbit_enter_orbits:
+    switch: s_inner_orbit_enter 
+   shot_left_orbit_orbits:
+    enable_events: left_orbit_hit
+    show_tokens:
+      lights: arrow_left_outer_orbit, hat_left_pop_bumpers
