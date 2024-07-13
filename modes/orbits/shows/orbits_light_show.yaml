@@ -1,0 +1,78 @@
+#show_version=6
+- duration: 1
+  lights:
+    hat_right_orbit: darkred
+    arrow_left_inner_orbit: darkred
+    arrow_right_orbit: darkred
+    arrow_outer_left_orbit: darkred
+    hat_left_pop_bumpers: darkred
+- duration: 1
+  lights:
+    hat_right_orbit: palevioletred
+    arrow_left_inner_orbit: palevioletred
+    arrow_right_orbit: palevioletred
+    arrow_outer_left_orbit: palevioletred
+    hat_left_pop_bumpers: palevioletred
+- duration: 1
+  lights:
+    hat_right_orbit: orange
+    arrow_left_inner_orbit: orange
+    arrow_right_orbit: orange
+    arrow_outer_left_orbit: orange
+    hat_left_pop_bumpers: orange
+- duration: 1
+  lights:
+    hat_right_orbit: gold
+    arrow_left_inner_orbit: gold
+    arrow_right_orbit: gold
+    arrow_outer_left_orbit: gold
+    hat_left_pop_bumpers: gold
+- duration: 1
+  lights:
+    hat_right_orbit: purple
+    arrow_left_inner_orbit: purple
+    arrow_right_orbit: purple
+    arrow_outer_left_orbit: purple
+    hat_left_pop_bumpers: purple
+- duration: 1
+  lights:
+    hat_right_orbit: darkslateblue
+    arrow_left_inner_orbit: darkslateblue
+    arrow_right_orbit: darkslateblue
+    arrow_outer_left_orbit: darkslateblue
+    hat_left_pop_bumpers: darkslateblue
+- duration: 1
+  lights:
+    hat_right_orbit: darkgreen
+    arrow_left_inner_orbit: darkgreen
+    arrow_right_orbit: darkgreen
+    arrow_outer_left_orbit: darkgreen
+    hat_left_pop_bumpers: darkgreen
+- duration: 1
+  lights:
+    hat_right_orbit: teal
+    arrow_left_inner_orbit: teal
+    arrow_right_orbit: teal
+    arrow_outer_left_orbit: teal
+    hat_left_pop_bumpers: teal
+- duration: 1
+  lights:
+    hat_right_orbit: navy
+    arrow_left_inner_orbit: navy 
+    arrow_right_orbit: navy
+    arrow_outer_left_orbit: navy
+    hat_left_pop_bumpers: navy
+- duration: 1
+  lights:
+    hat_right_orbit: brown
+    arrow_left_inner_orbit: brown
+    arrow_right_orbit: brown
+    arrow_outer_left_orbit: brown
+    hat_left_pop_bumpers: brown
+- duration: 1
+  lights:
+    hat_right_orbit: red
+    arrow_left_inner_orbit: red
+    arrow_right_orbit: red
+    arrow_outer_left_orbit: red
+    hat_left_pop_bumpers: red
