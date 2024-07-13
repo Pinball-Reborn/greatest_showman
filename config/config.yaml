@@ -261,13 +261,15 @@ coils:
     default_pulse_ms: 20
   c_plunger: #plunger or shooter lane
     number: 2-0
-    default_pulse_ms: 20
+    default_pulse_ms: 10
   c_3_spinning_dics_motor_red:  #3 spinning discs red
     number: 0-0
   c_ramp_up: #ramp up
     number: 1-2
+    default_pulse_ms: 20
   c_ramp_down:  # ramp down
     number: 1-3
+    default_pulse_ms: 20
   c_under_ramp_eject: #under ramp eject
     number: 1-4
     default_pulse_ms: 15ms
@@ -282,6 +284,7 @@ coils:
     number: 1-8
   c_3_drop_target_reset: # 3 drop target reset
     number: 1-9
+    default_pulse_ms: 20
   c_left_pop_bumpers_top: # left pop bumpers top
     number: 1-10
   c_left_pop_bumpers_right: #left pop bumpers right
@@ -581,6 +584,7 @@ modes:
   - qualify
   - pop_bumpers
   - challenges
+ # - orbits
   
 player_vars:
   potato:
