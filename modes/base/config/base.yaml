@@ -25,8 +25,9 @@ slide_player:
         anchor_y: bottom
         font_size: 50
       - type: text
-        text: 'POTATO VALUE: (potato)'
+        text: 'ORBIT HITS: (orbit)'
         y: 40%
+        font_size: 50
       - type: image
         image: main_screen
         scale: .95
@@ -73,10 +74,12 @@ variable_player:
     score: 100
   left_orbit_hit:
     score: 100
+    orbit: 1
   top_pop_bumpers_left_hit:
     score: 100
   inner_orbit_enter_hit:
     score: 100
+    orbit: 1
   s_stand_up_target_right_active:
     score: 100
   s_right_bounce_mid_playfield_active:

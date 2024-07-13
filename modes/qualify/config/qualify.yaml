@@ -29,7 +29,7 @@ counters:
 
   orbits_qualify_counter:
     starting_count: 0
-    count_complete_value: 5
+    count_complete_value: 3
     events_when_complete: disable_qualify, start_mode_orbits
     enable_events: enable_qualify
     disable_events: disable_qualify
