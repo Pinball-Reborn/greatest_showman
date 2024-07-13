@@ -22,7 +22,7 @@ show_player:
   mode_orbits_started: 
     orbits_show:
       speed: 1
-    orbits_lights:
+    orbits_light_show:
       speed: 10
 
 sound_player:
