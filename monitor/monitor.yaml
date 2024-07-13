@@ -20,6 +20,9 @@ light:
   arrow_left_ramp_target_right:
     x: 0.7875972083748753
     y: 0.3479561316051844
+  arrow_outer_left_orbit:
+    x: 0.22405782652043865
+    y: 0.43369890329012956
   arrow_right_orbit:
     x: 0.8758624127617147
     y: 0.33998005982053836
@@ -124,6 +127,9 @@ shot:
   inner_orbit_enter:
     x: 0.31501838763716383
     y: 0.2003988035892323
+  shot_left_orbit:
+    x: 0.1018444666001994
+    y: 0.4187437686939182
 switch:
   s_1_bank_drop_target:
     x: 0.6390373006353894

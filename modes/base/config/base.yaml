@@ -136,8 +136,8 @@ shots:
     profile: left_pop_bumpers_top_profile
   left_pop_bumpers_right:
     switch: s_left_pop_bumpers_right
-    show_tokens:
-      lights: hat_left_pop_bumpers
+    #show_tokens:
+     # lights: hat_left_pop_bumpers
     profile: left_pop_bumpers_right_profile
   left_pop_bumpers_left:
     switch: s_left_pop_bumpers_left
@@ -149,6 +149,11 @@ shots:
     show_tokens:
       lights: arrow_left_inner_orbit
     profile: inner_orbit_enter_profile
+  shot_left_orbit:
+    enable_events: left_orbit_hit
+    show_tokens:
+      lights: arrow_left_outer_orbit, hat_left_pop_bumpers
+    profile: shot_left_orbit_profile
 
 shot_profiles:
   my_first_profile:
@@ -188,6 +193,11 @@ shot_profiles:
     states:
       - name: flashing
         show: flash
+  shot_left_orbit_profile:
+    states:
+      - name: flashing
+        show: flash
+
 
 
 sequence_shots:
@@ -197,6 +207,8 @@ sequence_shots:
   right_orbit:
     switch_sequence: s_right_orbit_bottom, s_right_orbit_top
     sequence_timeout: 3s
+
+
 
 
 
