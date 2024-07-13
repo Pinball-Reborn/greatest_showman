@@ -5,7 +5,7 @@ mode:
   stop_events: timer_orbits_timer_complete
   priority: 200
 event_player:
-  pop_bumpers_complete: start_mode_orbits
+  orbits_complete: start_mode_orbits
 
 timers:
   orbits_timer:
