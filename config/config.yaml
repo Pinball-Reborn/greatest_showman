@@ -309,7 +309,8 @@ coils:
   c_single_drop_target_reset: #single drop target reset
     number: 1-7
     default_pulse_ms: 20
-    default_recycle: true
+    platform_settings:
+      recycle_ms: 40
 
 lights:
   top_right_eject: #under lift ramp
