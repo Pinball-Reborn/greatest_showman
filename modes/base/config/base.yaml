@@ -26,7 +26,7 @@ slide_player:
         font_size: 50
       - type: text
         text: 'ORBIT HITS: (orbit)'
-        y: 40%
+        y: 50%
         font_size: 50
       - type: image
         image: main_screen
@@ -48,7 +48,7 @@ variable_player:
     potato: 1
   s_back_ramp_made_active:
     score: 100
-  s_1_bank_drop_target_active:
+  1_bank_drop_target_hit:
     score: 100
   left_pop_bumpers_left_hit:
     score: 100
@@ -163,6 +163,10 @@ shots:
     show_tokens:
       lights: arrow_right_orbit, hat_right_orbit
     profile: shot_right_orbit_profile
+  shot_1_bank_drop_target:
+    enable_events: 1_bank_drop_target_hit
+    show_tokens:
+      lights: four, three, two, one, light_extra_ball, extra_ball
 
 shot_profiles:
   my_first_profile:
@@ -220,6 +224,7 @@ sequence_shots:
   right_orbit:
     switch_sequence: s_right_orbit_bottom, s_right_orbit_top
     sequence_timeout: 3s
+
 
 
 
