@@ -277,9 +277,6 @@ coils:
     number: 1-5
   c_top_pop_bumpers_top:  #top pop bumpers top
     number: 1-6
-  c_single_drop_target_reset: #single drop target reset
-    number: 1-7
-    default_pulse_ms: 30
   c_top_pop_bumpers_left: #top pop bumpers left
     number: 1-8
   c_3_drop_target_reset: # 3 drop target reset
@@ -309,6 +306,10 @@ coils:
     default_pulse_ms: 20
     platform_settings:
       recycle_ms: 40
+  c_single_drop_target_reset: #single drop target reset
+    number: 1-7
+    default_pulse_ms: 20
+    default_recycle: true
 
 lights:
   top_right_eject: #under lift ramp
