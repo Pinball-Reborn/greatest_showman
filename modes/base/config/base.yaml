@@ -163,7 +163,7 @@ shots:
     show_tokens:
       lights: arrow_right_orbit, hat_right_orbit
     profile: shot_right_orbit_profile
-  shot_single_drop_target:
+  single_drop_target:
     switch: s_single_drop_target
     enable_events: single_drop_target_hit
     show_tokens:
