@@ -86,6 +86,8 @@ switches:
   s_single_drop_target: #1 bank drop target
     number: 1-0
     type: NO
+    platform_settings:
+      debounce_open: 100ms
   s_left_pop_bumpers_left: #left pop bumper left
     number: 1-1
     debounce: quick
@@ -310,7 +312,7 @@ coils:
     number: 1-7
     default_pulse_ms: 20
     platform_settings:
-      recycle_ms: 40
+      recycle_ms: 100
 
 lights:
   top_right_eject: #under lift ramp
