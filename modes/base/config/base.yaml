@@ -102,6 +102,7 @@ variable_player:
     score: 100
   right_orbit_hit:
     score: 100
+    orbit: 1
   s_left_drain_active:
     score: 100
   s_slingshot_left_active:
@@ -157,6 +158,11 @@ shots:
     show_tokens:
       lights: arrow_outer_left_orbit, hat_left_pop_bumpers
     profile: shot_left_orbit_profile
+  shot_right_orbit:
+    enable_events: right_orbit_hit
+    show_tokens:
+      lights: arrow_right_orbit, hat_right_orbit
+    profile: shot_right_orbit_profile
 
 shot_profiles:
   my_first_profile:
@@ -197,6 +203,10 @@ shot_profiles:
       - name: flashing
         show: flash
   shot_left_orbit_profile:
+    states:
+      - name: flashing
+        show: flash
+  shot_right_orbit_profile:
     states:
       - name: flashing
         show: flash
