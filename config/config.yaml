@@ -83,7 +83,7 @@ switches:
     tags: playfield_active
   s_tilt: #tilt
     number: 0-6
-  s_1_bank_drop_target: #1 bank drop target
+  s_single_drop_target: #1 bank drop target
     number: 1-0
     type: NO
   s_left_pop_bumpers_left: #left pop bumper left
@@ -552,10 +552,10 @@ autofire_coils:
     switch: s_top_pop_bumpers_top
 
 drop_targets:
-  d_1_bank_drop_target:
-    switch: s_1_bank_drop_target
+  single_drop_target:
+    switch: s_single_drop_target
     reset_coil: c_single_drop_target_reset
-    reset_events: game_started, ball_started, shot_1_bank_drop_target_hit
+    reset_events: game_started, ball_started, shot_single_drop_target_hit
   front:
     switch: s_3_bank_drop_target_1
   middle:

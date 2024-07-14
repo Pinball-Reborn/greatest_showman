@@ -48,7 +48,7 @@ variable_player:
     potato: 1
   s_back_ramp_made_active:
     score: 100
-  1_bank_drop_target_hit:
+  single_drop_target_hit:
     score: 100
   left_pop_bumpers_left_hit:
     score: 100
@@ -163,8 +163,9 @@ shots:
     show_tokens:
       lights: arrow_right_orbit, hat_right_orbit
     profile: shot_right_orbit_profile
-  shot_1_bank_drop_target:
-    enable_events: 1_bank_drop_target_hit
+  shot_single_drop_target:
+    switch: s_single_drop_target
+    enable_events: single_drop_target_hit
     show_tokens:
       lights: four, three, two, one, light_extra_ball, extra_ball
 
