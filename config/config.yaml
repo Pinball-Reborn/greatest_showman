@@ -279,11 +279,12 @@ coils:
     number: 1-6
   c_single_drop_target_reset: #single drop target reset
     number: 1-7
+    default_pulse_ms: 30
   c_top_pop_bumpers_left: #top pop bumpers left
     number: 1-8
   c_3_drop_target_reset: # 3 drop target reset
     number: 1-9
-    default_pulse_ms: 20
+    default_pulse_ms: 30
   c_left_pop_bumpers_top: # left pop bumpers top
     number: 1-10
   c_left_pop_bumpers_right: #left pop bumpers right
@@ -554,7 +555,7 @@ drop_targets:
   d_1_bank_drop_target:
     switch: s_1_bank_drop_target
     reset_coil: c_single_drop_target_reset
-    reset_events: game_started, ball_started, 1_bank_drop_target_hit 
+    reset_events: game_started, ball_started
   front:
     switch: s_3_bank_drop_target_1
   middle:
@@ -565,7 +566,7 @@ drop_targets:
 drop_target_banks:
   3_drop_target_bank:
     drop_targets: front, middle, back
-    reset_coils: c_3_drop_target_reset
+    reset_coil: c_3_drop_target_reset
     reset_on_complete: 1s
     reset_events: game_started, ball_started
 
