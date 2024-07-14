@@ -85,7 +85,7 @@ switches:
     number: 0-6
   s_1_bank_drop_target: #1 bank drop target
     number: 1-0
-    type: NC
+    type: NO
   s_left_pop_bumpers_left: #left pop bumper left
     number: 1-1
     debounce: quick
@@ -98,13 +98,13 @@ switches:
     number: 1-4
   s_3_bank_drop_target_1: # 3 bank drop target 1
     number: 1-5
-    type: NC
+    type: NO
   s_3_bank_drop_target_2: #3 bank drop target 2
     number: 1-6
-    type: NC
+    type: NO
   s_3_bank_drop_target_3: #3 bank drop target 3
     number: 1-7
-    type: NC
+    type: NO
   s_left_stand_up_target: #left stand up target near ticket booth
     number: 1-8
     tags: playfield_active
