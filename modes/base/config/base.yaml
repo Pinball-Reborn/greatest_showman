@@ -165,7 +165,6 @@ shots:
     profile: shot_right_orbit_profile
   single_drop_target:
     switch: s_single_drop_target
-    enable_events: single_drop_target_hit
     show_tokens:
       lights: four, three, two, one, light_extra_ball, extra_ball
 
