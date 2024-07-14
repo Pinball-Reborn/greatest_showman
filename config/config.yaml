@@ -555,7 +555,7 @@ drop_targets:
   single_drop_target:
     switch: s_single_drop_target
     reset_coil: c_single_drop_target_reset
-    reset_events: game_started, ball_started, shot_single_drop_target_hit
+    reset_events: game_started, ball_started, single_drop_target_hit
   front:
     switch: s_3_bank_drop_target_1
   middle:
