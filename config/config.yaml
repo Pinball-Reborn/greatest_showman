@@ -423,34 +423,34 @@ lights:
     type: rgb
   save_the_show_right:
     number: playfield-3-1
-    type: grb
+    type: rgb
   challenges_f:
     number: playfield-3-2
-    type: grb
+    type: rgb
   challenges_e:
     number: playfield-3-3
-    type: grb
+    type: rgb
   challenges_d:
     number: playfield-3-4
-    type: grb
+    type: rgb
   challenges_c:
     number: playfield-3-5
-    type: grb
+    type: rgb
   challenges_b:
     number: playfield-3-6
-    type: grb
+    type: rgb
   challenges_a:
     number: playfield-3-7
-    type: grb
+    type: rgb
   shoot_again:
     number: playfield-3-8
-    type: grb
+    type: rgb
   save_the_show_left:
     number: playfield-3-9
-    type: grb
+    type: rgb
   arrow_bottom_left:
     number: playfield-3-10
-    type: grb
+    type: rgb
  
 
 playfields:
