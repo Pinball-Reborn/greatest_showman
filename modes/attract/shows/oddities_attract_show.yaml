@@ -53,54 +53,54 @@
 
 - duration: 1
   lights: 
-    skill_shot_1: green
+    skill_shot_1: red
 - duration: 1
   lights:
-    target_mid_right: green
+    target_mid_right: red
 - duration: 1
   lights:
-    collect_oddities_2: green
+    collect_oddities_2: red
 - duration: 1
   lights:
-    collect_oddities_3: green
+    collect_oddities_3: red
 - duration: 1
   lights:
-    collect_oddities_4: green
+    collect_oddities_4: red
 - duration: 1
   lights:
-    collect_oddities_5: green
+    collect_oddities_5: red
 - duration: 1
   lights:
-    target_mid_left: green
+    target_mid_left: red
 - duration: 1
   lights:
-    collect_oddities_6: green
+    collect_oddities_6: red
 - duration: 1
   lights:
-    skill_shot_round: green
+    skill_shot_round: red
 - duration: 1
   lights:
-    skill_shot_3: green
+    skill_shot_3: red
 - duration: 1
   lights:
-    collect_oddities_7: green
+    collect_oddities_7: red
 - duration: 1
   lights:
-    collect_oddities_8: green
+    collect_oddities_8: red
 - duration: 1
   lights:
-    collect_oddities_1: green
+    collect_oddities_1: red
 - duration: 1
   lights:
-    skill_shot_2: green
+    skill_shot_2: red
 - duration: 1
   lights:
-    below_lock_in_musical_staff: green
+    below_lock_in_musical_staff: red
 - duration: 1
   lights:
-    hat_left_pop_bumpers: green
+    hat_left_pop_bumpers: red
 - duration: 1
   lights:
-    arrow_outer_left_orbit: green
+    arrow_outer_left_orbit: red
 
 

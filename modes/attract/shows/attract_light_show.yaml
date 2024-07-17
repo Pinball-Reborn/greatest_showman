@@ -11,5 +11,17 @@
     shoot_again: red
     save_the_show_left: red
     arrow_bottom_left: red
+- duration: 1
+  lights:
+    challenges_a: gold
+    challenges_b: gold
+    challenges_c: gold
+    challenges_d: gold
+    challenges_e: gold
+    challenges_f: gold
+    save_the_show_right: gold
+    shoot_again: gold
+    save_the_show_left: gold
+    arrow_bottom_left: gold
 
 
