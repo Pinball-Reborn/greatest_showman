@@ -8,8 +8,8 @@ achievements:
     show_tokens:
       lights: challenges_e
       color: red
-    show_when_started: on
-    show_when_completed: on
+    show_when_started: 1_lit_color_generic
+    show_when_completed: 1_lit_color_generic
     enable_events: enable_pop_achievement
     start_events: start_pop_achievement
     events_when_started: pop_bumpers_achievement_started
@@ -17,6 +17,15 @@ achievements:
     reset_events: reset_pop_bumpers
 
 
-    #events_when_started: mode_pop_bumpers_started
-    #enable_events: initialize_pop_bumpers, reset_pop_bumpers
-    #show_when_selected: flash
+
+
+shows:
+  single_flash_color:
+    - duration: 120ms
+      lights:
+        (lights): (color)
+  1_lit_color_generic:
+    - duration: -1
+      lights:
+        (lights): (color)
+
