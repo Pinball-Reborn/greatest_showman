@@ -7,6 +7,7 @@ achievements:
   pop_bumpers:
     show_tokens:
       lights: challenges_e
+      color: red
     show_when_started: on
     show_when_completed: on
     enable_events: enable_pop_achievement
