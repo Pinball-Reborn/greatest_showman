@@ -11,40 +11,5 @@
     shoot_again: red
     save_the_show_left: red
     arrow_bottom_left: red
-- duration: 1
-  lights:
-    challenges_a: lime
-    challenges_b: lime
-    challenges_c: lime
-    challenges_d: lime
-    challenges_e: lime
-    challenges_f: lime
-    save_the_show_right: lime
-    shoot_again: lime
-    save_the_show_left: lime
-    arrow_bottom_left: lime
-- duration: 1
-  lights:
-    challenges_a: blue
-    challenges_b: blue
-    challenges_c: blue
-    challenges_d: blue
-    challenges_e: blue
-    challenges_f: blue
-    save_the_show_right: blue
-    shoot_again: blue
-    save_the_show_left: blue
-    arrow_bottom_left: blue
-- duration: 1
-  lights:
-    challenges_a: white
-    challenges_b: white
-    challenges_c: white
-    challenges_d: white
-    challenges_e: white
-    challenges_f: white
-    save_the_show_right: white
-    shoot_again: white
-    save_the_show_left: white
-    arrow_bottom_left: white
+
 
