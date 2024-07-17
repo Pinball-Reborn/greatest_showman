@@ -1,15 +1,21 @@
 #config_version=6
 
+mode:
+  start_events: ball_started
+
 achievements:
   pop_bumpers:
     show_tokens:
       lights: challenges_e
-    show_when_started: flash
+    show_when_started: on
     show_when_completed: on
-    events_when_started: mode_pop_bumpers_started
-    enable_events: initialize_pop_bumpers, reset_pop_bumpers
-    complete_events: mode_pop_bumpers_started
+    enable_events: enable_pop_achievement
+    start_events: start_pop_achievement
+    events_when_started: pop_bumpers_achievement_started
+    complete_events: complete_pop_achievement
     reset_events: reset_pop_bumpers
 
 
-
+    #events_when_started: mode_pop_bumpers_started
+    #enable_events: initialize_pop_bumpers, reset_pop_bumpers
+    #show_when_selected: flash

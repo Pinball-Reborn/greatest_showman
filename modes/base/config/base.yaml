@@ -226,6 +226,17 @@ sequence_shots:
     switch_sequence: s_right_orbit_bottom, s_right_orbit_top
     sequence_timeout: 3s
 
+event_player:
+  post_pop_mode_starting_events:
+    start_mode_pop_bumpers:
+      priority: 1
+    enable_pop_achievement:
+      priority: 2
+    start_pop_achievement:
+      priority: 3
+    complete_pop_achievement:
+      priority: 4
+
 
 
 

@@ -3,8 +3,9 @@ mode:
   start_events: start_mode_pop_bumpers
   stop_events: timer_pop_bumpers_timer_complete
   priority: 200
-event_player:
-  pop_bumpers_complete: start_mode_pop_bumpers
+#event_player:
+  #pop_bumpers_complete: start_mode_pop_bumpers
+
 
 timers:
   pop_bumpers_timer:
@@ -51,30 +52,32 @@ variable_player:
 shots:
   top_pop_bumpers_top_pop_bumpers:
     switch: s_top_pop_bumpers_top
-    profile: pop_bumpers
+    #profile: pop_bumpers
   top_pop_bumpers_bottom_pop_bumpers:
     switch: s_top_pop_bumpers_bottom
-    profile: pop_bumpers
+    #profile: pop_bumpers
   top_pop_bumpers_left_pop_bumpers:
     switch: s_top_pop_bumpers_left
-    profile: pop_bumpers
+    #profile: pop_bumpers
   left_pop_bumpers_top_pop_bumpers:
     switch: s_left_pop_bumpers_top
-    profile: pop_bumpers
+    #profile: pop_bumpers
   left_pop_bumpers_right_pop_bumpers:
     switch: s_left_pop_bumpers_right
-    profile: pop_bumpers
+    #profile: pop_bumpers
   left_pop_bumpers_left_pop_bumpers:
     switch: s_left_pop_bumpers_left
-    profile: pop_bumpers
+    #profile: pop_bumpers
 
-shot_profiles:
-  pop_bumpers:
-    states:
-    - name: flashing
-      show: flash
-    loop: false
-    block: true
+#shot_profiles:
+  #pop_bumpers:
+   # states:
+   # - name: flashing
+   #   show: flash
+   # loop: false
+   # block: true
+
+
 
 
     
