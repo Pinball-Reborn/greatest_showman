@@ -238,6 +238,15 @@ event_player:
       priority: 3
     complete_pop_achievement:
       priority: 4
+  post_orbits_starting_events:
+    start_mode_orbits:
+      priority: 1
+    enable_orbits_achievement:
+      priority: 2
+    start_orbits_achievement:
+      priority: 3
+    complete_orbits_achievement:
+      priority: 4
 
 shows:
   single_flash_color:

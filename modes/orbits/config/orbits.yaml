@@ -37,10 +37,11 @@ variable_player:
     score: 1000
   shot_left_orbit_hit:
     score: 1000
-  orbits_bumpers_timer_tick:
+  orbits_timer_tick:
     orbits_timer_seconds:
       int: device.timers.orbits_timer.ticks % 60
       action: set
+
 
 shots:
    inner_orbit_enter_orbits:

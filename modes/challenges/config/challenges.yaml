@@ -22,7 +22,11 @@ achievements:
       color: red
     show_when_started: 1_lit_color_generic
     show_when_completed: 1_lit_color_generic
+    enable_events: enable_orbits_achievement
+    start_events: start_orbits_achievement
+    events_when_started: orbits_achievement_started
     complete_events: complete_orbits_achievement
+    reset_events: reset_orbits
      
      
 
