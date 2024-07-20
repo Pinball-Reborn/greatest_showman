@@ -22,7 +22,7 @@ achievements:
       color: red
     show_when_started: 1_lit_color_generic
     show_when_completed: 1_lit_color_generic
-    complete_events: complete_orbits_achievment
+    complete_events: complete_orbits_achievement
      
      
 
