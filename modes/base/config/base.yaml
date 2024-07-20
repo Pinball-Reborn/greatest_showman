@@ -238,7 +238,7 @@ event_player:
       priority: 3
     complete_pop_achievement:
       priority: 4
-  post_orbits_starting_events:
+  post_orbits_mode_starting_events:
     start_mode_orbits:
       priority: 1
     enable_orbits_achievement:
