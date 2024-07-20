@@ -4,8 +4,8 @@ mode:
   start_events: start_mode_orbits
   stop_events: timer_orbits_timer_complete
   priority: 200
-event_player:
-  orbits_complete: start_mode_orbits
+#event_player:
+ # orbits_complete: start_mode_orbits
 
 timers:
   orbits_timer:
@@ -17,6 +17,7 @@ timers:
       - action: start
         event: mode_orbits_started
     start_running: false
+
 
 show_player:
   mode_orbits_started: 
