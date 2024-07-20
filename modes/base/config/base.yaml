@@ -167,6 +167,8 @@ shots:
     switch: s_single_drop_target
     show_tokens:
       lights: four, three, two, one, light_extra_ball, extra_ball
+      show: single_flash_color
+      color: green
 
 shot_profiles:
   my_first_profile:
@@ -236,6 +238,16 @@ event_player:
       priority: 3
     complete_pop_achievement:
       priority: 4
+
+shows:
+  single_flash_color:
+    - duration: 120ms
+      lights:
+        (lights): (color)
+  1_lit_color_generic:
+    - duration: -1
+      lights:
+        (lights): (color)
 
 
 

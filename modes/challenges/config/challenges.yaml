@@ -16,16 +16,18 @@ achievements:
     complete_events: complete_pop_achievement
     reset_events: reset_pop_bumpers
 
+  orbits:
+    show_tokens:
+      lights: challenges_a
+      color: red
+    show_when_started: 1_lit_color_generic
+    show_when_completed: 1_lit_color_generic
+    complete_events: complete_orbits_achievment
+     
+     
 
 
 
-shows:
-  single_flash_color:
-    - duration: 120ms
-      lights:
-        (lights): (color)
-  1_lit_color_generic:
-    - duration: -1
-      lights:
-        (lights): (color)
+
+
 
