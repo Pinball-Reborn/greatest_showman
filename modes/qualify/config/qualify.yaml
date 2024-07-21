@@ -41,7 +41,7 @@ counters:
 
   drop_targets_qualify_counter:
     starting_count: 0
-    count_complete_value: 3
+    count_complete_value: 4
     events_when_complete: disable_qualify, post_drop_targets_mode_starting_events
     enable_events: enable_qualify
     disable_events: disable_qualify
@@ -49,4 +49,4 @@ counters:
     persist_state: true
     reset_on_complete: false
     restart_events: reset_qualify_modes
-    count_events:  single_drop_target_hit, 3_drop_target_bank_hit
+    count_events:  single_drop_target_hit, front_drop_target_hit, middle_drop_target_hit, back_drop_target_hit

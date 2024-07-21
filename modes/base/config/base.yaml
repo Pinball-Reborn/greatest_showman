@@ -58,11 +58,12 @@ variable_player:
     score: 100
   s_left_ticket_booth_active:
     score: 100
-  s_3_bank_drop_target_1_active:
+  front_drop_target_hit:
     score: 100
-  s_3_bank_drop_target_2_active:
+  #3_bank_drop_target_2_hit:
+  middle_drop_target_hit:
     score: 100
-  s_3_bank_drop_target_3_active:
+  back_drop_target_hit:
     score: 100
   s_left_stand_up_target_active:
     score: 100
@@ -167,7 +168,19 @@ shots:
     switch: s_single_drop_target
     show_tokens:
       lights: four, three, two, one, light_extra_ball, extra_ball
-      color: green
+      #color: green
+  front_drop_target:
+    switch: s_3_bank_drop_target_1
+    show_tokens:
+      lights: skill_shot_1, skill_shot_2, skill_shot_3, skill_shot_round
+  middle_drop_target:
+    switch: s_3_bank_drop_target_2
+    show_tokens:
+      lights: skill_shot_1, skill_shot_2, skill_shot_3, skill_shot_round
+  back_drop_target:
+    switch: s_3_bank_drop_target_3
+    show_tokens:
+      lights: skill_shot_1, skill_shot_2, skill_shot_3, skill_shot_round
 
 shot_profiles:
   my_first_profile:

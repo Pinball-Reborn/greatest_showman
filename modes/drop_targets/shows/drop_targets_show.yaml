@@ -5,7 +5,7 @@
     drop_targets_completed_slide:
       widgets:
       - type: image
-        image: drop_targets_completed_completed
+        image: drop_targets_completed
         scale: .9
       transition:
         type: push

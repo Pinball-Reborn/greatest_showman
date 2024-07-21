@@ -33,11 +33,11 @@ sound_player:
 variable_player:
   single_drop_target_drop_targets_hit:
     score: 1000
-  3_bank_drop_target_1_drop_targets_hit:
+  front_drop_target_drop_targets_hit:
     score: 1000
-  3_bank_drop_target_2_drop_targets_hit:
+  middle_drop_target_drop_targets_hit:
     score: 1000
-  3_bank_drop_target_3_drop_targets_hit:
+  back_drop_target_drop_targets_hit:
     score: 1000
   timer_drop_targets_timer_tick:
     drop_targets_timer_seconds:
@@ -47,10 +47,10 @@ variable_player:
 shots:
   single_drop_target_drop_targets:
     switch: s_single_drop_target
-  3_bank_drop_target_1_drop_targets:
+  front_drop_target_drop_targets:
     switch: s_3_bank_drop_target_1
-  3_bank_drop_target_2_drop_targets:
+  middle_drop_target_2_drop_targets:
     switch: s_3_bank_drop_target_2
-  3_bank_drop_target_3_drop_targets:
-    switch: s_3_bank_drop_target_2
+  back_drop_target_3_drop_targets:
+    switch: s_3_bank_drop_target_3
   
