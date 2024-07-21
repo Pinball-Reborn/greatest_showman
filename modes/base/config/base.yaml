@@ -244,7 +244,7 @@ event_player:
       priority: 3
     complete_orbits_achievement:
       priority: 4
-  post_dorp_targets_mode_starting_events:
+  post_drop_targets_mode_starting_events:
     start_mode_drop_targets:
       priority: 1
     enable_drop_targets_achievement:
