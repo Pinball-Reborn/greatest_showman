@@ -31,6 +31,8 @@ sound_player:
       action: play
 
 variable_player:
+  single_drop_target_drop_targets_hit:
+    score: 1000
   3_bank_drop_target_1_drop_targets_hit:
     score: 1000
   3_bank_drop_target_2_drop_targets_hit:
