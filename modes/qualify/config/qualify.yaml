@@ -50,3 +50,17 @@ counters:
     reset_on_complete: false
     restart_events: reset_qualify_modes
     count_events:  single_drop_target_hit, front_drop_target_hit, middle_drop_target_hit, back_drop_target_hit
+
+  tickets_qualify_counter:
+    starting_count: 0
+    count_complete_value: 2
+    events_when_complete: disable_qualify, post_tickets_mode_starting_events
+    enable_events: enable_qualify
+    disable_events: disable_qualify
+    start_enabled: true
+    persist_state: true
+    reset_on_complete: false
+    restart_events: reset_qualify_modes
+    count_events:  tickets_hit
+
+

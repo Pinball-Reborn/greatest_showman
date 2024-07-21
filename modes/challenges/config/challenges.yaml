@@ -21,6 +21,7 @@ achievements:
       lights: challenges_a
       color: red
     show_when_started: 1_lit_color_generic
+
     show_when_completed: 1_lit_color_generic
     enable_events: enable_orbits_achievement
     start_events: start_orbits_achievement
@@ -40,15 +41,30 @@ achievements:
     complete_events: complete_drop_targets_achievement
     reset_events: reset_drop_targets
 
+  tickets:
+    show_tokens:
+      lights: challenges_d
+      color: red
+    show_when_started: 1_lit_color_generic
+    show_when_completed: 1_lit_color_generic
+    enable_events: enable_tickets_achievement
+    start_events: start_tickets_achievement
+    events_when_started: tickets_achievement_started
+    complete_events: complete_tickets_achievement
+    reset_events: reset_tickets
+
 achievement_groups:
   challenges:
     achievements: 
-      - pop_bumpers
       - orbits
       - drop_targets
+      #- ramps
+      - tickets
+      - pop_bumpers
     show_tokens:
       lights: challenges_f
       color: red
+    #show_when_completed: 1_lit_color_generic
     auto_select: true
     events_when_all_completed: select_oddities
     enable_while_no_achievement_started: true

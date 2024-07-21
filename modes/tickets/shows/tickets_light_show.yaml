@@ -1,0 +1,56 @@
+#show_version=6
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: darkred
+    arrow_outer_left_orbit: darkred
+
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: palevioletred
+    arrow_outer_left_orbit: palevioletred
+
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: orange
+    arrow_outer_left_orbit: orange
+
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: gold
+    arrow_outer_left_orbit: gold
+
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: purple
+    arrow_outer_left_orbit: purple
+
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: darkslateblue
+    arrow_outer_left_orbit: darkslateblue
+
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: darkgreen
+    arrow_outer_left_orbit: darkgreen
+
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: teal
+    arrow_outer_left_orbit: teal
+
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: navy 
+    arrow_outer_left_orbit: navy
+
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: brown
+    arrow_outer_left_orbit: brown
+
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: red
+    arrow_outer_left_orbit: red
+

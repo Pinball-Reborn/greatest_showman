@@ -56,7 +56,7 @@ variable_player:
     score: 100
   left_pop_bumpers_right_hit:
     score: 100
-  s_left_ticket_booth_active:
+  tickets_hit:
     score: 100
   front_drop_target_hit:
     score: 100
@@ -181,6 +181,10 @@ shots:
     switch: s_3_bank_drop_target_3
     show_tokens:
       lights: skill_shot_1, skill_shot_2, skill_shot_3, skill_shot_round
+  tickets:
+    switch: s_left_ticket_booth
+    show_tokens:
+      lights: arrow_outer_left_orbit, arrow_inner_left_orbit
 
 shot_profiles:
   my_first_profile:
@@ -266,6 +270,15 @@ event_player:
     start_drop_targets_achievement:
       priority: 3
     complete_drop_targets_achievement:
+      priority: 4
+  post_tickets_mode_starting_events:
+    start_mode_tickets:
+      priority: 1
+    enable_tickets_achievement:
+      priority: 2
+    start_tickets_achievement:
+      priority: 3
+    complete_tickets_achievement:
       priority: 4
 
 shows:

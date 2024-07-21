@@ -1,0 +1,57 @@
+#config_version=6
+mode:
+  start_events: start_mode_tickets
+  stop_events: timer_tickets_timer_complete
+  priority: 200
+
+
+timers:
+  tickets_timer:
+    start_value: 20
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - action: start
+        event: mode_tickets_started
+    start_running: false
+
+show_player:
+  mode_tickets_started: 
+    tickets_show:
+      speed: 1
+    tickets_lights:
+      speed: 10
+
+
+sound_player:
+  mode_tickets_started:
+    ticket_challenge_completed:
+      action: play
+
+variable_player:
+  tickets_tickets_hit:
+    score: 1000
+  timer_tickets_timer_tick:
+    tickets_timer_seconds:
+      int: device.timers.tickets_timer.ticks % 60
+      action: set
+
+shots:
+  tickets_tickets:
+    switch: s_left_ticket_booth
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+  
+  

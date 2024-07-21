@@ -593,6 +593,7 @@ modes:
   - orbits
   - drop_targets
   #- field
+  - tickets
   
 player_vars:
   potato:
