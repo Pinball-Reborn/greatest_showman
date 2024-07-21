@@ -12,7 +12,7 @@ achievements:
     show_when_completed: 1_lit_color_generic
     enable_events: enable_pop_achievement
     start_events: start_pop_achievement
-    events_when_started: pop_bumpers_achievement_started
+    events_when_started: pop_bumpers_achievement_started, award_pop_bumpers_achievement
     complete_events: complete_pop_achievement
     reset_events: reset_pop_bumpers
 
@@ -42,7 +42,7 @@ achievements:
 
 achievement_groups:
   challenges:
-    achievements: pop, orbits, drop_targets
+    achievements: pop_bumpers, orbits, drop_targets
     show_tokens:
       lights: challenges_f
       color: red
