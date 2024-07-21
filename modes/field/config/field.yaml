@@ -1,0 +1,12 @@
+#config_version=6
+
+mode:
+  start_events: start_mode_field
+  stop_events: stop_mode_field
+
+#config:
+ # - field_pop_bumpers.yaml
+ # - field_orbits.yaml
+  #- field_drop_targets.yaml
+
+  

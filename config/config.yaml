@@ -592,6 +592,7 @@ modes:
   - challenges
   - orbits
   - drop_targets
+  #- field
   
 player_vars:
   potato:

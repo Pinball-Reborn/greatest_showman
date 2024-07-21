@@ -39,6 +39,14 @@ achievements:
     events_when_started: drop_targets_achievement_started
     complete_events: complete_drop_targets_achievement
     reset_events: reset_drop_targets
+
+achievement_groups:
+  challenges:
+    achievements: pop_bumpers, orbits, drop_targets
+    show_tokens:
+      lights: challenges_f
+      color: red
+    #show_when_completed: 1_lit_color_generic
      
 
 
