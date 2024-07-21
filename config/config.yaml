@@ -591,6 +591,7 @@ modes:
   - pop_bumpers
   - challenges
   - orbits
+  - drop_targets
   
 player_vars:
   potato:
@@ -638,6 +639,8 @@ sounds:
     volume: 0.85
     priority: 100
     max_queue_time: 0
+
+  
 
 
     

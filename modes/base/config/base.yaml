@@ -167,7 +167,6 @@ shots:
     switch: s_single_drop_target
     show_tokens:
       lights: four, three, two, one, light_extra_ball, extra_ball
-      show: single_flash_color
       color: green
 
 shot_profiles:
@@ -218,8 +217,6 @@ shot_profiles:
         show: flash
 
 
-
-
 sequence_shots:
   left_orbit:
     switch_sequence: s_left_orbit_bottom, s_left_orbit_top
@@ -246,6 +243,15 @@ event_player:
     start_orbits_achievement:
       priority: 3
     complete_orbits_achievement:
+      priority: 4
+  post_dorp_targets_mode_starting_events:
+    start_mode_drop_targets:
+      priority: 1
+    enable_drop_targets_achievement:
+      priority: 2
+    start_drop_targets_achievement:
+      priority: 3
+    complete_drop_targets_achievement:
       priority: 4
 
 shows:

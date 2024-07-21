@@ -1,0 +1,34 @@
+#show_version=6
+
+- duration: 3s
+  slides:
+    drop_targets_completed_slide:
+      widgets:
+      - type: image
+        image: drop_targets_completed_completed
+        scale: .9
+        animations:
+          show_slide:
+            - property: rotation
+              value: 0
+              relative: false
+              duration: 0
+            - property: rotation
+              value: 360
+              duration: 2s
+              repeat: false
+
+
+ 
+- duration: 22s
+  slides:
+    show_timer:
+      widgets:
+      - type: text
+        text: 'SUPER DROP TARGETS!: (player|drop_targets_timer_seconds)'
+        font_size: 100
+        color: gold
+        bold: true
+      - type:  image
+        image: main_screen_bar
+        scale: .9

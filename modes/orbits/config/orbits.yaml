@@ -4,8 +4,7 @@ mode:
   start_events: start_mode_orbits
   stop_events: timer_orbits_timer_complete
   priority: 200
-#event_player:
- # orbits_complete: start_mode_orbits
+
 
 timers:
   orbits_timer:
@@ -28,8 +27,11 @@ show_player:
 
 sound_player:
   mode_orbits_started:
-    orbits_challenge_completed_1:
+    Orbits_challenge_completed:
       action: play
+
+
+
 
 variable_player:
   inner_orbit_enter_orbits_hit:
