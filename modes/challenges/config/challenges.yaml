@@ -42,7 +42,7 @@ achievements:
 
 achievement_groups:
   challenges:
-    achievements: pop_bumpers, orbits, drop_targets
+    achievements: pop, orbits, drop_targets
     show_tokens:
       lights: challenges_f
       color: red
