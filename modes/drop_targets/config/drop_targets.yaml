@@ -49,8 +49,8 @@ shots:
     switch: s_single_drop_target
   front_drop_target_drop_targets:
     switch: s_3_bank_drop_target_1
-  middle_drop_target_2_drop_targets:
+  middle_drop_target_drop_targets:
     switch: s_3_bank_drop_target_2
-  back_drop_target_3_drop_targets:
+  back_drop_target_drop_targets:
     switch: s_3_bank_drop_target_3
   
