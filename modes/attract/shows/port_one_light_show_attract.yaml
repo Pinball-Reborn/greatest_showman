@@ -10,13 +10,13 @@
     arrow_right_orbit: red
 - duration: 1
   lights:
-    arrow_left_ramp_target_right: red
+    arrow_lift_ramp_target_right: red
 - duration: 1
   lights:
     lock: red
 - duration: 1
   lights:
-    arrow_left_ramp_target_left: red
+    arrow_lift_ramp_target_left: red
 - duration: 1
   lights:
     lind: red
@@ -64,13 +64,13 @@
     arrow_right_orbit: gold
 - duration: 1
   lights:
-    arrow_left_ramp_target_right: gold
+    arrow_lift_ramp_target_right: gold
 - duration: 1
   lights:
     lock: gold
 - duration: 1
   lights:
-    arrow_left_ramp_target_left: gold
+    arrow_lift_ramp_target_left: gold
 - duration: 1
   lights:
     lind: gold

@@ -60,7 +60,7 @@
     lind: darkgreen
     arrow_lift_ramp_target_right: darkgreen 
     arrow_lift_ramp_target_left: darkgreen
-    lock:darkgreen  
+    lock: darkgreen  
     below_lock_in_musical_staff: darkgreen
 - duration: 1
   lights:
