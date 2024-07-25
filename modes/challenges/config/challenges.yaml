@@ -75,8 +75,8 @@ achievements:
       #- tickets
       #- pop_bumpers
     #show_tokens:
-      lights: challenges_f
-      color: red
+      #lights: challenges_f
+      #color: red
     #show_when_completed: 1_lit_color_generic
     #auto_select: true
     #events_when_all_completed: start_multiball
