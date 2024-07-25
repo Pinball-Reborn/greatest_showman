@@ -288,13 +288,13 @@ event_player:
     complete_tickets_achievement:
       priority: 4
   post_ramps_mode_starting_events:
-    start_mode_tickets:
+    start_mode_ramps:
       priority: 1
-    enable_tickets_achievement:
+    enable_ramps_achievement:
       priority: 2
-    start_tickets_achievement:
+    start_ramps_achievement:
       priority: 3
-    complete_tickets_achievement:
+    complete_ramps_achievement:
       priority: 4
 
 shows:
