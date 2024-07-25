@@ -583,6 +583,12 @@ diverters:
   ramp_diverter_coil:
     activation_coil: c_ramp_diverter
     type: hold
+  spinning_discs:
+    activation_coil: c_3_spinning_dics_motor_red
+    type: hold
+    activation_time: 3s
+    activation_switches: s_left_ramp_made
+    enable_events: ball_started
 
 modes:
   - base
