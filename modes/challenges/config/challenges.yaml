@@ -1,7 +1,7 @@
 #config_version=6
 
 mode:
-  start_events: game_started
+  start_events: ball_started
 
 achievements:
   pop_bumpers:
