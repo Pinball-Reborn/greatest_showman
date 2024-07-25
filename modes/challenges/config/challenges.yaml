@@ -40,6 +40,18 @@ achievements:
     complete_events: complete_drop_targets_achievement
     reset_events: reset_drop_targets
 
+  ramps:
+    show_tokens: 
+      lights: challenges_c
+      color: red
+    show_when_started: 1_lit_color_generic
+    show_when_completed: 1_lit_color_generic
+    enable_events: enable_ramps_achievement
+    start_events: start_ramps_achievement
+    events_when_started: ramps_achievement_started
+    complete_events: complete_ramps_achievement
+    reset_events: reset_ramps
+
   tickets:
     show_tokens:
       lights: challenges_d
@@ -52,17 +64,7 @@ achievements:
     complete_events: complete_tickets_achievement
     reset_events: reset_tickets
 
-  ramps:
-    show_tokens:
-      lights: challenges_c
-      color: red
-    show_when_started: 1_lit_color_generic
-    show_when_completed: 1_lit_color_generic
-    enable_events: enable_ramps_achievement
-    start_events: start_ramps_achievement
-    events_when_started: ramps_achievement_started
-    complete_events: complete_ramps_achievement
-    reset_events: reset_ramps
+
 
 achievement_groups:
   challenges:
