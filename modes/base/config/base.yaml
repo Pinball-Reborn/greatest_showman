@@ -89,7 +89,7 @@ variable_player:
     score: 100
   s_slingshot_right_active:
     score: 100
-  s_left_ramp_made_acitve:
+  left_ramp_hit:
     score: 100
   top_pop_bumpers_top_hit:
     score: 100
@@ -185,6 +185,10 @@ shots:
     switch: s_left_ticket_booth
     show_tokens:
       lights: arrow_outer_left_orbit, arrow_left_inner_orbit
+  left_ramp:
+    switch: s_left_ramp_made
+    show_tokens: 
+      lights: miss, jenny, lind
 
 shot_profiles:
   my_first_profile:
