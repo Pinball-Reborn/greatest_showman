@@ -266,6 +266,8 @@ coils:
     default_pulse_ms: 12
   c_3_spinning_dics_motor_red:  #3 spinning discs red
     number: 0-0
+    default_hold_power: 0.25
+    max_hold_power: 0.5
   c_ramp_up: #ramp up
     number: 1-2
     default_pulse_ms: 20
