@@ -1,0 +1,64 @@
+#config_version=6
+mode:
+  start_events: start_mode_ramps
+  stop_events: timer_ramps_timer_complete
+  priority: 200
+
+
+timers:
+  ramps_timer:
+    start_value: 20
+    end_value: 0
+    direction: down
+    tick_interval: 1s
+    control_events:
+      - action: start
+        event: mode_ramps_started
+    start_running: false
+
+show_player:
+  mode_ramps_started: 
+    ramps_show:
+      speed: 1
+    ramps_lights:
+      speed: 10
+
+
+sound_player:
+  mode_ramps_started:
+    ramps_challenge_completed:
+      action: play
+
+variable_player:
+  left_ramp_ramps_hit:
+    score: 1000
+  right_ramp_ramps_hit:
+    score: 1000
+  timer_ramps_timer_tick:
+    ramps_timer_seconds:
+      int: device.timers.ramps_timer.ticks % 60
+      action: set
+
+shots:
+  left_ramp_ramps:
+    switch: s_left_ramp_made
+  right_ramp_ramps:
+    switch: s_back_ramp_made
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+  
+  

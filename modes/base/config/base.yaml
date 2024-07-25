@@ -46,7 +46,7 @@ variable_player:
     potato: 1
   s_right_flipper_active:
     potato: 1
-  s_back_ramp_made_active:
+  right_ramp_hit:
     score: 100
   single_drop_target_hit:
     score: 100
@@ -189,6 +189,10 @@ shots:
     switch: s_left_ramp_made
     show_tokens: 
       lights: miss, jenny, lind
+  right_ramp:
+    switch: s_back_ramp_made
+    show_tokens: 
+      lights: arrow_lift_ramp_target_right, arrow_lift_ramp_target_left
 
 shot_profiles:
   my_first_profile:
@@ -275,6 +279,15 @@ event_player:
     complete_drop_targets_achievement:
       priority: 4
   post_tickets_mode_starting_events:
+    start_mode_tickets:
+      priority: 1
+    enable_tickets_achievement:
+      priority: 2
+    start_tickets_achievement:
+      priority: 3
+    complete_tickets_achievement:
+      priority: 4
+  post_ramps_mode_starting_events:
     start_mode_tickets:
       priority: 1
     enable_tickets_achievement:

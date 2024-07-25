@@ -27,7 +27,7 @@ show_player:
 
 sound_player:
   mode_orbits_started:
-    Orbits_challenge_completed:
+    orbits_challenge_completed:
       action: play
 
 
@@ -36,7 +36,7 @@ sound_player:
 variable_player:
   inner_orbit_enter_orbits_hit:
     score: 1000
-  right_orbit_orbits_hit:
+  shot_right_orbit_orbits_hit:
     score: 1000
   shot_left_orbit_hit:
     score: 1000

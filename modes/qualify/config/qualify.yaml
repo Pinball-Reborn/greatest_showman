@@ -63,4 +63,14 @@ counters:
     restart_events: reset_qualify_modes
     count_events:  tickets_hit
 
-
+  ramps_qualify_counter:
+    starting_count: 0
+    count_complete_value: 2
+    events_when_complete: disable_qualify, post_ramps_mode_starting_events
+    enable_events: enable_qualify
+    disable_events: disable_qualify
+    start_enabled: true
+    persist_state: true
+    reset_on_complete: false
+    restart_events: reset_qualify_modes
+    count_events:  right_ramp_hit, left_ramp_hit

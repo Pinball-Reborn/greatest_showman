@@ -1,7 +1,7 @@
 #config_version=6
 
 mode:
-  start_events: ball_started
+  start_events: game_started
 
 achievements:
   pop_bumpers:
@@ -21,7 +21,6 @@ achievements:
       lights: challenges_a
       color: red
     show_when_started: 1_lit_color_generic
-
     show_when_completed: 1_lit_color_generic
     enable_events: enable_orbits_achievement
     start_events: start_orbits_achievement
@@ -53,12 +52,24 @@ achievements:
     complete_events: complete_tickets_achievement
     reset_events: reset_tickets
 
+  ramps:
+    show_tokens:
+      lights: challenges_c
+      color: red
+    show_when_started: 1_lit_color_generic
+    show_when_completed: 1_lit_color_generic
+    enable_events: enable_ramps_achievement
+    start_events: start_ramps_achievement
+    events_when_started: ramps_achievement_started
+    complete_events: complete_ramps_achievement
+    reset_events: reset_ramps
+
 achievement_groups:
   challenges:
     achievements: 
       - orbits
       - drop_targets
-      #- ramps
+      - ramps
       - tickets
       - pop_bumpers
     show_tokens:
