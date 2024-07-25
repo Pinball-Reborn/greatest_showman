@@ -77,7 +77,7 @@ achievement_groups:
       color: red
     #show_when_completed: 1_lit_color_generic
     auto_select: true
-    events_when_all_completed: select_oddities
+    events_when_all_completed: start_multiball
     enable_while_no_achievement_started: true
     
      
