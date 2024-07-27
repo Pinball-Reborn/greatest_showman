@@ -58,7 +58,7 @@ counters:
     enable_events: enable_qualify
     disable_events: disable_qualify
     start_enabled: true
-    persist_state: true
+    persist_state: false
     reset_on_complete: false
     restart_events: reset_qualify_modes
     count_events:  tickets_hit
