@@ -351,6 +351,7 @@ lights:
   hat_upper_pop_bumpers:
     number: playfield-1-11
     type: rgb
+    tags: upper_pops
   extra_ball:
     number: playfield-1-12
     type: rgb

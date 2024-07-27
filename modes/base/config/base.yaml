@@ -123,17 +123,22 @@ shots:
     switch: s_top_pop_bumpers_top
     show_tokens:
       lights: hat_upper_pop_bumpers
-    profile: top_pop_bumpers_top_profile
+      show: blue_flash
+    #profile: top_pop_bumpers_top_profile
+    tags: upper_pops
+
   top_pop_bumpers_bottom:
     switch: s_top_pop_bumpers_bottom
     show_tokens:
       lights: hat_upper_pop_bumpers
-    profile: top_pop_bumpers_bottom_profile
+    #profile: top_pop_bumpers_bottom_profile
+    tags: upper_pops
   top_pop_bumpers_left:
     switch: s_top_pop_bumpers_left
     show_tokens:
       lights: hat_upper_pop_bumpers
-    profile: top_pop_bumpers_left_profile
+    #profile: top_pop_bumpers_left_profile
+    tags: upper_pops
   left_pop_bumpers_top:
     switch: s_left_pop_bumpers_top
     show_tokens:
@@ -298,14 +303,28 @@ event_player:
       priority: 4
 
 shows:
-  single_flash_color:
-    - duration: 120ms
-      lights:
-        (lights): (color)
+  blue_flash:
+    - lights:
+        (tag): blue
+      duration: 500ms
   1_lit_color_generic:
     - duration: -1
       lights:
         (lights): (color)
+  green_flash:
+    - lights:
+        hat_upper_pop_bumpers: green
+      duration: 500ms
+
+show_player:
+  play_blue_flash_show_via_tag:
+    blue_flash:
+      show_tokens:
+        tag: upper_pops
+  show_when_top_pop_bumpers_top_hit: green_flash
+
+
+
 
 
 
