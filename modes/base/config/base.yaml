@@ -301,6 +301,8 @@ event_player:
       priority: 3
     complete_ramps_achievement:
       priority: 4
+  base_mode_started:
+    enable_challenges_selection
 
 shows:
   blue_flash:

@@ -2,6 +2,7 @@
 
 mode:
   start_events: ball_started
+  priority: 200
 
 achievements:
   pop_bumpers:
@@ -82,8 +83,9 @@ achievement_groups:
     auto_select: true
     events_when_all_completed: start_challenges_multiball
     enable_while_no_achievement_started: true
-    enable_events: ball_started
+    enable_events: enable_challenges_selection
     disable_while_achievement_started: false
+
      
 
 
