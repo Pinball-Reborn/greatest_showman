@@ -79,7 +79,6 @@ achievement_groups:
     show_tokens:
       lights: challenges_f
       color: red
-    #show_when_completed: on
     auto_select: true
     events_when_all_completed: start_challenges_multiball
     enable_while_no_achievement_started: true

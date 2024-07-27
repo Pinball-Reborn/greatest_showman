@@ -4,6 +4,9 @@ mode:
   stop_events: timer_pop_bumpers_timer_complete
   priority: 200
 
+event_player:
+  events_when_stopped: enable_qualify
+
 
 timers:
   pop_bumpers_timer:
@@ -28,6 +31,9 @@ sound_player:
   mode_pop_bumpers_started:
     Pop_bumper_challenge_completed:
       action: play
+
+
+
 
 variable_player:
   top_pop_bumpers_top_pop_bumpers_hit:

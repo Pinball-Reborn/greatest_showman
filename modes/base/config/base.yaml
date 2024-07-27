@@ -303,6 +303,8 @@ event_player:
       priority: 4
   base_mode_started:
     enable_challenges_selection
+  events_when_started:
+    enable_qualify
 
 shows:
   blue_flash:
