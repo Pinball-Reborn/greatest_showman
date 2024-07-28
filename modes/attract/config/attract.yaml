@@ -11,10 +11,6 @@ show_player:
     port_one_light_show_attract:
       speed: 3
 
-slide_player:
-  mode_attract_stopped:
-    widgets:
-      - type: image
-        image: white_dog.png
+
 
     
