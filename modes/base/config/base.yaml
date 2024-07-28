@@ -123,21 +123,20 @@ shots:
     switch: s_top_pop_bumpers_top
     show_tokens:
       lights: hat_upper_pop_bumpers
-      show: blue_flash
-    #profile: top_pop_bumpers_top_profile
+    profile: top_pop_bumpers_top_profile
     tags: upper_pops
 
   top_pop_bumpers_bottom:
     switch: s_top_pop_bumpers_bottom
     show_tokens:
       lights: hat_upper_pop_bumpers
-    #profile: top_pop_bumpers_bottom_profile
+    profile: top_pop_bumpers_bottom_profile
     tags: upper_pops
   top_pop_bumpers_left:
     switch: s_top_pop_bumpers_left
     show_tokens:
       lights: hat_upper_pop_bumpers
-    #profile: top_pop_bumpers_left_profile
+    profile: top_pop_bumpers_left_profile
     tags: upper_pops
   left_pop_bumpers_top:
     switch: s_left_pop_bumpers_top
@@ -211,16 +210,18 @@ shot_profiles:
     loop: true
   top_pop_bumpers_top_profile:
     states:
-      - name: flashing
-        show: flash
+      - name: unlit
+        show: off
+      - name: lit
+        show: 
   top_pop_bumpers_bottom_profile:
     states:
-      - name: flashing
-        show: flash
+      - name: unlit
+        show: off
   top_pop_bumpers_left_profile:
     states:
-      - name: flashing
-        show: flash
+      - name: unlit
+        show: off
   left_pop_bumpers_top_profile:
     states:
       - name: flashing
@@ -307,10 +308,10 @@ event_player:
     enable_qualify
 
 shows:
-  blue_flash:
+  single_flash:
     - lights:
-        (tag): blue
-      duration: 500ms
+        (tag): (color)
+      duration: 120ms
   1_lit_color_generic:
     - duration: -1
       lights:
@@ -319,6 +320,20 @@ shows:
     - lights:
         hat_upper_pop_bumpers: green
       duration: 500ms
+  playfield_light:
+    - time: 0
+      lights:
+        (lights): (color)
+  shot_hit:
+    - duration: 1s
+      shows:
+        flash_color:
+          show_tokens:
+            color: red
+            lights: (lights)
+            
+          
+      
 
 show_player:
   play_blue_flash_show_via_tag:
@@ -326,6 +341,11 @@ show_player:
       show_tokens:
         tag: upper_pops
   show_when_top_pop_bumpers_top_hit: green_flash
+  shot_top_pop_bumpers_top_hit:
+    shot_hit:
+      show_tokens:
+        lights: hat_upper_pop_bumpers
+      loops: 0
 
 
 

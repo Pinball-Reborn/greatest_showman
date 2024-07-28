@@ -1,6 +1,6 @@
 #config_version=6
 mode:
-  start_events: ball_started
+  start_events: ball_started, enable_qualify
 
 counters:
   mode2_qualify_counter:
@@ -18,7 +18,7 @@ counters:
   pop_bumpers_qualify_counter:
     starting_count: 0
     count_complete_value: 10
-    events_when_complete: disable_qualify, post_pop_mode_starting_events 
+    events_when_complete: post_pop_mode_starting_events 
     enable_events: enable_qualify
     disable_events: disable_qualify
     start_enabled: true
@@ -58,7 +58,7 @@ counters:
     enable_events: enable_qualify
     disable_events: disable_qualify
     start_enabled: true
-    persist_state: false
+    persist_state: true
     reset_on_complete: false
     restart_events: reset_qualify_modes
     count_events:  tickets_hit
