@@ -1,0 +1,27 @@
+#config_version=6
+mode:
+  #start when base starts
+  start_events: mode_base_started
+  #test mode, low priority
+  priority: 1
+
+shots:
+  #define these mode-specefic shots using switch names provide by Lisa
+  gg_top_pop_top:
+    switch: top_pop_bumpers_top
+    
+  gg_top_pop_left:
+    switch: top_pop_bumpers_left
+    
+  gg_top_pop_right:
+    switch: top_pop_bumpers_right
+
+show_player:
+  gg_top_pop_top_gg_hit:
+    - gg_show
+
+  gg_top_pop_right_gg_hit:
+    - gg_show
+  
+  gg_top_pop_left_gg_hit:
+    - gg_show

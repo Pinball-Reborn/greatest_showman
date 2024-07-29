@@ -1,0 +1,9 @@
+#show_version=6
+
+- time: 0
+  lights:
+    hat_upper_pop_bumpers: #90CC99
+
+- time: 250ms
+  lights:
+    hat_upper_pop_bumpers: off
