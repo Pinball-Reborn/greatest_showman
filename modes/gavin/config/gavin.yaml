@@ -7,7 +7,9 @@ mode:
 
 shots:
   #define these mode-specefic shots using switch names provide by Lisa
+  #this is the shot name
   gg_top_pop_top:
+    #switch to go with the shot
     switch: top_pop_bumpers_top
     
   gg_top_pop_left:
@@ -16,12 +18,16 @@ shots:
   gg_top_pop_right:
     switch: top_pop_bumpers_right
 
+#this is a show player. It watches for events, then fires the named show
 show_player:
-  gg_top_pop_top_gg_hit:
+  #when the event from the pop bumper shot is hit
+  gg_top_pop_top_hit:
+    #play this show
     - gg_show
 
-  gg_top_pop_right_gg_hit:
+#repeat for other two pops
+  gg_top_pop_right_hit:
     - gg_show
   
-  gg_top_pop_left_gg_hit:
+  gg_top_pop_left_hit:
     - gg_show
