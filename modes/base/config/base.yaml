@@ -87,11 +87,11 @@ slide_player:
         text: 200
         x: 10%
         y: 12%
-        font_size: 33
+        font_size: 30
         color: black  
       - type: image
         image: main_screen
-        scale: .95
+        scale: 1
 
 
 
