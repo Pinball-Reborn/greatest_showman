@@ -18,12 +18,17 @@ slide_player:
         y: 32%
         font_size: 50
       - type: text
-        text: BALL (ball)
-        y: 10
-        x: right-10
-        anchor_x: right
-        anchor_y: bottom
-        font_size: 50
+        text: (ball)
+        x: 19%
+        y: 35%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 27%
+        y: 35%
+        color: black
+        font_size: 45
       - type: text
         text: (orbit)
         x: 5%
