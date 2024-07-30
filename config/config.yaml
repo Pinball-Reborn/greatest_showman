@@ -612,6 +612,16 @@ modes:
 player_vars:
   potato:
     initial_value: 0 
+  pop:
+    initial_value: 0
+  tickets:
+    initial_value: 0
+  drops:
+    initial_value: 0
+  ramps:
+    initial_value: 0
+  orbit: 
+    initial_value: 0
 
 machine_vars:
   master_volume:
