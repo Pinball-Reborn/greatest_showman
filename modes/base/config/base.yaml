@@ -26,16 +26,64 @@ slide_player:
         font_size: 50
       - type: text
         text: (orbit)
-        y: 71%
         x: 5%
-        font_size: 35
+        y: 71%
+        font_size: 33
         color: black
       - type: text
         text: 3
-        y: 71%
         x: 10%
-        font_size: 35
+        y: 71%
+        font_size: 33
         color: black
+      - type: text
+        text: (drops)
+        x: 5%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 3
+        x: 10%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 5%
+        y: 42%
+        font_size: 33
+        color: black
+      - type: text
+        text: 3
+        x: 10%
+        y: 42%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 5%
+        y: 27%
+        font_size: 33
+        color: black
+      - type: text
+        text: 3
+        x: 10%
+        y: 27%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 5%
+        y: 12%
+        font_size: 33
+        color: black
+      - type: text
+        text: 3
+        x: 10%
+        y: 12%
+        font_size: 33
+        color: black  
       - type: image
         image: main_screen
         scale: .95
@@ -56,36 +104,47 @@ variable_player:
     potato: 1
   right_ramp_hit:
     score: 100
+    ramps: 1
   single_drop_target_hit:
     score: 100
+    drops: 1
   left_pop_bumpers_left_hit:
     score: 100
+    pop: 1
   s_right_ticket_booth_active:
     score: 100
   left_pop_bumpers_right_hit:
     score: 100
+    pop: 1
   tickets_hit:
     score: 100
+    tickets: 1
   front_drop_target_hit:
     score: 100
+    drops: 1
   #3_bank_drop_target_2_hit:
   middle_drop_target_hit:
     score: 100
+    drops: 1
   back_drop_target_hit:
     score: 100
+    drops: 1
   s_left_stand_up_target_active:
     score: 100
   left_pop_bumpers_top_hit:
     score: 100
+    pop: 1
   s_middle_stand_up_target_active:
     score: 100
   top_pop_bumpers_bottom_hit:
     score: 100
+    pop: 1
   left_orbit_hit:
     score: 100
     orbit: 1
   top_pop_bumpers_left_hit:
     score: 100
+    pop: 1
   inner_orbit_enter_hit:
     score: 100
     orbit: 1
@@ -99,8 +158,10 @@ variable_player:
     score: 100
   left_ramp_hit:
     score: 100
+    ramps: 1
   top_pop_bumpers_top_hit:
     score: 100
+    pop: 1
   s_spinner_active:
     score: 100
   s_left_stand_up_target_lift_ramp_active:
