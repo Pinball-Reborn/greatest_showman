@@ -25,9 +25,17 @@ slide_player:
         anchor_y: bottom
         font_size: 50
       - type: text
-        text: 'ORBIT HITS: (orbit)'
-        y: 50%
-        font_size: 50
+        text: (orbit)
+        y: 71%
+        x: 5%
+        font_size: 35
+        color: black
+      - type: text
+        text: 3
+        y: 71%
+        x: 10%
+        font_size: 35
+        color: black
       - type: image
         image: main_screen
         scale: .95
