@@ -622,6 +622,8 @@ player_vars:
     initial_value: 0
   orbit: 
     initial_value: 0
+  ball:
+    initial_value: 0
 
 machine_vars:
   master_volume:

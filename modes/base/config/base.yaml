@@ -19,75 +19,75 @@ slide_player:
         font_size: 50
       - type: text
         text: (ball)
-        x: 19%
-        y: 35%
+        x: 18%
+        y: 34.7%
         color: black
         font_size: 45
       - type: text
         text: 3
-        x: 27%
-        y: 35%
+        x: 25.6%
+        y: 34.7%
         color: black
         font_size: 45
       - type: text
         text: (orbit)
-        x: 5%
-        y: 71%
+        x: 3.2%
+        y: 72%
         font_size: 33
         color: black
       - type: text
         text: 10
-        x: 10%
-        y: 71%
+        x: 7.95%
+        y: 72%
         font_size: 33
         color: black
       - type: text
         text: (drops)
-        x: 5%
+        x: 3%
         y: 56%
         font_size: 33
         color: black
       - type: text
         text: 10
-        x: 10%
+        x: 7.8%
         y: 56%
         font_size: 33
         color: black    
       - type: text
         text: (ramps)
-        x: 5%
-        y: 42%
+        x: 2.9%
+        y: 41.7%
         font_size: 33
         color: black
       - type: text
         text: 9
-        x: 10%
-        y: 42%
+        x: 7.55%
+        y: 41.7%
         font_size: 33
         color: black  
       - type: text
         text: (tickets)
-        x: 5%
-        y: 27%
+        x: 2.6%
+        y: 25.7%
         font_size: 33
         color: black
       - type: text
         text: 10
-        x: 10%
-        y: 27%
+        x: 7.5%
+        y: 25.7%
         font_size: 33
         color: black  
       - type: text
         text: (pop)
-        x: 5%
-        y: 12%
+        x: 2.6%
+        y: 10%
         font_size: 33
         color: black
       - type: text
         text: 200
-        x: 10%
-        y: 12%
-        font_size: 30
+        x: 7.32%
+        y: 10%
+        font_size: 25
         color: black  
       - type: image
         image: main_screen
