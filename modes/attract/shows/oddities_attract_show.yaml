@@ -1,10 +1,5 @@
 #show_version=6
-- duration: 1
-  lights: 
-    skill_shot_1: gold
-- duration: 1
-  lights:
-    target_mid_right: gold
+
 - duration: 1
   lights:
     collect_oddities_2: gold
@@ -19,16 +14,7 @@
     collect_oddities_5: gold
 - duration: 1
   lights:
-    target_mid_left: gold
-- duration: 1
-  lights:
     collect_oddities_6: gold
-- duration: 1
-  lights:
-    skill_shot_round: gold
-- duration: 1
-  lights:
-    skill_shot_3: gold
 - duration: 1
   lights:
     collect_oddities_7: gold
@@ -38,25 +24,7 @@
 - duration: 1
   lights:
     collect_oddities_1: gold
-- duration: 1
-  lights:
-    skill_shot_2: gold
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: gold
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: gold
-- duration: 1
-  lights:
-    arrow_outer_left_orbit: gold
 
-- duration: 1
-  lights: 
-    skill_shot_1: red
-- duration: 1
-  lights:
-    target_mid_right: red
 - duration: 1
   lights:
     collect_oddities_2: red
@@ -71,16 +39,7 @@
     collect_oddities_5: red
 - duration: 1
   lights:
-    target_mid_left: red
-- duration: 1
-  lights:
     collect_oddities_6: red
-- duration: 1
-  lights:
-    skill_shot_round: red
-- duration: 1
-  lights:
-    skill_shot_3: red
 - duration: 1
   lights:
     collect_oddities_7: red
@@ -90,17 +49,6 @@
 - duration: 1
   lights:
     collect_oddities_1: red
-- duration: 1
-  lights:
-    skill_shot_2: red
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: red
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: red
-- duration: 1
-  lights:
-    arrow_outer_left_orbit: red
+
 
 

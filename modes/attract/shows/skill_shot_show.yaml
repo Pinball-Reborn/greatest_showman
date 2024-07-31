@@ -1,0 +1,26 @@
+#show_version=6
+
+- duration: 1
+  lights:
+    skill_shot_1: red
+- duration: 1
+  lights:
+    skill_shot_2: red
+- duration: 1
+  lights:
+    skill_shot_3: red
+- duration: 1
+  lights: 
+    skill_shot_round: red
+- duration: 1
+  lights:
+    skill_shot_1: gold
+- duration: 1
+  lights:
+    skill_shot_2: gold
+- duration: 1
+  lights:
+    skill_shot_3: gold
+- duration: 1
+  lights: 
+    skill_shot_round: gold

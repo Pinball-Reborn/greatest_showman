@@ -7,9 +7,11 @@ show_player:
     attract_light_show:
       speed: 4
     oddities_attract_show:
-      speed: 2
+      speed: 4
     port_one_light_show_attract:
-      speed: 3
+      speed: 4
+    skill_shot_show:
+      speed: 4
 
 
 
