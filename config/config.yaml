@@ -661,6 +661,9 @@ assets:
       track: sfx
     voice:
       track: voice
+  videos:
+    default:
+      load: on_demand
 
 sounds:
   pop_bumper_challenge_completed:

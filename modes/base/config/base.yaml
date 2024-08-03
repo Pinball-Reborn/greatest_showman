@@ -4,8 +4,11 @@ mode:
   start_events: ball_started
   priority: 100
 
-slide_player:
-  mode_base_started:
+slides:
+  ladies_gents:
+    type: video
+    video: ladies_gents
+  main_screen:
     widgets:
       - type: text
         text: (score)
@@ -93,7 +96,15 @@ slide_player:
         image: main_screen
         scale: 1
 
+#slide_player:
+  #mode_base_started: 
+    #main_screen
 
+    
+
+videos:
+  ladies_gents:
+    file: ladies_gents.mpg
 
 
 variable_player:
@@ -376,6 +387,8 @@ show_player:
         color: snow
       loops: 0
       priority: 10000
+  mode_base_started:
+    game_start_slides
 
 
 shows:
@@ -396,6 +409,13 @@ shows:
       lights: 
         (lights): 
           color: black
+  game_start_slides:
+    - duration: 6s
+      slides: ladies_gents
+    - duration: 30m
+      slides: main_screen
+
+
 
 
 
