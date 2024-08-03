@@ -1,0 +1,38 @@
+#show_version=6
+- duration: 1
+  lights:
+    challenges_a: red
+- duration: 1
+  lights:
+    challenges_b: red
+- duration: 1
+  lights:
+    challenges_c: red
+- duration: 1
+  lights:
+    challenges_d: red
+- duration: 1
+  lights:
+    challenges_e: red
+- duration: 1
+  lights:
+    challenges_f: red
+
+- duration: 1
+  lights:
+    challenges_f: gold
+- duration: 1
+  lights:
+    challenges_e: gold
+- duration: 1
+  lights:
+    challenges_d: gold
+- duration: 1
+  lights:
+    challenges_c: gold
+- duration: 1
+  lights:
+    challenges_b: gold
+- duration: 1
+  lights:
+    challenges_a: gold

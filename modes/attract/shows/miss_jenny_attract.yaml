@@ -1,0 +1,20 @@
+#show_version=6
+
+- duration: 1
+  lights:
+    miss: red
+- duration: 1
+  lights:
+    jenny: red
+- duration: 1
+  lights:
+    lind: red
+- duration: 1
+  lights:
+    miss: gold
+- duration: 1
+  lights:
+    jenny: gold
+- duration: 1
+  lights:
+    lind: gold

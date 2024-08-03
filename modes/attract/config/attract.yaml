@@ -5,13 +5,19 @@ show_player:
     attract_display_loop:
       speed: 1
     attract_light_show:
-      speed: 4
+      speed: 8
     oddities_attract_show:
-      speed: 4
+      speed: 8
     port_one_light_show_attract:
-      speed: 4
+      speed: 8
     skill_shot_show:
-      speed: 4
+      speed: 8
+    challenges_attract_show:
+      speed: 8
+    miss_jenny_attract:
+      speed: 8
+    extra_ball_attract:
+      speed: 8
 
 
 

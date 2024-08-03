@@ -271,13 +271,15 @@ shot_profiles:
 
 sequence_shots:
   left_orbit:
-    switch_sequence: s_left_orbit_bottom, s_left_orbit_top
+    switch_sequence: s_left_orbit_bottom, s_left_orbit_top, s_right_orbit_top
     sequence_timeout: 3s
   right_orbit:
-    switch_sequence: s_right_orbit_bottom, s_right_orbit_top
+    switch_sequence: s_right_orbit_bottom, s_right_orbit_top, s_left_orbit_top
     sequence_timeout: 3s
   inner_orbit:
     switch_sequence: s_inner_orbit_enter, s_right_orbit_top, s_right_orbit_bottom
+    sequence_timeout: 3s
+
 
 event_player:
   post_pop_mode_starting_events:
@@ -381,12 +383,6 @@ shows:
     - duration: 200ms
       lights:
         (lights): (color) #use snow for white
-
-
-  single_flash:
-    - duration: 200ms
-      lights:
-        (lights): on
 
   1_lit_color_generic:
     - duration: -1

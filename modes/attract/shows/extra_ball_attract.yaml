@@ -1,0 +1,40 @@
+#show_version=6
+
+- duration: 1
+  lights:
+    extra_ball: red
+- duration: 1
+  lights:
+    light_extra_ball: red
+- duration: 1
+  lights:
+    one: red
+- duration: 1
+  lights:
+    two: red
+- duration: 1
+  lights: 
+    three: red
+- duration: 1
+  lights: 
+    four: red
+- duration: 1
+  lights:
+    extra_ball: gold
+- duration: 1
+  lights:
+    light_extra_ball: gold
+- duration: 1
+  lights:
+    one: gold
+- duration: 1
+  lights:
+    two: gold
+- duration: 1
+  lights: 
+    three: gold
+- duration: 1
+  lights: 
+    four: gold
+
+

@@ -19,40 +19,14 @@
     arrow_lift_ramp_target_left: red
 - duration: 1
   lights:
-    lind: red
-- duration: 1
-  lights:
-    jenny: red
-- duration: 1
-  lights:
-    miss: red
-- duration: 1
-  lights:
     arrow_left_inner_orbit: red
 - duration: 1
   lights:
     hat_upper_pop_bumpers: red
 - duration: 1
-  lights:
-    extra_ball: red
-- duration: 1
-  lights:
-    light_extra_ball: red
-- duration: 1
-  lights:
-    one: red
-- duration: 1
-  lights:
-    two: red
-- duration: 1
   lights: 
     five_million_when_lit: red
-- duration: 1
-  lights: 
-    three: red
-- duration: 1
-  lights: 
-    four: red
+
 - duration: 1
   lights:
     top_right_eject: gold
@@ -73,39 +47,13 @@
     arrow_lift_ramp_target_left: gold
 - duration: 1
   lights:
-    lind: gold
-- duration: 1
-  lights:
-    jenny: gold
-- duration: 1
-  lights:
-    miss: gold
-- duration: 1
-  lights:
     arrow_left_inner_orbit: gold
 - duration: 1
   lights:
     hat_upper_pop_bumpers: gold
 - duration: 1
-  lights:
-    extra_ball: gold
-- duration: 1
-  lights:
-    light_extra_ball: gold
-- duration: 1
-  lights:
-    one: gold
-- duration: 1
-  lights:
-    two: gold
-- duration: 1
   lights: 
     five_million_when_lit: gold
-- duration: 1
-  lights: 
-    three: gold
-- duration: 1
-  lights: 
-    four: gold
+
 
 
