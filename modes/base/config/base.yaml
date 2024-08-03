@@ -192,50 +192,41 @@ shots:
     switch: s_right_inlane
     show_tokens:
       lights: save_the_show_right
-    profile: my_first_profile
+    #profile: my_first_profile
+#POP BUMPERS
   top_pop_bumpers_top:
     switch: s_top_pop_bumpers_top
-    show_tokens:
-      lights: hat_upper_pop_bumpers
-   # profile: top_pop_bumpers_top_profile
+
     tags: upper_pops
   top_pop_bumpers_bottom:
     switch: s_top_pop_bumpers_bottom
-    show_tokens:
-      lights: hat_upper_pop_bumpers
-   # profile: top_pop_bumpers_bottom_profile
+
     tags: upper_pops
   top_pop_bumpers_left:
     switch: s_top_pop_bumpers_left
-    show_tokens:
-      lights: hat_upper_pop_bumpers
-    #profile: top_pop_bumpers_left_profile
+
     tags: upper_pops
   left_pop_bumpers_top:
     switch: s_left_pop_bumpers_top
-    show_tokens:
-      lights: hat_left_pop_bumpers
+
   left_pop_bumpers_right:
     switch: s_left_pop_bumpers_right
-    show_tokens:
-      lights: hat_left_pop_bumpers
 
   left_pop_bumpers_left:
     switch: s_left_pop_bumpers_left
-    show_tokens:
-      lights: hat_left_pop_bumpers
+
 
 
   shot_left_orbit:
     enable_events: left_orbit_hit
     show_tokens:
       lights: arrow_outer_left_orbit, hat_left_pop_bumpers
-    profile: shot_left_orbit_profile
+
   shot_right_orbit:
     enable_events: right_orbit_hit
     show_tokens:
       lights: arrow_right_orbit, hat_right_orbit
-    profile: shot_right_orbit_profile
+
   single_drop_target:
     switch: s_single_drop_target
     show_tokens:
@@ -269,58 +260,21 @@ shots:
     switch: s_inner_orbit_enter
     show_tokens:
       lights: arrow_left_inner_orbit
-    profile: inner_orbit_enter_profile
 
-  #define these mode-specefic shots using switch names provide by Lisa
-  #this is the shot name
-  gg_top_pop_top:
-    #switch to go with the shot
-    switch: s_top_pop_bumpers_top
-    
-  gg_top_pop_left:
-    switch: s_top_pop_bumpers_left
-    
-  gg_top_pop_bottom:
-    switch: s_top_pop_bumpers_bottom
+
 
 
 shot_profiles:
-  my_first_profile:
-    states:
-      - name: unlit
-        show: off
-      - name: flashing
-        show: flash
-      - name: lit
-        show: on
-    loop: true
-  #top_pop_bumpers_top_profile:
+  #my_first_profile:
     #states:
       #- name: unlit
        # show: off
+      #- name: flashing
+      #  show: flash
       #- name: lit
-       # show: 
-  #top_pop_bumpers_bottom_profile:
-    #states:
-      #- name: unlit
-       # show: off
-  #top_pop_bumpers_left_profile:
-    #states:
-      #- name: unlit
-       # show: off
+       # show: on
+    #loop: true
 
-  inner_orbit_enter_profile:
-    states:
-      - name: flashing
-        show: flash
-  shot_left_orbit_profile:
-    states:
-      - name: flashing
-        show: flash
-  shot_right_orbit_profile:
-    states:
-      - name: flashing
-        show: flash
 
 
 sequence_shots:
@@ -388,34 +342,70 @@ show_player:
     single_flash_color:
       show_tokens:
         lights: hat_left_pop_bumpers
-        color: green
+        color: snow
       loops: 0
       priority: 10000
   left_pop_bumpers_right_hit:
     single_flash_color:
       show_tokens:
         lights: hat_left_pop_bumpers
-        color: green
+        color: snow
       loops: 0
       priority: 10000
   left_pop_bumpers_top_hit:
     single_flash_color:
       show_tokens:
         lights: hat_left_pop_bumpers
-        color: green
+        color: snow
+      loops: 0
+      priority: 10000
+  top_pop_bumpers_top_hit:
+    single_flash_color:
+      show_tokens:
+        lights: hat_upper_pop_bumpers
+        color: snow
+      loops: 0
+      priority: 10000
+  top_pop_bumpers_left_hit:
+    single_flash_color:
+      show_tokens:
+        lights: hat_upper_pop_bumpers
+        color: snow
+      loops: 0
+      priority: 10000
+  top_pop_bumpers_bottom_hit:
+    single_flash_color:
+      show_tokens:
+        lights: hat_upper_pop_bumpers
+        color: snow
       loops: 0
       priority: 10000
 
+
 shows:
   single_flash_color:
-    - duration: 120ms
+    - duration: 200ms
       lights:
-        (lights): (color)
+        (lights): (color) #use snow for white
+
+
+  single_flash:
+    - duration: 200ms
+      lights:
+        (lights): on
 
   1_lit_color_generic:
     - duration: -1
       lights:
         (lights): (color)
+  color_flashing:
+    - duration: 200ms
+      lights:
+        (lights): (color)
+    - duration: 200ms
+      lights: 
+        (lights): 
+          color: black
 
 
 
