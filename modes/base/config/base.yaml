@@ -105,6 +105,7 @@ slides:
 videos:
   ladies_gents:
     file: ladies_gents.mpg
+    volume: 0.5
 
 
 variable_player:
