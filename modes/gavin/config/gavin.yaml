@@ -1,9 +1,9 @@
 #config_version=6
 mode:
   #start when base starts
-  start_events: mode_base_started
+  start_events: mode_base_started #ball_started   base_mode_started
   #test mode, low priority
-  priority: 1
+  priority: 1 
 
 shots:
   #define these mode-specefic shots using switch names provide by Lisa

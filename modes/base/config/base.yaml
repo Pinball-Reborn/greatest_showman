@@ -197,41 +197,35 @@ shots:
     switch: s_top_pop_bumpers_top
     show_tokens:
       lights: hat_upper_pop_bumpers
-    profile: top_pop_bumpers_top_profile
+   # profile: top_pop_bumpers_top_profile
     tags: upper_pops
-
   top_pop_bumpers_bottom:
     switch: s_top_pop_bumpers_bottom
     show_tokens:
       lights: hat_upper_pop_bumpers
-    profile: top_pop_bumpers_bottom_profile
+   # profile: top_pop_bumpers_bottom_profile
     tags: upper_pops
   top_pop_bumpers_left:
     switch: s_top_pop_bumpers_left
     show_tokens:
       lights: hat_upper_pop_bumpers
-    profile: top_pop_bumpers_left_profile
+    #profile: top_pop_bumpers_left_profile
     tags: upper_pops
   left_pop_bumpers_top:
     switch: s_left_pop_bumpers_top
     show_tokens:
       lights: hat_left_pop_bumpers
-    profile: left_pop_bumpers_top_profile
   left_pop_bumpers_right:
     switch: s_left_pop_bumpers_right
     show_tokens:
       lights: hat_left_pop_bumpers
-    profile: left_pop_bumpers_right_profile
+
   left_pop_bumpers_left:
     switch: s_left_pop_bumpers_left
     show_tokens:
       lights: hat_left_pop_bumpers
-    profile: left_pop_bumpers_left_profile
-  inner_orbit_enter:
-    switch: s_inner_orbit_enter
-    show_tokens:
-      lights: arrow_left_inner_orbit
-    profile: inner_orbit_enter_profile
+
+
   shot_left_orbit:
     enable_events: left_orbit_hit
     show_tokens:
@@ -271,6 +265,24 @@ shots:
     switch: s_back_ramp_made
     show_tokens: 
       lights: arrow_lift_ramp_target_right, arrow_lift_ramp_target_left
+  inner_orbit_enter:
+    switch: s_inner_orbit_enter
+    show_tokens:
+      lights: arrow_left_inner_orbit
+    profile: inner_orbit_enter_profile
+
+  #define these mode-specefic shots using switch names provide by Lisa
+  #this is the shot name
+  gg_top_pop_top:
+    #switch to go with the shot
+    switch: s_top_pop_bumpers_top
+    
+  gg_top_pop_left:
+    switch: s_top_pop_bumpers_left
+    
+  gg_top_pop_bottom:
+    switch: s_top_pop_bumpers_bottom
+
 
 shot_profiles:
   my_first_profile:
@@ -282,32 +294,21 @@ shot_profiles:
       - name: lit
         show: on
     loop: true
-  top_pop_bumpers_top_profile:
-    states:
-      - name: unlit
-        show: off
-      - name: lit
-        show: 
-  top_pop_bumpers_bottom_profile:
-    states:
-      - name: unlit
-        show: off
-  top_pop_bumpers_left_profile:
-    states:
-      - name: unlit
-        show: off
-  left_pop_bumpers_top_profile:
-    states:
-      - name: flashing
-        show: flash
-  left_pop_bumpers_right_profile:
-    states:
-      - name: flashing
-        show: flash
-  left_pop_bumpers_left_profile:
-    states:
-      - name: flashing
-        show: flash
+  #top_pop_bumpers_top_profile:
+    #states:
+      #- name: unlit
+       # show: off
+      #- name: lit
+       # show: 
+  #top_pop_bumpers_bottom_profile:
+    #states:
+      #- name: unlit
+       # show: off
+  #top_pop_bumpers_left_profile:
+    #states:
+      #- name: unlit
+       # show: off
+
   inner_orbit_enter_profile:
     states:
       - name: flashing
@@ -381,46 +382,44 @@ event_player:
   events_when_started:
     enable_qualify
 
+
+show_player:
+  left_pop_bumpers_left_hit:
+    single_flash_color:
+      show_tokens:
+        lights: hat_left_pop_bumpers
+        color: green
+      loops: 0
+      priority: 10000
+  left_pop_bumpers_right_hit:
+    single_flash_color:
+      show_tokens:
+        lights: hat_left_pop_bumpers
+        color: green
+      loops: 0
+      priority: 10000
+  left_pop_bumpers_top_hit:
+    single_flash_color:
+      show_tokens:
+        lights: hat_left_pop_bumpers
+        color: green
+      loops: 0
+      priority: 10000
+
 shows:
-  single_flash:
-    - lights:
-        (tag): (color)
-      duration: 120ms
+  single_flash_color:
+    - duration: 120ms
+      lights:
+        (lights): (color)
+
   1_lit_color_generic:
     - duration: -1
       lights:
         (lights): (color)
-  green_flash:
-    - lights:
-        hat_upper_pop_bumpers: green
-      duration: 500ms
-  playfield_light:
-    - time: 0
-      lights:
-        (lights): (color)
-  shot_hit:
-    - duration: 1s
-      shows:
-        flash_color:
-          show_tokens:
-            color: red
-            lights: (lights)
-            
-          
-      
 
-show_player:
-  play_blue_flash_show_via_tag:
-    blue_flash:
-      show_tokens:
-        tag: upper_pops
-  show_when_top_pop_bumpers_top_hit: green_flash
-  shot_top_pop_bumpers_top_hit:
-    shot_hit:
-      show_tokens:
-        lights: hat_upper_pop_bumpers
-      loops: 0
 
+
+  
 
 
 
