@@ -354,7 +354,7 @@ event_player:
     #enable_challenges_selection
 
 
-  mode_base_started:
+  mode_base_started{current_player.ball==1}:
     - remove_ladies_gents_slide|6s
     - play_main_screen_slide|6.1s
   events_when_started:
