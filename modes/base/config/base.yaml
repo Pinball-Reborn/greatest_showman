@@ -437,13 +437,14 @@ sound_player:
       action: play
       delay: 6.1s
       loops: -1
+      events_when_stopped: ball_ended
     
 
 sounds:
   first_ball_music:
     file: ball1_player1.wav
     track: music
-    volume: 1
+    volume: 0.7
     
     
   
