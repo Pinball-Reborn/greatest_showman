@@ -302,7 +302,7 @@ sequence_shots:
 
 
 event_player:
-  mode_base_started{current_player.ball==1}:
+  mode_base_started{current_player.ball==1 and current_player.number==1}:
     - remove_ladies_gents_slide|6s
     - play_main_screen_slide|6.1s
   mode_base_started{current_player.ball>1}:
