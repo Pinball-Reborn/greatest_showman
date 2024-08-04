@@ -8,7 +8,7 @@ slides:
   ladies_gents:
     type: video
     video: ladies_gents
-    expire: 7s
+    #expire: 7s
   main_screen:
     widgets:
       - type: text
@@ -97,11 +97,18 @@ slides:
         image: main_screen
         scale: 1
 
-#slide_player:
-  #mode_base_started: 
-
+slide_player:
+  mode_base_started: 
+    ladies_gents
+      
+  remove_ladies_gents_slide:
+    ladies_gents: 
+      action: remove
+  play_main_screen_slide:
+    main_screen
+   
+  #mode_base_started:
    # main_screen
-
     
 
 videos:
@@ -341,11 +348,20 @@ event_player:
       priority: 3
     complete_ramps_achievement:
       priority: 4
-  base_mode_started:
-    enable_challenges_selection
+  #ball_started{ball==1 and player==1}:
+    #- play_show_ball_one
+     # priority: 10000
+  #base_mode_started:
+    #enable_challenges_selection
 
+
+  mode_base_started:
+    - remove_ladies_gents_slide|6s
+    - play_main_screen_slide|6.1s
   events_when_started:
     enable_qualify
+
+    
 
 
 show_player:
@@ -391,8 +407,13 @@ show_player:
         color: snow
       loops: 0
       priority: 10000
-  mode_base_started:
-    game_start_slides
+
+  ball_started{current_player.ball==1}: 
+    ladies_gents
+  #mode_base_started:
+   # game_start_slides
+
+      
 
 
 shows:
@@ -412,11 +433,16 @@ shows:
       lights: 
         (lights): 
           color: black
-  game_start_slides:
+  ball_one:
     - duration: 6s
       slides: ladies_gents
-    - duration: 30m
-      slides: main_screen
+      #priority: 1000
+  #game_start_slides:
+    #- duration: 6s
+     # slides: ladies_gents
+    #- duration: 30m
+      #slides: main_screen
+
 
 
 
