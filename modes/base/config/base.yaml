@@ -357,6 +357,9 @@ event_player:
   mode_base_started{current_player.ball==1}:
     - remove_ladies_gents_slide|6s
     - play_main_screen_slide|6.1s
+  mode_base_started{balls_played>1}:
+    - play_main_screen_slide
+
   events_when_started:
     enable_qualify
 
