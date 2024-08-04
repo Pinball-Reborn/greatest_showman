@@ -99,8 +99,7 @@ slides:
 
 slide_player:
   mode_base_started: 
-    ladies_gents
-      
+    ladies_gents    
   remove_ladies_gents_slide:
     ladies_gents: 
       action: remove
@@ -408,8 +407,8 @@ show_player:
       loops: 0
       priority: 10000
 
-  ball_started{current_player.ball==1}: 
-    ladies_gents
+  #ball_started{current_player.ball==1}: 
+    #ladies_gents
   #mode_base_started:
    # game_start_slides
 
@@ -433,10 +432,7 @@ shows:
       lights: 
         (lights): 
           color: black
-  ball_one:
-    - duration: 6s
-      slides: ladies_gents
-      #priority: 1000
+
   #game_start_slides:
     #- duration: 6s
      # slides: ladies_gents
