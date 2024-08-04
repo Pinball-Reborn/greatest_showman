@@ -105,7 +105,7 @@ slides:
 videos:
   ladies_gents:
     file: ladies_gents.mpg
-    volume: 0.5
+
 
 
 variable_player:
@@ -397,7 +397,6 @@ shows:
     - duration: 200ms
       lights:
         (lights): (color) #use snow for white
-
   1_lit_color_generic:
     - duration: -1
       lights:
