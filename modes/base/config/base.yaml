@@ -8,7 +8,7 @@ slides:
   ladies_gents:
     type: video
     video: ladies_gents
-    #expire: 7s
+    
   main_screen:
     widgets:
       - type: text
@@ -107,15 +107,7 @@ slide_player:
       action: remove
 
 
-  #mode_base_started: 
-   # ladies_gents    
 
-   #   action: remove
- # play_main_screen_slide:
-   # main_screen
-   
-  #mode_base_started:
-   # main_screen
     
 
 videos:
@@ -318,11 +310,6 @@ event_player:
   mode_base_started{current_player.ball>1 or current_player.number>1}:
     - play_main_screen_slide
 
- # mode_base_started{current_player.ball>1}:
-   # - remove_ladies_gents_slide
-  #  - play_main_screen_slide
-
-
   post_pop_mode_starting_events:
     start_mode_pop_bumpers:
       priority: 1
@@ -368,14 +355,6 @@ event_player:
       priority: 3
     complete_ramps_achievement:
       priority: 4
-  #ball_started{ball==1 and player==1}:
-    #- play_show_ball_one
-     # priority: 10000
-  #base_mode_started:
-    #enable_challenges_selection
-
-
-
 
   events_when_started:
     enable_qualify
@@ -427,10 +406,7 @@ show_player:
       loops: 0
       priority: 10000
 
-  #ball_started{current_player.ball==1}: 
-    #ladies_gents
-  #mode_base_started:
-   # game_start_slides
+  
 
       
 
@@ -453,14 +429,24 @@ shows:
         (lights): 
           color: black
 
-  #game_start_slides:
-    #- duration: 6s
-     # slides: ladies_gents
-    #- duration: 30m
-      #slides: main_screen
 
 
+sound_player:
+  mode_base_started{current_player.ball==1 and current_player.number==1}:
+    first_ball_music:
+      action: play
+      delay: 6.1s
+      loops: -1
+    
 
+sounds:
+  first_ball_music:
+    file: ball1_player1.wav
+    track: music
+    volume: 1
+    
+    
+  
 
 
 
