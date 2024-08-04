@@ -98,13 +98,21 @@ slides:
         scale: 1
 
 slide_player:
-  mode_base_started: 
-    ladies_gents    
+  play_ladies_gents_slide:
+    ladies_gents
+  play_main_screen_slide:
+    main_screen
   remove_ladies_gents_slide:
     ladies_gents: 
       action: remove
-  play_main_screen_slide:
-    main_screen
+
+
+  #mode_base_started: 
+   # ladies_gents    
+
+   #   action: remove
+ # play_main_screen_slide:
+   # main_screen
    
   #mode_base_started:
    # main_screen
@@ -303,11 +311,17 @@ sequence_shots:
 
 event_player:
   mode_base_started{current_player.ball==1 and current_player.number==1}:
+    - play_ladies_gents_slide
     - remove_ladies_gents_slide|6s
     - play_main_screen_slide|6.1s
-  mode_base_started{current_player.ball>1}:
-    - remove_ladies_gents_slide
+
+  mode_base_started{current_player.ball>1 or current_player.number>1}:
     - play_main_screen_slide
+
+ # mode_base_started{current_player.ball>1}:
+   # - remove_ladies_gents_slide
+  #  - play_main_screen_slide
+
 
   post_pop_mode_starting_events:
     start_mode_pop_bumpers:
