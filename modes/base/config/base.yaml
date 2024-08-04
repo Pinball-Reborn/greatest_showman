@@ -8,6 +8,7 @@ slides:
   ladies_gents:
     type: video
     video: ladies_gents
+    expire: 7s
   main_screen:
     widgets:
       - type: text
@@ -98,7 +99,8 @@ slides:
 
 #slide_player:
   #mode_base_started: 
-    #main_screen
+
+   # main_screen
 
     
 
@@ -341,6 +343,7 @@ event_player:
       priority: 4
   base_mode_started:
     enable_challenges_selection
+
   events_when_started:
     enable_qualify
 
@@ -414,6 +417,7 @@ shows:
       slides: ladies_gents
     - duration: 30m
       slides: main_screen
+
 
 
 
