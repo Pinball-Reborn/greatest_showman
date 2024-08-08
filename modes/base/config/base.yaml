@@ -442,9 +442,9 @@ sound_player:
 
 sounds:
   first_ball_music:
-    file: ball1_player1.wav
+    file: ball1_player1_5.wav
     track: music
-    volume: 0.7
+    volume: 0.8
     
     
   
