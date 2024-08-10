@@ -52,7 +52,7 @@ sound_player:
     the_other_side:
       action: stop
       fade_out: 1s
-  mode_pop_bumpers_stopped:
+  balls_in_play{balls==0}:
     the_other_side:
       action: stop
       fade_out: 1s
