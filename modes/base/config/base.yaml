@@ -443,6 +443,15 @@ sound_player:
     first_ball_music:
       action: stop
       fade_out: 0.5s
+  mode_tickets_started:
+    first_ball_music:
+      action: stop
+      fade_out: 0.5s
+  mode_drop_targets_started:
+    first_ball_music:
+      action: stop
+      fade_out: 0.5s
+
   mode_base_started:
     the_other_side:
       action: stop
