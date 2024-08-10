@@ -6,9 +6,9 @@ mode:
 
 event_player:
   events_when_stopped: enable_qualify, start_mode_base, stop_mode_music
-  balls_in_play{balls==0}:
-    - stop_mode_pop_bumpers
-  ball_ended: stop_mode_pop_bumpers
+  #balls_in_play{balls==0}:
+   # - stop_mode_pop_bumpers
+ # ball_ended: stop_mode_pop_bumpers
 
 
 
@@ -53,9 +53,10 @@ sound_player:
     the_other_side:
       action: stop
       fade_out: 1s
-  mode_music_stopped:
+  stop_mode_music:
     the_other_side:
       action: stop
+      track: music
       fade_out: 1s
 
 
