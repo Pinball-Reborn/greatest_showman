@@ -52,7 +52,7 @@ sound_player:
     the_other_side:
       action: stop
       fade_out: 1s
-  balls_in_play{balls==0}:
+  ball_ended:
     the_other_side:
       action: stop
       fade_out: 1s
