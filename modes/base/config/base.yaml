@@ -450,6 +450,9 @@ sound_player:
     a_million_dreams:
       action: stop
       fade_out: 1s
+    come_alive:
+      action: stop
+      fade_out: 1s
     
 
 sounds:

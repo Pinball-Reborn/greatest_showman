@@ -32,6 +32,37 @@ sound_player:
   mode_tickets_started:
     tickets_challenge_completed:
       action: play
+      loops: 0
+    come_alive:
+      action: play
+      track: music
+      loops: 0
+    shoot_tickets:
+      action: play
+      track: voice
+      delay: 5s
+      loops: 0
+  timer_tickets_timer_complete:
+    come_alive:
+      action: stop
+      fade_out: 1s
+
+sounds:
+  tickets_challenge_completed:
+    file: sell_tickets_complete.wav
+    track: voice
+    volume: 1.5
+    priority: 200
+  come_alive:
+    file: Come_Alive.wav
+    track: music
+    volume: 0.2
+    priority: 200
+  shoot_tickets:
+    file: shoot_tickets.wav
+    track: voice
+    volume: 1.5
+    priority: 200
 
 variable_player:
   tickets_tickets_hit:
