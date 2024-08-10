@@ -443,6 +443,10 @@ sound_player:
     first_ball_music:
       action: stop
       fade_out: 0.5s
+  mode_base_started:
+    the_other_side:
+      action: stop
+      fade_out: 1s
     
 
 sounds:
