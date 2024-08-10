@@ -7,7 +7,7 @@ mode:
 event_player:
   events_when_stopped: enable_qualify, start_mode_base
   balls_in_play{balls==0}:
-    stop_mode_pop_bumpers
+    - stop_mode_pop_bumpers
 
 
 
