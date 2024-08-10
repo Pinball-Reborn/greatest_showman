@@ -35,15 +35,16 @@ sound_player:
       loops: 0
     first_ball_music:
       action: stop
+
+    the_other_side:
+      action: play
+      track: music
+      #delay: 1.7s
+      loops: 0
     shoot_pops:
       action: play
       track: voice
       delay: 5s
-      loops: 0
-    the_other_side:
-      action: play
-      track: music
-      delay: 1.7s
       loops: 0
 
 
@@ -53,7 +54,7 @@ sounds:
   pop_bumper_challenge_completed:
     file: Pop_bumper_challenge_completed.wav
     track: voice
-    volume: 0.80
+    volume: 1.5
     priority: 200
     max_queue_time: 0
   the_other_side:
