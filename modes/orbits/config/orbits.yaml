@@ -2,8 +2,11 @@
 
 mode:
   start_events: start_mode_orbits
-  stop_events: timer_orbits_timer_complete
+  stop_events: timer_orbits_timer_complete, ball_ended
   priority: 200
+
+event_player:
+  events_when_stopped: enable_qualify, start_mode_base
 
 
 timers:
