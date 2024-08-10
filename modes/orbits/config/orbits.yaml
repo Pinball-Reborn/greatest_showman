@@ -53,7 +53,7 @@ sound_player:
 
 sounds:
   orbits_challenge_completed:
-    file: Orbits_challenge_completed.wav
+    file: orbits_complete.wav
     track: voice
     volume: 1.5
     priority: 200
