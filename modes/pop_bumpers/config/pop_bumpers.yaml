@@ -5,10 +5,8 @@ mode:
   priority: 200
 
 event_player:
-  events_when_stopped: enable_qualify, start_mode_base, stop_mode_music
-  #balls_in_play{balls==0}:
-   # - stop_mode_pop_bumpers
- # ball_ended: stop_mode_pop_bumpers
+  events_when_stopped: enable_qualify, start_mode_base
+
 
 
 
@@ -53,10 +51,7 @@ sound_player:
     the_other_side:
       action: stop
       fade_out: 1s
-  mode_pop_bumpers_stopped:
-    the_other_side:
-      action: stop
-      fade_out: 1s
+
 
 
 

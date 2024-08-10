@@ -447,6 +447,9 @@ sound_player:
     the_other_side:
       action: stop
       fade_out: 1s
+    a_million_dreams:
+      action: stop
+      fade_out: 1s
     
 
 sounds:
