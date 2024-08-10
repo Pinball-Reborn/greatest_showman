@@ -28,6 +28,35 @@ sound_player:
   mode_ramps_started:
     ramps_challenge_completed:
       action: play
+      track: voice
+      loops: 0
+    this_is_me:
+      action: play
+      track: music
+      loops: 0
+    shoot_ramps:
+      action: play
+      track: voice
+      delay: 5s
+      loops: 0
+
+sounds:
+  this_is_me:
+    file: This_Is_Me.wav
+    track: music
+    volume: 0.2
+    priority: 200
+  ramps_challenge_completed:
+    file: ramps_challenge_completed.wav
+    track: voice
+    volume: 1.5
+    priority: 200
+  shoot_ramps:
+    file: shoot_the_ramps.wav
+    track: voice
+    volume: 1.5
+    priority: 200
+  
 
 variable_player:
   left_ramp_ramps_hit:

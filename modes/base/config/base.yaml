@@ -451,6 +451,14 @@ sound_player:
     first_ball_music:
       action: stop
       fade_out: 0.5s
+  mode_orbits_started:
+    first_ball_music:
+      action: stop
+      fade_out: 0.5s
+  mode_ramps_started:
+    first_ball_music:
+      action: stop
+      fade_out: 0.5s
 
   mode_base_started:
     the_other_side:
@@ -460,6 +468,12 @@ sound_player:
       action: stop
       fade_out: 1s
     come_alive:
+      action: stop
+      fade_out: 1s
+    from_now_on:
+      action: stop
+      fade_out: 1s
+    this_is_me:
       action: stop
       fade_out: 1s
     

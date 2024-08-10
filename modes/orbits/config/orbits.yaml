@@ -29,6 +29,42 @@ sound_player:
   mode_orbits_started:
     orbits_challenge_completed:
       action: play
+      track: voice
+      loops: 0
+    from_now_on:
+      action: play
+      track: music
+      loops: 0
+    shoot_the_orbits:
+      action: play
+      track: music
+      delay: 5s
+      loops: 0
+  timer_orbits_timer_completed:
+    from_now_on:
+      action: stop
+      fade_out: 1s
+
+sounds:
+  orbits_challenge_completed:
+    file: Orbits_challenge_completed.wav
+    track: voice
+    volume: 1.5
+    priority: 200
+    max_queue_time: 0
+  shoot_the_orbits:
+    file: shoot_orbits.wav
+    track: voice
+    volume: 1.5
+    priority: 200
+    max_queue_time: 0 
+  from_now_on:
+    file: From_Now_On.wav
+    track: music
+    volume: 0.2
+    priority: 200 
+  
+
 
 
 
