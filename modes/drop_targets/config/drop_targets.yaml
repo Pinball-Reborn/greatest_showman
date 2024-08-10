@@ -29,7 +29,40 @@ sound_player:
   mode_drop_targets_started:
     drop_targets_challenge_completed:
       action: play
+      loops: 0
+    first_ball_music:
+      action: stop
+    a_million_dreams:
+      action: play
+      track: music
+      loops: 0
+    shoot_drop_targets:
+      action: play
+      track: voice
+      delay: 5s
+      loops: 0
     
+sounds:
+  drop_targets_challenge_completed:
+    file: Drop_targets_challenge_complete.wav
+    track: voice
+    volume: 1.5
+    priority: 200
+    max_queue_time: 0
+  shoot_drop_targets:
+    file: shoot_drops.wav
+    track: voice
+    volume: 1.5
+    priority: 200
+    max_queue_time: 0
+  a_million_dreams:
+    file: million_dreams.wav
+    track: music
+    volume: 0.2
+    priority: 200
+    max_queue_time: 0
+  
+  
 
 variable_player:
   single_drop_target_drop_targets_hit:
