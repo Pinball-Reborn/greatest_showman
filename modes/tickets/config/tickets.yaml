@@ -32,6 +32,7 @@ sound_player:
   mode_tickets_started:
     tickets_challenge_completed:
       action: play
+      track: voice
       loops: 0
     come_alive:
       action: play

@@ -37,7 +37,7 @@ sound_player:
       loops: 0
     shoot_the_orbits:
       action: play
-      track: music
+      track: voice
       delay: 5s
       loops: 0
   timer_orbits_timer_completed:
