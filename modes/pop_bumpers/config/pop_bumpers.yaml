@@ -1,11 +1,13 @@
 #config_version=6
 mode:
   start_events: start_mode_pop_bumpers
-  stop_events: timer_pop_bumpers_timer_complete, ball_ended
+  stop_events: timer_pop_bumpers_timer_complete, stop_mode_pop_bumpers
   priority: 200
 
 event_player:
-  events_when_stopped: enable_qualify
+  events_when_stopped: enable_qualify, start_mode_base
+  balls_in_play{balls==0}:
+    stop_mode_pop_bumpers
 
 
 
@@ -33,8 +35,8 @@ sound_player:
     Pop_bumper_challenge_completed:
       action: play
       loops: 0
-    first_ball_music:
-      action: stop
+    #first_ball_music:
+      #action: stop
 
     the_other_side:
       action: play
@@ -46,6 +48,14 @@ sound_player:
       track: voice
       delay: 5s
       loops: 0
+  timer_pop_bumpers_timer_complete:
+    the_other_side:
+      action: stop
+      fade_out: 1s
+  mode_pop_bumpers_stopped:
+    the_other_side:
+      action: stop
+      fade_out: 1s
 
 
 

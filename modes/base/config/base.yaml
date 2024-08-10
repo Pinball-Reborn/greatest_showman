@@ -1,7 +1,7 @@
 #config_version=6
 
 mode:
-  start_events: ball_started
+  start_events: ball_started, start_mode_base
   priority: 100
 
 slides:
@@ -438,7 +438,11 @@ sound_player:
       action: play
       delay: 6.1s
       loops: -1
-      events_when_stopped: ball_ended 
+      #events_when_stopped: ball_ended 
+  mode_pop_bumpers_started:
+    first_ball_music:
+      action: stop
+      fade_out: 0.5s
     
 
 sounds:
