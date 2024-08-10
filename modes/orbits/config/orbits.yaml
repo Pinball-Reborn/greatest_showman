@@ -45,6 +45,9 @@ sound_player:
       action: stop
       fade_out: 1s
 
+
+
+
 sounds:
   orbits_challenge_completed:
     file: Orbits_challenge_completed.wav

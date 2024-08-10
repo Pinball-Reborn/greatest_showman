@@ -39,6 +39,13 @@ sound_player:
       track: voice
       delay: 5s
       loops: 0
+  timer_ramps_timer_complete:
+    this_is_me:
+      action: stop
+      fade_out: 1s
+
+
+
 
 sounds:
   this_is_me:
@@ -56,6 +63,8 @@ sounds:
     track: voice
     volume: 1.5
     priority: 200
+
+
   
 
 variable_player:
