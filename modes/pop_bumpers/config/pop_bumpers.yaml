@@ -1,13 +1,14 @@
 #config_version=6
 mode:
   start_events: start_mode_pop_bumpers
-  stop_events: timer_pop_bumpers_timer_complete, stop_mode_pop_bumpers
+  stop_events: timer_pop_bumpers_timer_complete, ball_will_end
   priority: 200
 
 event_player:
   events_when_stopped: enable_qualify, start_mode_base
   balls_in_play{balls==0}:
     - stop_mode_pop_bumpers
+  ball_ended: stop_mode_pop_bumpers
 
 
 
@@ -52,7 +53,7 @@ sound_player:
     the_other_side:
       action: stop
       fade_out: 1s
-  ball_ended:
+  mode_pop_bumpers_stopped:
     the_other_side:
       action: stop
       fade_out: 1s
