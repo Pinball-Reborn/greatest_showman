@@ -6,6 +6,12 @@
     shoot_again: red
     save_the_show_left: red
     arrow_bottom_left: red
+    target_mid_left: red
+    target_mid_right: red
+    hat_left_pop_bumpers: red
+    below_lock_in_musical_staff: red
+    arrow_outer_left_orbit: red
+    
 - duration: 1
   lights:
 
@@ -13,5 +19,8 @@
     shoot_again: gold
     save_the_show_left: gold
     arrow_bottom_left: gold
-
-
+    target_mid_left: gold
+    target_mid_right: gold
+    hat_left_pop_bumpers: gold
+    below_lock_in_musical_staff: gold
+    arrow_outer_left_orbit: gold

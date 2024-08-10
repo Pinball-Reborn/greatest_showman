@@ -29,6 +29,7 @@ sound_player:
   mode_drop_targets_started:
     drop_targets_challenge_completed:
       action: play
+    
 
 variable_player:
   single_drop_target_drop_targets_hit:

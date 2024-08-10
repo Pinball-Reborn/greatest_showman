@@ -8,6 +8,7 @@ event_player:
   events_when_complete: enable_qualify
 
 
+
 timers:
   tickets_timer:
     start_value: 20

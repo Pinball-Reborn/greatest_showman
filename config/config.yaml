@@ -640,11 +640,11 @@ sound_system:
   tracks:
     music:
       type: standard
-      simultaneous_sounds: 1
+      simultaneous_sounds: 2
       volume: 0.5
     voice:
       type: standard
-      simultaneous_sounds: 1
+      simultaneous_sounds: 2
       volume: 0.7
     sfx:
       type: standard
@@ -665,12 +665,7 @@ assets:
     default:
       load: on_demand
 
-sounds:
-  pop_bumper_challenge_completed:
-    file: Pop_bumper_challenge_completed.wav
-    volume: 0.85
-    priority: 100
-    max_queue_time: 0
+
 
 
 

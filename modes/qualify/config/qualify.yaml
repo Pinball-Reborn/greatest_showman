@@ -25,7 +25,7 @@ counters:
     persist_state: true
     reset_on_complete: false
     restart_events: reset_qualify_modes
-    count_events: top_pop_bumpers_top_hit, top_pop_bumpers_bottom_hit, top_pop_bumpers_left_hit, left_pop_bumpers_top_hit, left_pop_bumpers_right_hit, left_pop_bumpers_left_hitpop
+    count_events: top_pop_bumpers_top_hit, top_pop_bumpers_bottom_hit, top_pop_bumpers_left_hit, left_pop_bumpers_top_hit, left_pop_bumpers_right_hit, left_pop_bumpers_left_hit
 
   orbits_qualify_counter:
     starting_count: 0
