@@ -30,18 +30,15 @@ show_player:
 
 sound_player:
   mode_orbits_started:
-    #orbits_completed:
-     # action: play
-      #loops: 0
-     # track: voice
+    orbits_completed:
+      action: play
+      loops: 0
+      track: voice
     from_now_on:
       action: play
       track: music
       loops: 0
-    shoot_pops:
-      action: play
-      loops: 0
-      track: voice
+
     shoot_orbits:
       action: play
       delay: 5s
@@ -50,12 +47,12 @@ sound_player:
 
 
 sounds:
-  #orbits_completed:
-   # file: orbits_complete.wav
-   # track: voice
-    #volume: 1.5
-  #  priority: 200
-  #  max_queue_time: 0
+  orbits_completed:
+    file: orbits_complete.wav
+    track: voice
+    volume: 1.5
+    priority: 200
+    max_queue_time: 0
   shoot_orbits:
     file: shoot_orbits.wav
     track: voice
@@ -66,11 +63,7 @@ sounds:
     track: music
     volume: 0.2
     priority: 200
-  shoot_pops:
-    file: shoot_pop_bumpers.wav
-    track: voice
-    volume: 1.5
-    priority: 200  
+
   
 
 
