@@ -44,6 +44,10 @@ sound_player:
       delay: 5s
       track: voice
       loops: 0
+  timer_orbits_timer_complete:
+    from_now_on:
+      action: stop
+      fade_out: 1s
 
 
 sounds:
