@@ -482,7 +482,7 @@ sound_player:
     this_is_me:
       action: stop
       fade_out: 1s
-    
+   
 
 sounds:
   first_ball_music:
@@ -490,6 +490,17 @@ sounds:
     track: music
     volume: 0.9
     priority: 100
+
+track_player:
+  game_will_end:
+    music:
+      action: stop_all_sounds
+      fade: 2s
+    voice:
+      action: stop_all_sounds
+      fade: 2s
+
+
     
     
   

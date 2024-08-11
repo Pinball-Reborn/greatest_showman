@@ -22,8 +22,7 @@ show_player:
   mode_drop_targets_started: 
     drop_targets_show:
       speed: 1
-    drop_targets_lights:
-      speed: 10
+
 
 
 sound_player:
