@@ -7,16 +7,10 @@
       - type: image
         image: ramps_completed
         scale: .9
-        animations:
-          show_slide:
-            - property: rotation
-              value: 0
-              relative: false
-              duration: 0
-            - property: rotation
-              value: 360
-              duration: 2s
-              repeat: false
+      transition:
+        type: push
+        duration: 1s
+        direction: left
 
 
  
