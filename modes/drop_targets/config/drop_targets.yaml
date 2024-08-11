@@ -46,13 +46,13 @@ sound_player:
     
 sounds:
   drop_targets_challenge_completed:
-    file: shoot_drops_now.wav
+    file: drop_targets_done.wav
     track: voice
     volume: 1.5
     priority: 200
     max_queue_time: 0
   shoot_drop_targets:
-    file: shoot_drop_targets.wav
+    file: shoot_drops_now.wav
     track: voice
     volume: 1.5
     priority: 200
