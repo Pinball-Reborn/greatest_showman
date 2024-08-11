@@ -58,7 +58,7 @@ sounds:
     priority: 200
     max_queue_time: 0
   a_million_dreams:
-    file: a_million_dreams.wav
+    file: million_dreams.wav
     track: music
     volume: 0.2
     priority: 200
