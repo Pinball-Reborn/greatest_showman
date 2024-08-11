@@ -440,7 +440,7 @@ sound_player:
       delay: 6.1s
       loops: -1
 
-  mode_base_started{current_player.ball>1 or current_player.number>1}:
+  mode_base_started{current_player.ball>1 or current_player.number=>1}:
     first_ball_music:
       action: play
       loops: -1
@@ -498,7 +498,7 @@ track_player:
       fade: 2s
     voice:
       action: stop_all_sounds
-      fade: 2s
+      
 
 
     
