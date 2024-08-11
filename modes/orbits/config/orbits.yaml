@@ -30,7 +30,11 @@ show_player:
 
 sound_player:
   mode_orbits_started:
-    orbits_completed:
+    #orbits_completed:
+     # action: play
+      #loops: 0
+     # track: voice
+    shoot_pops:
       action: play
       loops: 0
       track: voice
@@ -53,7 +57,11 @@ sounds:
     track: voice
     volume: 1.5
     priority: 200
-  
+  shoot_pops:
+    file: shoot_pop_bumpers.wav
+    track: voice
+    volume: 1.5
+    priority: 200  
   
 
 
