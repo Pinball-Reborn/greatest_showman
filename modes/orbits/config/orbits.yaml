@@ -48,7 +48,7 @@ sound_player:
 
 sounds:
   orbits_completed:
-    file: orbits_complete.wav
+    file: shoot_orbits_complete.wav
     track: voice
     volume: 1.5
     priority: 200
