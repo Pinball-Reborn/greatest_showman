@@ -46,7 +46,7 @@ sound_player:
     
 sounds:
   drop_targets_challenge_completed:
-    file: Drop_targets_complete.wav
+    file: shoot_drops_now.wav
     track: voice
     volume: 1.5
     priority: 200
@@ -58,7 +58,7 @@ sounds:
     priority: 200
     max_queue_time: 0
   a_million_dreams:
-    file: A_million_dreams.wav
+    file: a_million_dreams.wav
     track: music
     volume: 0.2
     priority: 200
