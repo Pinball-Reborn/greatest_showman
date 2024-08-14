@@ -313,8 +313,7 @@ event_player:
 
   mode_base_started{current_player.ball>1 or current_player.number>1}:
     - play_main_screen_slide
-  restart_mode_base:
-    - play_base_music_slide
+
 
 
   post_pop_mode_starting_events:
@@ -445,10 +444,10 @@ sound_player:
       delay: 6.1s
       loops: -1
 
- # mode_base_started{current_player.ball>1 or current_player.number>1}:
-    #first_ball_music:
-      #action: play
-      #loops: -1
+  mode_base_started{current_player.ball>1 or current_player.number>1}:
+    first_ball_music:
+      action: play
+      loops: -1
 
   mode_pop_bumpers_started:
     first_ball_music:
@@ -487,6 +486,7 @@ sound_player:
     this_is_me:
       action: stop
       fade_out: 1s
+    
    
 
 sounds:
