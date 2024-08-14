@@ -1,7 +1,7 @@
 #config_version=6
 
 mode:
-  start_events: ball_started, start_mode_base
+  start_events: ball_started, restart_mode_base
   priority: 100
 
 slides:
@@ -9,6 +9,7 @@ slides:
     type: video
     video: ladies_gents
     volume: 0.3
+ 
     
   main_screen:
     widgets:
@@ -106,6 +107,8 @@ slide_player:
   remove_ladies_gents_slide:
     ladies_gents: 
       action: remove
+
+      
 
 
 
@@ -310,6 +313,8 @@ event_player:
 
   mode_base_started{current_player.ball>1 or current_player.number>1}:
     - play_main_screen_slide
+  restart_mode_base:
+    - play_base_music_slide
 
 
   post_pop_mode_starting_events:
@@ -440,10 +445,10 @@ sound_player:
       delay: 6.1s
       loops: -1
 
-  mode_base_started{current_player.ball>1 or current_player.number>1}:
-    first_ball_music:
-      action: play
-      loops: -1
+ # mode_base_started{current_player.ball>1 or current_player.number>1}:
+    #first_ball_music:
+      #action: play
+      #loops: -1
 
   mode_pop_bumpers_started:
     first_ball_music:
@@ -492,13 +497,13 @@ sounds:
     priority: 100
 
 track_player:
-  #ball_will_end:
-    #music:
-    #  action: stop_all_sounds
-   #   fade: 1s
-   # voice:
-   #   action: stop_all_sounds
-  game_will_end:
+  ball_ending:
+    music:
+      action: stop_all_sounds
+      fade: 1s
+    voice:
+      action: stop_all_sounds
+  game_ending:
     music:
       action: stop_all_sounds
       fade: 1s
