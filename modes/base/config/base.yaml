@@ -492,10 +492,16 @@ sounds:
     priority: 100
 
 track_player:
-  ball_will_end:
+  #ball_will_end:
+    #music:
+    #  action: stop_all_sounds
+   #   fade: 1s
+   # voice:
+   #   action: stop_all_sounds
+  game_will_end:
     music:
       action: stop_all_sounds
-      fade: 2s
+      fade: 1s
     voice:
       action: stop_all_sounds
       
