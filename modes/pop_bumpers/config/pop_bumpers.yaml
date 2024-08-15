@@ -5,7 +5,7 @@ mode:
   priority: 200
 
 event_player:
-  events_when_stopped: enable_qualify, start_mode_base
+  events_when_stopped: enable_qualify, start_mode_base, post_challenge_done
 
 
 timers:
@@ -54,13 +54,13 @@ sounds:
   pop_bumper_challenge_completed:
     file: Pop_bumper_challenge_completed.wav
     track: voice
-    volume: 1.5
+    volume: 1.7
     priority: 200
     max_queue_time: 0
   the_other_side:
     file: The_Other_Side.wav
     track: music
-    volume: 0.1
+    volume: 0.2
     priority: 200
   shoot_pops:
     file: shoot_pop_bumpers.wav

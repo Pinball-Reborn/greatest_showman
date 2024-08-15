@@ -316,6 +316,8 @@ event_player:
 
 
 
+
+
   post_pop_mode_starting_events:
     start_mode_pop_bumpers:
       priority: 1
@@ -364,6 +366,8 @@ event_player:
 
   events_when_started:
     enable_qualify
+  challenge_done:
+    - play_first_ball_music
 
     
 
@@ -486,6 +490,28 @@ sound_player:
     this_is_me:
       action: stop
       fade_out: 1s
+
+  mode_pop_bumpers_stopped:
+    first_ball_music:
+      action: play
+      loops: -1
+  mode_ramps_stopped:
+    first_ball_music:
+      action: play
+      loops: -1
+  mode_orbits_stopped:
+    first_ball_music:
+      action: play
+      loops: -1
+  mode_drop_targets_stopped:
+    first_ball_music:
+      action: play
+      loops: -1
+  mode_tickets_stopped:
+    first_ball_music:
+      action: play
+      loops: -1
+
     
    
 
