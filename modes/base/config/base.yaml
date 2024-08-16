@@ -515,6 +515,10 @@ sound_player:
     elephant:
       action: play
       loops: 0
+  s_left_bounce_mid_playfield_active:
+    whip:
+      action: play
+      loops: 0
 
     
    
