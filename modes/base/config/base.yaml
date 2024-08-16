@@ -520,22 +520,22 @@ sound_player:
       action: play
       loops: 0
 
-  single_drop_target:
+  single_drop_target_hit:
     merry_1:
       action: play
       loops: 0
 
-  front_drop_target:
+  front_drop_target_hit:
     merry_2:
       action: play
       loops: 0
 
-  middle_drop_target:
+  middle_drop_target_hit:
     merry_3:
       action: play
       loops: 0
 
-  back_drop_target:
+  back_drop_target_hit:
     merry_4:
       action: play
       loops: 0
