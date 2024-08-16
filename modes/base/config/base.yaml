@@ -521,22 +521,22 @@ sound_player:
       loops: 0
 
   single_drop_target:
-    merry1:
+    merry_1:
       action: play
       loops: 0
 
   front_drop_target:
-    merry2:
+    merry_2:
       action: play
       loops: 0
 
   middle_drop_target:
-    merry3:
+    merry_3:
       action: play
       loops: 0
 
   back_drop_target:
-    merry4:
+    merry_4:
       action: play
       loops: 0
     
@@ -551,32 +551,32 @@ sounds:
   elephant:
     file: Elephant_Angry.wav
     track: sfx
-    volume: 0.8
+    volume: 0.6
     priority: 50
   whip:
     file: bull_whip.wav
     track: sfx
-    volume: 0.8
+    volume: 0.6
     priority: 50
-  merry1:
-    file: merry1.wav
+  merry_1:
+    file: merry_1.wav
     track: sfx
-    volume: 0.8
+    volume: 0.6
     priority: 50
-  merry2:
-    file: merry2.wav
+  merry_2:
+    file: merry_2.wav
     track: sfx
-    volume: 0.8
+    volume: 0.6
     priority: 50
-  merry3:
-    file: merry3.wav
+  merry_3:
+    file: merry_3.wav
     track: sfx
-    volume: 0.8
+    volume: 0.6
     priority: 50
-  merry4:
-    file: merry4.wav
+  merry_4:
+    file: merry_4.wav
     track: sfx
-    volume: 0.8
+    volume: 0.6
     priority: 50
     
 
