@@ -571,6 +571,10 @@ sound_player:
     explosion:
       action: play
       loops: 0  
+  left_ramp_hit:
+    never_enough:
+      action: play
+      loops: 0  
    
 
 sounds:
@@ -623,6 +627,11 @@ sounds:
     file: explosion.wav
     track: sfx
     volume: 0.6
+    priority: 50
+  never_enough:
+    file: Never_Enough.wav
+    track: sfx
+    volume: 0.8
     priority: 50
 
     

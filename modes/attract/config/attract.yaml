@@ -19,6 +19,19 @@ show_player:
     extra_ball_attract:
       speed: 8
 
+sounds:
+  attract:
+    file: Attract_Mode.wav
+    track: music
+    volume: 0.9
+    priority: 100
+
+sound_player:
+  mode_attract_started:
+    attract:
+      action: play
+      loops: -1
+
 
 
     
