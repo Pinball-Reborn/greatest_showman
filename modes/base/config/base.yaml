@@ -511,7 +511,7 @@ sound_player:
     first_ball_music:
       action: play
       loops: -1
-  s_slingshot_right_active:
+  s_right_bounce_mid_playfield_active:
     elephant:
       action: play
       loops: 0
@@ -527,6 +527,11 @@ sounds:
     priority: 100
   elephant:
     file: Elephant_Angry.wav
+    track: sfx
+    volume: 0.8
+    priority: 50
+  whip:
+    file: bull_whip.wav
     track: sfx
     volume: 0.8
     priority: 50
