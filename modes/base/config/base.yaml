@@ -571,7 +571,7 @@ sound_player:
     explosion:
       action: play
       loops: 0  
-  left_ramp_hit:
+  right_ramp_hit:
     never_enough:
       action: play
       loops: 0  
