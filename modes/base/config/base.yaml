@@ -575,6 +575,10 @@ sound_player:
     never_enough:
       action: play
       loops: 0  
+  left_ramp_hit:
+    left_ramp:
+      action: play
+      loops: 0 
    
 
 sounds:
@@ -630,6 +634,11 @@ sounds:
     priority: 50
   never_enough:
     file: Never_Enough.wav
+    track: sfx
+    volume: 0.8
+    priority: 50
+  left_ramp:
+    file: left_ramp.wav
     track: sfx
     volume: 0.8
     priority: 50
