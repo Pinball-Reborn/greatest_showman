@@ -371,8 +371,7 @@ event_player:
 
   events_when_started:
     enable_qualify
-  challenge_done:
-    - play_first_ball_music
+
 
     
 
@@ -424,10 +423,11 @@ show_player:
     challenges_done:
       speed: 1
       loops: 0
+      priority: 1000
     challenges_done_lights:
       speed: 1
       loops: 0
-
+      priority: 1000
   
 
       
@@ -663,7 +663,7 @@ sounds:
     file: so_talented.wav
     track: voice
     volume: 0.8
-    priority: 500
+    priority: 1000
 
     
 
