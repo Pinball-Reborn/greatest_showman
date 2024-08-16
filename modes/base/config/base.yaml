@@ -539,7 +539,38 @@ sound_player:
     merry_4:
       action: play
       loops: 0
-    
+  s_spinner_active:
+    spinner:
+      action: play
+      loops: 0  
+  s_stand_up_target_right_active:  
+    train:
+      action: play
+      loops: 0  
+  left_pop_bumpers_left_hit:
+    explosion:
+      action: play
+      loops: 0  
+  left_pop_bumpers_top_hit:
+    explosion:
+      action: play
+      loops: 0  
+  left_pop_bumpers_right_hit:
+    explosion:
+      action: play
+      loops: 0  
+  top_pop_bumpers_top_hit:
+    explosion:
+      action: play
+      loops: 0  
+  top_pop_bumpers_left_hit:
+    explosion:
+      action: play
+      loops: 0  
+  top_pop_bumpers_bottom_hit:
+    explosion:
+      action: play
+      loops: 0  
    
 
 sounds:
@@ -578,6 +609,22 @@ sounds:
     track: sfx
     volume: 0.6
     priority: 50
+  spinner:
+    file: spinner.wav
+    track: sfx
+    volume: 0.6
+    priority: 50
+  train:
+    file: train.wav
+    track: sfx
+    volume: 0.6
+    priority: 50
+  explosion:
+    file: explosion.wav
+    track: sfx
+    volume: 0.6
+    priority: 50
+
     
 
 track_player:
