@@ -520,6 +520,25 @@ sound_player:
       action: play
       loops: 0
 
+  single_drop_target:
+    merry1:
+      action: play
+      loops: 0
+
+  front_drop_target:
+    merry2:
+      action: play
+      loops: 0
+
+  middle_drop_target:
+    merry3:
+      action: play
+      loops: 0
+
+  back_drop_target:
+    merry4:
+      action: play
+      loops: 0
     
    
 
@@ -539,6 +558,27 @@ sounds:
     track: sfx
     volume: 0.8
     priority: 50
+  merry1:
+    file: merry1.wav
+    track: sfx
+    volume: 0.8
+    priority: 50
+  merry2:
+    file: merry2.wav
+    track: sfx
+    volume: 0.8
+    priority: 50
+  merry3:
+    file: merry3.wav
+    track: sfx
+    volume: 0.8
+    priority: 50
+  merry4:
+    file: merry4.wav
+    track: sfx
+    volume: 0.8
+    priority: 50
+    
 
 track_player:
   ball_ending:
