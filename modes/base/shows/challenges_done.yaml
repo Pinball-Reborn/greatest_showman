@@ -1,0 +1,20 @@
+#show_version=6
+
+- duration: 4s
+  slides:
+    challenges_completed:
+      widgets:
+      - type: text
+        text: You finished all the challenges!
+        font_size: 60
+      - type: text
+        text: 25,000
+        font_size: 80
+        y: 25%
+      - type: image
+        image: curtains
+        scale: .9
+      transition:
+        type: push
+        duration: 1s
+        direction: left

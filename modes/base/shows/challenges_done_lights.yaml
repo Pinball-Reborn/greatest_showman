@@ -1,0 +1,63 @@
+#show_version=6
+- duration: 250ms
+  lights:
+    shoot_again: red
+
+- duration: 250ms
+  lights:
+      challenges_a: red
+      challenges_b: red
+      challenges_c: red
+      challenges_d: red
+      challenges_e: red      
+      challenges_f: red
+
+- duration: 250ms
+  lights:
+    save_the_show_left: red
+    save_the_show_right: red
+    arrow_bottom_left: red
+
+- duration: 250ms
+  lights:
+    target_mid_left: red
+    target_mid_right: red
+    arrow_outer_left_orbit: red
+    hat_left_pop_bumpers: red
+
+- duration: 250ms
+  lights:
+    skill_shot_1: red
+    skill_shot_2: red
+    skill_shot_3: red
+    skill_shot_round: red
+
+
+- duration: 250ms
+  lights:
+    miss: red
+    jenny: red
+    lind: red
+    below_lock_in_musical_staff: red
+    lock: red
+    arrow_lift_ramp_target_right: red
+    arrow_lift_ramp_target_left: red
+    arrow_right_orbit: red
+
+- duration: 250ms
+  lights:
+    five_million_when_lit: red
+    four: red
+    three: red
+    two: red
+    one: red
+
+- duration: 250ms
+  lights:
+    hat_upper_pop_bumpers: red
+    extra_ball: red
+    light_extra_ball: red
+
+
+
+

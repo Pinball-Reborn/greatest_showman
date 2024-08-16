@@ -9,7 +9,9 @@ slides:
     type: video
     video: ladies_gents
     volume: 0.3
- 
+
+
+  
     
   main_screen:
     widgets:
@@ -98,6 +100,7 @@ slides:
       - type: image
         image: main_screen
         scale: 1
+
 
 slide_player:
   play_ladies_gents_slide:
@@ -210,6 +213,8 @@ variable_player:
     score: 100
   s_left_return_lane_active:
     score: 100
+  mode_challenges_will_stop:
+    score: 25000
   
 shots:
  # my_first_shot:
@@ -415,6 +420,13 @@ show_player:
         color: snow
       loops: 0
       priority: 10000
+  mode_challenges_will_stop:
+    challenges_done:
+      speed: 1
+      loops: 0
+    challenges_done_lights:
+      speed: 1
+      loops: 0
 
   
 
@@ -579,6 +591,11 @@ sound_player:
     left_ramp:
       action: play
       loops: 0 
+  mode_challenges_will_stop:
+    so_talented:
+      action: play
+      loops: 0
+
    
 
 sounds:
@@ -638,10 +655,15 @@ sounds:
     volume: 0.8
     priority: 50
   left_ramp:
-    file: left_ramp.wav
+    file: ramp_lion.wav
     track: sfx
     volume: 0.8
     priority: 50
+  so_talented:
+    file: so_talented.wav
+    track: voice
+    volume: 0.8
+    priority: 500
 
     
 
