@@ -15,17 +15,25 @@ mode_settings:
       score: 400
       player_score_entry: bonus_challenges_count
 
+
+
+
+
+
 slide_player:
-  bonus_start: bonus_start_slide
-  bonus_challenges: bonus_challenges_slide
-  bonus_total: bonus_total_slide
+  bonus_start: 
+    bonus_start_slide
+  bonus_challenges: 
+    bonus_challenges_slide
+  bonus_total: 
+    bonus_total_slide
 
 slides:
   bonus_start_slide:
     widgets:
-    - type: text
-      text: "Bonus"
-      style: header_lg
+      - type: text
+        text: "Bonus"
+        style: header_lg
   bonus_challenges_slide:
     widgets:
       - type: text
