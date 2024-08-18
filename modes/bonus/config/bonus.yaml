@@ -1,0 +1,40 @@
+#config_version=6
+
+mode:
+  start_events: ball_ending
+  #code: bonus.Bonus
+  priority: 500
+
+
+mode_settings: 
+  display_delay_ms: 1000ms
+  hurry_up_delay_ms: 200ms
+  bonus_entries:
+    - event: challenges_completed
+      score: 400
+      player_score_entry: bonus_challenges_count
+
+slide_player:
+  mode_bonus_started: bonus_start_slide
+  bonus_challenges: bonus_challenges_slide
+  bonus_total: bonus_total_slide
+
+slides:
+  bonus_start_slide:
+    widget:
+    - type: text
+      text: Bonus
+  bonus_challenges_slide:
+    widget: 
+      - type: text
+        text: Challenges Completed (player|bonus_challenges)
+      - type: text
+        text: (score)
+  bonus_total_slide:
+    widget:
+      - type: text
+        text: Total Bonus
+      - type: text
+        text: (score)
+    
+  
