@@ -22,15 +22,15 @@ slide_player:
 slides:
   bonus_start_slide:
     - type: text
-      text: Bonus
+      text: "Bonus"
   bonus_challenges_slide:
     - type: text
-      text: Challenges Completed (player|bonus_challenges)
+      text: "Challenges Completed (player|bonus_challenges)"
     - type: text
       text: (score)
   bonus_total_slide:
     - type: text
-      text: Total Bonus
+      text: "Total Bonus"
     - type: text
       text: (score)
     
