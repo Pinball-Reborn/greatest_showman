@@ -23,9 +23,9 @@ slide_player:
 slides:
   bonus_start_slide:
     widgets:
-      - type: text
-        text: "Bonus"
-        style: header_lg
+    - type: text
+      text: "Bonus"
+      style: header_lg
   bonus_challenges_slide:
     widgets:
       - type: text
