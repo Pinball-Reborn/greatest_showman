@@ -13,7 +13,7 @@ mode_settings:
   bonus_entries:
     - event: challenges_completed
       score: 400
-      player_score_entry: bonus_challenges_count
+      player_score_entry: bonus_challenges
 
 slide_player:
   bonus_start: bonus_start_slide
