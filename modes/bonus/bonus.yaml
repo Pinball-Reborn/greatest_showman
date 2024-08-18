@@ -13,7 +13,7 @@ mode_settings:
   bonus_entries:
     - event: challenges_completed
       score: 400
-      player_score_entry: bonus_challenges
+      player_score_entry: bonus_challenges_count
 
 slide_player:
   bonus_start: bonus_start_slide
@@ -22,17 +22,20 @@ slide_player:
 
 slides:
   bonus_start_slide:
-    - type: text
-      text: "Bonus"
+    widgets:
+      - type: text
+        text: "Bonus"
   bonus_challenges_slide:
-    - type: text
-      text: "Challenges Completed (player|bonus_challenges)"
-    - type: text
-      text: (score)
+    widgets:
+      - type: text
+        text: "Challenges Completed (player|bonus_challenges)"
+      - type: text
+        text: (score)
   bonus_total_slide:
-    - type: text
-      text: "Total Bonus"
-    - type: text
-      text: (score)
+    widgets:
+      - type: text
+        text: "Total Bonus"
+      - type: text
+        text: (score)
     
   
