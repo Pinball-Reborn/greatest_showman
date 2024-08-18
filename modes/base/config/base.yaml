@@ -191,6 +191,7 @@ variable_player:
   left_ramp_hit:
     score: 100
     ramps: 1
+    bonus_ramps: 1
   top_pop_bumpers_top_hit:
     score: 100
     pop: 1
@@ -213,9 +214,20 @@ variable_player:
     score: 100
   s_left_return_lane_active:
     score: 100
-  mode_challenges_will_stop:
-    score: 25000
-  
+  #mode_challenges_will_stop:
+    #score: 25000
+  mode_pop_bumpers_stopped:
+    bonus_challenges: 1
+  mode_drop_targets_stopped:
+    bonus_challenges: 1
+  mode_orbits_stopped:
+    bonus_challenges: 1
+  mode_ramps_stopped:
+    bonus_challenges: 1
+  mode_tickets_stopped:
+    bonus_challenges: 1  
+
+
 shots:
  # my_first_shot:
    # switch: s_right_inlane
@@ -419,15 +431,15 @@ show_player:
         color: snow
       loops: 0
       priority: 10000
-  mode_challenges_will_stop:
-    challenges_done:
-      speed: 1
-      loops: 0
-      priority: 1000
-    challenges_done_lights:
-      speed: 1
-      loops: 0
-      priority: 1000
+  #mode_challenges_will_stop: #this didn't work, but the sound and score part did
+    #challenges_done:
+     # speed: 1
+     # loops: 0
+     # priority: 1000
+   # challenges_done_lights:
+      #speed: 1
+    #  loops: 0
+     # priority: 1000
   
 
       
@@ -591,10 +603,10 @@ sound_player:
     left_ramp:
       action: play
       loops: 0 
-  mode_challenges_will_stop:
-    so_talented:
-      action: play
-      loops: 0
+  #mode_challenges_will_stop:
+    #so_talented:
+     # action: play
+     # loops: 0
 
    
 

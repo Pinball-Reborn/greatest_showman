@@ -608,7 +608,7 @@ modes:
   #- field
   - tickets
   - ramps
-  #- gavin
+  - bonus
   
 player_vars:
   potato:
