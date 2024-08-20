@@ -16,19 +16,19 @@ mode_settings:
       player_score_entry: bonus_challenges_count
 
 
-#event_player:
-  #mode_bonus_started:
-    #- play_bonus_start_slide
+event_player:
+  mode_bonus_started:
+    - play_bonus_start_slide
    # - remove_bonus_start_slide|2s
-   # - play_bonus_challenges_slide|2.1s
+    - play_bonus_challenges_slide|2.1s
    # - remove_bonus_challenges_slide|4s
-    #- play_bonus_total_slide|4.1s
+    - play_bonus_total_slide|4.1s
 
 
-slide_player:
-  - mode_bonus_started: bonus_start_slide
-  - bonus_challenges: bonus_challenges_slide
-  - bonus_total: bonus_total_slide
+#slide_player:
+ # mode_bonus_started: bonus_start_slide
+ # bonus_challenges: bonus_challenges_slide
+ # bonus_total: bonus_total_slide
 
 
 slides:
