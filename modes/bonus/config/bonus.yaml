@@ -41,7 +41,7 @@ slides:
       text: (score)
       x: 60%
       font_size: 140
-     color: black
+      color: black
     - type: image
       image: curtains
       scale: 1
