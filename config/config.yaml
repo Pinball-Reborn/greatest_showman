@@ -640,11 +640,11 @@ sound_system:
   tracks:
     music:
       type: standard
-      simultaneous_sounds: 2
+      simultaneous_sounds: 1
       volume: 0.5
     voice:
       type: standard
-      simultaneous_sounds: 2
+      simultaneous_sounds: 1
       volume: 0.7
     sfx:
       type: standard
