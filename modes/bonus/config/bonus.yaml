@@ -7,12 +7,12 @@ mode:
 
 
 mode_settings: 
-  display_delay_ms: 2000ms
+  display_delay_ms: 1000ms
   hurry_up_delay_ms: 200ms
   bonus_entries:
     - event: challenges_completed
       score: 400
-      player_score_entry: bonus_challenges_count
+      player_score_entry: bonus_challenges
 
 slide_player:
   mode_bonus_started: bonus_start_slide
@@ -32,7 +32,7 @@ slides:
   bonus_challenges_slide:
     widgets: 
     - type: text
-      text: Challenges Completed (player|bonus_challenges)
+      text: "Challenges Completed (player|bonus_challenges)"
       x: 10%
       font_size: 150
       color: black
