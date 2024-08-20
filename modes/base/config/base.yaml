@@ -214,17 +214,17 @@ variable_player:
     score: 100
   s_left_return_lane_active:
     score: 100
-  #mode_challenges_will_stop:
-    #score: 25000
-  mode_pop_bumpers_stopped:
+  challenges_done:
+    score: 25000
+  mode_pop_bumpers_starting:
     bonus_challenges: 1
-  mode_drop_targets_stopped:
+  mode_drop_targets_starting:
     bonus_challenges: 1
-  mode_orbits_stopped:
+  mode_orbits_starting:
     bonus_challenges: 1
-  mode_ramps_stopped:
+  mode_ramps_starting:
     bonus_challenges: 1
-  mode_tickets_stopped:
+  mode_tickets_starting:
     bonus_challenges: 1  
 
 

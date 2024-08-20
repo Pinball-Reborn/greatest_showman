@@ -80,7 +80,7 @@ achievement_groups:
       lights: challenges_f
       color: red
     auto_select: true
-    events_when_all_completed: start_challenges_multiball
+    events_when_all_completed: challenges_done  #,start_challenges_multiball
     enable_while_no_achievement_started: true
     enable_events: enable_challenges_selection
     disable_while_achievement_started: false
