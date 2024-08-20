@@ -33,7 +33,7 @@ slides:
   bonus_challenges_slide:
     widgets: 
     - type: text
-      text: "Challenges Completed (player|bonus_challenges)"
+      text: "Challenges Completed (player|bonus_challenges)x"
       x: 10%
       font_size: 150
       color: black
@@ -41,7 +41,7 @@ slides:
       text: (score)
       x: 60%
       font_size: 140
-      color: black
+     color: black
     - type: image
       image: curtains
       scale: 1

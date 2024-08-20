@@ -649,7 +649,7 @@ sounds:
   spinner:
     file: spinner.wav
     track: sfx
-    volume: 0.6
+    volume: 0.8
     priority: 50
   train:
     file: train.wav
