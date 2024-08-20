@@ -10,7 +10,7 @@ mode_settings:
   display_delay_ms: 1000ms
   hurry_up_delay_ms: 200ms
   bonus_entries:
-    - event: challenges_completed
+    - event: bonus_challenges
       score: 400
       player_score_entry: bonus_challenges
 
@@ -29,13 +29,23 @@ slides:
     - type: image
       image: curtains
       scale: 1
+
   bonus_challenges_slide:
-    widgets:
+    widgets: 
     - type: text
-      text: Challenges Completed
+      text: "Challenges Completed (player|bonus_challenges)"
+      x: 10%
+      font_size: 150
+      color: black
+    - type: text
+      text: (score)
+      x: 60%
+      font_size: 140
+      color: black
     - type: image
       image: curtains
-  
+      scale: 1
+
 
   bonus_total_slide:
     widgets:
