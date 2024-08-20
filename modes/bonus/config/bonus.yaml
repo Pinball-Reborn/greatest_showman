@@ -21,20 +21,22 @@ slide_player:
 
 slides:
   bonus_start_slide:
-    widget:
+    widgets:
     - type: text
       text: Bonus
   bonus_challenges_slide:
-    widget: 
+    widgets: 
       - type: text
         text: Challenges Completed (player|bonus_challenges)
       - type: text
         text: (score)
   bonus_total_slide:
-    widget:
+    widgets:
       - type: text
         text: Total Bonus
       - type: text
         text: (score)
+
+
     
   
