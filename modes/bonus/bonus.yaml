@@ -26,9 +26,9 @@ mode_settings:
 
 
 slide_player:
-  mode_bonus_started: bonus_start_slide
-  bonus_challenges: bonus_challenges_slide
-  bonus_total: bonus_total_slide
+  mode_bonus_started: play_bonus_start_slide
+  bonus_challenges: play_bonus_challenges_slide
+  bonus_total: play_bonus_total_slide
 
 
 slides:
