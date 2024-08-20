@@ -16,43 +16,37 @@ mode_settings:
       player_score_entry: bonus_challenges_count
 
 
-event_player:
-  mode_bonus_started:
-    - play_bonus_start_slide
+#event_player:
+  #mode_bonus_started:
+    #- play_bonus_start_slide
    # - remove_bonus_start_slide|2s
     - play_bonus_challenges_slide|2.1s
    # - remove_bonus_challenges_slide|4s
     - play_bonus_total_slide|4.1s
 
 
-#slide_player:
+slide_player:
+  mode_bonus_started: this_is_the_greatest_show
  # mode_bonus_started: bonus_start_slide
  # bonus_challenges: bonus_challenges_slide
  # bonus_total: bonus_total_slide
 
-
 slides:
-  bonus_start_slide:
+  this_is_the_greatest_show:
     widgets:
-      - type: text
-        text: "Bonus"
-        style: header_lg
-  bonus_challenges_slide:
-    widgets:
-      - type: text
-        text: "Challenges Completed (player|bonus_challenges)"
-        style: header_xs, row_super
-      - type: text
-        text: (score)
-        style: header_xs, row_sub, num
-  bonus_total_slide:
-    widgets:
-      - type: text
-        text: "Total Bonus"
-        style: header_lg
-      - type: text
-        text: (score)
-        style: heade_md_row_sub, num
+    - type: text
+      text: THIS IS THE GREATEST SHOW
+      color: red
+      font_size: 70
+      #font: 
+    - type: image
+      image: curtains
+      scale: .9
+    transition:
+      type: move_in
+      duration: 1s
+      direction: top
+
 
 
 
