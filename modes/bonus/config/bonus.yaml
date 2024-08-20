@@ -15,9 +15,9 @@ mode_settings:
       player_score_entry: bonus_challenges_count
 
 slide_player:
-  mode_bonus_started: bonus_start_slide|2s
-  bonus_challenges: bonus_challenges_slide|2s
-  bonus_total: bonus_total_slide|2s
+  mode_bonus_started: bonus_start_slide
+  bonus_challenges: bonus_challenges_slide
+  bonus_total: bonus_total_slide
 
 slides:
   bonus_start_slide:
