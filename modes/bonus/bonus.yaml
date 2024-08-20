@@ -33,23 +33,26 @@ event_player:
 
 slides:
   bonus_start_slide:
-    - type: text
-      text: "Bonus"
-      style: header_lg
+    widgets:
+      - type: text
+        text: "Bonus"
+        style: header_lg
   bonus_challenges_slide:
-    - type: text
-      text: "Challenges Completed (player|bonus_challenges)"
-      style: header_xs, row_super
-    - type: text
-      text: (score)
-      style: header_xs, row_sub, num
+    widgets:
+      - type: text
+        text: "Challenges Completed (player|bonus_challenges)"
+        style: header_xs, row_super
+      - type: text
+        text: (score)
+        style: header_xs, row_sub, num
   bonus_total_slide:
-    - type: text
-      text: "Total Bonus"
-      style: header_lg
-    - type: text
-      text: (score)
-      style: heade_md_row_sub, num
+    widgets:
+      - type: text
+        text: "Total Bonus"
+        style: header_lg
+      - type: text
+        text: (score)
+        style: heade_md_row_sub, num
 
 
 
