@@ -15,28 +15,51 @@ mode_settings:
       player_score_entry: bonus_challenges_count
 
 slide_player:
-  mode_bonus_started: bonus_start_slide
-  bonus_challenges: bonus_challenges_slide
-  bonus_total: bonus_total_slide
+  mode_bonus_started: bonus_start_slide|2s
+  bonus_challenges: bonus_challenges_slide|2s
+  bonus_total: bonus_total_slide|2s
 
 slides:
   bonus_start_slide:
     widgets:
     - type: text
       text: Bonus
+      font_size: 50
+      color: black
+    - type: image
+      image: main_screen
+      scale: 1
   bonus_challenges_slide:
     widgets: 
-      - type: text
-        text: Challenges Completed (player|bonus_challenges)
-      - type: text
-        text: (score)
+    - type: text
+      text: Challenges Completed (player|bonus_challenges)
+      x: 10%
+      font_size: 50
+      color: black
+    - type: text
+      text: (score)
+      x: 60%
+      font_size: 40
+      color: black
+    - type: image
+      image: main_screen
+      scale: 1
   bonus_total_slide:
     widgets:
-      - type: text
-        text: Total Bonus
-      - type: text
-        text: (score)
+    - type: text
+      text: Total Bonus
+      x: 20%
+      font_size: 30
+      color: black
+    - type: text
+      text: (score)
+      x: 60%
+      font_size: 40
+      color: black
+    - type: image
+      image: main_screen
+      scale: 1
 
-#this is the code after I figured out I was making changes to the wrong file
+
     
   
