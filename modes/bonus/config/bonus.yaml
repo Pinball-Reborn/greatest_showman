@@ -7,16 +7,19 @@ mode:
 
 
 mode_settings: 
-  display_delay_ms: 1000ms
+  display_delay_ms: 2000ms
   hurry_up_delay_ms: 200ms
   bonus_entries:
     - event: bonus_challenges
       score: 400
       player_score_entry: bonus_challenges
+    - event: bonus_ramps
+      score: 100
 
 slide_player:
   mode_bonus_started: bonus_start_slide
   bonus_challenges: bonus_challenges_slide
+  bonus_ramps: bonus_ramps_slide
   bonus_total: bonus_total_slide
 
 slides:
@@ -33,10 +36,36 @@ slides:
   bonus_challenges_slide:
     widgets: 
     - type: text
-      text: "Challenges Completed (player|bonus_challenges)x"
+      text: "Challenges Completed"
       x: 10%
       font_size: 150
       color: black
+    - type: text
+      text: "(player|bonus_challenges)x"
+      x: 30%
+      color: black
+      font_size: 140
+    - type: text
+      text: (score)
+      x: 60%
+      font_size: 140
+      color: black
+    - type: image
+      image: curtains
+      scale: 1
+
+  bonus_ramps_slide:
+    widgets:
+    - type: text
+      text:  "Ramps Hit"
+      x: 10%
+      color: black
+      font_size: 150
+    - type: text
+      text: "(player|bonus_ramps)x"
+      x: 30%
+      color: black
+      font_size: 140
     - type: text
       text: (score)
       x: 60%

@@ -137,6 +137,7 @@ variable_player:
   right_ramp_hit:
     score: 100
     ramps: 1
+    bonus_ramps: 1
   single_drop_target_hit:
     score: 100
     drops: 1
