@@ -69,13 +69,13 @@ sounds:
 
 variable_player:
   single_drop_target_drop_targets_hit:
-    score: 1000
+    score: 350000
   front_drop_target_drop_targets_hit:
-    score: 1000
+    score: 350000
   middle_drop_target_drop_targets_hit:
-    score: 1000
+    score: 350000
   back_drop_target_drop_targets_hit:
-    score: 1000
+    score: 350000
   timer_drop_targets_timer_tick:
     drop_targets_timer_seconds:
       int: device.timers.drop_targets_timer.ticks % 60

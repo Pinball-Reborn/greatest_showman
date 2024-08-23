@@ -11,13 +11,13 @@ mode_settings:
   hurry_up_delay_ms: 200ms
   bonus_entries:
     - event: bonus_challenges
-      score: 400
+      score: 250000
       player_score_entry: bonus_challenges
     - event: bonus_ramps
-      score: 100
+      score: 50000
       player_score_entry: bonus_ramps
     - event: drop_bonus
-      score: 500
+      score: 150000
       player_score_entry: drop_bonus
 
 slide_player:

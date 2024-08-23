@@ -75,11 +75,11 @@ sounds:
 
 variable_player:
   inner_orbit_enter_orbits_hit:
-    score: 1000
+    score: 1650000
   shot_right_orbit_orbits_hit:
-    score: 1000
+    score: 1650000
   shot_left_orbit_hit:
-    score: 1000
+    score: 1650000
   timer_orbits_timer_tick:
     orbits_timer_seconds:
       int: device.timers.orbits_timer.ticks % 60

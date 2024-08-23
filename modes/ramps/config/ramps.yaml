@@ -71,9 +71,9 @@ sounds:
 
 variable_player:
   left_ramp_ramps_hit:
-    score: 1000
+    score: 1650000
   right_ramp_ramps_hit:
-    score: 1000
+    score: 1650000
   timer_ramps_timer_tick:
     ramps_timer_seconds:
       int: device.timers.ramps_timer.ticks % 60
