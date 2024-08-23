@@ -456,13 +456,14 @@ show_player:
         color: snow
       loops: 0
       priority: 10000
-  ball_save_default_timer_start:
+  ball_device_bd_plunger_ejecting_ball:
     single_flash_color:
       show_tokens:
         lights: save_the_show_right, save_the_show_left
         color: red
       action: play
       speed: 5
+      loops: 20
   #mode_challenges_will_stop: #this didn't work, but the sound and score part did
     #challenges_done:
      # speed: 1
@@ -740,7 +741,7 @@ sounds:
 
 sound_pools:
   ball_save_callout:
-    type: random_force_all
+    type: random
     track: voice
     sounds:
       - is_this_how_weve_taught_you
