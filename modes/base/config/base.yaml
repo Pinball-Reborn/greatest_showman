@@ -227,6 +227,12 @@ variable_player:
     bonus_challenges: 1
   mode_tickets_starting:
     bonus_challenges: 1  
+  drop_bank_up_hit:
+    score: 1000
+    drop_bonus: 1
+  drop_bank_down_hit:
+    score: 1000
+    drop_bonus: 1
 
 
 shots:
@@ -321,6 +327,12 @@ sequence_shots:
   inner_orbit:
     switch_sequence: s_inner_orbit_enter, s_right_orbit_top, s_right_orbit_bottom
     sequence_timeout: 3s
+  drop_bank_up:
+    switch_sequence: s_3_bank_drop_target_1, s_3_bank_drop_target_2, s_3_bank_drop_target_3
+    sequence_timeout: 1.5s
+  drop_bank_down:
+    switch_sequence: s_3_bank_drop_target_3, s_3_bank_drop_target_2, s_3_bank_drop_target_1
+    sequence_timeout: 1.5s
 
 
 event_player:

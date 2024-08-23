@@ -16,11 +16,15 @@ mode_settings:
     - event: bonus_ramps
       score: 100
       player_score_entry: bonus_ramps
+    - event: drop_bonus
+      score: 500
+      player_score_entry: drop_bonus
 
 slide_player:
   mode_bonus_started: bonus_start_slide
   bonus_challenges: bonus_challenges_slide
   bonus_ramps: bonus_ramps_slide
+  drop_bonus: bonus_drop_slide
   bonus_total: bonus_total_slide
 
 slides:
@@ -38,7 +42,7 @@ slides:
     widgets: 
     - type: text
       text: "Challenges Completed"
-      y: 80%
+      y: 70%
       font_size: 150
       color: black
     - type: text
@@ -48,7 +52,7 @@ slides:
       font_size: 140
     - type: text
       text: (score)
-      y: 20%
+      y: 30%
       font_size: 140
       color: black
     - type: image
@@ -59,7 +63,7 @@ slides:
     widgets:
     - type: text
       text:  "Ramps Hit"
-      y: 80%
+      y: 70%
       color: black
       font_size: 150
     - type: text
@@ -69,7 +73,28 @@ slides:
       font_size: 140
     - type: text
       text: (score)
-      y: 20%
+      y: 30%
+      font_size: 140
+      color: black
+    - type: image
+      image: curtains
+      scale: 1
+
+  bonus_drop_slide:
+    widgets:
+    - type: text
+      text:  "Drop Target Sweeps"
+      y: 70%
+      color: black
+      font_size: 150
+    - type: text
+      text: "(player|drop_bonus)x"
+      y: 50%
+      color: black
+      font_size: 140
+    - type: text
+      text: (score)
+      y: 30%
       font_size: 140
       color: black
     - type: image
@@ -81,12 +106,12 @@ slides:
     widgets:
     - type: text
       text: Total Bonus
-      y: 20%
+      y: 60%
       font_size: 130
       color: black
     - type: text
       text: (score)
-      y: 60%
+      y: 40%
       font_size: 140
       color: black
     - type: image
