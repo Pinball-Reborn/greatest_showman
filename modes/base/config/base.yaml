@@ -310,7 +310,7 @@ ball_saves:
     enable_events: mode_base_started
     timer_start_events: ball_device_bd_plunger_ball_eject_success
     auto_launch: true
-    balls_to_save: -1
+    #balls_to_save: -1
     only_last_ball: true
     
 
@@ -456,6 +456,13 @@ show_player:
         color: snow
       loops: 0
       priority: 10000
+  ball_save_default_timer_start:
+    single_flash_color:
+      show_tokens:
+        lights: save_the_show_right, save_the_show_left
+        color: red
+      action: play
+      speed: 5
   #mode_challenges_will_stop: #this didn't work, but the sound and score part did
     #challenges_done:
      # speed: 1
@@ -632,6 +639,10 @@ sound_player:
     #so_talented:
      # action: play
      # loops: 0
+  ball_save_default_saving_ball:
+    ball_save_callout:
+      action: play
+      loops: 0
 
    
 
