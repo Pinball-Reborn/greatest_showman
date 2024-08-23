@@ -7,7 +7,7 @@ mode:
 
 
 mode_settings: 
-  display_delay_ms: 2000ms
+  display_delay_ms: 3000ms
   hurry_up_delay_ms: 200ms
   bonus_entries:
     - event: bonus_challenges
@@ -37,17 +37,17 @@ slides:
     widgets: 
     - type: text
       text: "Challenges Completed"
-      x: 10%
+      y: 10%
       font_size: 150
       color: black
     - type: text
       text: "(player|bonus_challenges)x"
-      x: 30%
+      y: 30%
       color: black
       font_size: 140
     - type: text
       text: (score)
-      x: 60%
+      y: 60%
       font_size: 140
       color: black
     - type: image
@@ -58,17 +58,17 @@ slides:
     widgets:
     - type: text
       text:  "Ramps Hit"
-      x: 10%
+      y: 10%
       color: black
       font_size: 150
     - type: text
       text: "(player|bonus_ramps)x"
-      x: 30%
+      y: 30%
       color: black
       font_size: 140
     - type: text
       text: (score)
-      x: 60%
+      y: 60%
       font_size: 140
       color: black
     - type: image
@@ -80,12 +80,12 @@ slides:
     widgets:
     - type: text
       text: Total Bonus
-      x: 20%
+      y: 20%
       font_size: 130
       color: black
     - type: text
       text: (score)
-      x: 60%
+      y: 60%
       font_size: 140
       color: black
     - type: image
