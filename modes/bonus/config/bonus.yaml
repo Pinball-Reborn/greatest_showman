@@ -15,6 +15,7 @@ mode_settings:
       player_score_entry: bonus_challenges
     - event: bonus_ramps
       score: 100
+      player_score_entry: bonus_ramps
 
 slide_player:
   mode_bonus_started: bonus_start_slide
@@ -37,17 +38,17 @@ slides:
     widgets: 
     - type: text
       text: "Challenges Completed"
-      y: 10%
+      y: 80%
       font_size: 150
       color: black
     - type: text
       text: "(player|bonus_challenges)x"
-      y: 30%
+      y: 50%
       color: black
       font_size: 140
     - type: text
       text: (score)
-      y: 60%
+      y: 20%
       font_size: 140
       color: black
     - type: image
@@ -58,17 +59,17 @@ slides:
     widgets:
     - type: text
       text:  "Ramps Hit"
-      y: 10%
+      y: 80%
       color: black
       font_size: 150
     - type: text
       text: "(player|bonus_ramps)x"
-      y: 30%
+      y: 50%
       color: black
       font_size: 140
     - type: text
       text: (score)
-      y: 60%
+      y: 20%
       font_size: 140
       color: black
     - type: image
