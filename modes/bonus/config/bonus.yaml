@@ -7,7 +7,7 @@ mode:
 
 
 mode_settings: 
-  display_delay_ms: 3000ms
+  display_delay_ms: 1000ms
   hurry_up_delay_ms: 200ms
   bonus_entries:
     - event: bonus_challenges
