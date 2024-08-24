@@ -1,12 +1,22 @@
 #show_version=6
 
-- duration: 9s
+- duration: 5s
   slides:
     greatest_showman_slide:
       widgets:
+      - type: image
+        image: pinball_reborn
+        scale: 0.4
+        y: 58%
+      - type: text
+        text: presents
+        font_size: 70
+        y: 38%
       - type: text
         text: THE GREATEST SHOWMAN
-        font_size: 60
+        font_size: 120
+        y: 22%
+        color: red
       - type: image
         image: curtains
         scale: .9
@@ -15,13 +25,13 @@
         duration: 1s
         direction: left
 
-- duration: 9s
+- duration: 3s
   slides:
     press_start:
       widgets:
       - type: text
         text: PRESS START
-        font_size: 60
+        font_size: 100
         animations:
           pre_show_slide:
           - property: opacity
@@ -33,9 +43,9 @@
             repeat: false
       - type: text
         text: FREE PLAY
-        color: green
-        font_size: 50
-        y: 10
+        color: red
+        font_size: 80
+        y: 20%
         anchor_y: bottom
       - type: image
         image: curtains
@@ -46,15 +56,75 @@
         direction: right
 
 
-- duration: 9s
+
+
+- duration: 5s
   slides:
-    this_is_the_greatest_show:
+    last_game_score_slide:
       widgets:
       - type: text
-        text: THIS IS THE GREATEST SHOW
-        color: red
+        text: LAST GAME
+        font_size: 100
+        y: 55%
+      - type: text
+        text: (machine|player1_score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 35%
+      - type: image
+        image: curtains
+        scale: .9
+
+- duration: 5s
+  slides:
+    pinball_reborn_slide:
+      widgets:
+      - type: image
+        image: pinball_reborn
+        scale: .9
+
+- duration: 5s
+  slides:
+    fast_mission_slide:
+      widgets:
+      - type: text
+        text: BUILT ON
+        y: 90%
+        font_size: 100
+      - type: image
+        image: missionpinballlogo
+        x: 30%
+        scale: 2.5
+      - type: image
+        image: fastpinballlogo
+        x: 70%
+        scale: 2.5
+
+- duration: 5s
+  slides:
+    program_thanks:
+      widgets:
+      - type: text
+        text: SPECIAL THANKS FOR MPF HELP
+        color: black
         font_size: 70
-        #font: 
+        y: 65%
+      - type: text
+        text: Mike Becker
+        color: black
+        font_size: 70
+        y: 55%
+      - type: text
+        text: Gavin Guest
+        color: black
+        font_size: 70
+        y: 40%
+      - type: text
+        text: Anthony Van Winkle
+        color: black
+        font_size: 70
+        y: 25%
       - type: image
         image: curtains
         scale: .9
@@ -63,28 +133,39 @@
         duration: 1s
         direction: top
 
-- duration: 9s
+- duration: 5s
   slides:
-    last_game_score_slide:
+    art:
       widgets:
       - type: text
-        text: LAST GAME
-        font_size: 50
-        y: 60%
+        text: ARTWORK 
+        color: black
+        font_size: 70
+        y: 65%
       - type: text
-        text: (machine|player1_score)
-        number_grouping: true
-        min_digits: 2
-        font_size: 50
-        y: 40%
+        text: Jay French
+        color: black
+        font_size: 70
+        y: 55%
+      - type: text
+        text: Alexy Kot
+        color: black
+        font_size: 70
+        y: 45%
+      - type: text
+        text: Voice Callouts
+        color: black
+        font_size: 70
+        y: 35%
+      - type: text
+        text: Jeff Teolis
+        color: black
+        font_size: 70
+        y: 25%
       - type: image
         image: curtains
         scale: .9
-
-- duration: 9s
-  slides:
-    pinball_reborn_slide:
-      widgets:
-      - type: image
-        image: pinball_reborn
-        scale: .9
+      transition:
+        type: move_in
+        duration: 1s
+        direction: top

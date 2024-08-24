@@ -338,15 +338,6 @@ ball_saves:
 
 
 shot_profiles:
-  #my_first_profile:
-    #states:
-      #- name: unlit
-       # show: off
-      #- name: flashing
-      #  show: flash
-      #- name: lit
-       # show: on
-    #loop: true
   five_million_profile:
     states:
       - name: unlit
@@ -363,6 +354,7 @@ counters:
     count_complete_value: 10
     start_enabled: true
     events_when_complete: advance_five_million_profile
+    restart_events: five_million_standup_five_million_profile_lit_hit
 
 sequence_shots:
   left_orbit:
