@@ -81,13 +81,13 @@ slides:
 sound_player:
   tilt_warning.1{warnings_remaining>1}:
     tilt_1:
-      volume: 1.0
+      volume: 1.5
   tilt_warning.2{warnings_remaining==1}:
     tilt_2:
-      volume: 1.0
+      volume: 1.5
   tilt:
     tilt_3:
-      volume: 1.0
+      volume: 1.5
 
 sounds:
   tilt_1:

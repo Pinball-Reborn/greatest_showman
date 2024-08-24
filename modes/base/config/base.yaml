@@ -130,9 +130,13 @@ variable_player:
    # score: 1000
  # my_first_shot_hit:
    # my_first_shot: 1
-  s_left_flipper_active:
+  five_million_standup_five_million_profile_unlit_hit:
+    score: 130000
+  five_million_standup_five_million_profile_lit_hit:
+    score: 5000000
+  left_flipper_hit:
     potato: 1
-  s_right_flipper_active:
+  right_flipper_hit:
     potato: 1
   right_ramp_hit:
     score: 165000
@@ -167,8 +171,7 @@ variable_player:
   left_pop_bumpers_top_hit:
     score: 16500
     pop: 1
-  s_middle_stand_up_target_active:
-    score: 130000
+
   top_pop_bumpers_bottom_hit:
     score: 16500
     pop: 1
@@ -246,6 +249,20 @@ shots:
     #show_tokens:
      # lights: save_the_show_right
     #profile: my_first_profile
+#5 Million shot
+  five_million_standup:
+    switch: s_middle_stand_up_target
+    show_tokens: 
+      lights: five_million_when_lit
+    profile: five_million_profile
+
+#FLIPPERS
+  right_flipper:
+    switch: s_right_flipper
+  left_flipper:
+    switch: s_left_flipper
+
+
 #POP BUMPERS
   top_pop_bumpers_top:
     switch: s_top_pop_bumpers_top
@@ -330,8 +347,22 @@ shot_profiles:
       #- name: lit
        # show: on
     #loop: true
+  five_million_profile:
+    states:
+      - name: unlit
+        show: off
+      - name: lit
+        show: on
+    advance_on_hit: false
+    loop: true
 
-
+counters:
+  five_million_counter:
+    starting_count: 0
+    count_events: right_flipper_hit, left_flipper_hit
+    count_complete_value: 10
+    start_enabled: true
+    events_when_complete: advance_five_million_profile
 
 sequence_shots:
   left_orbit:
