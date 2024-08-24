@@ -83,6 +83,7 @@ switches:
     tags: playfield_active
   s_tilt: #tilt
     number: 0-6
+    tags: tilt_warning
   s_single_drop_target: #1 bank drop target
     number: 1-0
     type: NO
