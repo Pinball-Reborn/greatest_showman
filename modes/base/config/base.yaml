@@ -235,6 +235,8 @@ variable_player:
   drop_bank_down_hit:
     score: 1000000
     drop_bonus: 1
+  s_tilt_active:
+    score: 100
 
 
 shots:
