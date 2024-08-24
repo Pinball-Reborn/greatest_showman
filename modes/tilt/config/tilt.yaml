@@ -2,7 +2,7 @@
 
 tilt:
   tilt_warning_switch_tag: tilt_warning
-  warnings_to_tilt: 2
+  warnings_to_tilt: 3
   multiple_hit_window: 3s
   settle_time: 5s
 
