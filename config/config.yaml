@@ -609,6 +609,7 @@ modes:
   - tickets
   - ramps
   - bonus
+  - tilt
   
 player_vars:
   potato:

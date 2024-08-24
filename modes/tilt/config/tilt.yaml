@@ -1,0 +1,76 @@
+#config_version=6
+
+tilt:
+  warnings_to_tilt: 3
+  multiple_hit_window: 3s
+  settle_time: 8s
+
+slide_player:
+  _overwrite: true
+  tilt_warning.2{warnings_remaining>1}:
+    tilt_warning_1:
+      expire: 4s
+  
+
+  tilt_warning.1{warnings_remaining==1}:
+    tilt_warning_2:
+      expire: 4s
+  
+
+  tilt:
+    tilt:
+      expire: 8s
+    
+
+  tilt_clear:
+    tilt:
+      action: remove
+
+
+slides:
+  tilt_warning_1:
+    - type: text
+      text: WARNING!
+      y: 80
+      font_size: 150
+      color: black
+    - type: text
+      text: "This game is a one of a kind.\nPlease be kind."
+      y: 40
+      font_size: 120
+      color: black
+    - type: image
+      image: bar_screen
+  tilt_warning_2:
+    - type: text
+      text: DANGER!
+      y: 80
+      font_size: 150
+      color: black
+    - type: text
+      text: "There is only one of this game.\nPlease take care of it."
+      y: 40
+      font_size: 120
+      color: black
+    - type: image
+      image: bar_screen  
+
+  tilt:
+    - type: text
+      text: TILT!
+      y: 80
+      font_size: 150
+      color: black
+    - type: text
+      text: "You were warned.\nBall lost."
+      y: 40
+      font_size: 120
+      color: black
+    - type: image
+      image: bar_screen    
+
+
+    
+ 
+
+
