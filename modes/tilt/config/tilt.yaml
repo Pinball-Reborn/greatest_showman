@@ -40,13 +40,13 @@ slides:
         font_size: 151
         color: black
       - type: text
-        text: "Stop shaking the game."
+        text: "Stop shaking the game"
         y: 41%
         font_size: 121
         color: black
       - type: image
         image: bar_screen
-   # expire: 2s
+
   tilt_warning_2:
     widgets:
       - type: text
@@ -55,13 +55,13 @@ slides:
         font_size: 151
         color: black
       - type: text
-        text: "Be nice to this game."
+        text: "Be nice to this game"
         y: 41%
         font_size: 121
         color: black
       - type: image
         image: bar_screen
-   # expire: 2s
+
  
   tilt:
     widgets:
@@ -71,13 +71,38 @@ slides:
         font_size: 151
         color: black
       - type: text
-        text: "You were warned."
+        text: "You were warned"
         y: 41%
         font_size: 121
         color: black
       - type: image
         image: bar_screen  
-   # expire: 2s  
+
+sound_player:
+  tilt_warning.1{warnings_remaining>1}:
+    tilt_1:
+      volume: 1.0
+  tilt_warning.2{warnings_remaining==1}:
+    tilt_2:
+      volume: 1.0
+  tilt:
+    tilt_3:
+      volume: 1.0
+
+sounds:
+  tilt_1:
+    file: tilt_firstwarning.wav
+    track: sfx
+    priority: 1000
+  tilt_2:
+    file: tilt_secondwarning.wav
+    track: sfx
+    priority: 1000
+  tilt_3:
+    file: tilt_finalbooing.wav
+    track: sfx
+    priority: 1000
+
 
 
     
