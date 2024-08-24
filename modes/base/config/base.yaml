@@ -237,6 +237,7 @@ variable_player:
     drop_bonus: 1
   s_tilt_active:
     score: 100
+    tag: tilt_warning
 
 
 shots:
