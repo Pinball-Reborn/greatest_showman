@@ -107,22 +107,22 @@
       widgets:
       - type: text
         text: SPECIAL THANKS FOR MPF HELP
-        color: black
+        color: gold
         font_size: 70
-        y: 65%
+        y: 68%
       - type: text
         text: Mike Becker
-        color: black
+    
         font_size: 70
         y: 55%
       - type: text
         text: Gavin Guest
-        color: black
+        
         font_size: 70
         y: 40%
       - type: text
         text: Anthony Van Winkle
-        color: black
+        
         font_size: 70
         y: 25%
       - type: image
@@ -139,29 +139,29 @@
       widgets:
       - type: text
         text: ARTWORK 
-        color: black
+        color: gold
         font_size: 70
-        y: 65%
+        y: 70%
       - type: text
         text: Jay French
-        color: black
+       
         font_size: 70
-        y: 55%
+        y: 63%
       - type: text
         text: Alexy Kot
-        color: black
+        
         font_size: 70
-        y: 45%
+        y: 53%
       - type: text
-        text: Voice Callouts
-        color: black
+        text: VOICE CALLOUTS
+        color: gold
         font_size: 70
         y: 35%
       - type: text
         text: Jeff Teolis
-        color: black
+        
         font_size: 70
-        y: 25%
+        y: 28%
       - type: image
         image: curtains
         scale: .9
@@ -169,3 +169,51 @@
         type: move_in
         duration: 1s
         direction: top
+- duration: 5s
+  slides:
+    art_2:
+      widgets:
+      - type: text
+        text: TICKET BOOTH SCULTURES 
+        color: gold
+        font_size: 70
+        y: 70%
+      - type: text
+        text: Joe Kace
+       
+        font_size: 70
+        y: 63%
+      - type: text
+        text: PRINTING
+        color: gold
+        font_size: 70
+        y: 52%
+      - type: text
+        text: Playfield, cabinet decals, back glass
+        color: gold
+        font_size: 50
+        y: 46%
+      - type: text
+        text: "Lonnie Mihin (Graphic Dimensions)"
+        
+        font_size: 70
+        y: 36%
+      - type: text
+        text: 3D PRINTED STAR POSTS AND STANDOFFS
+        color: gold
+        font_size: 70
+        y: 22%
+      - type: text
+        text: Rocket City Pinball
+        
+        font_size: 70
+        y: 13%
+
+      - type: image
+        image: curtains
+        scale: .9
+      transition:
+        type: move_in
+        duration: 1s
+        direction: top
+
