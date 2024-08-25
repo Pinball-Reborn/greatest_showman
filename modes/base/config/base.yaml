@@ -134,6 +134,7 @@ variable_player:
     score: 130000
   five_million_standup_five_million_profile_lit_hit:
     score: 5000000
+    event_when_hit: set_five_million_profile_off
   left_flipper_hit:
     potato: 1
   right_flipper_hit:
@@ -321,10 +322,10 @@ shots:
     show_tokens: 
       lights: five_million_when_lit
     profile: five_million_profile
-    advance_events: advance_five_million_profile,set_five_million_profile_off 
-    #control_events: 
-     # - events: set_five_million_profile_off
-       # state: 0
+    advance_events: advance_five_million_profile
+    control_events: 
+      - events: set_five_million_profile_off
+        state: 0
 
 
 
@@ -360,16 +361,9 @@ counters:
     count_complete_value: 10
     start_enabled: true
     events_when_complete: advance_five_million_profile
-    #events_when_started: set_five_million_profile_off
     restart_events: five_million_standup_five_million_profile_lit_hit
 
-  five_million_off_counter:
-    starting_count: 0
-    count_events: five_million_standup_five_million_profile_lit_hit
-    count_complete_value: 1
-    start_enabled: true
-    events_when_complete: set_five_million_profile_off
-    restart_events: advance_five_million_profile
+
 
 sequence_shots:
   left_orbit:
