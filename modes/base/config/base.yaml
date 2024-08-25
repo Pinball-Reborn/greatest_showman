@@ -134,7 +134,6 @@ variable_player:
     score: 130000
   five_million_standup_five_million_profile_lit_hit:
     score: 5000000
-    event_when_hit: set_five_million_profile_off
   left_flipper_hit:
     potato: 1
   right_flipper_hit:
@@ -392,7 +391,8 @@ event_player:
   mode_base_started{current_player.ball>1 or current_player.number>1}:
     - play_main_screen_slide
 
-
+  five_million_standup_five_million_profile_lit_hit:
+    - set_five_million_profile_off
 
 
 
