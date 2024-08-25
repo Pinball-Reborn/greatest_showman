@@ -249,12 +249,7 @@ shots:
     #show_tokens:
      # lights: save_the_show_right
     #profile: my_first_profile
-#5 Million shot
-  five_million_standup:
-    switch: s_middle_stand_up_target
-    show_tokens: 
-      lights: five_million_when_lit
-    profile: five_million_profile
+
 
 #FLIPPERS
   right_flipper:
@@ -320,6 +315,14 @@ shots:
   right_ramp:
     switch: s_back_ramp_made
 
+#5 Million shot
+  five_million_standup:
+    switch: s_middle_stand_up_target
+    show_tokens: 
+      lights: five_million_when_lit
+    profile: five_million_profile
+    advance_events: advance_five_million_profile
+
 
 
 ball_saves:
@@ -331,7 +334,7 @@ ball_saves:
     timer_start_events: 
       - balldevice_bd_plunger_ball_eject_success
     auto_launch: true
-    #balls_to_save: -1
+    balls_to_save: 1
     only_last_ball: true
     
 
@@ -345,7 +348,7 @@ shot_profiles:
       - name: lit
         show: on
     advance_on_hit: false
-    loop: true
+    
 
 counters:
   five_million_counter:

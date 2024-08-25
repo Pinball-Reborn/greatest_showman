@@ -148,7 +148,7 @@
         font_size: 70
         y: 63%
       - type: text
-        text: Alexy Kot
+        text: Alexey Kot
         
         font_size: 70
         y: 53%
@@ -208,6 +208,45 @@
         
         font_size: 70
         y: 13%
+
+      - type: image
+        image: curtains
+        scale: .9
+      transition:
+        type: move_in
+        duration: 1s
+        direction: top
+
+- duration: 5s
+  slides:
+    art_3:
+      widgets:
+      - type: text
+        text: POWDER COATING
+        color: gold
+        font_size: 70
+        y: 65%
+      - type: text
+        text: The Coating Chic
+       
+        font_size: 70
+        y: 58%
+      - type: text
+        text: PRINTING
+        color: gold
+        font_size: 70
+        y: 42%
+      - type: text
+        text: Plastics, various smaller decals
+        color: gold
+        font_size: 50
+        y: 36%
+      - type: text
+        text: Alex Mendes
+        
+        font_size: 70
+        y: 28%
+
 
       - type: image
         image: curtains
