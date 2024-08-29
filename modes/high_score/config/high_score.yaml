@@ -76,8 +76,7 @@ slides:
       text: ''
       key: high_score
       font_size: 80
-
-      y: 50
+      y: 25%
       color: gold
     - type: image
       image: bar_screen
@@ -135,7 +134,7 @@ slides:
       color: gold
     - type: text
       text: (value)
-      y: 30$
+      y: 30%
       color: gold
       font_size: 80
       number_grouping: true
