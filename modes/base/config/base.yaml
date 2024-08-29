@@ -219,7 +219,7 @@ variable_player:
   s_left_return_lane_active:
     score: 16500
   s_right_inlane_active:
-    score: 165
+    score: 16500
   challenges_done:
     score: 25000
   mode_pop_bumpers_starting:
@@ -685,7 +685,10 @@ sound_player:
     ball_save_callout:
       action: play
       loops: 0
-
+  five_million_standup_five_million_profile_lit_hit:
+    good_job:
+      action: play
+      loops: 0
    
 
 sounds:
@@ -779,6 +782,17 @@ sounds:
     track: voice
     volume: 0.8
     priority: 1000
+  beautiful:
+    file: beautiful.wav
+    track: voice
+    volume: 0.8
+    priority: 1000
+  can_you_do_it_again:
+    file: can_you_do_it_again.wav
+    track: voice
+    volume: 0.8
+    priority: 1000
+
 
 sound_pools:
   ball_save_callout:
@@ -790,6 +804,12 @@ sound_pools:
       - the_show_is_saved
       - the_show_must_go_on_2
       - you_cant_quit
+  good_job:
+    type: random
+    track: voice
+    sounds:
+      - beautiful
+      - so_talelented
 
     
 
