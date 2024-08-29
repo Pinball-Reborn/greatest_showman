@@ -23,17 +23,145 @@ high_score:
       - HIGH SCORE 8
   defaults:
     score:
-      - LISA SUE: 10000000
-      - JEFFREY:   8000000
-      - PT BARNUM: 6000000
-      - PHILLIP:   5000000 
-      - ANNE:      4000000
-      - CHARITY:   3000000
-      - JENNY:     2000000
-      - LETTIE:    1000000
-      - CHARLES:     25000
+      - LISA SUE:  20000000
+      - JEFFREY:   18000000
+      - PT BARNUM: 16000000
+      - PHILLIP:   14000000 
+      - ANNE:      12000000
+      - CHARITY:   10000000
+      - JENNY:     8000000
+      - LETTIE:    6000000
+      - CHARLES:    250000
+
+slide_player:
+  mode_high_score_started: high_score_enter_initials
+  high_score_award_display: high_score_award_display_slide
+  loops_award_display: score_award_display
 
 
+
+slides:
+  _overwrite: true
+  high_score_enter_initials:
+    - type: text
+      text: PLAYER (player_num)
+      font_size: 100
+      color: gold
+      x: 105
+      y: 90
+    - type: text
+      font_size: 80
+      text: (award)
+      color: gold
+      x: 105
+      y: 70
+    - type: text_input
+      initial_char: A
+      dynamic_x: false
+      key: high_score
+      font_size: 80
+      max_chars: 12
+      x: 105
+      y: 20
+      shift_left_event: s_left_flipper
+      shift_right_event: s_right_flipper
+      select_event: s_start
+      color: gold
+    - type: text
+      text: '<       >'
+      font_size: 80
+      x: 105
+      y: 20
+      color: gold
+    - type: text
+      text: ''
+      key: high_score
+      font_size: 80
+      x: 105
+      y: 50
+      color: gold
+    - type: image
+      image: bar_screen
+      scale: 1
+  high_score_award_display_slide:
+  #high_score_award_display:
+    - type: text
+      text: (player_name)
+      font_size: 80
+      anchor_y: middle
+      anchor_x: middle
+      x: middle
+      y: middle
+      color: gold
+      animations:
+        show_slide:
+          - property: opacity
+            value: 1
+            duration: 0.05s
+          - property: opacity
+            value: 0
+            duration: 0.05s
+            repeat: true
+    - type: text
+      text: (award)
+      font_size: 80
+      x: 105
+      y: 110
+      color: gold
+    - type: text
+      text: (value)
+      x: 105
+      y: 30
+      color: gold
+      font_size: 80
+      number_grouping: true
+      min_digits: 2
+    - type: image
+      image: bar_screen
+      scale: 1
+  score_award_display:
+    - type: text
+      text: (player_name)
+      font_size: 80
+      anchor_y: middle
+      anchor_x: middle
+      x: middle
+      y: middle
+      color: gold
+      animations:
+        show_slide:
+          - property: opacity
+            value: 1
+            duration: 0.05s
+          - property: opacity
+            value: 0
+            duration: 0.05s
+            repeat: true
+    - type: text
+      text: (award)
+      font_size: 80
+      x: 105
+      y: 110
+      color: gold
+    - type: text
+      text: (value)
+      x: 105
+      y: 30
+      color: gold
+      font_size: 80
+      number_grouping: true
+      min_digits: 2
+    - type: text
+      text: (player(player_num)|character)
+      x: 105
+      y: 10
+      color: gold
+      font_size: 80
+    - type: image
+      image: bar_screen
+      scale: 1
+  
+  
 
 
 
