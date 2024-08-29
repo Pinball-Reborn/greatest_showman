@@ -47,37 +47,36 @@ slides:
       text: PLAYER (player_num)
       font_size: 100
       color: gold
-      x: 105
-      y: 90
+
+      y: 80%
     - type: text
       font_size: 80
       text: (award)
       color: gold
-      x: 105
-      y: 70
+
+      y: 60%
     - type: text_input
       initial_char: A
       dynamic_x: false
       key: high_score
       font_size: 80
       max_chars: 12
-      x: 105
+
       y: 20
-      shift_left_event: s_left_flipper
-      shift_right_event: s_right_flipper
-      select_event: s_start
+      shift_left_event: s_left_flipper_active
+      shift_right_event: s_right_flipper_active
+      select_event: s_start_active
       color: gold
     - type: text
       text: '<       >'
       font_size: 80
-      x: 105
-      y: 20
+      y: 40%
       color: gold
     - type: text
       text: ''
       key: high_score
       font_size: 80
-      x: 105
+
       y: 50
       color: gold
     - type: image
@@ -88,10 +87,7 @@ slides:
     - type: text
       text: (player_name)
       font_size: 80
-      anchor_y: middle
-      anchor_x: middle
-      x: middle
-      y: middle
+      y: 80%
       color: gold
       animations:
         show_slide:
@@ -105,13 +101,11 @@ slides:
     - type: text
       text: (award)
       font_size: 80
-      x: 105
-      y: 110
+      y: 50%
       color: gold
     - type: text
       text: (value)
-      x: 105
-      y: 30
+      y: 30%
       color: gold
       font_size: 80
       number_grouping: true
@@ -123,10 +117,7 @@ slides:
     - type: text
       text: (player_name)
       font_size: 80
-      anchor_y: middle
-      anchor_x: middle
-      x: middle
-      y: middle
+      y: 80%
       color: gold
       animations:
         show_slide:
@@ -140,21 +131,18 @@ slides:
     - type: text
       text: (award)
       font_size: 80
-      x: 105
-      y: 110
+      y: 50%
       color: gold
     - type: text
       text: (value)
-      x: 105
-      y: 30
+      y: 30$
       color: gold
       font_size: 80
       number_grouping: true
       min_digits: 2
     - type: text
       text: (player(player_num)|character)
-      x: 105
-      y: 10
+      y: 10%
       color: gold
       font_size: 80
     - type: image
