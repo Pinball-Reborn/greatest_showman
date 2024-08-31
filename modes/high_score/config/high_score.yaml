@@ -47,60 +47,54 @@ slides:
   high_score_enter_initials:
     - type: text
       text: PLAYER (player_num)
-      font_size: 100
+      font_size: 120
       color: gold
 
       y: 80%
     - type: text
-      font_size: 100
+      font_size: 120
       text: (award)
       color: gold
 
-      y: 60%
+      y: 75%
     - type: text_input
       initial_char: A
       dynamic_x: false
       key: high_score
-      font_size: 100
+      font_size: 120
       max_chars: 12
 
-      y: 20
+      y: 60%
       shift_left_event: s_left_flipper_active
       shift_right_event: s_right_flipper_active
       select_event: s_start_active
       color: gold
-    #- type: text
-    #  text: '<       >'
-     # font_size: 100
-    #  y: 40%
-   #   color: gold
     - type: text
       text: ''
       key: high_score
-      font_size: 100
-      y: 40%
+      font_size: 120
+      y: 45%
       color: gold
     - type: image
       image: bar_screen
       scale: 1
   high_score_award_display_slide:
-  #high_score_award_display:
     - type: text
       text: (player_name)
-      font_size: 100
+      font_size: 120
       y: 80%
       color: gold
     
     - type: text
       text: (award)
-      font_size: 100
+      font_size: 120
       y: 50%
       color: gold
     - type: text
       text: (value)
       y: 30%
       color: gold
-      font_size: 100
+      font_size: 120
       number_grouping: true
       min_digits: 2
     - type: image
@@ -109,27 +103,27 @@ slides:
   score_award_display:
     - type: text
       text: (player_name)
-      font_size: 100
+      font_size: 120
       y: 80%
       color: gold
 
     - type: text
       text: (award)
-      font_size: 100
+      font_size: 120
       y: 50%
       color: gold
     - type: text
       text: (value)
       y: 30%
       color: gold
-      font_size: 100
+      font_size: 120
       number_grouping: true
       min_digits: 2
     - type: text
       text: (player(player_num)|character)
       y: 10%
       color: gold
-      font_size: 80
+      font_size: 120
     - type: image
       image: bar_screen
       scale: 1
