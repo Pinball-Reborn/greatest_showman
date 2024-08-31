@@ -17,6 +17,7 @@ shot_groups:
       - skillshot_drop_1
       - skillshot_drop_2
       - skillshot_drop_3
+    reset_events: mode_skillshot_starting
 
 
 random_event_player:
@@ -25,6 +26,7 @@ random_event_player:
       - advance_skillshot_1
       - advance_skillshot_2
       - advance_skillshot_3
+
 
 shots:
   skillshot_drop_1:
