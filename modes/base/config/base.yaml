@@ -10,8 +10,6 @@ slides:
     video: ladies_gents
     volume: 0.3
 
-
-  
     
   main_screen:
     widgets:
@@ -101,6 +99,39 @@ slides:
         image: main_screen
         scale: 1
 
+  skillshot:
+    widgets:
+      - type: ellipse
+        opacity: 1.0
+        width: 20
+        height: 20
+        y: 20
+        x: 200
+        animations:
+          player_shot_skillshot_drop_1{value==0}: shot_off
+          player_shot_skillshot_drop_1{value==1}: shot_on
+          player_shot_skillshot_drop_1{value==2}: shot_flashing
+      - type: ellipse
+        opacity: 0.5
+        width: 20
+        height: 20
+        y: 20
+        x: 260
+        animations:
+          player_shot_skillshot_drop_2{value==0}: shot_off
+          player_shot_skillshot_drop_2{value==1}: shot_on
+          player_shot_skillshot_drop_2{value==2}: shot_flashing
+      - type: ellipse
+        opacity: 0.5
+        width: 20
+        height: 20
+        y: 20
+        x: 320
+        animations:
+          player_shot_skillshot_drop_3{value==0}: shot_off
+          player_shot_skillshot_drop_3{value==1}: shot_on
+          player_shot_skillshot_drop_3{value==2}: shot_flashing
+
 
 slide_player:
   play_ladies_gents_slide:
@@ -113,7 +144,23 @@ slide_player:
 
       
 
-
+animations:
+  shot_off:
+    - property: opacity
+      value: 0.5
+      duration: 0
+  shot_on:
+    - property: opacity
+      value: 1.0
+      duration: 0
+  shot_flashing:
+    - property: opacity
+      value: 1.0
+      duration: 250ms
+    - property: opacity
+      value: 0.5
+      duration: 250ms
+      repeat: true
 
     
 
@@ -387,12 +434,19 @@ event_player:
     - play_ladies_gents_slide
     - remove_ladies_gents_slide|6s
     - play_main_screen_slide|6.1s
+    - start_mode_skillshot|6.2s
+    - play_skillshot_slide|6.2s
 
 
     
 
   mode_base_started{current_player.ball>1 or current_player.number>1}:
     - play_main_screen_slide
+    - start_mode_skillshot
+
+  slide_skillshot_slide_active:
+    clear_slide_queue:
+      clear_current: true
 
 
 
