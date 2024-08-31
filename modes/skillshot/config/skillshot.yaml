@@ -7,8 +7,8 @@ mode:
   stop_events: stop_mode_skillshot
   priority: 100
 
-#config:
-  #- skillshot_slides.yaml
+config:
+  - skillshot_slides.yaml
 
 event_player:
   timer_skillshot_rotate_stopped:
@@ -39,7 +39,7 @@ shots:
     advance_events: advance_skillshot_2
     profile: skillshot_profile
     show_tokens:
-      lights: skill_shot_3
+      lights: skill_shot_2
   skillshot_drop_3:
     switch: s_3_bank_drop_target_3
     advance_events: advance_skillshot_3

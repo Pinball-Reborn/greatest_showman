@@ -22,11 +22,11 @@ widget_player:
   mode_skillshot_started:
     skillshot_widget:
       action: add
-      slide: base_slide
+      slide: main_screen
   mode_skillshot_stopped:
     skillshot_widget:
       action: remove
-      slide: base_slide
+      slide: main_screen
 
 widgets:
   skillshot_widget:
