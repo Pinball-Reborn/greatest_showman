@@ -3,12 +3,10 @@
 #skillshot_with_auto_rotate
  
 mode:
-  start_events: ball_started
+  start_events: start_mode_skillshot
   stop_events: stop_mode_skillshot
   priority: 1000
 
-config:
-  - skillshot_slides.yaml
 
 event_player:
   timer_skillshot_rotate_stopped:
@@ -33,19 +31,19 @@ shots:
     advance_events: mode_skillshot_started, advance_skillshot_1
     profile: skillshot_profile
     show_tokens:
-      lights: skill_shot_1
+      lights: skill_shot_1, skill_shot_round
   skillshot_drop_2:
     switch: s_3_bank_drop_target_2
     advance_events: advance_skillshot_2
     profile: skillshot_profile
     show_tokens:
-      lights: skill_shot_2
+      lights: skill_shot_2, skill_shot_round
   skillshot_drop_3:
     switch: s_3_bank_drop_target_3
     advance_events: advance_skillshot_3
     profile: skillshot_profile
     show_tokens:
-      lights: skill_shot_3
+      lights: skill_shot_3, skill_shot_round
 
 shot_profiles:
   skillshot_profile:
@@ -57,6 +55,8 @@ shot_profiles:
         show: on
       - name: lit
         show: flash
+
+
 
 timers:
   skillshot_rotate:
