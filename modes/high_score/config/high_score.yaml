@@ -1,5 +1,7 @@
 #config_version=6
 
+#mode: high_score
+
 mode:
   priority: 1500
   start_events: game_ending, start_high_score
@@ -8,7 +10,7 @@ mode:
 
 high_score:
   _overwrite: true
-  enter_initials_timeout: 60s
+  enter_initials_timeout: 45s
   award_slide_display_time: 8s
   categories:
     score:
@@ -50,7 +52,7 @@ slides:
 
       y: 80%
     - type: text
-      font_size: 80
+      font_size: 100
       text: (award)
       color: gold
 
@@ -59,7 +61,7 @@ slides:
       initial_char: A
       dynamic_x: false
       key: high_score
-      font_size: 80
+      font_size: 100
       max_chars: 12
 
       y: 20
@@ -67,16 +69,16 @@ slides:
       shift_right_event: s_right_flipper_active
       select_event: s_start_active
       color: gold
-    - type: text
-      text: '<       >'
-      font_size: 80
-      y: 40%
-      color: gold
+    #- type: text
+    #  text: '<       >'
+     # font_size: 100
+    #  y: 40%
+   #   color: gold
     - type: text
       text: ''
       key: high_score
-      font_size: 80
-      y: 25%
+      font_size: 100
+      y: 40%
       color: gold
     - type: image
       image: bar_screen
@@ -85,28 +87,20 @@ slides:
   #high_score_award_display:
     - type: text
       text: (player_name)
-      font_size: 80
+      font_size: 100
       y: 80%
       color: gold
-      animations:
-        show_slide:
-          - property: opacity
-            value: 1
-            duration: 0.05s
-          - property: opacity
-            value: 0
-            duration: 0.05s
-            repeat: true
+    
     - type: text
       text: (award)
-      font_size: 80
+      font_size: 100
       y: 50%
       color: gold
     - type: text
       text: (value)
       y: 30%
       color: gold
-      font_size: 80
+      font_size: 100
       number_grouping: true
       min_digits: 2
     - type: image
@@ -115,28 +109,20 @@ slides:
   score_award_display:
     - type: text
       text: (player_name)
-      font_size: 80
+      font_size: 100
       y: 80%
       color: gold
-      animations:
-        show_slide:
-          - property: opacity
-            value: 1
-            duration: 0.05s
-          - property: opacity
-            value: 0
-            duration: 0.05s
-            repeat: true
+
     - type: text
       text: (award)
-      font_size: 80
+      font_size: 100
       y: 50%
       color: gold
     - type: text
       text: (value)
       y: 30%
       color: gold
-      font_size: 80
+      font_size: 100
       number_grouping: true
       min_digits: 2
     - type: text
