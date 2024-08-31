@@ -1,6 +1,5 @@
 #config_version=6
 
-#skillshot_with_auto_rotate
  
 mode:
   start_events: start_mode_skillshot
@@ -9,12 +8,7 @@ mode:
 
 
 event_player:
-  timer_skillshot_rotate_stopped:
-    # Whichever skillshot is on when rotation stops, advance to lit (flashing)
-    - advance_skillshot_1{device.shots.skillshot_drop_1.state==1}
-    - advance_skillshot_2{device.shots.skillshot_drop_2.state==1}
-    - advance_skillshot_3{device.shots.skillshot_drop_3.state==1}
-  skillshot_hit: stop_mode_skillshot
+  skillshot_lit_hit: stop_mode_skillshot|3s
   playfield_active: stop_mode_skillshot|3s
 
 shot_groups:
@@ -25,10 +19,17 @@ shot_groups:
       - skillshot_drop_3
     rotate_events: timer_skillshot_rotate_tick
 
+random_event_player:
+  mode_skillshot_started:
+    events:
+      - advance_skillshot_1
+      - advance_skillshot_2
+      - advance_skillshot_3
+
 shots:
   skillshot_drop_1:
     switch: s_3_bank_drop_target_1
-    advance_events: mode_skillshot_started, advance_skillshot_1
+    advance_events: advance_skillshot_1
     profile: skillshot_profile
     show_tokens:
       lights: skill_shot_1, skill_shot_round
@@ -57,14 +58,56 @@ shot_profiles:
         show: flash
 
 
+animations:
+  shot_off:
+    - property: opacity
+      value: 0.5
+      duration: 0
+  shot_on:
+    - property: opacity
+      value: 1.0
+      duration: 0
+  shot_flashing:
+    - property: opacity
+      value: 1.0
+      duration: 250ms
+    - property: opacity
+      value: 0.5
+      duration: 250ms
+      repeat: true
 
-timers:
-  skillshot_rotate:
-    tick_interval: 500ms
-    start_running: true
-    control_events:
-      - event: balldevice_bd_trough_ball_eject_success
-        action: stop
+slides:
+  skillshot_start:
+    widgets:
+      - type: text
+        text: Hit the skillshot
+        color: gold
+        font_size: 120
+      - type: image
+        image: bar_screen
+        scale: 1
+
+
+
+  skillshot_hit:
+    widgets:
+      - type: text
+        text: YOU HIT THE SKILLSHOT!
+        color: gold
+        font_size: 120
+      - type: image
+        image: bar_screen
+        scale: 1
+        
+      
+
+slide_player:
+  mode_skillshot_started: skillshot_start
+  skillshot_lit_hit: skillshot_hit
+
+
+
+
 
 variable_player:
   skillshot_lit_hit:
