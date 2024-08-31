@@ -52,29 +52,13 @@ shot_profiles:
     states:
       - name: off
         show: off
-      - name: on
-        show: on
+      #- name: on
+      #  show: on
       - name: lit
         show: flash
 
 
-animations:
-  shot_off:
-    - property: opacity
-      value: 0.5
-      duration: 0
-  shot_on:
-    - property: opacity
-      value: 1.0
-      duration: 0
-  shot_flashing:
-    - property: opacity
-      value: 1.0
-      duration: 250ms
-    - property: opacity
-      value: 0.5
-      duration: 250ms
-      repeat: true
+
 
 slides:
   skillshot_start:
@@ -103,13 +87,24 @@ slides:
 
 slide_player:
   mode_skillshot_started: skillshot_start
-  skillshot_lit_hit: skillshot_hit
-
+  skillshot_drop_1_lit_hit: skillshot_hit
+  skillshot_drop_2_lit_hit: skillshot_hit
+  skillshot_drop_3_lit_hit: skillshot_hit
 
 
 
 
 variable_player:
-  skillshot_lit_hit:
+  skillshot_drop_1_lit_hit:
     score: 200000
+  skillshot_drop_2_lit_hit:
+    score: 200000
+  skillshot_drop_3_lit_hit:
+    score: 200000
+
+
+
+
+
+
   
