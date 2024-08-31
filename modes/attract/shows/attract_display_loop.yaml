@@ -262,63 +262,63 @@
       widgets:
       - type: text
         text: HIGH SCORES
-        font_size: 80
+        font_size: 60
         bold: true
         y: 80%
         color: gold
       - type: text
         text: (machine|score1_label)
         style: attract_mode_high_score_display_label
-        y: 70%
-        font_size: 80
+        y: 72%
+        font_size: 60
         color: gold
       - type: text
         text: (machine|score1_name)
         style: attract_mode_high_score_display_name
-        y: 70%
-        font_size: 80
+        y: 72%
+        font_size: 60
         color: gold
       - type: text
         text: (machine|score1_value)
         style: attract_mode_high_score_display_score
-        y: 70%
-        font_size: 80
+        y: 72%
+        font_size: 60
         color: gold
       - type: text
         text: (machine|score2_label)
         style: attract_mode_high_score_display_label
-        y: 60%
-        font_size: 80
+        y: 64%
+        font_size: 60
         color: gold
       - type: text
         text: (machine|score2_name)
         style: attract_mode_high_score_display_name
-        y: 60%
-        font_size: 80
+        y: 64%
+        font_size: 60
         color: gold
       - type: text
         text: (machine|score2_value)
         style: attract_mode_high_score_display_score
-        y: 60%
-        font_size: 80
+        y: 64%
+        font_size: 60
         color: gold
       - type: text
         text: (machine|score3_label)
         style: attract_mode_high_score_display_label
-        y: 50%
-        font_size: 80
+        y: 56%
+        font_size: 60
         color: gold
       - type: text
         text: (machine|score3_name)
         style: attract_mode_high_score_display_name
-        y: 50%
-        font_size: 80
+        y: 56%
+        font_size: 60
         color: gold
       - type: text
         text: (machine|score3_value)
         style: attract_mode_high_score_display_score
-        y: 50%
-        font_size: 80
+        y: 56%
+        font_size: 60
         color: gold
       - type: image
         image: curtains

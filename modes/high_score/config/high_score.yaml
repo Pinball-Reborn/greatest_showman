@@ -25,15 +25,15 @@ high_score:
       - HIGH SCORE 8
   defaults:
     score:
-      - LISA SUE:    20000000
-      - JEFFREY:     18000000
-      - PT BARNUM:   16000000
-      - PHILLIP:     14000000 
-      - ANNE:        12000000
-      - CHARITY:     10000000
-      - JENNY:       8000000
-      - LETTIE:      6000000
-      - CHARLES:      250000
+      - LISA SUE:         20000000
+      - JEFFREY:          18000000
+      - PT BARNUM:        16000000
+      - PHILLIP:          14000000 
+      - ANNE:             12000000
+      - CHARITY:          10000000
+      - JENNY:            8000000
+      - LETTIE:           6000000
+      - CHARLES:           250000
 
 slide_player:
   mode_high_score_started: high_score_enter_initials
