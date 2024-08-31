@@ -9,7 +9,7 @@ mode:
 
 event_player:
   skillshot_lit_hit: stop_mode_skillshot|3s
-  playfield_active: stop_mode_skillshot|3s
+  playfield_active: stop_mode_skillshot|1s
 
 shot_groups:
   skillshot:
@@ -17,7 +17,7 @@ shot_groups:
       - skillshot_drop_1
       - skillshot_drop_2
       - skillshot_drop_3
-    rotate_events: timer_skillshot_rotate_tick
+
 
 random_event_player:
   mode_skillshot_started:
