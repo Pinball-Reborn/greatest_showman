@@ -131,7 +131,7 @@ variable_player:
  # my_first_shot_hit:
    # my_first_shot: 1
   five_million_standup_five_million_profile_unlit_hit:
-    score: 130000
+    score: 65000
   five_million_standup_five_million_profile_lit_hit:
     score: 5000000
   left_flipper_hit:
@@ -139,87 +139,87 @@ variable_player:
   right_flipper_hit:
     potato: 1
   right_ramp_hit:
-    score: 165000
+    score: 80000
     ramps: 1
     bonus_ramps: 1
   single_drop_target_hit:
-    score: 250000
+    score: 125000
     drops: 1
   left_pop_bumpers_left_hit:
-    score: 16500
+    score: 800
     pop: 1
   s_right_ticket_booth_active:
     score: 0
   left_pop_bumpers_right_hit:
-    score: 16500
+    score: 8000
     pop: 1
   tickets_hit:
-    score: 25000
+    score: 12500
     tickets: 1
   front_drop_target_hit:
-    score: 35000
+    score: 17000
     drops: 1
   #3_bank_drop_target_2_hit:
   middle_drop_target_hit:
-    score: 35000
+    score: 17000
     drops: 1
   back_drop_target_hit:
-    score: 35000
+    score: 17000
     drops: 1
   s_left_stand_up_target_active:
-    score: 130000
+    score: 65000
   left_pop_bumpers_top_hit:
-    score: 16500
+    score: 8000
     pop: 1
 
   top_pop_bumpers_bottom_hit:
-    score: 16500
+    score: 8000
     pop: 1
   left_orbit_hit:
-    score: 165000
+    score: 8000
     orbit: 1
   top_pop_bumpers_left_hit:
-    score: 16500
+    score: 8000
     pop: 1
   inner_orbit_hit:
-    score: 165000
+    score: 80000
     orbit: 1
   s_stand_up_target_right_active:
-    score: 130000
+    score: 65000
   s_right_bounce_mid_playfield_active:
     score: 5000
   s_right_drain_active:
-    score: 165000
+    score: 80000
   s_slingshot_right_active:
-    score: 16500
+    score: 8000
   left_ramp_hit:
-    score: 165000
+    score: 80000
     ramps: 1
     bonus_ramps: 1
   top_pop_bumpers_top_hit:
-    score: 16500
+    score: 8000
     pop: 1
   s_spinner_active:
-    score: 5000
+    score: 3000
   s_left_stand_up_target_lift_ramp_active:
-    score: 130000
+    score: 65000
   s_right_stand_up_target_lift_ramp_active:
-    score: 130000
+    score: 65000
   s_under_ramp_eject_active:
-    score: 1000
+    score: 10000
   right_orbit_hit:
-    score: 165000
+    score: 80000
     orbit: 1
   s_left_drain_active:
-    score: 165000
+    score: 80000
   s_slingshot_left_active:
-    score: 16500
+    score: 8000
   s_left_bounce_mid_playfield_active:
-    score: 5000
+    score: 3000
   s_left_return_lane_active:
-    score: 16500
+    score: 8000
   s_right_inlane_active:
-    score: 16500
+    score: 8000
   challenges_done:
     score: 25000
   mode_pop_bumpers_starting:

@@ -58,7 +58,7 @@
 
 
 
-- duration: 5s
+- duration: 3s
   slides:
     last_game_score_slide:
       widgets:
@@ -76,7 +76,211 @@
         image: curtains
         scale: .9
 
-- duration: 5s
+- duration: 8s
+  slides:
+    show_high_scores:
+      widgets:
+      - type: text
+        text: HIGH SCORES
+        font_size: 50
+        bold: true
+        y: 88%
+        color: gold
+      - type: text
+        text: (machine|score1_label)
+        style: attract_mode_high_score_display_label
+        y: 80%
+        x: 36%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score1_name)
+        style: attract_mode_high_score_display_name
+        y: 80%
+        x: 55%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score1_value)
+        style: attract_mode_high_score_display_score
+        y: 80%
+        x: 74%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score2_label)
+        style: attract_mode_high_score_display_label
+        y: 72%
+        x: 36%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score2_name)
+        style: attract_mode_high_score_display_name
+        y: 72%
+        x: 55%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score2_value)
+        style: attract_mode_high_score_display_score
+        y: 72%
+        x: 74%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score3_label)
+        style: attract_mode_high_score_display_label
+        y: 64%
+        x: 36%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score3_name)
+        style: attract_mode_high_score_display_name
+        y: 64%
+        x: 55%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score3_value)
+        style: attract_mode_high_score_display_score
+        y: 64%
+        x: 74%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score4_label)
+        style: attract_mode_high_score_display_label
+        y: 56%
+        x: 36%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score4_name)
+        style: attract_mode_high_score_display_name
+        y: 56%
+        x: 55%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score4_value)
+        style: attract_mode_high_score_display_score
+        y: 56%
+        x: 74%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score5_label)
+        style: attract_mode_high_score_display_label
+        y: 48%
+        x: 36%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score5_name)
+        style: attract_mode_high_score_display_name
+        y: 48%
+        x: 55%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score5_value)
+        style: attract_mode_high_score_display_score
+        y: 48%
+        x: 74%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score6_label)
+        style: attract_mode_high_score_display_label
+        y: 40%
+        x: 36%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score6_name)
+        style: attract_mode_high_score_display_name
+        y: 40%
+        x: 55%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score6_value)
+        style: attract_mode_high_score_display_score
+        y: 40%
+        x: 74%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score7_label)
+        style: attract_mode_high_score_display_label
+        y: 32%
+        x: 36%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score7_name)
+        style: attract_mode_high_score_display_name
+        y: 32%
+        x: 55%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score7_value)
+        style: attract_mode_high_score_display_score
+        y: 32%
+        x: 74%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score8_label)
+        style: attract_mode_high_score_display_label
+        y: 24%
+        x: 36%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score8_name)
+        style: attract_mode_high_score_display_name
+        y: 24%
+        x: 55%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score8_value)
+        style: attract_mode_high_score_display_score
+        y: 24%
+        x: 74%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score9_label)
+        style: attract_mode_high_score_display_label
+        y: 17%
+        x: 36%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score9_name)
+        style: attract_mode_high_score_display_name
+        y: 17%
+        x: 55%
+        font_size: 50
+        color: gold
+      - type: text
+        text: (machine|score9_value)
+        style: attract_mode_high_score_display_score
+        y: 17%
+        x: 74%
+        font_size: 50
+        color: gold
+      - type: image
+        image: curtains
+        scale: .9
+
+
+- duration: 4s
   slides:
     pinball_reborn_slide:
       widgets:
@@ -84,7 +288,7 @@
         image: pinball_reborn
         scale: .9
 
-- duration: 5s
+- duration: 4s
   slides:
     fast_mission_slide:
       widgets:
@@ -256,73 +460,6 @@
         duration: 1s
         direction: top
 
-- duration: 5s
-  slides:
-    show_high_scores:
-      widgets:
-      - type: text
-        text: HIGH SCORES
-        font_size: 60
-        bold: true
-        y: 80%
-        color: gold
-      - type: text
-        text: (machine|score1_label)
-        style: attract_mode_high_score_display_label
-        y: 72%
-        font_size: 60
-        color: gold
-      - type: text
-        text: (machine|score1_name)
-        style: attract_mode_high_score_display_name
-        y: 72%
-        font_size: 60
-        color: gold
-      - type: text
-        text: (machine|score1_value)
-        style: attract_mode_high_score_display_score
-        y: 72%
-        font_size: 60
-        color: gold
-      - type: text
-        text: (machine|score2_label)
-        style: attract_mode_high_score_display_label
-        y: 64%
-        font_size: 60
-        color: gold
-      - type: text
-        text: (machine|score2_name)
-        style: attract_mode_high_score_display_name
-        y: 64%
-        font_size: 60
-        color: gold
-      - type: text
-        text: (machine|score2_value)
-        style: attract_mode_high_score_display_score
-        y: 64%
-        font_size: 60
-        color: gold
-      - type: text
-        text: (machine|score3_label)
-        style: attract_mode_high_score_display_label
-        y: 56%
-        font_size: 60
-        color: gold
-      - type: text
-        text: (machine|score3_name)
-        style: attract_mode_high_score_display_name
-        y: 56%
-        font_size: 60
-        color: gold
-      - type: text
-        text: (machine|score3_value)
-        style: attract_mode_high_score_display_score
-        y: 56%
-        font_size: 60
-        color: gold
-      - type: image
-        image: curtains
-        scale: .9
 
 
 

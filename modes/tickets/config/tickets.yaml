@@ -66,7 +66,7 @@ sounds:
 
 variable_player:
   tickets_tickets_hit:
-    score: 250000
+    score: 125000
   timer_tickets_timer_tick:
     tickets_timer_seconds:
       int: device.timers.tickets_timer.ticks % 60
