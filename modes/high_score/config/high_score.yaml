@@ -56,7 +56,7 @@ slides:
       text: (award)
       color: gold
 
-      y: 75%
+      y: 65%
     - type: text_input
       initial_char: A
       dynamic_x: false
@@ -64,7 +64,7 @@ slides:
       font_size: 120
       max_chars: 12
 
-      y: 60%
+      y: 50%
       shift_left_event: s_left_flipper_active
       shift_right_event: s_right_flipper_active
       select_event: s_start_active
@@ -73,7 +73,7 @@ slides:
       text: ''
       key: high_score
       font_size: 120
-      y: 45%
+      y: 35%
       color: gold
     - type: image
       image: bar_screen
@@ -119,11 +119,7 @@ slides:
       font_size: 120
       number_grouping: true
       min_digits: 2
-    - type: text
-      text: (player(player_num)|character)
-      y: 10%
-      color: gold
-      font_size: 120
+
     - type: image
       image: bar_screen
       scale: 1
