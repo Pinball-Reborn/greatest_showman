@@ -387,9 +387,12 @@ event_player:
     - play_ladies_gents_slide
     - remove_ladies_gents_slide|6s
     - play_main_screen_slide|6.1s
+    - start_mode_skillshot
+    
 
   mode_base_started{current_player.ball>1 or current_player.number>1}:
     - play_main_screen_slide
+    - start_mode_skillshot
 
   five_million_standup_five_million_profile_lit_hit:
     - set_five_million_profile_off

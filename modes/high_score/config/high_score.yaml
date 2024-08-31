@@ -81,8 +81,8 @@ slides:
   high_score_award_display_slide:
     - type: text
       text: (player_name)
-      font_size: 120
-      y: 80%
+      font_size: 140
+      y: 70%
       color: gold
     
     - type: text

@@ -612,6 +612,7 @@ modes:
   - bonus
   - tilt
   - high_score
+  - skillshot
   
 player_vars:
   potato:

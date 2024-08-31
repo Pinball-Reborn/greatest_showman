@@ -19,7 +19,7 @@
         color: red
       - type: image
         image: curtains
-        scale: .9
+        scale: 1
       transition:
         type: push
         duration: 1s
@@ -49,7 +49,7 @@
         anchor_y: bottom
       - type: image
         image: curtains
-        scale: .9
+        scale: 1
       transition:
         type: move_in
         duration: 1s
@@ -74,7 +74,7 @@
         y: 35%
       - type: image
         image: curtains
-        scale: .9
+        scale: 1
 
 - duration: 8s
   slides:
@@ -277,7 +277,7 @@
         color: gold
       - type: image
         image: curtains
-        scale: .9
+        scale: 1
 
 
 - duration: 4s
@@ -286,7 +286,7 @@
       widgets:
       - type: image
         image: pinball_reborn
-        scale: .9
+        scale: 1
 
 - duration: 4s
   slides:
@@ -331,7 +331,7 @@
         y: 25%
       - type: image
         image: curtains
-        scale: .9
+        scale: 1
       transition:
         type: move_in
         duration: 1s
@@ -368,7 +368,7 @@
         y: 28%
       - type: image
         image: curtains
-        scale: .9
+        scale: 1
       transition:
         type: move_in
         duration: 1s
@@ -415,7 +415,7 @@
 
       - type: image
         image: curtains
-        scale: .9
+        scale: 1
       transition:
         type: move_in
         duration: 1s
@@ -454,7 +454,7 @@
 
       - type: image
         image: curtains
-        scale: .9
+        scale: 1
       transition:
         type: move_in
         duration: 1s
