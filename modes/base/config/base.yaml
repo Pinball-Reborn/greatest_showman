@@ -331,7 +331,7 @@ shots:
 ball_saves:
   default:
     active_time: 20s
-    hurry_up_time: 8s
+    hurry_up_time: 2s
     grace_period: 2s
     enable_events: mode_base_started
     timer_start_events: 
@@ -388,10 +388,12 @@ event_player:
     - remove_ladies_gents_slide|6s
     - play_main_screen_slide|6.1s
 
+
     
 
   mode_base_started{current_player.ball>1 or current_player.number>1}:
     - play_main_screen_slide
+
 
 
   five_million_standup_five_million_profile_lit_hit:

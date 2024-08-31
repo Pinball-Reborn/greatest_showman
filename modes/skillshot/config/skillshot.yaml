@@ -5,7 +5,7 @@
 mode:
   start_events: ball_started
   stop_events: stop_mode_skillshot
-  priority: 100
+  priority: 1000
 
 config:
   - skillshot_slides.yaml
@@ -63,7 +63,7 @@ timers:
     tick_interval: 500ms
     start_running: true
     control_events:
-      - event: s_plunger_lane_inactive
+      - event: balldevice_bd_trough_ball_eject_success
         action: stop
 
 variable_player:
