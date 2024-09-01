@@ -71,7 +71,7 @@ slides:
       y: 65%
     - type: text_input
       char_list: ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      #dynamic_x: false
+      dynamic_x: false
       key: high_score
       font_size: 120
       max_chars: 12
@@ -80,6 +80,11 @@ slides:
       shift_left_event: s_left_flipper_active
       shift_right_event: s_right_flipper_active
       select_event: s_start_active
+      color: gold
+    - type: text
+      text: "<      >"
+      font_size: 120
+      y: 42%
       color: gold
     - type: text
       text: ""
@@ -108,8 +113,8 @@ slides:
       y: 30%
       color: gold
       font_size: 120
-      #number_grouping: true
-      #min_digits: 2
+      number_grouping: true
+      min_digits: 2
     - type: image
       image: bar_screen
       scale: 1
@@ -130,8 +135,8 @@ slides:
       y: 30%
       color: gold
       font_size: 120
-      #number_grouping: true
-      #min_digits: 2
+      number_grouping: true
+      min_digits: 2
     - type: text
       text: (player(player_num)|character)
       y: 20%
