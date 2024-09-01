@@ -13,4 +13,55 @@ multiballs:
     shoot_again: 20s
     enable_events: mode_challenges_multiball_starting
     start_events:  mode_challenges_multiball_started
+
+show_player:
+  mode_challenges_multiball_started: 
+    challenges_multiball_show:
+      speed: 8
+      loops: -1
+
+sounds:
+  jackpot:
+    file: jackpot.wav
+    track: voice
+    volume: 0.9
+    priority: 100
+  multiball:
+    file: multiball.wav
+    track: voice
+    volume: 0.9
+    priority: 100
+  another_jackpot:
+    file: another_jackpot.wav
+    track: voice
+    volume: 0.9
+    priority: 100
+
+
+
+sound_player:
+  mode_challenges_multiball_started:
+    multiball:
+      action: play
+      loops: 0
+
+slides:
+  come_alive:
+    type: video
+    video: come_alive
+    volume: 0.3
+
+slide_player:
+  mode_challenges_multiball_started: come_alive
+
+videos:
+  come_alive:
+    file: come_alive.mpg
+
+
+
+#shots:
+  #skillshot_drop_1:
+    #switch: 
+
   

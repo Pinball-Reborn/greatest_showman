@@ -81,7 +81,7 @@ slides:
   skillshot_hit:
     widgets:
       - type: text
-        text: YOU HIT THE SKILLSHOT!
+        text: YOU HIT THE SKILL SHOT!
         color: gold
         font_size: 120
       - type: image
@@ -95,6 +95,29 @@ slide_player:
   skillshot_drop_1_lit_hit: skillshot_hit
   skillshot_drop_2_lit_hit: skillshot_hit
   skillshot_drop_3_lit_hit: skillshot_hit
+
+sounds:
+  skillshot:
+    file: skillshot.wav
+    track: voice
+    volume: 0.9
+    priority: 100
+
+
+
+sound_player:
+  skillshot_drop_1_lit_hit:
+    skillshot:
+      action: play
+      loops: 0
+  skillshot_drop_2_lit_hit:
+    skillshot:
+      action: play
+      loops: 0
+  skillshot_drop_3_lit_hit:
+    skillshot:
+      action: play
+      loops: 0
 
 
 

@@ -33,7 +33,7 @@ high_score:
       - CHARITY:          35000000
       - JENNY:            30000000
       - LETTIE:           25000000
-      - CHARLES:          20000000
+      - CHARLES:          2000000
 
 slide_player:
   mode_high_score_started: high_score_enter_initials
@@ -123,6 +123,8 @@ slides:
     - type: image
       image: bar_screen
       scale: 1
+
+ 
   
   
 
