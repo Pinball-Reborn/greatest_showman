@@ -57,6 +57,10 @@
     hat_upper_pop_bumpers: red
     extra_ball: red
     light_extra_ball: red
+    hat_right_orbit: red
+    arrow_left_inner_orbit: red
+    top_right_eject: red
+    
 
 
 
@@ -120,6 +124,9 @@
     hat_upper_pop_bumpers: gold
     extra_ball: gold
     light_extra_ball: gold
+    hat_right_orbit: gold
+    arrow_left_inner_orbit: gold
+    top_right_eject: gold
 
 
 

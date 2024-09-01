@@ -46,13 +46,53 @@ sound_player:
       loops: 0
 
 slides:
+  challenges_multiball:
+    widgets:
+      - type: text
+        text: CHALLENGES MULTIBALL
+        font_size: 150
+        color: gold
+      - type: image
+        image: main_screen
+        scale: 1
+  
   come_alive:
     type: video
     video: come_alive
     volume: 0.3
 
+  challenges_multi_finish:
+    widgets:
+      - type: text
+        text: CHALLENGES MULTIBALL
+        font_size: 150
+        color: gold
+      - type: image
+        image: main_screen
+        scale: 1
+
 slide_player:
-  mode_challenges_multiball_started: come_alive
+  play_challenges_multiball_slide:
+    challenges_multiball    
+  play_come_alive_slide:
+    come_alive
+  remove_challenges_multiball_slide:
+    challenges_multiball: 
+      action: remove
+  remove_come_alive_slide:
+    come_alive:
+      action: remove
+  play_challenges_multi_finish_slide:
+    challenges_multi_finish
+
+event_player:
+  mode_challenges_multiball_started:
+    - play_challenges_multiball_slide
+    - remove_challenges_multiball_slide|2s
+    - play_come_alive_slide|2.1s
+    - remove_come_alive_slide|62s
+    - play_challenges_multi_finish_slide|62.1s
+
 
 videos:
   come_alive:
