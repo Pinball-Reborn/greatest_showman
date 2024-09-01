@@ -9,16 +9,20 @@ mode:
 mode_settings: 
   display_delay_ms: 1000ms
   hurry_up_delay_ms: 200ms
+  hurry_up_event: flipper_cancel
   bonus_entries:
     - event: bonus_challenges
       score: 150000
       player_score_entry: bonus_challenges
+      skip_if_zero: true
     - event: bonus_ramps
       score: 25000
       player_score_entry: bonus_ramps
+      skip_if_zero: true
     - event: drop_bonus
       score: 150000
       player_score_entry: drop_bonus
+      skip_if_zero: true
 
 slide_player:
   mode_bonus_started: bonus_start_slide

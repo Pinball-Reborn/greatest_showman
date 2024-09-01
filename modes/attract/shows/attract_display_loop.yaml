@@ -71,7 +71,7 @@
         number_grouping: true
         min_digits: 2
         font_size: 100
-        y: 35%
+        y: 32%
       - type: image
         image: curtains
         scale: 1
