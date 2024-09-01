@@ -44,7 +44,12 @@ sound_player:
     multiball:
       action: play
       loops: 0
-
+  come_alive_slide_played:
+    ball1_player1_5:
+      action: stop
+  slide_challenges_multi_finish_played:
+    ball1_player1_5:
+      action: play
 slides:
   challenges_multiball:
     widgets:
@@ -53,7 +58,7 @@ slides:
         font_size: 150
         color: gold
       - type: image
-        image: main_screen
+        image: bar_screen
         scale: 1
   
   come_alive:
@@ -68,7 +73,7 @@ slides:
         font_size: 150
         color: gold
       - type: image
-        image: main_screen
+        image: bar_screen
         scale: 1
 
 slide_player:

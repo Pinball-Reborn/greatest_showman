@@ -8,6 +8,18 @@ mode:
   game_mode: false
   use_wait_queue: true
 
+
+event_player:
+  s_right_flipper_active:
+    item_highlighted:
+      button: right
+  s_left_flipper_active:
+    item_highlighted:
+      button: left
+  s_start_active:
+    item_highlighted:
+      button: select
+
 high_score:
   _overwrite: true
   enter_initials_timeout: 60s
@@ -58,8 +70,8 @@ slides:
 
       y: 65%
     - type: text_input
-      initial_char: A
-      dynamic_x: false
+      char_list: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      #dynamic_x: false
       key: high_score
       font_size: 120
       max_chars: 12
@@ -96,8 +108,8 @@ slides:
       y: 30%
       color: gold
       font_size: 120
-      number_grouping: true
-      min_digits: 2
+      #number_grouping: true
+      #min_digits: 2
     - type: image
       image: bar_screen
       scale: 1
@@ -118,8 +130,8 @@ slides:
       y: 30%
       color: gold
       font_size: 120
-      number_grouping: true
-      min_digits: 2
+      #number_grouping: true
+      #min_digits: 2
     - type: text
       text: (player(player_num)|character)
       y: 20%
@@ -138,7 +150,7 @@ slides:
 
 
 sound_player:
-  mode_high_score_started:
+  high_score_enter_initials:
     high_score:
       action: play
       loops: 0 
