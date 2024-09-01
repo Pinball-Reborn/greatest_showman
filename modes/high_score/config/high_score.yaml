@@ -75,6 +75,7 @@ slides:
       font_size: 120
       y: 35%
       color: gold
+
     - type: image
       image: bar_screen
       scale: 1
@@ -119,6 +120,11 @@ slides:
       font_size: 120
       number_grouping: true
       min_digits: 2
+    - type: text
+      text: (player(player_num)|character)
+      y: 20%
+      color: gold
+      font_size: 120
 
     - type: image
       image: bar_screen
