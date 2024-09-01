@@ -613,6 +613,7 @@ modes:
   - tilt
   - high_score
   - skillshot
+  - challenges_multiball
   
 player_vars:
   potato:
