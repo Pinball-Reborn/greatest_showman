@@ -48,9 +48,14 @@ high_score:
       - CHARLES:          2000000
 
 slide_player:
-  mode_high_score_started: high_score_enter_initials
-  high_score_award_display: high_score_award_display_slide
-  loops_award_display: score_award_display
+  _overwrite: true
+  high-score_enter_initials: 
+    high_score_enter_initials:
+      action: play
+  high_score_award_display: 
+    high_score_award_display:
+      action: play
+
 
 
 
@@ -64,10 +69,9 @@ slides:
 
       y: 80%
     - type: text
-      font_size: 120
       text: (award)
       color: gold
-
+      font_size: 120      
       y: 65%
     - type: text_input
       char_list: ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -96,7 +100,7 @@ slides:
     - type: image
       image: bar_screen
       scale: 1
-  high_score_award_display_slide:
+  high_score_award_display:
     - type: text
       text: (player_name)
       font_size: 140
@@ -118,34 +122,7 @@ slides:
     - type: image
       image: bar_screen
       scale: 1
-  score_award_display:
-    - type: text
-      text: (player_name)
-      font_size: 120
-      y: 80%
-      color: gold
 
-    - type: text
-      text: (award)
-      font_size: 120
-      y: 50%
-      color: gold
-    - type: text
-      text: (value)
-      y: 30%
-      color: gold
-      font_size: 120
-      number_grouping: true
-      min_digits: 2
-    - type: text
-      text: (player(player_num)|character)
-      y: 20%
-      color: gold
-      font_size: 120
-
-    - type: image
-      image: bar_screen
-      scale: 1
 
 
 
