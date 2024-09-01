@@ -97,7 +97,7 @@ timers:
     start_running: false
 
 event_player:
-  timer_challenges_timer_complete: start_challneges_multiball
+  timer_challenges_timer_complete: start_challenges_multiball
   
 
      
