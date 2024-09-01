@@ -61,3 +61,66 @@
 
 
 
+
+- duration: 250ms
+  lights:
+    shoot_again: gold
+
+- duration: 250ms
+  lights:
+      challenges_a: gold
+      challenges_b: gold
+      challenges_c: gold
+      challenges_d: gold
+      challenges_e: gold      
+      challenges_f: gold
+
+- duration: 250ms
+  lights:
+    save_the_show_left: gold
+    save_the_show_right: gold
+    arrow_bottom_left: gold
+
+- duration: 250ms
+  lights:
+    target_mid_left: gold
+    target_mid_right: gold
+    arrow_outer_left_orbit: gold
+    hat_left_pop_bumpers: gold
+
+- duration: 250ms
+  lights:
+    skill_shot_1: gold
+    skill_shot_2: gold
+    skill_shot_3: gold
+    skill_shot_round: gold
+
+
+- duration: 250ms
+  lights:
+    miss: gold
+    jenny: gold
+    lind: gold
+    below_lock_in_musical_staff: gold
+    lock: gold
+    arrow_lift_ramp_target_right: gold
+    arrow_lift_ramp_target_left: gold
+    arrow_right_orbit: gold
+
+- duration: 250ms
+  lights:
+    five_million_when_lit: gold
+    four: gold
+    three: gold
+    two: gold
+    one: gold
+
+- duration: 250ms
+  lights:
+    hat_upper_pop_bumpers: gold
+    extra_ball: gold
+    light_extra_ball: gold
+
+
+
+
