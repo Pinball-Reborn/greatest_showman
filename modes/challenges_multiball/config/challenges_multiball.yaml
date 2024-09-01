@@ -36,7 +36,11 @@ sounds:
     track: voice
     volume: 0.9
     priority: 100
-
+  first_ball_music:
+    file: ball1_player1_5.wav
+    track: music
+    volume: 0.9
+    priority: 100 
 
 
 sound_player:
@@ -44,11 +48,12 @@ sound_player:
     multiball:
       action: play
       loops: 0
-  come_alive_slide_played:
-    ball1_player1_5:
-      action: stop
-  slide_challenges_multi_finish_played:
-    ball1_player1_5:
+
+  #come_alive_slide_played:
+    #first_ball_music:
+      #action: stop
+  challenges_multi_finish:
+    first_ball_music:
       action: play
 slides:
   challenges_multiball:

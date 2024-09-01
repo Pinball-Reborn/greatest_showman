@@ -583,6 +583,11 @@ sound_player:
     first_ball_music:
       action: stop
       fade_out: 0.5s
+  mode_challenges_multiball_started:
+    first_ball_music:
+      action: stop
+      fade_out: 0.5s
+    
 
   mode_base_started:
     the_other_side:

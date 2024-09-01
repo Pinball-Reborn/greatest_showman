@@ -82,7 +82,7 @@ slides:
       select_event: s_start_active
       color: gold
     - type: text
-      text: ''
+      text: ""
       key: high_score
       font_size: 120
       y: 35%
@@ -170,7 +170,8 @@ sounds:
     track: voice
     volume: 0.9
     priority: 50
-  
+
+
   
 
 
