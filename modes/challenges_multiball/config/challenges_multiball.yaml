@@ -52,7 +52,7 @@ sound_player:
       action: play
       loops: 0
 
-  challenges_multi_finish:
+  slide_challenges_multi_finish_active:
     first_ball_music:
       action: play
   multiball_right_ramp_hit:
@@ -113,6 +113,8 @@ event_player:
     - play_challenges_multi_finish_slide|62.1s
   balls_in_play{balls==1}:
     - stop_mode_challenges_multiball
+
+  #slide_challenges_multi_finish_active:
 
 
 videos:

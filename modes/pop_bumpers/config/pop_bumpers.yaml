@@ -57,11 +57,6 @@ sounds:
     volume: 1.7
     priority: 200
     max_queue_time: 0
-  the_other_side:
-    file: The_Other_Side.wav
-    track: music
-    volume: 0.2
-    priority: 200
   shoot_pops:
     file: shoot_pop_bumpers.wav
     track: voice
