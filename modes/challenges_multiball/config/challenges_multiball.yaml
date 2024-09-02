@@ -55,7 +55,7 @@ sound_player:
   multiball_right_ramp_hit:
     jackpot:
       action: play
-  multiball_leftt_ramp_hit:
+  multiball_left_ramp_hit:
     jackpot:
       action: play
 
