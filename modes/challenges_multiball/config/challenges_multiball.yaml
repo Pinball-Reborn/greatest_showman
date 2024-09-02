@@ -6,6 +6,7 @@ mode:
   start_events: start_challenges_multiball
   priority: 500
   stop_events: balls_in_play{balls==1}
+  events_when_stopped: restart_mode_base
 
 
 multiballs: 
