@@ -1,7 +1,7 @@
 #config_version=6
 
 mode:
-  start_events: ball_started, restart_mode_base
+  start_events: ball_started
   priority: 100
 
 slides:
@@ -401,6 +401,8 @@ event_player:
     #clear_slide_queue:
       #clear_current: true
 
+  restart_mode_base:
+    - play_main_screen_slide
 
 
   five_million_standup_five_million_profile_lit_hit:
@@ -559,6 +561,11 @@ sound_player:
       loops: -1
 
   mode_base_started{current_player.ball>1 or current_player.number>1}:
+    first_ball_music:
+      action: play
+      loops: -1
+
+  restart_mode_base:
     first_ball_music:
       action: play
       loops: -1
