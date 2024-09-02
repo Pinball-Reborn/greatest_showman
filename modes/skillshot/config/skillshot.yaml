@@ -10,9 +10,9 @@ mode:
 event_player:
   skillshot_lit_hit: stop_mode_skillshot|3s
   playfield_active: stop_mode_skillshot|1s
-  skillshot_drop_1_unlit_hit: stop_mode_skillshot
-  skillshot_drop_2_unlit_hit: stop_mode_skillshot
-  skillshot_drop_3_unlit_hit: stop_mode_skillshot
+  skillshot_drop_1_off_hit: stop_mode_skillshot
+  skillshot_drop_2_off_hit: stop_mode_skillshot
+  skillshot_drop_3_off_hit: stop_mode_skillshot
 
 shot_groups:
   skillshot:
