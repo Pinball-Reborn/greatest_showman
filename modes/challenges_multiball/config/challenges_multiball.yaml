@@ -49,12 +49,18 @@ sound_player:
       action: play
       loops: 0
 
-  #come_alive_slide_played:
-    #first_ball_music:
-      #action: stop
-  challenges_multi_finish:
+  challenges_multi_finish_slide_played:
     first_ball_music:
       action: play
+  multiball_right_ramp_hit:
+    jackpot:
+      action: play
+  multiball_leftt_ramp_hit:
+    jackpot:
+      action: play
+
+
+
 slides:
   challenges_multiball:
     widgets:
@@ -111,8 +117,17 @@ videos:
 
 
 
-#shots:
-  #skillshot_drop_1:
-    #switch: 
+shots:
+  multiball_left_ramp:
+    switch: s_left_ramp_made
+  multiball_right_ramp:
+    switch: s_back_ramp_made
+
+variable_player:
+  multiball_left_ramp_hit:
+    score: 1000000
+  multiball_right_ramp_hit:
+    score: 1000000
+
 
   

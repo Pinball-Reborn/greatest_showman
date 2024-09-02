@@ -9,16 +9,7 @@ mode:
   use_wait_queue: true
 
 
-event_player:
-  s_right_flipper_active:
-    item_highlighted:
-      button: right
-  s_left_flipper_active:
-    item_highlighted:
-      button: left
-  s_start_active:
-    item_highlighted:
-      button: select
+
 
 high_score:
   _overwrite: true
@@ -47,16 +38,11 @@ high_score:
       - LETTIE:           25000000
       - CHARLES:          2000000
 
+
 slide_player:
   _overwrite: true
-  high-score_enter_initials: 
-    high_score_enter_initials:
-      action: play
-  high_score_award_display: 
-    high_score_award_display:
-      action: play
-
-
+  high_score_enter_initials: high_score_enter_initials
+  high_score_award_display: high_score_award_display
 
 
 slides:
@@ -64,68 +50,60 @@ slides:
   high_score_enter_initials:
     - type: text
       text: PLAYER (player_num)
-      font_size: 120
       color: gold
-
       y: 80%
+      font_size: 120
     - type: text
       text: (award)
       color: gold
-      font_size: 120      
       y: 65%
+      font_size: 120
     - type: text_input
-      char_list: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      initial_char: A
       dynamic_x: false
       key: high_score
-      font_size: 120
       max_chars: 12
-
-      y: 50%
       shift_left_event: s_left_flipper_active
       shift_right_event: s_right_flipper_active
       select_event: s_start_active
       color: gold
-    - type: text
-      text: "<      >"
+      y: 50%
       font_size: 120
-      y: 42%
-      color: gold
     - type: text
-      text: ""
+      text: '<            >'
+      font_size: 120
+      color: gold
+      y: 50%
+    - type: text
+      text: ''
       key: high_score
       font_size: 120
-      y: 35%
       color: gold
-
+      y: 42%
     - type: image
       image: bar_screen
       scale: 1
+
   high_score_award_display:
     - type: text
       text: (player_name)
       font_size: 140
-      y: 70%
       color: gold
-    
+      y: 70%
     - type: text
       text: (award)
+      color: gold
       font_size: 120
       y: 50%
-      color: gold
     - type: text
       text: (value)
-      y: 30%
-      color: gold
-      font_size: 120
       number_grouping: true
       min_digits: 2
+      color: gold
+      font_size: 120
+      y: 30%
     - type: image
       image: bar_screen
-      scale: 1
-
-
-
-
 
 
 
