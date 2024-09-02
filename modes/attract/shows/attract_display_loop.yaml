@@ -1,81 +1,5 @@
 #show_version=6
 
-- duration: 5s
-  slides:
-    greatest_showman_slide:
-      widgets:
-      - type: image
-        image: pinball_reborn
-        scale: 0.4
-        y: 58%
-      - type: text
-        text: presents
-        font_size: 70
-        y: 38%
-      - type: text
-        text: THE GREATEST SHOWMAN
-        font_size: 120
-        y: 22%
-        color: red
-      - type: image
-        image: curtains
-        scale: 1
-      transition:
-        type: push
-        duration: 1s
-        direction: left
-
-- duration: 3s
-  slides:
-    press_start:
-      widgets:
-      - type: text
-        text: PRESS START
-        font_size: 100
-        animations:
-          pre_show_slide:
-          - property: opacity
-            value: 0
-            duration: .5s
-          - property: opacity
-            value: 1
-            duration: .5s
-            repeat: false
-      - type: text
-        text: FREE PLAY
-        color: red
-        font_size: 80
-        y: 20%
-        anchor_y: bottom
-      - type: image
-        image: curtains
-        scale: 1
-      transition:
-        type: move_in
-        duration: 1s
-        direction: right
-
-
-
-
-- duration: 3s
-  slides:
-    last_game_score_slide:
-      widgets:
-      - type: text
-        text: LAST GAME
-        font_size: 100
-        y: 55%
-      - type: text
-        text: (machine|player1_score)
-        number_grouping: true
-        min_digits: 2
-        font_size: 100
-        y: 32%
-      - type: image
-        image: curtains
-        scale: 1
-
 - duration: 8s
   slides:
     show_high_scores:
@@ -278,6 +202,84 @@
       - type: image
         image: curtains
         scale: 1
+
+
+- duration: 5s
+  slides:
+    greatest_showman_slide:
+      widgets:
+      - type: image
+        image: pinball_reborn
+        scale: 0.4
+        y: 58%
+      - type: text
+        text: presents
+        font_size: 70
+        y: 38%
+      - type: text
+        text: THE GREATEST SHOWMAN
+        font_size: 120
+        y: 22%
+        color: red
+      - type: image
+        image: curtains
+        scale: 1
+      transition:
+        type: push
+        duration: 1s
+        direction: left
+
+- duration: 3s
+  slides:
+    press_start:
+      widgets:
+      - type: text
+        text: PRESS START
+        font_size: 100
+        animations:
+          pre_show_slide:
+          - property: opacity
+            value: 0
+            duration: .5s
+          - property: opacity
+            value: 1
+            duration: .5s
+            repeat: false
+      - type: text
+        text: FREE PLAY
+        color: red
+        font_size: 80
+        y: 20%
+        anchor_y: bottom
+      - type: image
+        image: curtains
+        scale: 1
+      transition:
+        type: move_in
+        duration: 1s
+        direction: right
+
+
+
+
+- duration: 3s
+  slides:
+    last_game_score_slide:
+      widgets:
+      - type: text
+        text: LAST GAME
+        font_size: 100
+        y: 55%
+      - type: text
+        text: (machine|player1_score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 32%
+      - type: image
+        image: curtains
+        scale: 1
+
 
 
 - duration: 4s
