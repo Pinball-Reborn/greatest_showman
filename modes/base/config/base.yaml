@@ -634,7 +634,7 @@ sound_player:
       action: play
       loops: -1
   s_right_bounce_mid_playfield_active:
-    elephant:
+    animals:
       action: play
       loops: 0
   s_left_bounce_mid_playfield_active:
@@ -643,22 +643,22 @@ sound_player:
       loops: 0
 
   single_drop_target_hit:
-    merry_1:
+    single_drop:
       action: play
       loops: 0
 
   front_drop_target_hit:
-    merry_2:
+    drop_one:
       action: play
       loops: 0
 
   middle_drop_target_hit:
-    merry_3:
+    drop_two:
       action: play
       loops: 0
 
   back_drop_target_hit:
-    merry_4:
+    drop_three:
       action: play
       loops: 0
   s_spinner_active:
@@ -721,11 +721,7 @@ sounds:
     track: music
     volume: 0.9
     priority: 100
-  elephant:
-    file: Elephant_Angry.wav
-    track: sfx
-    volume: 0.6
-    priority: 50
+
   whip:
     file: bull_whip.wav
     track: sfx
@@ -816,6 +812,76 @@ sounds:
     track: voice
     volume: 0.8
     priority: 1000
+  drop_one:
+    file: drop_one.wav
+    track: sfx
+    volume: 0.6
+    priority: 50
+  drop_two:
+    file: drop_two.wav
+    track: sfx
+    volume: 0.6
+    priority: 50
+  drop_three:
+    file: drop_three.wav
+    track: sfx
+    volume: 0.6
+    priority: 50
+  single_drop:
+    file: single_drop.wav
+    track: sfx
+    volume: 0.6
+    priority: 50 
+  elephant:
+    file: Elephant_Angry.wav
+    track: sfx
+    volume: 0.6
+    priority: 50
+  elephant_scream:
+    file: elephant_scream.wav
+    track: sfx
+    volume: 0.6
+    priority: 50  
+   elephant_trumpet:
+    file: elephant_trumpet.wav
+    track: sfx
+    volume: 0.6
+    priority: 50   
+   elephant_trumpet2:
+    file: elephant_trumpet2.wav
+    track: sfx
+    volume: 0.6
+    priority: 50  
+   elephant_trumpet3:
+    file: elephant_trumpet3.wav
+    track: sfx
+    volume: 0.6
+    priority: 50  
+   horse_neighing:
+    file: horse_neighing.wav
+    track: sfx
+    volume: 0.6
+    priority: 50 
+   horse_whinnying:
+    file: horse_whinnying.wav
+    track: sfx
+    volume: 0.6
+    priority: 50   
+   lion:
+    file: lion.wav
+    track: sfx
+    volume: 0.6
+    priority: 50 
+   monkey_1:
+    file: monkey_1.wav
+    track: sfx
+    volume: 0.6
+    priority: 50   
+   monkey_2:
+    file: monkey_2.wav
+    track: sfx
+    volume: 0.6
+    priority: 50 
 
 
 sound_pools:
@@ -834,6 +900,21 @@ sound_pools:
     sounds:
       - beautiful
       - so_talelented
+  animals:
+    type:random
+    track: sfx
+    sounds:
+      - elephant
+      - elephant_scream
+      - elephant_trumpet
+      - elephant_trumpet2     
+      - elephant_trumpet3
+      - horse_neighing
+      - horse_whinnying
+      - lion
+      - monkey_1
+      - monkey_2
+
 
     
 
