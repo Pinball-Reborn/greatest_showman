@@ -109,7 +109,7 @@ event_player:
     - play_come_alive_slide|2.1s
     - remove_come_alive_slide|62s
     - play_challenges_multi_finish_slide|62.1s
-  balls_in_play{balls==1}
+  balls_in_play{balls==1}:
     - stop_mode_challenges_multiball
 
 
