@@ -45,9 +45,7 @@ sound_player:
     the_other_side:
       action: stop
       fade_out: 1s 
-
-
-    
+  
 sounds:
   drop_targets_challenge_completed:
     file: drop_targets_done.wav
