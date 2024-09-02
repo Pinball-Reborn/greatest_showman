@@ -43,25 +43,23 @@ sound_player:
     the_other_side:
       action: stop
       fade_out: 1s 
+
+
     
 sounds:
   drop_targets_challenge_completed:
     file: drop_targets_done.wav
     track: voice
-    volume: 1.5
+    volume: 1.7
     priority: 200
     max_queue_time: 0
   shoot_drop_targets:
     file: shoot_drops_now.wav
     track: voice
     volume: 1.5
-    priority: 200
-    max_queue_time: 0
-  a_million_dreams:
-    file: million_dreams.wav
-    track: music
-    volume: 0.6
-    priority: 200
+    priority: 500
+
+
   the_other_side:
     file: The_Other_Side.wav
     track: music
