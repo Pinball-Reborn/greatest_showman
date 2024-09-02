@@ -1,64 +1,61 @@
 events:
   game_ended: 1
-  game_started: 422
+  game_started: 423
 missing_switches:
   s_1_bank_drop_target: 2
-  s_3_bank_drop_target_1: 419
-  s_3_bank_drop_target_2: 419
-  s_3_bank_drop_target_3: 419
-  s_back_ramp_made: 419
-  s_inner_orbit_enter: 419
-  s_left_bounce_mid_playfield: 419
-  s_left_drain: 419
-  s_left_flipper: 398
-  s_left_flipper_eos: 419
-  s_left_lock_lower: 419
-  s_left_lock_mid: 419
-  s_left_lock_upper: 419
-  s_left_orbit_bottom: 419
-  s_left_orbit_top: 419
-  s_left_pop_bumpers_left: 24
-  s_left_pop_bumpers_right: 24
-  s_left_pop_bumpers_top: 24
-  s_left_ramp_made: 419
-  s_left_return_lane: 419
-  s_left_stand_up_target: 419
-  s_left_stand_up_target_lift_ramp: 419
-  s_left_ticket_booth: 419
-  s_middle_stand_up_target: 419
-  s_plunger: 403
-  s_ramp_down: 419
-  s_right_bounce_mid_playfield: 419
-  s_right_drain: 419
-  s_right_flipper: 329
-  s_right_flipper_eos: 419
-  s_right_inlane: 329
-  s_right_orbit_bottom: 419
-  s_right_orbit_top: 419
+  s_3_bank_drop_target_1: 420
+  s_3_bank_drop_target_2: 420
+  s_3_bank_drop_target_3: 420
+  s_back_ramp_made: 420
+  s_inner_orbit_enter: 420
+  s_left_bounce_mid_playfield: 420
+  s_left_drain: 420
+  s_left_flipper: 399
+  s_left_flipper_eos: 420
+  s_left_lock_lower: 420
+  s_left_lock_mid: 420
+  s_left_lock_upper: 420
+  s_left_orbit_bottom: 420
+  s_left_orbit_top: 420
+  s_left_pop_bumpers_left: 25
+  s_left_pop_bumpers_right: 25
+  s_left_pop_bumpers_top: 25
+  s_left_ramp_made: 420
+  s_left_return_lane: 420
+  s_left_stand_up_target: 420
+  s_left_stand_up_target_lift_ramp: 420
+  s_left_ticket_booth: 420
+  s_middle_stand_up_target: 420
+  s_plunger: 404
+  s_ramp_down: 420
+  s_right_bounce_mid_playfield: 420
+  s_right_drain: 420
+  s_right_flipper: 330
+  s_right_flipper_eos: 420
+  s_right_inlane: 330
+  s_right_orbit_bottom: 420
+  s_right_orbit_top: 420
   s_right_return_lane: 2
-  s_right_stand_up_target_lift_ramp: 419
-  s_right_ticket_booth: 419
-  s_right_upper_flipper: 421
-  s_single_drop_target: 318
+  s_right_stand_up_target_lift_ramp: 420
+  s_right_ticket_booth: 420
+  s_right_upper_flipper: 422
+  s_single_drop_target: 319
   s_slighshot_left: 1
-  s_slingshot_left: 418
-  s_slingshot_right: 419
-  s_spinner: 419
-  s_stand_up_target_right: 419
-  s_start: 125
-  s_tilt: 419
-  s_top_pop_bumpers_bottom: 2
-  s_top_pop_bumpers_left: 2
-  s_top_pop_bumpers_top: 2
-  s_trough1: 61
-  s_trough2: 419
-  s_trough3: 61
-  s_trough4: 420
-  s_trough5: 421
-  s_trough6: 421
-  s_trough_jam: 421
-  s_under_lift_ramp_eject: 419
-  s_upper_right_flipper_eos: 419
+  s_slingshot_left: 419
+  s_slingshot_right: 420
+  s_spinner: 420
+  s_stand_up_target_right: 420
+  s_start: 126
+  s_tilt: 420
+  s_trough1: 62
+  s_trough2: 420
+  s_trough3: 62
+  s_trough4: 421
+  s_trough5: 422
+  s_trough6: 422
+  s_trough_jam: 422
+  s_under_lift_ramp_eject: 420
+  s_upper_right_flipper_eos: 420
 player:
   score:
     average: 0.0
@@ -77,11 +74,11 @@ shots:
   left_pop_bumpers_top_pop_bumpers: 6
   my_first_shot: 77
   my_first_shot_mode2: 1
-  top_pop_bumpers_bottom: 155
+  top_pop_bumpers_bottom: 156
   top_pop_bumpers_bottom_pop_bumpers: 6
-  top_pop_bumpers_left: 420
+  top_pop_bumpers_left: 421
   top_pop_bumpers_left_pop_bumpers: 13
-  top_pop_bumpers_top: 1056
+  top_pop_bumpers_top: 1057
   top_pop_bumpers_top_pop_bumpers: 47
 switches:
   s_1_bank_drop_target: 8
@@ -131,9 +128,9 @@ switches:
   s_stand_up_target_right: 0
   s_start: 9
   s_tilt: 0
-  s_top_pop_bumpers_bottom: 164
-  s_top_pop_bumpers_left: 429
-  s_top_pop_bumpers_top: 1090
+  s_top_pop_bumpers_bottom: 165
+  s_top_pop_bumpers_left: 430
+  s_top_pop_bumpers_top: 1091
   s_trough1: 24
   s_trough2: 3
   s_trough3: 3

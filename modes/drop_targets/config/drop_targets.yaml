@@ -30,7 +30,7 @@ sound_player:
     drop_targets_challenge_completed:
       action: play
       loops: 0
-    a_million_dreams:
+    the_other_side:
       action: play
       track: music
       loops: 0
@@ -40,7 +40,7 @@ sound_player:
       delay: 5s
       loops: 0
   timer_drop_targets_timer_complete:
-    a_million_dreams:
+    the_other_side:
       action: stop
       fade_out: 1s 
     
@@ -60,9 +60,13 @@ sounds:
   a_million_dreams:
     file: million_dreams.wav
     track: music
+    volume: 0.6
+    priority: 200
+  the_other_side:
+    file: The_Other_Side.wav
+    track: music
     volume: 0.2
     priority: 200
-    max_queue_time: 0
 
   
   

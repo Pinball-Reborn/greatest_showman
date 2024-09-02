@@ -32,7 +32,7 @@ sound_player:
     Pop_bumper_challenge_completed:
       action: play
       loops: 0
-    the_other_side:
+    million_dreams:
       action: play
       track: music
       loops: 0
@@ -42,7 +42,7 @@ sound_player:
       delay: 5s
       loops: 0
   timer_pop_bumpers_timer_complete:
-    the_other_side:
+    million_dreams:
       action: stop
       fade_out: 1s
 
@@ -67,6 +67,11 @@ sounds:
     track: voice
     volume: 1.5
     priority: 500
+  million_dreams:
+    file: million_dreams.wav
+    track: music
+    volume: 0.2
+    priority: 200
 
 
 
