@@ -721,7 +721,6 @@ sounds:
     track: music
     volume: 0.9
     priority: 100
-
   whip:
     file: bull_whip.wav
     track: sfx
@@ -842,42 +841,42 @@ sounds:
     track: sfx
     volume: 0.6
     priority: 50  
-   elephant_trumpet:
+  elephant_trumpet:
     file: elephant_trumpet.wav
     track: sfx
     volume: 0.6
     priority: 50   
-   elephant_trumpet2:
+  elephant_trumpet2:
     file: elephant_trumpet2.wav
     track: sfx
     volume: 0.6
     priority: 50  
-   elephant_trumpet3:
+  elephant_trumpet3:
     file: elephant_trumpet3.wav
     track: sfx
     volume: 0.6
     priority: 50  
-   horse_neighing:
+  horse_neighing:
     file: horse_neighing.wav
     track: sfx
     volume: 0.6
     priority: 50 
-   horse_whinnying:
+  horse_whinnying:
     file: horse_whinnying.wav
     track: sfx
     volume: 0.6
     priority: 50   
-   lion:
+  lion:
     file: lion.wav
     track: sfx
     volume: 0.6
     priority: 50 
-   monkey_1:
+  monkey_1:
     file: monkey_1.wav
     track: sfx
     volume: 0.6
     priority: 50   
-   monkey_2:
+  monkey_2:
     file: monkey_2.wav
     track: sfx
     volume: 0.6
@@ -901,7 +900,7 @@ sound_pools:
       - beautiful
       - so_talelented
   animals:
-    type:random
+    type: random
     track: sfx
     sounds:
       - elephant
