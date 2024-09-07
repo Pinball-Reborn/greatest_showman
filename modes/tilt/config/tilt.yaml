@@ -80,13 +80,13 @@ slides:
 
 sound_player:
   tilt_warning.1{warnings_remaining>1}:
-    tilt_1:
+    be_nice_callout:
       volume: 1.5
   tilt_warning.2{warnings_remaining==1}:
-    tilt_2:
+    dont_shake_callout:
       volume: 1.5
   tilt:
-    tilt_3:
+    ball_lost_callout:
       volume: 1.5
 
 sounds:
@@ -102,6 +102,101 @@ sounds:
     file: tilt_finalbooing.wav
     track: sfx
     priority: 1000
+  ball_lost1:
+    file: ball_lost1.wav
+    track: voice
+    priority: 1000
+  ball_lost2:
+    file: ball_lost2.wav
+    track: voice
+    priority: 1000
+  be_nice1:
+    file: be_nice1.wav
+    track: voice
+    priority: 1000
+  be_nice2:
+    file: be_nice2.wav
+    track: voice
+    priority: 1000
+  dont_shake1:
+    file: dont_shake1.wav
+    track: voice
+    priority: 1000
+  dont_shake2:
+    file: dont_shake2.wav
+    track: voice
+    priority: 1000
+  dont_shake3:
+    file: dont_shake3.wav
+    track: voice
+    priority: 1000
+  now_look1:
+    file: now_look1.wav
+    track: voice
+    priority: 1000
+  now_look2:
+    file: now_look2.wav
+    track: voice
+    priority: 1000
+  now_look3:
+    file: now_look3.wav
+    track: voice
+    priority: 1000
+  stop_it1:
+    file: stop_it1.wav
+    track: voice
+    priority: 1000
+  stop_it2:
+    file: stop_it2.wav
+    track: voice
+    priority: 1000
+  tilt_you_lost1:
+    file: tilt_you_lost1.wav
+    track: voice
+    priority: 1000
+  tilt_you_lost2:
+    file: tilt_you_lost2.wav
+    track: voice
+    priority: 1000 
+  warning1:
+    file: warning1.wav
+    track: voice
+    priority: 1000
+  warning2:
+    file: warning2.wav
+    track: voice
+    priority: 1000
+
+
+sound_pools:
+  ball_lost_callout:
+    type: random
+    track: voice
+    sounds:
+      - ball_lost1
+      - now_look1
+      - tilt_you_lost1
+      - ball_lost2
+      - now_look2
+      - tilt_you_lost2
+      - now_look3
+  be_nice_callout:
+    type: random
+    track: voice
+    sounds:
+      - be_nice1
+      - warning1
+      - be_nice2
+      - warning2
+  dont_shake_callout:
+    type: random
+    track: voice
+    sounds:
+      - dont_shake1
+      - stop_it1
+      - dont_shake2
+      - stop_it2
+      - dont_shake3
 
 
 
