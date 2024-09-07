@@ -43,12 +43,18 @@ sounds:
     file: ball1_player1_5.wav
     track: music
     volume: 0.9
-    priority: 100 
+    priority: 100
+  challenges_multiball:
+    file: challenges_multiball.wav
+    track: voice
+    volume: 1.2
+    priority: 500
+   
 
 
 sound_player:
   mode_challenges_multiball_started:
-    multiball:
+    challenges_multiball:
       action: play
       loops: 0
 
