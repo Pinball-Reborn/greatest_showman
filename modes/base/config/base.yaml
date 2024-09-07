@@ -166,8 +166,11 @@ variable_player:
   back_drop_target_hit:
     score: 17000
     drops: 1
-  s_left_stand_up_target_active:
+  left_stand_up_hit:
     score: 65000
+    standup_hit: 1
+  middle_stand_up_hit:
+    standup_hit: 1
   left_pop_bumpers_top_hit:
     score: 8000
     pop: 1
@@ -184,8 +187,9 @@ variable_player:
   inner_orbit_hit:
     score: 80000
     orbit: 1
-  s_stand_up_target_right_active:
+  right_stand_up_hit:
     score: 65000
+    standup_hit: 1
   s_right_bounce_mid_playfield_active:
     score: 5000
   s_right_drain_active:
@@ -201,10 +205,12 @@ variable_player:
     pop: 1
   s_spinner_active:
     score: 3000
-  s_left_stand_up_target_lift_ramp_active:
+  stand_up_left_lift_ramp_hit:
     score: 65000
-  s_right_stand_up_target_lift_ramp_active:
+    standup_hit: 1
+  stand_up_right_lift_ramp_hit:
     score: 65000
+    standup_hit: 1
   s_under_ramp_eject_active:
     score: 10000
   right_orbit_hit:
@@ -333,6 +339,17 @@ shots:
     control_events: 
       - events: set_five_million_profile_off
         state: 0
+#STAND UPS
+  left_stand_up:
+    switch: s_left_stand_up_target
+  middle_stand_up:
+    switch: s_middle_stand_up_target
+  right_stand_up:
+    switch: s_stand_up_target_right
+  stand_up_left_lift_ramp:
+    switch: s_left_stand_up_target_lift_ramp
+  stand_up_right_lift_ramp:
+    switch: s_right_stand_up_target_lift_ramp
 
 
 
@@ -398,7 +415,7 @@ sequence_shots:
 
 shot_groups:
   stand_ups:
-    shots: s_left_stand_up_target_active, s_middle_stand_up_target_active, s_stand_up_target_right_active, s_left_stand_up_target_lift_ramp_active, s_right_stand_up_target_lift_ramp_active
+    shots: left_stand_up, right_stand_up, middle_stand_up, stand_up_left_lift_ramp, stand_up_right_lift_ramp
 
 
 
