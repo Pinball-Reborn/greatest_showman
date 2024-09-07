@@ -84,12 +84,12 @@ slides:
   come_alive:
     widgets:
       - type: text
-        text: Challenges
+        text: CHALLENGES
         color: red
         font_size: 120
         y: 85%
       - type: text
-        text: Mutiball
+        text: MULTIBALL
         color: red
         font_size: 120
         y: 15%
