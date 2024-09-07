@@ -84,9 +84,9 @@ sound_player:
     be_nice_callout:
       volume: 1.5
   tilt_warning.2{warnings_remaining==1}:
-    #dont_shake_callout:
-    tilt_callout:
+    dont_shake_callout:
       volume: 1.5
+
   tilt:
     tilt_callout:
       volume: 1.5
