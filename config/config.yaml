@@ -597,6 +597,7 @@ diverters:
     activation_time: 2s
     activation_switches: s_back_ramp_made
     enable_events: right_ramp_hit
+    activate_events: right_ramp_hit
 
 
 
