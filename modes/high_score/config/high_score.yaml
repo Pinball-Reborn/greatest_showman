@@ -79,7 +79,7 @@ slides:
       key: high_score
       font_size: 120
       color: gold
-      y: 42%
+      y: 38%
     - type: image
       image: bar_screen
       scale: 1

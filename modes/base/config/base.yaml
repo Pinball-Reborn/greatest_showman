@@ -719,6 +719,14 @@ sound_player:
     five_million_lit:
       action: play
       loops: 0
+  drop_bank_up_hit:
+    drop_sweep:
+      action: play
+      loops: 0
+  drop_bank_down_hit:
+    drop_sweep:
+      action: play
+      loops: 0
 
    
 
@@ -918,6 +926,16 @@ sounds:
     track: voice
     volume: 1.5
     priority: 500
+  drop_sweep1:
+    file: drop_sweep1.wav
+    track: voice
+    volume: 1.2
+    priority: 400
+  drop_sweep2:
+    file: drop_sweep2.wav
+    track: voice
+    volume: 1.2
+    priority: 400
 
 
 sound_pools:
@@ -964,6 +982,12 @@ sound_pools:
       - five_million_hit1
       - five_million_hit2
       - five_million_hit3
+  drop_sweep:
+    type: random
+    track: voice
+    sounds:
+      - drop_sweep1
+      - drop_sweep2
 
 
     
