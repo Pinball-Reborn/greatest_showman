@@ -246,6 +246,8 @@ variable_player:
     score: 100000
   ramp_orbit_hit:
     score: 100000
+  stand_ups_hit:
+    score: 100000
 
 
 
@@ -393,6 +395,10 @@ sequence_shots:
   orbit_ramp:
     switch_sequence: s_inner_orbit_enter, s_right_orbit_top, s_right_orbit_bottom, s_back_ramp_made
     sequence_timeout: 3s
+
+shot_groups:
+  stand_ups:
+    shots: s_left_stand_up_target_active, s_middle_stand_up_target_active, s_stand_up_target_right_active, s_left_stand_up_target_lift_ramp_active, s_right_stand_up_target_lift_ramp_active
 
 
 
