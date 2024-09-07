@@ -79,7 +79,7 @@ slides:
       key: high_score
       font_size: 120
       color: gold
-      y: 38%
+      y: 32%
     - type: image
       image: bar_screen
       scale: 1
@@ -87,8 +87,8 @@ slides:
   high_score_award_display:
     - type: text
       text: (player_name)
-      font_size: 140
-      color: gold
+      font_size: 160
+      color: black
       y: 70%
     - type: text
       text: (award)
