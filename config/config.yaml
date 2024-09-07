@@ -584,6 +584,7 @@ diverters:
     activation_coil: c_ramp_up
     deactivation_coil: c_ramp_down
     type: pulse
+    activate_events: stand_ups_hit
   ramp_diverter_coil:
     activation_coil: c_ramp_diverter
     type: hold
