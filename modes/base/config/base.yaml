@@ -241,6 +241,12 @@ variable_player:
   s_tilt_active:
     score: 100
     tag: tilt_warning
+#RAMP ORBIT COMBO SHOTS
+  orbit_ramp_hit:
+    score: 100000
+  ramp_orbit_hit:
+    score: 100000
+
 
 
 shots:
@@ -328,6 +334,7 @@ shots:
 
 
 
+
 ball_saves:
   default:
     active_time: 20s
@@ -380,6 +387,14 @@ sequence_shots:
   drop_bank_down:
     switch_sequence: s_3_bank_drop_target_3, s_3_bank_drop_target_2, s_3_bank_drop_target_1
     sequence_timeout: 1s
+  ramp_orbit:
+    switch_sequence: s_back_ramp_made, s_inner_orbit_enter, s_right_orbit_top, s_right_orbit_bottom
+    sequence_timeout: 3s
+  orbit_ramp:
+    switch_sequence: s_inner_orbit_enter, s_right_orbit_top, s_right_orbit_bottom, s_back_ramp_made
+    sequence_timeout: 3s
+
+
 
 
 event_player:
@@ -727,6 +742,14 @@ sound_player:
     drop_sweep:
       action: play
       loops: 0
+  orbit_ramp_hit:
+    combo:
+      action: play
+      loops: 0
+  ramp_orbit_hit:
+    combo:
+      action: play
+      loops: 0
 
    
 
@@ -936,6 +959,21 @@ sounds:
     track: voice
     volume: 1.2
     priority: 400
+  combo1:
+    file: combo1.wav
+    track: voice
+    volume: 1.2
+    priority: 400
+  combo2:
+    file: combo2.wav
+    track: voice
+    volume: 1.2
+    priority: 400
+  combo3:
+    file: combo3.wav
+    track: voice
+    volume: 1.2
+    priority: 400
 
 
 sound_pools:
@@ -988,6 +1026,14 @@ sound_pools:
     sounds:
       - drop_sweep1
       - drop_sweep2
+  combo:
+    type: random
+    track: voice
+    sounds:
+      - combo1
+      - combo2
+      - combo3
+
 
 
     
