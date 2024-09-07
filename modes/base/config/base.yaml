@@ -410,6 +410,8 @@ event_player:
 
 
 
+
+
   post_pop_mode_starting_events:
     start_mode_pop_bumpers:
       priority: 1
@@ -710,9 +712,14 @@ sound_player:
       action: play
       loops: 0
   five_million_standup_five_million_profile_lit_hit:
-    good_job:
+    five_million_hit:
       action: play
       loops: 0
+  five_million_standup_five_million_profile_lit:
+    five_million_lit:
+      action: play
+      loops: 0
+
    
 
 sounds:
@@ -881,6 +888,36 @@ sounds:
     track: sfx
     volume: 0.6
     priority: 50 
+  five_million_lit1:
+    file: five_million_lit1.wav
+    track: voice
+    volume: 1.5
+    priority: 500
+  five_million_lit2:
+    file: five_million_lit2.wav
+    track: voice
+    volume: 1.5
+    priority: 500
+  five_million_lit3:
+    file: five_million_lit3.wav
+    track: voice
+    volume: 1.5
+    priority: 500
+  five_million_hit1:
+    file: five_million_hit1.wav
+    track: voice
+    volume: 1.5
+    priority: 500
+  five_million_hit2:
+    file: five_million_hit2.wav
+    track: voice
+    volume: 1.5
+    priority: 500
+  five_million_hit3:
+    file: five_million_hit3.wav
+    track: voice
+    volume: 1.5
+    priority: 500
 
 
 sound_pools:
@@ -913,6 +950,20 @@ sound_pools:
       - lion
       - monkey_1
       - monkey_2
+  five_million_lit:
+    type: random
+    track: voice
+    sounds:
+      - five_million_lit1
+      - five_million_lit2
+      - five_million_lit3
+  five_million_4it:
+    type: random
+    track: voice
+    sounds:
+      - five_million_hit1
+      - five_million_hit2
+      - five_million_hit3
 
 
     

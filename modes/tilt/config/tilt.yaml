@@ -18,6 +18,7 @@ slide_player:
       expire: 4s
   
 
+
   tilt:
     tilt:
       expire: 8s
@@ -89,6 +90,7 @@ sound_player:
   tilt:
     tilt_callout:
       volume: 1.5
+
 
 sounds:
   tilt_1:
@@ -170,7 +172,6 @@ sounds:
 
 
 sound_pools:
-
   be_nice_callout:
     type: random
     track: voice
