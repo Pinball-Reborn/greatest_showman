@@ -715,7 +715,7 @@ sound_player:
     five_million_hit:
       action: play
       loops: 0
-  five_million_standup_five_million_profile_lit:
+  player_shot_five_million_standup_enabled:
     five_million_lit:
       action: play
       loops: 0
@@ -957,7 +957,7 @@ sound_pools:
       - five_million_lit1
       - five_million_lit2
       - five_million_lit3
-  five_million_4it:
+  five_million_hit:
     type: random
     track: voice
     sounds:
