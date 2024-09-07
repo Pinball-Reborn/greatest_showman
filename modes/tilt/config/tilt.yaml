@@ -86,7 +86,7 @@ sound_player:
     dont_shake_callout:
       volume: 1.5
   tilt:
-    ball_lost_callout:
+    tilt_callout:
       volume: 1.5
 
 sounds:
@@ -169,17 +169,7 @@ sounds:
 
 
 sound_pools:
-  ball_lost_callout:
-    type: random
-    track: voice
-    sounds:
-      - ball_lost1
-      - now_look1
-      - tilt_you_lost1
-      - ball_lost2
-      - now_look2
-      - tilt_you_lost2
-      - now_look3
+
   be_nice_callout:
     type: random
     track: voice
@@ -197,6 +187,17 @@ sound_pools:
       - dont_shake2
       - stop_it2
       - dont_shake3
+  tilt_callout:
+    type: random
+    track: voice
+    sounds:
+      - ball_lost1
+      - now_look1
+      - tilt_you_lost1
+      - ball_lost2
+      - now_look2
+      - tilt_you_lost2
+      - now_look3
 
 
 
