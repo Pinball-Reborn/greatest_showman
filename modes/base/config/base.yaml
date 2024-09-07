@@ -359,7 +359,7 @@ counters:
     count_events: right_flipper_hit, left_flipper_hit
     count_complete_value: 10
     start_enabled: true
-    events_when_complete: advance_five_million_profile
+    events_when_complete: advance_five_million_profile, five_million_lit
     restart_events: five_million_standup_five_million_profile_lit_hit
 
 
@@ -715,7 +715,7 @@ sound_player:
     five_million_hit:
       action: play
       loops: 0
-  player_shot_five_million_standup_enabled:
+  five_million_lit:
     five_million_lit:
       action: play
       loops: 0
