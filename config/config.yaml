@@ -595,8 +595,8 @@ diverters:
     activation_coil: c_3_spinning_dics_motor_red
     type: hold
     activation_time: 2s
-    activation_switches: s_left_ramp_made
-    enable_events: left_ramp_hit
+    activation_switches: s_back_ramp_made
+    enable_events: right_ramp_hit
 
 
 
