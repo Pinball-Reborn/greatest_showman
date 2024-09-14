@@ -64,12 +64,10 @@ sound_player:
   multiball_right_ramp_hit:
     jackpot:
       action: play
-    never_enough:
       block: true
   multiball_left_ramp_hit:
     jackpot:
       action: play
-    never_enough:
       block: true
 
 
