@@ -6,7 +6,7 @@ mode:
 
 event_player:
   events_when_stopped: enable_qualify, start_mode_base
-  events_when_started: stop_mode_orbits
+
 
 timers:
   ramps_timer:
@@ -26,6 +26,10 @@ show_player:
     ramps_lights:
       speed: 10
 
+track_player:
+  mode_ramps_started:
+    music:
+      action: stop_all_sounds
 
 sound_player:
   mode_ramps_started:
