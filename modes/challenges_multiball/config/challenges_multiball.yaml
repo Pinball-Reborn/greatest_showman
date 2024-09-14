@@ -4,7 +4,7 @@
 
 mode:
   start_events: start_challenges_multiball
-  priority: 500
+  priority: 10000
   stop_events: balls_in_play{balls==1}
   events_when_stopped: restart_mode_base
 
@@ -28,7 +28,8 @@ sounds:
     file: jackpot.wav
     track: voice
     volume: 0.9
-    priority: 100
+    priority: 1000
+    block: true
   multiball:
     file: multiball.wav
     track: voice

@@ -6,6 +6,7 @@ mode:
 
 event_player:
   events_when_stopped: enable_qualify, start_mode_base
+  events_when_started: stop_mode_orbits
 
 timers:
   ramps_timer:
@@ -41,21 +42,7 @@ sound_player:
       track: voice
       delay: 5s
       loops: 0  
-    the_other_side:
-      action: stop
-      fade_out: 1s
-    a_million_dreams:
-      action: stop
-      fade_out: 1s
-    come_alive:
-      action: stop
-      fade_out: 1s
-    from_now_on:
-      action: stop
-      fade_out: 1s
-    first_ball_music:
-      action: stop
-      fade_out: 1s
+
   timer_ramps_timer_complete:
     this_is_me:
       action: stop

@@ -594,7 +594,7 @@ diverters:
     activation_coil: c_ramp_diverter
     type: hold
 
-#motors:
+
   spinning_discs_motor:
     activation_coil: c_3_spinning_dics_motor_red
     type: hold
@@ -613,7 +613,6 @@ modes:
   - challenges
   - orbits
   - drop_targets
-  #- field
   - tickets
   - ramps
   - bonus
@@ -656,7 +655,7 @@ sound_system:
       volume: 0.5
     voice:
       type: standard
-      simultaneous_sounds: 2
+      simultaneous_sounds: 2 
       volume: 0.7
     sfx:
       type: standard
