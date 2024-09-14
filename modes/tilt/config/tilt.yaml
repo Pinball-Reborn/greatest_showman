@@ -80,6 +80,9 @@ slides:
         image: bar_screen  
 
 sound_player:
+  tilt:
+    tilt_callout:
+      volume: 1.5
   tilt_warning.1{warnings_remaining>1}:
     be_nice_callout:
       volume: 1.5
@@ -87,9 +90,7 @@ sound_player:
     dont_shake_callout:
       volume: 1.5
 
-  tilt:
-    tilt_callout:
-      volume: 1.5
+
 
 
 sounds:

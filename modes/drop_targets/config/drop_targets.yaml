@@ -62,8 +62,8 @@ sounds:
   the_other_side:
     file: The_Other_Side.wav
     track: music
-    volume: 0.2
-    priority: 200
+    volume: 0.6
+    priority: 800
 
   
   

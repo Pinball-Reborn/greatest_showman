@@ -64,8 +64,8 @@ sounds:
   from_now_on:
     file: From_Now_On.wav
     track: music
-    volume: 0.2
-    priority: 200
+    volume: 0.6
+    priority: 500
 
   
 

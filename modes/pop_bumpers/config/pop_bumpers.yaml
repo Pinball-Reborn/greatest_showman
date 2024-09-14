@@ -65,8 +65,8 @@ sounds:
   million_dreams:
     file: million_dreams.wav
     track: music
-    volume: 0.2
-    priority: 200
+    volume: 0.6
+    priority: 800
 
 
 

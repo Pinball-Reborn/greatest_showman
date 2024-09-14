@@ -53,13 +53,13 @@ sounds:
   this_is_me:
     file: This_Is_Me.wav
     track: music
-    volume: 0.2
+    volume: 0.6
     priority: 200
   ramps_challenge_completed:
     file: ramps_challenge_completed.wav
     track: voice
     volume: 1.5
-    priority: 200
+    priority: 500
   shoot_ramps:
     file: shoot_the_ramps.wav
     track: voice

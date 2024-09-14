@@ -56,8 +56,8 @@ sounds:
   come_alive:
     file: Come_Alive.wav
     track: music
-    volume: 0.2
-    priority: 200
+    volume: 0.6
+    priority: 500
   shoot_tickets:
     file: shoot_tickets.wav
     track: voice

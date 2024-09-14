@@ -17,7 +17,7 @@ counters:
 
   pop_bumpers_qualify_counter:
     starting_count: 0
-    count_complete_value: 3
+    count_complete_value: 150
     events_when_complete: post_pop_mode_starting_events 
     enable_events: enable_qualify
     disable_events: disable_qualify
@@ -29,7 +29,7 @@ counters:
 
   orbits_qualify_counter:
     starting_count: 0
-    count_complete_value: 1
+    count_complete_value: 3
     events_when_complete: post_orbits_mode_starting_events
     enable_events: enable_qualify
     disable_events: disable_qualify
@@ -41,7 +41,7 @@ counters:
 
   drop_targets_qualify_counter:
     starting_count: 0
-    count_complete_value: 1
+    count_complete_value: 25
     events_when_complete: post_drop_targets_mode_starting_events 
     enable_events: enable_qualify
     disable_events: disable_qualify
@@ -53,7 +53,7 @@ counters:
 
   tickets_qualify_counter:
     starting_count: 0
-    count_complete_value: 1
+    count_complete_value: 10
     events_when_complete: post_tickets_mode_starting_events
     enable_events: enable_qualify
     disable_events: disable_qualify
@@ -65,7 +65,7 @@ counters:
 
   ramps_qualify_counter:
     starting_count: 0
-    count_complete_value: 1
+    count_complete_value: 3
     events_when_complete: post_ramps_mode_starting_events
     enable_events: enable_qualify
     disable_events: disable_qualify
