@@ -271,7 +271,8 @@ coils:
     max_hold_power: 0.5
   c_ramp_up: #ramp up
     number: 1-2
-    default_pulse_ms: 20
+    default_pulse_ms: 40
+    default_pulse_power: 1.0
   c_ramp_down:  # ramp down
     number: 1-3
     default_pulse_ms: 20
