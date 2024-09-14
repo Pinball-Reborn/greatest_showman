@@ -81,7 +81,7 @@ slides:
 
 sound_player:
   tilt:
-    now_look1:
+    tilt_callout:
       volume: 1.5
   tilt_warning.1{warnings_remaining>1}:
     be_nice_callout:

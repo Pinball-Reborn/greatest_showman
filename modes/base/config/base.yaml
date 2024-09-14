@@ -387,6 +387,12 @@ counters:
     start_enabled: true
     events_when_complete: advance_five_million_profile, five_million_lit
     restart_events: five_million_standup_five_million_profile_lit_hit
+  ramp_up_down:
+    starting_count: 0
+    count_events: potato
+    count_complete_value: 2
+    start_enabled: true
+    events_when_complete:  ramp_up
 
 
 
