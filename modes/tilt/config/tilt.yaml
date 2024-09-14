@@ -83,6 +83,7 @@ sound_player:
   tilt:
     tilt_callout:
       volume: 1.5
+      delay: 0.1s
   tilt_warning.1{warnings_remaining>1}:
     be_nice_callout:
       volume: 1.5

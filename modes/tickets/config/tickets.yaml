@@ -25,7 +25,10 @@ show_player:
     tickets_show:
       speed: 1
 
-
+track_player:
+  mode_tickets_started:
+    music:
+      action: stop_all_sounds
 
 sound_player:
   mode_tickets_started:
@@ -37,6 +40,7 @@ sound_player:
       action: play
       track: music
       loops: 0
+      delay: 0.1s
     shoot_tickets:
       action: play
       track: voice

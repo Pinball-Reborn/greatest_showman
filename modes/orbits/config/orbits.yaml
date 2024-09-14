@@ -28,6 +28,11 @@ show_player:
     orbits_light_show:
       speed: 10
 
+track_player:
+  mode_orbits_started:
+    music:
+      action: stop_all_sounds
+
 sound_player:
   mode_orbits_started:
     orbits_completed:
@@ -37,6 +42,7 @@ sound_player:
     from_now_on:
       action: play
       track: music
+      delay: 0.1s
       loops: 0
 
     shoot_orbits:

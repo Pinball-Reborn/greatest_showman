@@ -23,6 +23,11 @@ show_player:
     drop_targets_show:
       speed: 1
 
+track_player:
+  mode_drop_targets_started:
+    music:
+      action: stop_all_sounds
+
 
 
 sound_player:
@@ -36,6 +41,7 @@ sound_player:
       action: play
       track: music
       loops: 0
+      delay: 0.1s
     shoot_drop_targets:
       action: play
       track: voice

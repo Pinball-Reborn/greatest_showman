@@ -50,6 +50,11 @@ sounds:
     track: voice
     volume: 1.2
     priority: 500
+
+track_player:
+  mode_challenges_multiball_started:
+    music:
+      action: stop_all_sounds
    
 
 
