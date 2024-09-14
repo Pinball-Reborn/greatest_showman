@@ -325,15 +325,20 @@
         text: Gavin Guest
         
         font_size: 70
-        y: 40%
+        y: 43%
       - type: text
         text: Anthony Van Winkle
         
         font_size: 70
-        y: 25%
+        y: 31%
+      - type: text
+        text: Dane Regnier
+        font_size: 70
+        y: 19%
       - type: image
         image: curtains
         scale: 1
+    
       transition:
         type: move_in
         duration: 1s

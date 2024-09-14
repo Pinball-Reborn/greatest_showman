@@ -743,6 +743,7 @@ sound_player:
     never_enough:
       action: play
       loops: 0  
+      block: true
   left_ramp_hit:
     left_ramp:
       action: play
