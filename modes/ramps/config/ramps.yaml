@@ -40,6 +40,7 @@ sound_player:
     this_is_me:
       action: play
       track: music
+      delay: 0.1s
       loops: 0
     shoot_ramps:
       action: play
