@@ -389,7 +389,7 @@ counters:
     restart_events: five_million_standup_five_million_profile_lit_hit
   ramp_up_down:
     starting_count: 0
-    count_events: potato
+    count_events: right_flipper_hit, left_flipper_hit
     count_complete_value: 2
     start_enabled: true
     events_when_complete: ramp_up
