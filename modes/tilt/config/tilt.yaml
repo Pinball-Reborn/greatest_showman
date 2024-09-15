@@ -38,13 +38,13 @@ slides:
       - type: text
         text: WARNING!
         y: 81%
-        font_size: 151
-        color: black
+        font_size: 200
+        color: gold
       - type: text
         text: "Stop shaking the game"
         y: 41%
-        font_size: 121
-        color: black
+        font_size: 160
+        color: red
       - type: image
         image: bar_screen
 
@@ -53,13 +53,13 @@ slides:
       - type: text
         text: DANGER!
         y: 81%
-        font_size: 151
-        color: black
+        font_size: 200
+        color: gold
       - type: text
         text: "Be nice to this game"
         y: 41%
-        font_size: 121
-        color: black
+        font_size: 160
+        color: red
       - type: image
         image: bar_screen
 
@@ -69,13 +69,13 @@ slides:
       - type: text
         text: TILT!
         y: 81%
-        font_size: 151
-        color: black
+        font_size: 200
+        color: gold
       - type: text
         text: "You were warned"
         y: 41%
-        font_size: 121
-        color: black
+        font_size: 160
+        color: red
       - type: image
         image: bar_screen  
 
