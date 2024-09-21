@@ -395,6 +395,7 @@ counters:
     events_when_complete: ramp_lock
     reset_on_complete: true
     restart_events: ramp_lock
+    events_when_complete: diverter_off
     disable_events: multiball_lock_ball_lock_full
 
 multiball_locks:
