@@ -395,6 +395,11 @@ counters:
     events_when_complete: ramp_lock
     restart_events: ball_locked
 
+multiball_locks:
+  ball_lock:
+    balls_to_lock: 3
+    lock_devices: bd_ball_lock
+
 
 
 sequence_shots:
