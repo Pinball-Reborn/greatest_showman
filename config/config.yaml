@@ -597,7 +597,7 @@ diverters:
     activation_time: 3s
     activation_switches: s_left_ramp_made
     enable_events: ramp_lock
-    disable_events: ball_ended, diverter_off
+    disable_events: ball_ended, multiball_lock_ball_lock_locked_ball
 
 
   spinning_discs_motor:
