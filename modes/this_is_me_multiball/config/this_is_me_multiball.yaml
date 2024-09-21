@@ -11,8 +11,9 @@ mode:
 
 
 multiballs:
-  this_is_me_multiball:
+  release_all_locked_balls:
     ball_count: 3
     ball_count_type: total
     shoot_again: 20s
     ball_locks: bd_ball_lock
+    start_events: mode_this_is_me_multiball_started
