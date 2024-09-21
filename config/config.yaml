@@ -243,13 +243,13 @@ keyboard:
 coils:
   c_flipper_left_main: #left flipper main
     number: 2-3 #mid lug
-    default_pulse_ms: 20
+    default_pulse_ms: 30
   c_flipper_left_hold: #left flipper hold
     number: 2-4 #outer lug
     allow_enable: true
   c_flipper_right_main: #right flipper main
     number: 2-1 #mid lug
-    default_pulse_ms: 20
+    default_pulse_ms: 30
   c_flipper_right_hold: #right flipper hold
     number: 2-2 #outer lug
     allow_enable: true
