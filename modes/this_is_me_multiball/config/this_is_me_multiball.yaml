@@ -87,6 +87,8 @@ slide_player:
 
 videos:
   this_is_me_movie:
+    width: 800
+    #height: 700
     file: this_is_me_movie.mpg
 
 
