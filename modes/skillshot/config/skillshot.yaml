@@ -8,10 +8,10 @@ mode:
 
 
 event_player:
-  mode_skillshot_started: 
-    - play_skillshot_start_slide
-    - remove_skillshot_start_slide|2s
-    - play_main_screen_slide|2.1s
+  #mode_skillshot_started: 
+   # - play_skillshot_start_slide
+   # - remove_skillshot_start_slide|2s
+   # - play_main_screen_slide|2.1s
   skillshot_lit_hit: stop_mode_skillshot|3s
   playfield_active: stop_mode_skillshot|1s
   skillshot_drop_1_off_hit: stop_mode_skillshot

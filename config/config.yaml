@@ -243,13 +243,13 @@ keyboard:
 coils:
   c_flipper_left_main: #left flipper main
     number: 2-3 #mid lug
-    default_pulse_ms: 30
+    default_pulse_ms: 25
   c_flipper_left_hold: #left flipper hold
     number: 2-4 #outer lug
     allow_enable: true
   c_flipper_right_main: #right flipper main
     number: 2-1 #mid lug
-    default_pulse_ms: 30
+    default_pulse_ms: 25
   c_flipper_right_hold: #right flipper hold
     number: 2-2 #outer lug
     allow_enable: true
@@ -593,6 +593,10 @@ diverters:
   ramp_diverter_coil:
     activation_coil: c_ramp_diverter
     type: hold
+    activation_time: 3s
+    activation_switches: s_left_ramp_made
+    enable_events: ramp_lock
+    disable_events: ball_ended
 
 
   spinning_discs_motor:
