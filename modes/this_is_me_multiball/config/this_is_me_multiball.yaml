@@ -64,7 +64,7 @@ slides:
   this_is_me_multi_finish:
     widgets:
       - type: text
-        text: CHALLENGES MULTIBALL
+        text: THIS IS ME MULTIBALL
         font_size: 150
         color: gold
       - type: image
@@ -74,19 +74,19 @@ slides:
 slide_player:
   play_this_is_me_multiball_slide:
     this_is_me_multiball    
-  play_come_alive_slide:
+  play_this_is_me_movie_slide:
     come_alive
-  remove_this_is_ms_multiball_slide:
+  remove_this_is_me_multiball_slide:
     this_is_me_multiball: 
       action: remove
   remove_this_is_me_movie_slide:
-    come_alive:
+    this_is_me_movie:
       action: remove
   play_this_is_me_multi_finish_slide:
     this_is_me_multi_finish
 
 videos:
   this_is_me_movie:
-    file: this_is_me_movie.mp4
+    file: this_is_me_movie.mpg
 
 
