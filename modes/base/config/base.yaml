@@ -942,12 +942,12 @@ sounds:
   monkey_1:
     file: monkey_1.wav
     track: sfx
-    volume: 0.4
+    volume: 0.3
     priority: 50   
   monkey_2:
     file: monkey_2.wav
     track: sfx
-    volume: 0.4
+    volume: 0.3
     priority: 50 
   five_million_lit1:
     file: five_million_lit1.wav
