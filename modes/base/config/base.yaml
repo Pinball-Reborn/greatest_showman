@@ -393,7 +393,8 @@ counters:
     count_complete_value: 2
     start_enabled: true
     events_when_complete: ramp_lock
-    restart_events: ball_locked
+    restart_events: ramp_lock
+    disable_events: multiball_lock_ball_lock_full
 
 multiball_locks:
   ball_lock:
