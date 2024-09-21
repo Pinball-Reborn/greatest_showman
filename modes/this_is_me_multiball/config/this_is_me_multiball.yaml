@@ -8,10 +8,7 @@ mode:
   stop_events: balls_in_play{balls==1}
   events_when_stopped: restart_mode_base
 
-multiball_locks:
-  ball_lock:
-    balls_to_lock: 3
-    lock_devices: bd_ball_lock
+
 
 multiballs:
   this_is_me_multiball:
