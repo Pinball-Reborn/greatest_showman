@@ -623,7 +623,7 @@ modes:
   - orbits
   - drop_targets
   - tickets
-  - ramps
+  #- ramps
   - bonus
   - tilt
   - high_score

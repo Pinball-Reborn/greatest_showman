@@ -59,7 +59,7 @@ slides:
 
       - type: video
         video: this_is_me_movie
-        volume: 0.3
+        volume: 0.6
 
   this_is_me_multi_finish:
     widgets:
@@ -87,8 +87,8 @@ slide_player:
 
 videos:
   this_is_me_movie:
-    width: 800
-    #height: 700
+    #width: 800
+    #height: 1500
     file: this_is_me_movie.mpg
 
 
