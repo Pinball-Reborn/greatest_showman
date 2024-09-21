@@ -22,8 +22,8 @@ event_player:
   mode_this_is_me_multiball_started:
     - play_this_is_me_multiball_slide
     - remove_this_is_me_multiball_slide|1s
-    - play_come_alive_slide|1.1s
-    - remove_come_alive_slide|61.5s
+    - play_this_is_me_slide|1.1s
+    - remove_this_is_me_slide|61.5s
     - play_this_is_me_multi_finish_slide|61.6s
   balls_in_play{balls==1}:
     - stop_mode_this_is_me_multiball
@@ -58,7 +58,7 @@ slides:
         y: 15%
 
       - type: video
-        video: come_alive
+        video: this_is_me
         volume: 0.3
 
   this_is_me_multi_finish:
@@ -84,5 +84,9 @@ slide_player:
       action: remove
   play_this_is_me_multi_finish_slide:
     this_is_me_multi_finish
+
+videos:
+  come_alive:
+    file: this_is_me.mp4
 
 
