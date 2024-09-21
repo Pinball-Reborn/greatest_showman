@@ -306,7 +306,7 @@ coils:
   c_triple_lock_eject: #triple lock eject
     number: 1-15
     default_pulse_ms: 50ms
-    default_pulse_power: 1.0
+    default_pulse_power: 0.9
   c_right_slingshot: #right slingshot
     number: 2-5
     default_pulse_ms: 20
@@ -623,7 +623,7 @@ modes:
   - orbits
   - drop_targets
   - tickets
-  #- ramps
+  - ramps
   - bonus
   - tilt
   - high_score

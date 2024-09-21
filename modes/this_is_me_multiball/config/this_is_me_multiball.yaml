@@ -23,8 +23,8 @@ event_player:
     - play_this_is_me_multiball_slide
     - remove_this_is_me_multiball_slide|1s
     - play_this_is_me_movie_slide|1.1s
-    - remove_this_is_me_movie_slide|93.1s
-    - play_this_is_me_multi_finish_slide|93.2s
+    - remove_this_is_me_movie_slide|95.1s
+    - play_this_is_me_multi_finish_slide|95.2s
   balls_in_play{balls==1}:
     - stop_mode_this_is_me_multiball
 
@@ -45,21 +45,10 @@ slides:
         scale: 1
   
   this_is_me_movie:
-    widgets:
-      - type: text
-        text: THIS IS ME
-        color: red
-        font_size: 120
-        y: 85%
-      - type: text
-        text: MULTIBALL
-        color: red
-        font_size: 120
-        y: 15%
+    type: video
+    video: this_is_me_movie
+    volume: 0.6
 
-      - type: video
-        video: this_is_me_movie
-        volume: 0.6
 
   this_is_me_multi_finish:
     widgets:
@@ -87,8 +76,8 @@ slide_player:
 
 videos:
   this_is_me_movie:
-    #width: 800
-    #height: 1500
+    width: 1920
+    height: 1080
     file: this_is_me_movie.mpg
 
 

@@ -228,6 +228,7 @@ variable_player:
     score: 8000
   challenges_done:
     score: 25000
+  
   mode_pop_bumpers_starting:
     bonus_challenges: 1
   mode_drop_targets_starting:
@@ -351,6 +352,10 @@ shots:
   stand_up_right_lift_ramp:
     switch: s_right_stand_up_target_lift_ramp
 
+#LOCKS
+  left_lock_upper:
+    switch: s_left_lock_upper
+
 
 
 
@@ -377,6 +382,7 @@ shot_profiles:
       - name: lit
         show: on
     advance_on_hit: false
+  
     
 
 counters:
