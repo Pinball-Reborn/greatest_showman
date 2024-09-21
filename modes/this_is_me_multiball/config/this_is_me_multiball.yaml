@@ -76,8 +76,6 @@ slide_player:
 
 videos:
   this_is_me_movie:
-    width: 1920
-    height: 1080
     file: this_is_me_movie.mpg
 
 
