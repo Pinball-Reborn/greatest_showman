@@ -75,7 +75,7 @@ slide_player:
   play_this_is_me_multiball_slide:
     this_is_me_multiball    
   play_this_is_me_movie_slide:
-    come_alive
+    this_is_me_movie
   remove_this_is_me_multiball_slide:
     this_is_me_multiball: 
       action: remove
