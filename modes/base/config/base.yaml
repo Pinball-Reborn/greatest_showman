@@ -393,6 +393,7 @@ counters:
     count_complete_value: 2
     start_enabled: true
     events_when_complete: ramp_lock
+    restart_events: ball_locked
 
 
 

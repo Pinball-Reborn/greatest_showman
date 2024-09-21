@@ -610,6 +610,8 @@ diverters:
 
 
 
+
+
 modes:
   - base
   - mode2
@@ -625,6 +627,7 @@ modes:
   - high_score
   - skillshot
   - challenges_multiball
+  - this_is_me_multiball
   
 player_vars:
   potato:

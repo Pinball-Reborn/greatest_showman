@@ -1,0 +1,21 @@
+#config_version=6
+
+#this_is_me_multiball
+
+mode:
+  start_events: multiball_lock_ball_lock_full
+  priority: 10000
+  stop_events: balls_in_play{balls==1}
+  events_when_stopped: restart_mode_base
+
+multiball_locks:
+  ball_lock:
+    balls_to_lock: 3
+    lock_devices: bd_ball_lock
+
+multiballs:
+  this_is_me_multiball:
+    ball_count: 3
+    ball_count_type: total
+    shoot_again: 20s
+    ball_locks: bd_ball_lock
