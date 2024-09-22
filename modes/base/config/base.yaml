@@ -416,7 +416,7 @@ counters:
     start_enabled: true
     events_when_complete: ramp_lock, advance_lock_light_profile
     reset_on_complete: true
-    restart_events: ramp_lock, s_left_lock_upper_lock_light_profile_lit_hit
+    restart_events: ramp_lock, left_lock_upper_lock_light_profile_lit_hit  
     disable_events: multiball_lock_ball_lock_full
 
 multiball_locks:
@@ -482,7 +482,7 @@ event_player:
   five_million_standup_five_million_profile_lit_hit:
     - set_five_million_profile_off
 
-  left_ramp_made_lock_light_profile_lit_hit:
+  left_lock_upper_lock_light_profile_lit_hit:
     - set_lock_light_profile_off
 
 
