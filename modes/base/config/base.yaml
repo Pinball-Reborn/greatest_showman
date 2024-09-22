@@ -396,7 +396,7 @@ shot_profiles:
       - name: unlit
         show: off
       - name: lit
-        show: on
+        show: 1_lit_color_generic
     advance_on_hit: false
   
     
@@ -482,7 +482,7 @@ event_player:
   five_million_standup_five_million_profile_lit_hit:
     - set_five_million_profile_off
 
-  s_left_ramp_made_lock_light_profile_lit_hit:
+  left_ramp_made_lock_light_profile_lit_hit:
     - set_lock_light_profile_off
 
 
