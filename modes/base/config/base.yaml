@@ -353,7 +353,7 @@ shots:
     switch: s_right_stand_up_target_lift_ramp
 
 #LOCKS
-  left_lock_upper:
+ # left_lock_upper:
     switch: s_left_ramp_made
     show_tokens:
       lights: lock
@@ -391,7 +391,7 @@ shot_profiles:
         show: on
     advance_on_hit: false
 
-  lock_light_profile:
+ # lock_light_profile:
     states:
       - name: unlit
         show: off
@@ -409,7 +409,7 @@ counters:
     start_enabled: true
     events_when_complete: advance_five_million_profile, five_million_lit
     restart_events: five_million_standup_five_million_profile_lit_hit
-  ramp_diverter:
+  #ramp_diverter:
     starting_count: 0
     count_events: right_flipper_hit, left_flipper_hit
     count_complete_value: 35
@@ -419,7 +419,7 @@ counters:
     restart_events: ramp_lock, left_lock_upper_lock_light_profile_lit_hit  
     disable_events: multiball_lock_ball_lock_full
 
-multiball_locks:
+#multiball_locks:
   ball_lock:
     balls_to_lock: 3
     lock_devices: bd_ball_lock
