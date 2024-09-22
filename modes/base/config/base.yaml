@@ -813,6 +813,10 @@ sound_player:
     combo:
       action: play
       loops: 0
+  ramp_lock:
+    ball_lock:
+      action: play
+      loops: 0
 
    
 
@@ -1037,6 +1041,16 @@ sounds:
     track: voice
     volume: 1.2
     priority: 400
+  lock_is_lit:
+    file: lock_is_lit.wav
+    track: voice
+    volume: 1.2
+    priority: 400
+  lock_a_ball:
+    file: lock_a_ball.wav
+    track: voice
+    volume: 1.2
+    priority: 400
 
 
 sound_pools:
@@ -1049,6 +1063,12 @@ sound_pools:
       - the_show_is_saved
       - the_show_must_go_on_2
       - you_cant_quit
+  ball_lock:
+    type: random
+    track: voice
+    sounds:
+      - lock_is_lit
+      - lock_a_ball
   good_job:
     type: random
     track: voice
