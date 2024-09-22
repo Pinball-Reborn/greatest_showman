@@ -354,9 +354,10 @@ shots:
 
 #LOCKS
   left_lock_upper:
-    switch: s_left_lock_upper
+    switch: s_left_ramp_made
     show_tokens:
       lights: lock
+      color: green
     profile: lock_light_profile
     advance_events: advance_lock_light_profile
     control_events: 
@@ -481,7 +482,7 @@ event_player:
   five_million_standup_five_million_profile_lit_hit:
     - set_five_million_profile_off
 
-  s_left_lock_upper_lock_light_profile_lit_hit:
+  s_left_ramp_made_lock_light_profile_lit_hit:
     - set_lock_light_profile_off
 
 
