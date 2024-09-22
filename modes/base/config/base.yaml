@@ -394,7 +394,8 @@ shot_profiles:
     states:
       - name: unlit
         show: off
-      - name: on
+      - name: lit
+        show: on
     advance_on_hit: false
   
     
@@ -414,7 +415,7 @@ counters:
     start_enabled: true
     events_when_complete: ramp_lock, advance_lock_light_profile
     reset_on_complete: true
-    restart_events: ramp_lock
+    restart_events: ramp_lock, s_left_lock_upper_lock_light_profile_lit_hit
     disable_events: multiball_lock_ball_lock_full
 
 multiball_locks:
