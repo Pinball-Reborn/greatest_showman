@@ -355,6 +355,13 @@ shots:
 #LOCKS
   left_lock_upper:
     switch: s_left_lock_upper
+    show_tokens:
+      lights: lock
+    profile: lock_light_profile
+    advance_events: advance_lock_light_profile
+    control_events: 
+      - events: set_lock_light_profile_off
+        state: 0
 
 
 
@@ -382,6 +389,13 @@ shot_profiles:
       - name: lit
         show: on
     advance_on_hit: false
+
+  lock_light_profile:
+    states:
+      - name: unlit
+        show: off
+      - name: on
+    advance_on_hit: false
   
     
 
@@ -398,7 +412,7 @@ counters:
     count_events: right_flipper_hit, left_flipper_hit
     count_complete_value: 4
     start_enabled: true
-    events_when_complete: ramp_lock
+    events_when_complete: ramp_lock, advance_lock_light_profile
     reset_on_complete: true
     restart_events: ramp_lock
     disable_events: multiball_lock_ball_lock_full
@@ -465,6 +479,9 @@ event_player:
 
   five_million_standup_five_million_profile_lit_hit:
     - set_five_million_profile_off
+
+  s_left_lock_upper_lock_light_profile_lit_hit:
+    - set_lock_light_profile_off
 
 
 
