@@ -360,6 +360,7 @@ shots:
       color: green
     profile: lock_light_profile
     advance_events: advance_lock_light_profile
+    restart_events: ball_started
     control_events: 
       - events: set_lock_light_profile_off
         state: 0
