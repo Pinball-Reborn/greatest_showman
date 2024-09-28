@@ -612,9 +612,6 @@ diverters:
     activate_events: right_ramp_hit
 
 
-
-
-
 modes:
   - base
   - mode2

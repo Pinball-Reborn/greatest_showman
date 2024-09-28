@@ -412,7 +412,7 @@ counters:
   ramp_diverter:
     starting_count: 0
     count_events: right_flipper_hit, left_flipper_hit
-    count_complete_value: 35
+    count_complete_value: 10
     start_enabled: true
     events_when_complete: ramp_lock, advance_lock_light_profile
     reset_on_complete: true
