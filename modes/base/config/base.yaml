@@ -253,7 +253,9 @@ variable_player:
     score: 100000
   ramp_orbit_hit:
     score: 100000
-  stand_ups_hit:
+
+#GROUP SHOTS SCORING
+  stand_ups_complete:
     score: 100000
 
 
