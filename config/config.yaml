@@ -466,6 +466,7 @@ playfields:
   playfield:
     tags: default
     default_source_device: bd_plunger
+    enable_ball_search: true
 
 flippers:
   left_flipper:
@@ -629,7 +630,7 @@ modes:
   - high_score
   - skillshot
   - challenges_multiball
-  #- this_is_me_multiball
+  - this_is_me_multiball
   
 player_vars:
   potato:
