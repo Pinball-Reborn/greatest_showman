@@ -419,7 +419,7 @@ counters:
     restart_events: ramp_lock, left_lock_upper_lock_light_profile_lit_hit  
     disable_events: multiball_lock_ball_lock_full
 
-#multiball_locks:
+multiball_locks:
   ball_lock:
     balls_to_lock: 3
     lock_devices: bd_ball_lock
