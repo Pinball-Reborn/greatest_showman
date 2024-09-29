@@ -34,6 +34,9 @@ track_player:
   mode_this_is_me_multiball_started:
     music:
       action: stop_all_sounds
+  mode_this_is_me_multiball_will_stop:
+    music: 
+      action: stop_all_sounds
 
 slides:
   this_is_me_multiball:

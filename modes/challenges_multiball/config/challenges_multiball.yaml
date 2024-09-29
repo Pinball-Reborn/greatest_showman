@@ -55,6 +55,9 @@ track_player:
   mode_challenges_multiball_started:
     music:
       action: stop_all_sounds
+  mode_challenges_multiball_will_stop:
+    music:
+      action: stop_all_sounds
    
 
 
