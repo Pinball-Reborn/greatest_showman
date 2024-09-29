@@ -248,7 +248,7 @@
       - type: text
         text: THE GREATEST SHOWMAN
         font_size: 120
-        font_name: sylfaen
+        font_name: playbill
         y: 22%
         color: red
       - type: image
