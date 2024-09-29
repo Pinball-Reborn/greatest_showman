@@ -13,10 +13,11 @@ mode:
 
 multiballs:
   release_all_locked_balls:
-    ball_count: 4
+    ball_count: 3
     ball_count_type: total
     shoot_again: 20s
     ball_locks: bd_ball_lock
+    replace_balls_in_play: true
     start_events: mode_this_is_me_multiball_started
 
 event_player:

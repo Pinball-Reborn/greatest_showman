@@ -455,6 +455,7 @@ counters:
 multiball_locks:
   ball_lock:
     balls_to_lock: 3
+    balls_to_replace: 2
     lock_devices: bd_ball_lock
 
 
