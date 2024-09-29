@@ -7,7 +7,7 @@ mode:
   priority: 10000
   stop_events: balls_in_play{balls==1}
   events_when_stopped: restart_mode_base
-  events_when_started: eject_balls|3s
+
 
 
 
@@ -24,6 +24,7 @@ event_player:
     - play_this_is_me_multiball_slide
     - remove_this_is_me_multiball_slide|1s
     - play_this_is_me_movie_slide|1.1s
+    - eject_balls|4s
     - remove_this_is_me_movie_slide|93.1s
     - play_this_is_me_multi_finish_slide|93.2s
   balls_in_play{balls==1}:
