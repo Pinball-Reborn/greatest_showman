@@ -501,7 +501,7 @@ slides:
       - type: text
         text: Greatest Showman Custom Pinball
         font_size: 100
-        font_name: playbill
+        font_name: impact
         color: red
       - type: image
         image: curtains

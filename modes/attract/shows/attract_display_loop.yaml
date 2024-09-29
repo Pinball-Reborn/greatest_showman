@@ -7,7 +7,7 @@
       - type: text
         text: HIGH SCORES
         font_size: 50
-        font_name: playbill
+        font_name: impact
         bold: true
         y: 88%
         color: gold
@@ -17,7 +17,7 @@
         y: 80%
         x: 36%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score1_name)
@@ -25,7 +25,7 @@
         y: 80%
         x: 55%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score1_value)
@@ -33,7 +33,7 @@
         y: 80%
         x: 74%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score2_label)
@@ -41,7 +41,7 @@
         y: 72%
         x: 36%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score2_name)
@@ -49,7 +49,7 @@
         y: 72%
         x: 55%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score2_value)
@@ -57,7 +57,7 @@
         y: 72%
         x: 74%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score3_label)
@@ -65,7 +65,7 @@
         y: 64%
         x: 36%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score3_name)
@@ -73,7 +73,7 @@
         y: 64%
         x: 55%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score3_value)
@@ -81,7 +81,7 @@
         y: 64%
         x: 74%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score4_label)
@@ -89,7 +89,7 @@
         y: 56%
         x: 36%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score4_name)
@@ -97,7 +97,7 @@
         y: 56%
         x: 55%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score4_value)
@@ -105,7 +105,7 @@
         y: 56%
         x: 74%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score5_label)
@@ -113,7 +113,7 @@
         y: 48%
         x: 36%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score5_name)
@@ -121,7 +121,7 @@
         y: 48%
         x: 55%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score5_value)
@@ -129,7 +129,7 @@
         y: 48%
         x: 74%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score6_label)
@@ -137,7 +137,7 @@
         y: 40%
         x: 36%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score6_name)
@@ -145,7 +145,7 @@
         y: 40%
         x: 55%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score6_value)
@@ -153,7 +153,7 @@
         y: 40%
         x: 74%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score7_label)
@@ -161,7 +161,7 @@
         y: 32%
         x: 36%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score7_name)
@@ -169,7 +169,7 @@
         y: 32%
         x: 55%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score7_value)
@@ -177,7 +177,7 @@
         y: 32%
         x: 74%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score8_label)
@@ -185,7 +185,7 @@
         y: 24%
         x: 36%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score8_name)
@@ -193,7 +193,7 @@
         y: 24%
         x: 55%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score8_value)
@@ -201,7 +201,7 @@
         y: 24%
         x: 74%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score9_label)
@@ -209,7 +209,7 @@
         y: 17%
         x: 36%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score9_name)
@@ -217,7 +217,7 @@
         y: 17%
         x: 55%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: text
         text: (machine|score9_value)
@@ -225,7 +225,7 @@
         y: 17%
         x: 74%
         font_size: 50
-        font_name: playbill
+        font_name: impact
         color: gold
       - type: image
         image: curtains
@@ -243,12 +243,12 @@
       - type: text
         text: presents
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 38%
       - type: text
         text: THE GREATEST SHOWMAN
         font_size: 120
-        font_name: playbill
+        font_name: sylfaen
         y: 22%
         color: red
       - type: image
@@ -266,7 +266,7 @@
       - type: text
         text: PRESS START
         font_size: 100
-        font_name: playbill
+        font_name: impact
         animations:
           pre_show_slide:
           - property: opacity
@@ -280,7 +280,7 @@
         text: FREE PLAY
         color: red
         font_size: 80
-        font_name: playbill
+        font_name: impact
         y: 20%
         anchor_y: bottom
       - type: image
@@ -301,14 +301,14 @@
       - type: text
         text: LAST GAME
         font_size: 100
-        font_name: playbill
+        font_name: impact
         y: 55%
       - type: text
         text: (machine|player1_score)
         number_grouping: true
         min_digits: 2
         font_size: 100
-        font_name: playbill
+        font_name: impact
         y: 32%
       - type: image
         image: curtains
@@ -332,7 +332,7 @@
         text: BUILT ON
         y: 90%
         font_size: 100
-        font_name: playbill
+        font_name: impact
       - type: image
         image: missionpinballlogo
         x: 30%
@@ -350,30 +350,30 @@
         text: SPECIAL THANKS FOR MPF HELP
         color: gold
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 68%
       - type: text
         text: Mike Becker
     
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 55%
       - type: text
         text: Gavin Guest
         
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 43%
       - type: text
         text: Anthony Van Winkle
         
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 31%
       - type: text
         text: Dane Regnier
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 19%
       - type: image
         image: curtains
@@ -392,31 +392,31 @@
         text: ARTWORK 
         color: gold
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 70%
       - type: text
         text: Jay French
        
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 63%
       - type: text
         text: Alexey Kot
         
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 53%
       - type: text
         text: VOICE CALLOUTS
         color: gold
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 35%
       - type: text
         text: Jeff Teolis
         
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 28%
       - type: image
         image: curtains
@@ -433,43 +433,43 @@
         text: TICKET BOOTH SCULTURES 
         color: gold
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 70%
       - type: text
         text: Joe Kace
        
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 63%
       - type: text
         text: PRINTING
         color: gold
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 52%
       - type: text
         text: Playfield, cabinet decals, back glass
         color: gold
         font_size: 50
-        font_name: playbill
+        font_name: impact
         y: 46%
       - type: text
         text: "Lonnie Mihin (Graphic Dimensions)"
         
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 36%
       - type: text
         text: 3D PRINTED STAR POSTS AND STANDOFFS
         color: gold
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 22%
       - type: text
         text: Rocket City Pinball
         
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 13%
 
       - type: image
@@ -488,31 +488,31 @@
         text: POWDER COATING
         color: gold
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 65%
       - type: text
         text: The Coating Chic
        
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 58%
       - type: text
         text: PRINTING
         color: gold
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 42%
       - type: text
         text: Plastics, various smaller decals
         color: gold
         font_size: 50
-        font_name: playbill
+        font_name: impact
         y: 36%
       - type: text
         text: Alex Mendes
         
         font_size: 70
-        font_name: playbill
+        font_name: impact
         y: 28%
 
 
