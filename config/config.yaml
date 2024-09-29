@@ -601,6 +601,11 @@ diverters:
     activation_switches: s_left_ramp_made
     enable_events: ramp_lock
     disable_events: ball_ended, multiball_lock_ball_lock_locked_ball
+  lock_empty_coil:
+    activation_coil: c_triple_lock_eject
+    type: pulse
+    enable_events: eject_balls
+    activate_events: eject_balls
 
 
   spinning_discs_motor:

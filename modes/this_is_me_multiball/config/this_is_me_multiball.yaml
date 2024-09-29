@@ -7,6 +7,7 @@ mode:
   priority: 10000
   stop_events: balls_in_play{balls==1}
   events_when_stopped: restart_mode_base
+  events_when_started: eject_balls|3s
 
 
 
