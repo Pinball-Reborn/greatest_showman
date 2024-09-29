@@ -298,7 +298,7 @@ coils:
     number: 1-12
   c_ticket_booth_eject: #ticket booth eject
     number: 1-13
-    default_pulse_ms: 50ms
+    default_pulse_ms: 75ms
     default_pulse_power: 1.0
   c_ramp_diverter: #ramp diverter
     number: 1-14
