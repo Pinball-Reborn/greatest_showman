@@ -95,6 +95,34 @@ slides:
         y: 10%
         font_size: 25
         color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
       - type: image
         image: main_screen
         scale: 1
@@ -457,6 +485,7 @@ sequence_shots:
 shot_groups:
   stand_ups:
     shots: left_stand_up, right_stand_up, middle_stand_up, stand_up_left_lift_ramp, stand_up_right_lift_ramp
+    #reset_event: stand_ups_complete
 
 
 

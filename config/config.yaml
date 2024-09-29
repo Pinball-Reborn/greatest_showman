@@ -305,8 +305,8 @@ coils:
     default_hold_power: 0.5
   c_triple_lock_eject: #triple lock eject
     number: 1-15
-    default_pulse_ms: 60ms
-    default_pulse_power: 0.9
+    default_pulse_ms: 65ms
+    default_pulse_power: 1
   c_right_slingshot: #right slingshot
     number: 2-5
     default_pulse_ms: 20
