@@ -858,7 +858,7 @@ sound_player:
     ball_lock:
       action: play
       loops: 0
-  left_lock_upper_hit{hits=1}:
+  left_lock_upper_hit:
     ball_locked:
       action: play
       loops: 0
@@ -866,8 +866,8 @@ sound_player:
     multiball:
       action: play
       loops: 0
-    ball_locked:
-      action: stop
+      delay: 1s
+
 
    
 
@@ -920,7 +920,7 @@ sounds:
   never_enough:
     file: Never_Enough.wav
     track: sfx
-    volume: 0.8
+    volume: 1.1
     priority: 50
   left_ramp:
     file: ramp_lion.wav
@@ -1193,10 +1193,7 @@ track_player:
       fade: 1s
     voice:
       action: stop_all_sounds
-  restart_mode_base:
-    music:
-      action: stop_all_sounds
-      fade: 1s
+
 
 
     

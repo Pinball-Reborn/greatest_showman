@@ -5,7 +5,7 @@
 mode:
   start_events: this_is_me_mb_counter_complete
   priority: 10000
-  stop_events: balls_in_play{balls==1}
+  stop_events: stop_mode_this_is_me_multiball
   events_when_stopped: restart_mode_base
 
 
@@ -35,8 +35,9 @@ track_player:
     music:
       action: stop_all_sounds
   mode_this_is_me_multiball_will_stop:
-    music: 
+    __all__: 
       action: stop_all_sounds
+      fade: 1s
 
 slides:
   this_is_me_multiball:

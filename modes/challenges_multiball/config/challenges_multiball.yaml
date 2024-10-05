@@ -56,8 +56,9 @@ track_player:
     music:
       action: stop_all_sounds
   mode_challenges_multiball_will_stop:
-    music:
+    __all__:
       action: stop_all_sounds
+      fade: 1s
    
 
 
