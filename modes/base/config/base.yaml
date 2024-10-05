@@ -491,7 +491,7 @@ sequence_shots:
     sequence_timeout: 3s
   triple_combo:
     switch_sequence: s_left_orbit_bottom, s_left_orbit_top, s_right_orbit_top, s_inner_orbit_enter, s_right_orbit_top, s_right_orbit_bottom, s_back_ramp_made
-    sequence_timeout: 8s
+    sequence_timeout: 15s
 
 shot_groups:
   stand_ups:
@@ -1136,7 +1136,7 @@ sounds:
   triple_combo:
     file: triple_combo.wav
     volume: 1.2
-    priority: 1000
+    priority: 2000
 
 
 
