@@ -605,7 +605,7 @@ diverters:
     activation_time: 3s
     activation_switches: s_left_ramp_made
     enable_events: ramp_lock
-    disable_events: left_lock_upper_hit 
+    disable_events: left_lock_upper_hit, ball_ended 
   lock_empty_coil:
     activation_coil: c_triple_lock_eject
     type: pulse
