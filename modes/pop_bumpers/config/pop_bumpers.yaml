@@ -30,6 +30,10 @@ track_player:
   mode_pop_bumpers_started:
     music:
       action: stop_all_sounds
+  mode_pop_bumpers_will_stop:
+    __all__:
+      action: stop_all_sounds
+      fade: 1s
 
 
 sound_player:

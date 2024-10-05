@@ -27,6 +27,10 @@ track_player:
   mode_drop_targets_started:
     music:
       action: stop_all_sounds
+  mode_drop_targets_will_stop:
+    __all__:
+      action: stop_all_sounds
+      fade: 1s
 
 
 

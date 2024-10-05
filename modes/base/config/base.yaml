@@ -54,7 +54,7 @@ slides:
         font_size: 33
         color: black
       - type: text
-        text: 25
+        text: 20
         x: 7.8%
         y: 56%
         font_size: 33
@@ -90,7 +90,7 @@ slides:
         font_size: 33
         color: black
       - type: text
-        text: 150
+        text: 120
         x: 7.32%
         y: 10%
         font_size: 25
@@ -863,6 +863,10 @@ sound_player:
       action: play
       loops: 0
   counter_this_is_me_mb_counter_hit{count==1}:
+    ball_locked:
+      action: play
+      loops: 0
+  counter_this_is_me_mb_counter_hit{count==2}:
     ball_locked:
       action: play
       loops: 0

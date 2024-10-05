@@ -30,6 +30,10 @@ track_player:
   mode_ramps_started:
     music:
       action: stop_all_sounds
+  mode_ramps_will_stop:
+    __all__:
+      action: stop_all_sounds
+      fade: 1s
 
 sound_player:
   mode_ramps_started:
