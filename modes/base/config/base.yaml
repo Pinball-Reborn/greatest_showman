@@ -858,7 +858,7 @@ sound_player:
     ball_lock:
       action: play
       loops: 0
-  left_lock_upper_hit:
+  left_lock_upper_hit{hits=1}:
     ball_locked:
       action: play
       loops: 0
