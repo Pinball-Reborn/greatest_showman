@@ -384,14 +384,14 @@ shots:
 
 #LOCKS
   left_lock_upper:
-    switch: s_left_ramp_made
+    switch: s_left_lock_lower
     show_tokens:
       lights: lock
       color: green
     profile: lock_light_profile
     advance_events: advance_lock_light_profile
     control_events: 
-      - events: set_lock_light_profile_off # had ball_ending before, but not sure we want it now with separate lock counters
+      - events: set_lock_light_profile_off  #also add?, ball_ending
         state: 0
 
 
