@@ -444,7 +444,7 @@ counters:
   ramp_diverter:
     starting_count: 0
     count_events: top_pop_bumpers_top_hit, top_pop_bumpers_bottom_hit, top_pop_bumpers_left_hit,
-    count_complete_value: 10
+    count_complete_value: 30
     start_enabled: true
     events_when_complete: ramp_lock, advance_lock_light_profile
     reset_on_complete: true
@@ -710,6 +710,10 @@ sound_player:
     first_ball_music:
       action: stop
       fade_out: 0.5s
+  mode_this_is_me_multiball_started:
+    first_ball_music:
+      action: stop
+      fade_out: 0.5s
     
 
   mode_base_started:
@@ -862,6 +866,8 @@ sound_player:
     multiball:
       action: play
       loops: 0
+    ball_locked:
+      action: stop
 
    
 
