@@ -87,3 +87,57 @@ videos:
     file: this_is_me_movie.mpg
 
 
+
+variable_player:
+  multiball_left_orbit_hit:
+    score: 1000000
+  multiball_right_orbit_hit:
+    score: 1000000
+  multiball_inner_orbit_hit:
+    score: 1000000
+
+sequence_shots:
+  multiball_left_orbit:
+    switch_sequence: s_left_orbit_bottom, s_left_orbit_top, s_right_orbit_top
+    sequence_timeout: 3s
+  multiball_right_orbit:
+    switch_sequence: s_right_orbit_bottom, s_right_orbit_top, s_left_orbit_top
+    sequence_timeout: 3s
+  multiball_inner_orbit:
+    switch_sequence: s_inner_orbit_enter, s_right_orbit_top, s_right_orbit_bottom
+    sequence_timeout: 3s
+
+sounds:
+  shoot_orbits:
+    file: shoot_orbits.wav
+    track: voice
+    volume: 1.5
+    priority: 500
+  jackpot:
+    file: jackpot.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
+
+sound_player:
+  mode_this_is_me_multiball_started:
+    shoot_orbits:
+      action: play
+      loops: 0
+      delay: 6s 
+  multiball_left_orbit_hit:
+    jackpot:
+      action: play
+      loops: 0
+  multiball_right_orbit_hit:
+    jackpot:
+      action: play
+      loops: 0
+  multiball_inner_orbit_hit:
+    jackpot:
+      action: play
+      loops: 0
+
+
+
