@@ -117,7 +117,7 @@ sound_player:
     can_you_do_it_again:
       action: play
       loops: 0
-      delay: 3s
+      delay: 5s
 
 
 
