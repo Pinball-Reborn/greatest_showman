@@ -601,7 +601,7 @@ diverters:
     activation_time: 3s
     activation_switches: s_left_ramp_made
     enable_events: ramp_lock
-    disable_events: ball_ended, multiball_lock_ball_lock_locked_ball
+    disable_events: left_lock_upper_hit #multiball_lock_ball_lock_locked_ball #probably don't want ball_ended here since I set up single counters for each ball lock
   lock_empty_coil:
     activation_coil: c_triple_lock_eject
     type: pulse

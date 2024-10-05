@@ -3,7 +3,7 @@
 #this_is_me_multiball
 
 mode:
-  start_events: multiball_lock_ball_lock_full
+  start_events: ball3_locked
   priority: 10000
   stop_events: balls_in_play{balls==1}
   events_when_stopped: restart_mode_base
@@ -12,11 +12,10 @@ mode:
 
 
 multiballs:
-  release_all_locked_balls:
-    ball_count: 3
-    ball_count_type: total
+  quick_add_2_ball:
+    ball_count: 2
+    ball_count_type: add
     shoot_again: 20s
-    ball_locks: bd_ball_lock
     replace_balls_in_play: true
     start_events: mode_this_is_me_multiball_started
 
