@@ -281,10 +281,16 @@ variable_player:
     score: 100000
   ramp_orbit_hit:
     score: 100000
+  triple_combo_hit:
+    score: 200000
 
 #GROUP SHOTS SCORING
   stand_ups_complete:
     score: 100000
+
+#LOCK
+  left_lock_upper_hit:
+    score: 500000  
 
 
 
@@ -483,6 +489,9 @@ sequence_shots:
   orbit_ramp:
     switch_sequence: s_inner_orbit_enter, s_right_orbit_top, s_right_orbit_bottom, s_back_ramp_made
     sequence_timeout: 3s
+  triple_combo:
+    switch_sequence: s_left_orbit_bottom, s_left_orbit_top, s_right_orbit_top, s_inner_orbit_enter, s_right_orbit_top, s_right_orbit_bottom, s_back_ramp_made
+    sequence_timeout: 8s
 
 shot_groups:
   stand_ups:
@@ -875,6 +884,11 @@ sound_player:
       action: play
       loops: 0
       delay: 1s
+  triple_combo_hit:
+    triple_combo:
+      action: play
+      loops: 0
+   
 
 
    
@@ -1118,6 +1132,11 @@ sounds:
     file: multiball.wav
     volume: 1.2
     priority: 1000
+  triple_combo:
+    file: triple_combo.wav
+    volume: 1.2
+    priority: 1000
+
 
 
 sound_pools:
