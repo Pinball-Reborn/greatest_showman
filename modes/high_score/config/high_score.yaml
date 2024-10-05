@@ -28,14 +28,14 @@ high_score:
       - HIGH SCORE 8
   defaults:
     score:
-      - LISA SUE:         60000000
-      - JEFFREY:          55000000
-      - PT BARNUM:        50000000
-      - PHILLIP:          45000000 
-      - ANNE:             40000000
-      - CHARITY:          35000000
-      - JENNY:            30000000
-      - LETTIE:           25000000
+      - LISA SUE:         30000000
+      - JEFFREY:          25000000
+      - PT BARNUM:        20000000
+      - PHILLIP:          15000000 
+      - ANNE:             10000000
+      - CHARITY:          8000000
+      - JENNY:            6000000
+      - LETTIE:           4000000
       - CHARLES:          2000000
 
 
@@ -114,6 +114,10 @@ sound_player:
     high_score:
       action: play
       loops: 0 
+    can_you_do_it_again:
+      action: play
+      loops: 0
+      delay: 3s
 
 
 
@@ -127,6 +131,11 @@ sounds:
     priority: 100
   so_talented:
     file: talented.wav
+    track: voice
+    volume: 0.9
+    priority: 50
+  can_you_do_it_again:
+    file: can_you_do_it_again.wav
     track: voice
     volume: 0.9
     priority: 50
