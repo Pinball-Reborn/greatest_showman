@@ -188,6 +188,7 @@ switches:
     number: 2-26
   s_left_lock_lower: #left lock lower
     number: 2-27
+    ignore_window_ms: 5000ms
   s_slingshot_left: #slingshot left
     number: 2-28
     debounce: quick

@@ -441,10 +441,10 @@ counters:
     persist_state: true
     events_when_complete: advance_five_million_profile, five_million_lit
     restart_events: five_million_standup_five_million_profile_lit_hit
-  ramp_diverter:
+  ramp_diverter1:
     starting_count: 0
     count_events: top_pop_bumpers_top_hit, top_pop_bumpers_bottom_hit, top_pop_bumpers_left_hit,
-    count_complete_value: 30
+    count_complete_value: 10
     start_enabled: true
     events_when_complete: ramp_lock, advance_lock_light_profile
     reset_on_complete: true
@@ -521,7 +521,11 @@ event_player:
   left_lock_upper_lock_light_profile_lit_hit:
     - set_lock_light_profile_off
 
+  left_lock_upper_hit{count==1}:
+    - post_ball_locked
 
+  left_lock_upper_hit{count==2}:
+    - post_ball_locked
 
 
 
@@ -858,7 +862,7 @@ sound_player:
     ball_lock:
       action: play
       loops: 0
-  left_lock_upper_hit:
+  ball_locked:
     ball_locked:
       action: play
       loops: 0
