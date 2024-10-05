@@ -441,42 +441,23 @@ counters:
     persist_state: true
     events_when_complete: advance_five_million_profile, five_million_lit
     restart_events: five_million_standup_five_million_profile_lit_hit
-  ramp_diverter1:
+  ramp_diverter:
     starting_count: 0
     count_events: left_pop_bumpers_top_hit, left_pop_bumpers_right_hit, left_pop_bumpers_left_hit, 
     count_complete_value: 10
     start_enabled: true
-    events_when_complete: ramp_lock, advance_lock_light_profile, ball1_locked
-    reset_on_complete: false
+    events_when_complete: ramp_lock, advance_lock_light_profile
+    reset_on_complete: true
     persist_state: true
     restart_events: ramp_lock, left_lock_upper_lock_light_profile_lit_hit  
-    #disable_events: mode_this_is_me_multiball_started
-  ramp_diverter2:
-    starting_count: 0
-    count_events: left_pop_bumpers_top_hit, left_pop_bumpers_right_hit, left_pop_bumpers_left_hit, 
-    count_complete_value: 20
-    start_enabled: true
-    events_when_complete: ramp_lock, advance_lock_light_profile, ball2_locked
-    reset_on_complete: false
-    persist_state: true
-    restart_events: ramp_lock, left_lock_upper_lock_light_profile_lit_hit  
-    #disable_events: mode_this_is_me_multiball_started
-  ramp_diverter3:
-    starting_count: 0
-    count_events: left_pop_bumpers_top_hit, left_pop_bumpers_right_hit, left_pop_bumpers_left_hit, 
-    count_complete_value: 30
-    start_enabled: true
-    events_when_complete: ramp_lock, advance_lock_light_profile, ball3_locked
-    reset_on_complete: false
-    persist_state: true
-    restart_events: ramp_lock, left_lock_upper_lock_light_profile_lit_hit  
-    #disable_events: mode_this_is_me_multiball_started
+    disable_events: mode_this_is_me_multiball_started
 
 
-   #this_is_me_mb_counter:
-    #count_events: ramp_lock
-   # count_complete_value: 3
-   # events_when_complete: this_is_me_mb_counter_complete
+
+  this_is_me_mb_counter:
+    count_events: left_lock_upper_hit
+    count_complete_value: 3
+    events_when_complete: this_is_me_mb_counter_complete
   
 
 #multiball_locks:

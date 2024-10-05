@@ -3,7 +3,7 @@
 #this_is_me_multiball
 
 mode:
-  start_events: ball3_locked
+  start_events: this_is_me_mb_counter_complete
   priority: 10000
   stop_events: balls_in_play{balls==1}
   events_when_stopped: restart_mode_base
