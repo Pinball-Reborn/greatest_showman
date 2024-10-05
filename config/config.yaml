@@ -277,7 +277,7 @@ coils:
   c_ramp_down:  # ramp down
     number: 1-3
     default_pulse_ms: 200
-    default_pulse_power: 1.0
+    default_hold_power: 1.0
   c_under_ramp_eject: #under ramp eject
     number: 1-4
     #default_pulse_ms: 15ms
@@ -597,6 +597,13 @@ diverters:
     activate_events: stand_ups_hit
     #deactivation_switches: s_under_lift_ramp_eject
     disable_events: s_under_ramp_eject_active_hit
+  ramp_down_coil:
+    activation_coil: c_ramp_down
+    type: hold
+    enable_events: s_under_ramp_eject_active_hit, ball_started
+    activate_events: s_under_ramp_eject_active_hit, ball_started
+
+
   ramp_diverter_coil:
     activation_coil: c_ramp_diverter
     type: hold
