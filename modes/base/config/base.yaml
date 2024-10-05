@@ -522,10 +522,10 @@ event_player:
     - set_lock_light_profile_off
 
   left_lock_upper_hit{count==1}:
-    - post_ball_locked
+    - play_sound_ball_locked
 
   left_lock_upper_hit{count==2}:
-    - post_ball_locked
+    - play_sound_ball_locked
 
 
 

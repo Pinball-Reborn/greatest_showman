@@ -12,12 +12,14 @@ mode:
 
 
 multiballs:
-  3balls_multiball:
+  this_is_me_multiball:
     ball_count: 2
     ball_count_type: add
     shoot_again: 20s
-    replace_balls_in_play: true
+    enable_events: mode_this_is_me_multiball_started
     start_events: mode_this_is_me_multiball_started
+
+
 
 event_player:
   mode_this_is_me_multiball_started:
