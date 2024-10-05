@@ -397,7 +397,7 @@ shots:
     profile: lock_light_profile
     advance_events: advance_lock_light_profile
     control_events: 
-      - events: set_lock_light_profile_off  #also add?, ball_ending
+      - events: set_lock_light_profile_off, ball_ending
         state: 0
 
 
@@ -454,8 +454,8 @@ counters:
     start_enabled: true
     events_when_complete: ramp_lock, advance_lock_light_profile
     reset_on_complete: true
-    persist_state: true
-    restart_events: ramp_lock, left_lock_upper_lock_light_profile_lit_hit  
+    persist_state: false
+    restart_events: ramp_lock, left_lock_upper_lock_light_profile_lit_hit, ball_ending  
     disable_events: mode_this_is_me_multiball_started
 
 
