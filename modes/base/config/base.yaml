@@ -862,7 +862,7 @@ sound_player:
     ball_lock:
       action: play
       loops: 0
-  ball_locked:
+  left_lock_upper_hit{count==1}:
     ball_locked:
       action: play
       loops: 0
