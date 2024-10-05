@@ -443,7 +443,7 @@ counters:
     restart_events: five_million_standup_five_million_profile_lit_hit
   ramp_diverter:
     starting_count: 0
-    count_events: left_pop_bumpers_top_hit, left_pop_bumpers_right_hit, left_pop_bumpers_left_hit, 
+    count_events: top_pop_bumpers_top_hit, top_pop_bumpers_bottom_hit, top_pop_bumpers_left_hit,
     count_complete_value: 10
     start_enabled: true
     events_when_complete: ramp_lock, advance_lock_light_profile
@@ -460,14 +460,6 @@ counters:
     persist_state: true
     events_when_complete: this_is_me_mb_counter_complete
   
-
-#multiball_locks:
-  #ball_lock:
-   # balls_to_lock: 3
-    #balls_to_replace: 2
-    #lock_devices: bd_ball_lock
-
-
 
 sequence_shots:
   left_orbit:
@@ -691,6 +683,7 @@ sound_player:
   restart_mode_base:
     first_ball_music:
       action: play
+      delay: 0.2s
       loops: -1
 
   mode_pop_bumpers_started:
@@ -859,6 +852,14 @@ sound_player:
       loops: 0
   ramp_lock:
     ball_lock:
+      action: play
+      loops: 0
+  left_lock_upper_hit:
+    ball_locked:
+      action: play
+      loops: 0
+  this_is_me_mb_counter_complete:
+    multiball:
       action: play
       loops: 0
 
@@ -1095,6 +1096,14 @@ sounds:
     track: voice
     volume: 1.2
     priority: 400
+  ball_locked:
+    file: ball_locked.wav
+    volume: 1.2
+    priority: 400
+  multiball:
+    file: multiball.wav
+    volume: 1.2
+    priority: 1000
 
 
 sound_pools:
@@ -1178,6 +1187,10 @@ track_player:
       fade: 1s
     voice:
       action: stop_all_sounds
+  restart_mode_base:
+    music:
+      action: stop_all_sounds
+      fade: 1s
 
 
     
