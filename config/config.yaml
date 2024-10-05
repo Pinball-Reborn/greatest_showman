@@ -273,15 +273,15 @@ coils:
   c_ramp_up: #ramp up
     number: 1-2
     default_pulse_ms: 255
-    default_pulse_power: 1.0
+    default_hold_power: 1.0
   c_ramp_down:  # ramp down
     number: 1-3
     default_pulse_ms: 200
     default_pulse_power: 1.0
   c_under_ramp_eject: #under ramp eject
     number: 1-4
-    default_pulse_ms: 15ms
-    default_pulse_power: 1.0
+    #default_pulse_ms: 15ms
+    default_hold_power: 1.0
   c_top_pop_bumpers_bottom:  #top pop bumpers bottom
     number: 1-5
   c_top_pop_bumpers_top:  #top pop bumpers top
@@ -590,11 +590,12 @@ drop_target_banks:
 diverters:
   ramp_up_down_coils:
     activation_coil: c_ramp_up
-    deactivation_coil: c_ramp_down
-    type: pulse
-    enable_events: ramp_up
-    activate_events: ramp_up
-    deactivation_switches: s_under_lift_ramp_eject
+    #deactivation_coil: c_ramp_down
+    #type: pulse
+    type: hold
+    enable_events: stand_ups_hit
+    activate_events: stand_ups_hit
+    #deactivation_switches: s_under_lift_ramp_eject
     disable_events: s_under_ramp_eject_active_hit
   ramp_diverter_coil:
     activation_coil: c_ramp_diverter
@@ -602,7 +603,7 @@ diverters:
     activation_time: 3s
     activation_switches: s_left_ramp_made
     enable_events: ramp_lock
-    disable_events: left_lock_upper_hit #multiball_lock_ball_lock_locked_ball #probably don't want ball_ended here since I set up single counters for each ball lock
+    disable_events: left_lock_upper_hit 
   lock_empty_coil:
     activation_coil: c_triple_lock_eject
     type: pulse

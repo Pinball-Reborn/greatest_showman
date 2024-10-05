@@ -447,7 +447,7 @@ counters:
     persist_state: true
     events_when_complete: advance_five_million_profile, five_million_lit
     restart_events: five_million_standup_five_million_profile_lit_hit
-  ramp_diverter1:
+  ramp_diverter:
     starting_count: 0
     count_events: top_pop_bumpers_top_hit, top_pop_bumpers_bottom_hit, top_pop_bumpers_left_hit,
     count_complete_value: 10
