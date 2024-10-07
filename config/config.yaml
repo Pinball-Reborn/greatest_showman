@@ -520,7 +520,7 @@ ball_devices:
     eject_coil: c_trough_eject
     tags: trough, home, drain
     jam_switch: s_trough_jam
-    eject_coil_jam_pulse: 15ms
+    eject_coil_jam_pulse: 20ms
     eject_targets: bd_plunger
     eject_timeouts: 3s
   bd_plunger:

@@ -29,7 +29,7 @@ counters:
 
   orbits_qualify_counter:
     starting_count: 0
-    count_complete_value: 3
+    count_complete_value: 6
     events_when_complete: post_orbits_mode_starting_events
     enable_events: enable_qualify
     disable_events: disable_qualify
@@ -65,7 +65,7 @@ counters:
 
   ramps_qualify_counter:
     starting_count: 0
-    count_complete_value: 3
+    count_complete_value: 6
     events_when_complete: post_ramps_mode_starting_events
     enable_events: enable_qualify
     disable_events: disable_qualify
