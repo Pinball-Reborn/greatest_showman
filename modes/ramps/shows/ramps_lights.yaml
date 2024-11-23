@@ -1,173 +1,35 @@
 #show_version=6
 - duration: 1
   lights:
-    miss: darkred
+    lind: white
 - duration: 1
   lights:
-    jenny: darkred
+    jenny: white
 - duration: 1
   lights:
-    lind: darkred
+    miss: white
 - duration: 1
   lights:
     below_lock_in_musical_staff: darkred
 - duration: 1
   lights:
-    lock: darkred
+    lock: white
+
+
+
+
+
+
 
 - duration: 1
   lights:
-    miss: palevioletred
-- duration: 1
-  lights:
-    jenny: palevioletred
-- duration: 1
-  lights:
-    lind: palevioletred
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: palevioletred
-- duration: 1
-  lights:
-    lock: palevioletred
-
-- duration: 1
-  lights:
-    miss: orange
-- duration: 1
-  lights:
-    jenny: orange 
-- duration: 1
-  lights:
-    lind: orange
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: orange
-- duration: 1
-  lights:
-    lock: orange
-
-- duration: 1
-  lights:
-    miss: gold
-- duration: 1
-  lights:
-    jenny: gold 
-- duration: 1
-  lights:
-    lind: gold
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: gold
-- duration: 1
-  lights:
-    lock: gold
-
-- duration: 1
-  lights:
-    miss: purple
-- duration: 1
-  lights:
-    jenny: purple 
-- duration: 1
-  lights:
-    lind: purple
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: purple
-- duration: 1
-  lights:
-    lock: purple
-
-- duration: 1
-  lights:
-    miss: darkslateblue
-- duration: 1
-  lights:
-    jenny: darkslateblue 
-- duration: 1
-  lights:
-    lind: darkslateblue
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: darkslateblue
-- duration: 1
-  lights:
-    lock: darkslateblue
-
-- duration: 1
-  lights:
-    miss: darkgreen
-- duration: 1
-  lights:
-    jenny: darkgreen 
-- duration: 1
-  lights:
-    lind: darkgreen
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: darkgreen
-- duration: 1
-  lights:
-    lock: darkgreen  
-
-- duration: 1
-  lights:
-    miss: teal
-- duration: 1
-  lights:
-    jenny: teal 
-- duration: 1
-  lights:
-    lind: teal
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: teal
-- duration: 1
-  lights:
-    lock: teal
-
-- duration: 1
-  lights:
-    miss: navy 
-- duration: 1
-  lights:
-    jenny: navy  
-- duration: 1
-  lights:
-    lind:  navy 
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: navy 
-- duration: 1
-  lights:
-    lock: navy 
-
-- duration: 1
-  lights:
-    miss: brown
-- duration: 1
-  lights:
-    jenny: brown 
-- duration: 1
-  lights:
-    lind: brown
-- duration: 1
-  lights:
-    below_lock_in_musical_staff: brown
-- duration: 1
-  lights:
-    lock: brown
-
-- duration: 1
-  lights:
-    miss: red
+    lind: red
 - duration: 1
   lights:
     jenny: red 
 - duration: 1
   lights:
-    lind: red
+    miss: red
 - duration: 1
   lights:
     below_lock_in_musical_staff: red
@@ -179,7 +41,7 @@
 
 
 
-- duration: 5
+- duration: 2
   lights:
     save_the_show_left: blue
     save_the_show_right: blue
@@ -230,7 +92,7 @@
 
 
 
-- duration: 5
+- duration: 2
   lights:
 
     save_the_show_left: green
