@@ -75,7 +75,7 @@ sound_player:
       loops: 0
     fly_the_ramps:
       action: play
-      delay: 5s
+      #delay: 5s
       
 
   slide_challenges_multi_finish_active:
@@ -109,21 +109,21 @@ slides:
         text: CHALLENGES MULTIBALL
         color: red
         font_size: 120
+        font_name: CarnivaleeFreakshow-DLrm
         y: 95%
-        font: CarnivaleeFreakshow-DLrm
+      - type: text
+        text: SHOOT RAMPS FOR JACKPOT!
+        color: red
+        font_size: 120
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 85%
       - type: text
         text: (score)
         number_grouping: true
         min_digits: 2
         font_size: 100
-        font: CarnivaleeFreakshow-DLrm
+        font_name: CarnivaleeFreakshow-DLrm
         y: 15%
-      - type: text
-        text: SHOOT RAMPS FOR JACKPOT!
-        color: red
-        font_size: 120
-        y: 85%
-        font: CarnivaleeFreakshow-DLrm
 
       - type: video
         video: come_alive
