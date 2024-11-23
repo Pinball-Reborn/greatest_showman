@@ -26,7 +26,7 @@ show_player:
     orbits_show:
       speed: 1
     orbits_light_show:
-      speed: 10
+      speed: 8
 
 track_player:
   mode_orbits_started:

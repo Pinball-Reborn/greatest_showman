@@ -95,6 +95,15 @@
     shoot_again: blue
 
 
+    collect_oddities_1: blue
+    collect_oddities_2: blue
+    collect_oddities_3: blue
+    collect_oddities_4: blue
+    collect_oddities_5: blue
+    collect_oddities_6: blue
+    collect_oddities_7: blue
+    collect_oddities_8: blue
+
 
 - duration: 2
   lights:
@@ -149,4 +158,16 @@
 
 
     shoot_again: green
+
+    collect_oddities_1: green
+    collect_oddities_2: green
+    collect_oddities_3: green
+    collect_oddities_4: green
+    collect_oddities_5: green
+    collect_oddities_6: green
+    collect_oddities_7: green
+    collect_oddities_8: green
+
+
+
 
