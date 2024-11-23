@@ -1,74 +1,14 @@
 #show_version=6
+
+
 - duration: 1
   lights:
-    hat_right_orbit: darkred
-    arrow_left_inner_orbit: darkred
-    arrow_right_orbit: darkred
-    arrow_outer_left_orbit: darkred
-    hat_left_pop_bumpers: darkred
-- duration: 1
-  lights:
-    hat_right_orbit: palevioletred
-    arrow_left_inner_orbit: palevioletred
-    arrow_right_orbit: palevioletred
-    arrow_outer_left_orbit: palevioletred
-    hat_left_pop_bumpers: palevioletred
-- duration: 1
-  lights:
-    hat_right_orbit: orange
-    arrow_left_inner_orbit: orange
-    arrow_right_orbit: orange
-    arrow_outer_left_orbit: orange
-    hat_left_pop_bumpers: orange
-- duration: 1
-  lights:
-    hat_right_orbit: gold
-    arrow_left_inner_orbit: gold
-    arrow_right_orbit: gold
-    arrow_outer_left_orbit: gold
-    hat_left_pop_bumpers: gold
-- duration: 1
-  lights:
-    hat_right_orbit: purple
-    arrow_left_inner_orbit: purple
-    arrow_right_orbit: purple
-    arrow_outer_left_orbit: purple
-    hat_left_pop_bumpers: purple
-- duration: 1
-  lights:
-    hat_right_orbit: darkslateblue
-    arrow_left_inner_orbit: darkslateblue
-    arrow_right_orbit: darkslateblue
-    arrow_outer_left_orbit: darkslateblue
-    hat_left_pop_bumpers: darkslateblue
-- duration: 1
-  lights:
-    hat_right_orbit: darkgreen
-    arrow_left_inner_orbit: darkgreen
-    arrow_right_orbit: darkgreen
-    arrow_outer_left_orbit: darkgreen
-    hat_left_pop_bumpers: darkgreen
-- duration: 1
-  lights:
-    hat_right_orbit: teal
-    arrow_left_inner_orbit: teal
-    arrow_right_orbit: teal
-    arrow_outer_left_orbit: teal
-    hat_left_pop_bumpers: teal
-- duration: 1
-  lights:
-    hat_right_orbit: navy
-    arrow_left_inner_orbit: navy 
-    arrow_right_orbit: navy
-    arrow_outer_left_orbit: navy
-    hat_left_pop_bumpers: navy
-- duration: 1
-  lights:
-    hat_right_orbit: brown
-    arrow_left_inner_orbit: brown
-    arrow_right_orbit: brown
-    arrow_outer_left_orbit: brown
-    hat_left_pop_bumpers: brown
+    hat_right_orbit: white
+    arrow_left_inner_orbit: white
+    arrow_right_orbit: white
+    arrow_outer_left_orbit: white
+    hat_left_pop_bumpers: white
+
 - duration: 1
   lights:
     hat_right_orbit: red
@@ -76,3 +16,113 @@
     arrow_right_orbit: red
     arrow_outer_left_orbit: red
     hat_left_pop_bumpers: red
+
+
+
+- duration: 2
+  lights:
+    save_the_show_left: blue
+    save_the_show_right: blue
+    arrow_bottom_left: blue
+
+
+    target_mid_left: blue
+    target_mid_right: blue
+
+
+
+    skill_shot_1: blue
+    skill_shot_2: blue
+    skill_shot_3: blue
+    skill_shot_round: blue
+
+
+    lind: blue
+    jenny: blue 
+    miss: blue
+    below_lock_in_musical_staff: blue
+    lock: blue
+
+    arrow_lift_ramp_target_right: blue
+    arrow_lift_ramp_target_left: blue
+    five_million_when_lit: blue
+    four: blue
+    three: blue
+    two: blue
+    one: blue
+
+
+    hat_upper_pop_bumpers: blue
+    extra_ball: blue
+    light_extra_ball: blue
+
+
+    top_right_eject: blue
+    
+
+    challenges_a: blue
+    challenges_b: blue
+    challenges_c: blue
+    challenges_d: blue
+    challenges_e: blue    
+    challenges_f: blue
+
+
+    shoot_again: blue
+
+
+
+- duration: 2
+  lights:
+
+    save_the_show_left: green
+    save_the_show_right: green
+    arrow_bottom_left: green
+
+
+    target_mid_left: green
+    target_mid_right: green
+
+
+
+    skill_shot_1: green
+    skill_shot_2: green
+    skill_shot_3: green
+    skill_shot_round: green
+
+    lind: green
+    jenny: green
+    miss: green
+    below_lock_in_musical_staff: green
+    lock: green
+
+
+    arrow_lift_ramp_target_right: green
+    arrow_lift_ramp_target_left: green
+
+    five_million_when_lit: green
+    four: green
+    three: green
+    two: green
+    one: green
+
+
+    hat_upper_pop_bumpers: green
+    extra_ball: green
+    light_extra_ball: green
+
+
+    top_right_eject: green
+
+
+
+    challenges_a: green
+    challenges_b: green
+    challenges_c: green
+    challenges_d: green
+    challenges_e: green     
+    challenges_f: green
+
+
+    shoot_again: green
+
