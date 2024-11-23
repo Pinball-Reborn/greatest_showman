@@ -2,141 +2,214 @@
 - duration: 1
   lights:
     miss: darkred
+- duration: 1
+  lights:
     jenny: darkred
+- duration: 1
+  lights:
     lind: darkred
-    arrow_lift_ramp_target_right: darkred
-    arrow_lift_ramp_target_left: darkred
-    lock: darkred
+- duration: 1
+  lights:
     below_lock_in_musical_staff: darkred
 - duration: 1
   lights:
+    lock: darkred
+
+- duration: 1
+  lights:
     miss: palevioletred
+- duration: 1
+  lights:
     jenny: palevioletred
+- duration: 1
+  lights:
     lind: palevioletred
-    arrow_lift_ramp_target_right: palevioletred
-    arrow_lift_ramp_target_left: palevioletred
-    lock: palevioletred
+- duration: 1
+  lights:
     below_lock_in_musical_staff: palevioletred
 - duration: 1
   lights:
+    lock: palevioletred
+
+- duration: 1
+  lights:
     miss: orange
+- duration: 1
+  lights:
     jenny: orange 
+- duration: 1
+  lights:
     lind: orange
-    arrow_lift_ramp_target_right: orange
-    arrow_lift_ramp_target_left: orange
-    lock: orange
+- duration: 1
+  lights:
     below_lock_in_musical_staff: orange
 - duration: 1
   lights:
+    lock: orange
+
+- duration: 1
+  lights:
     miss: gold
+- duration: 1
+  lights:
     jenny: gold 
+- duration: 1
+  lights:
     lind: gold
-    arrow_lift_ramp_target_right: gold
-    arrow_lift_ramp_target_left: gold
-    lock: gold
+- duration: 1
+  lights:
     below_lock_in_musical_staff: gold
 - duration: 1
   lights:
+    lock: gold
+
+- duration: 1
+  lights:
     miss: purple
+- duration: 1
+  lights:
     jenny: purple 
+- duration: 1
+  lights:
     lind: purple
-    arrow_lift_ramp_target_right: purple
-    arrow_lift_ramp_target_left: purple
-    lock: purple
+- duration: 1
+  lights:
     below_lock_in_musical_staff: purple
 - duration: 1
   lights:
+    lock: purple
+
+- duration: 1
+  lights:
     miss: darkslateblue
+- duration: 1
+  lights:
     jenny: darkslateblue 
+- duration: 1
+  lights:
     lind: darkslateblue
-    arrow_lift_ramp_target_right: darkslateblue
-    arrow_lift_ramp_target_left: darkslateblue
-    lock: darkslateblue
+- duration: 1
+  lights:
     below_lock_in_musical_staff: darkslateblue
 - duration: 1
   lights:
+    lock: darkslateblue
+
+- duration: 1
+  lights:
     miss: darkgreen
+- duration: 1
+  lights:
     jenny: darkgreen 
+- duration: 1
+  lights:
     lind: darkgreen
-    arrow_lift_ramp_target_right: darkgreen 
-    arrow_lift_ramp_target_left: darkgreen
-    lock: darkgreen  
+- duration: 1
+  lights:
     below_lock_in_musical_staff: darkgreen
 - duration: 1
   lights:
+    lock: darkgreen  
+
+- duration: 1
+  lights:
     miss: teal
+- duration: 1
+  lights:
     jenny: teal 
+- duration: 1
+  lights:
     lind: teal
-    arrow_lift_ramp_target_right: teal
-    arrow_lift_ramp_target_left: teal
-    lock: teal
+- duration: 1
+  lights:
     below_lock_in_musical_staff: teal
 - duration: 1
   lights:
+    lock: teal
+
+- duration: 1
+  lights:
     miss: navy 
+- duration: 1
+  lights:
     jenny: navy  
+- duration: 1
+  lights:
     lind:  navy 
-    arrow_lift_ramp_target_right: navy 
-    arrow_lift_ramp_target_left: navy 
-    lock: navy 
+- duration: 1
+  lights:
     below_lock_in_musical_staff: navy 
 - duration: 1
   lights:
+    lock: navy 
+
+- duration: 1
+  lights:
     miss: brown
+- duration: 1
+  lights:
     jenny: brown 
+- duration: 1
+  lights:
     lind: brown
-    arrow_lift_ramp_target_right: brown
-    arrow_lift_ramp_target_left: brown
-    lock: brown
+- duration: 1
+  lights:
     below_lock_in_musical_staff: brown
 - duration: 1
   lights:
-    miss: red
-    jenny: red 
-    lind: red
-    arrow_lift_ramp_target_right: red
-    arrow_lift_ramp_target_left: red
-    lock: red
-    below_lock_in_musical_staff: red
-
-
-
+    lock: brown
 
 - duration: 1
+  lights:
+    miss: red
+- duration: 1
+  lights:
+    jenny: red 
+- duration: 1
+  lights:
+    lind: red
+- duration: 1
+  lights:
+    below_lock_in_musical_staff: red
+- duration: 1
+  lights:
+    lock: red
+
+
+
+
+
+- duration: 5
   lights:
     save_the_show_left: blue
     save_the_show_right: blue
     arrow_bottom_left: blue
 
-- duration: 1
-  lights:
+
     target_mid_left: blue
     target_mid_right: blue
     arrow_outer_left_orbit: blue
     hat_left_pop_bumpers: blue
 
-- duration: 1
-  lights:
+
     skill_shot_1: blue
     skill_shot_2: blue
     skill_shot_3: blue
     skill_shot_round: blue
 
 
-- duration: 1
-  lights:
+
     arrow_right_orbit: blue
 
-- duration: 1
-  lights:
+    arrow_lift_ramp_target_right: blue
+    arrow_lift_ramp_target_left: blue
     five_million_when_lit: blue
     four: blue
     three: blue
     two: blue
     one: blue
 
-- duration: 1
-  lights:
+
     hat_upper_pop_bumpers: blue
     extra_ball: blue
     light_extra_ball: blue
@@ -144,8 +217,7 @@
     arrow_left_inner_orbit: blue
     top_right_eject: blue
     
-- duration: 1
-  lights:
+
       challenges_a: blue
       challenges_b: blue
       challenges_c: blue
@@ -153,48 +225,43 @@
       challenges_e: blue    
       challenges_f: blue
 
-- duration: 1
-  lights:
+
     shoot_again: blue
 
 
 
-
-- duration: 1
+- duration: 5
   lights:
+
     save_the_show_left: green
     save_the_show_right: green
     arrow_bottom_left: green
 
-- duration: 1
-  lights:
+
     target_mid_left: green
     target_mid_right: green
     arrow_outer_left_orbit: green
     hat_left_pop_bumpers: green
 
-- duration: 1
-  lights:
+
     skill_shot_1: green
     skill_shot_2: green
     skill_shot_3: green
     skill_shot_round: green
 
 
-- duration: 1
-  lights:
-    arrow_right_orbit: green
 
-- duration: 1
-  lights:
+    arrow_right_orbit: green
+    arrow_lift_ramp_target_right: green
+    arrow_lift_ramp_target_left: green
+
     five_million_when_lit: green
     four: green
     three: green
     two: green
     one: green
 
-- duration: 1
-  lights:
+
     hat_upper_pop_bumpers: green
     extra_ball: green
     light_extra_ball: green
@@ -203,8 +270,7 @@
     top_right_eject: green
 
 
-- duration: 1
-  lights:
+
       challenges_a: green
       challenges_b: green
       challenges_c: green
@@ -212,8 +278,7 @@
       challenges_e: green     
       challenges_f: green
 
-- duration: 1
-  lights:
+
     shoot_again: green
 
 
