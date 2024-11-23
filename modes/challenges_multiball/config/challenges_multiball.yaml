@@ -75,7 +75,7 @@ sound_player:
       loops: 0
     fly_the_ramps:
       action: play
-      #delay: 5s
+      delay: 5s
       
 
   slide_challenges_multi_finish_active:

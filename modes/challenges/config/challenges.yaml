@@ -87,7 +87,7 @@ achievement_groups:
 
 timers:
   challenges_timer:
-    start_value: 10
+    start_value: 5
     end_value: 0
     direction: down
     tick_interval: 1s
