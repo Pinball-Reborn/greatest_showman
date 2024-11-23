@@ -37,7 +37,7 @@
         color: gold
         number_grouping: true
         min_digits: 2
-        font_size: 140
+        font_size: 150
         font_name: CarnivaleeFreakshow-DLrm
         y: 30%
       - type:  image

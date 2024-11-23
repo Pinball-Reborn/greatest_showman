@@ -20,7 +20,7 @@ multiballs:
 show_player:
   mode_challenges_multiball_started: 
     challenges_multiball_show:
-      speed: 8
+      speed: 10
       loops: -1
 
 sounds:

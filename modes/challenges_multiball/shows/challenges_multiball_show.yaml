@@ -1,9 +1,9 @@
 #show_version=6
-- duration: 250ms
+- duration: 1
   lights:
     shoot_again: red
 
-- duration: 250ms
+- duration: 1
   lights:
       challenges_a: red
       challenges_b: red
@@ -12,20 +12,20 @@
       challenges_e: red      
       challenges_f: red
 
-- duration: 250ms
+- duration: 1
   lights:
     save_the_show_left: red
     save_the_show_right: red
     arrow_bottom_left: red
 
-- duration: 250ms
+- duration: 1
   lights:
     target_mid_left: red
     target_mid_right: red
     arrow_outer_left_orbit: red
     hat_left_pop_bumpers: red
 
-- duration: 250ms
+- duration: 1
   lights:
     skill_shot_1: red
     skill_shot_2: red
@@ -33,11 +33,11 @@
     skill_shot_round: red
 
 
-- duration: 250ms
+- duration: 1
   lights:
     arrow_right_orbit: red
 
-- duration: 250ms
+- duration: 1
   lights:
     five_million_when_lit: red
     four: red
@@ -45,7 +45,7 @@
     two: red
     one: red
 
-- duration: 250ms
+- duration: 1
   lights:
     hat_upper_pop_bumpers: red
     extra_ball: red
@@ -59,11 +59,11 @@
 
 
 
-- duration: 250ms
+- duration: 1
   lights:
     shoot_again: gold
 
-- duration: 250ms
+- duration: 1
   lights:
       challenges_a: gold
       challenges_b: gold
@@ -72,20 +72,20 @@
       challenges_e: gold      
       challenges_f: gold
 
-- duration: 250ms
+- duration: 1
   lights:
     save_the_show_left: gold
     save_the_show_right: gold
     arrow_bottom_left: gold
 
-- duration: 250ms
+- duration: 1
   lights:
     target_mid_left: gold
     target_mid_right: gold
     arrow_outer_left_orbit: gold
     hat_left_pop_bumpers: gold
 
-- duration: 250ms
+- duration: 1
   lights:
     skill_shot_1: gold
     skill_shot_2: gold
@@ -93,11 +93,11 @@
     skill_shot_round: gold
 
 
-- duration: 250ms
+- duration: 1
   lights:
     arrow_right_orbit: gold
 
-- duration: 250ms
+- duration: 1
   lights:
     five_million_when_lit: gold
     four: gold
@@ -105,7 +105,7 @@
     two: gold
     one: gold
 
-- duration: 250ms
+- duration: 1
   lights:
     hat_upper_pop_bumpers: gold
     extra_ball: gold
@@ -117,7 +117,7 @@
 
 
 
-- duration: 250ms
+- duration: 1
   lights:
     miss: darkred
     jenny: darkred
@@ -126,7 +126,7 @@
     arrow_lift_ramp_target_left: darkred
     lock: darkred
     below_lock_in_musical_staff: darkred
-- duration: 250ms
+- duration: 1
   lights:
     miss: palevioletred
     jenny: palevioletred
@@ -135,7 +135,7 @@
     arrow_lift_ramp_target_left: palevioletred
     lock: palevioletred
     below_lock_in_musical_staff: palevioletred
-- duration: 250ms
+- duration: 1
   lights:
     miss: orange
     jenny: orange 
@@ -145,7 +145,7 @@
     lock: orange
     below_lock_in_musical_staff: orange
 
-- duration: 250ms
+- duration: 1
   lights:
     miss: purple
     jenny: purple 
@@ -154,7 +154,7 @@
     arrow_lift_ramp_target_left: purple
     lock: purple
     below_lock_in_musical_staff: purple
-- duration: 250ms
+- duration: 1
   lights:
     miss: darkslateblue
     jenny: darkslateblue 
@@ -163,7 +163,7 @@
     arrow_lift_ramp_target_left: darkslateblue
     lock: darkslateblue
     below_lock_in_musical_staff: darkslateblue
-- duration: 250ms
+- duration: 1
   lights:
     miss: darkgreen
     jenny: darkgreen 
@@ -172,7 +172,7 @@
     arrow_lift_ramp_target_left: darkgreen
     lock: darkgreen  
     below_lock_in_musical_staff: darkgreen
-- duration: 250ms
+- duration: 1
   lights:
     miss: teal
     jenny: teal 
@@ -181,7 +181,7 @@
     arrow_lift_ramp_target_left: teal
     lock: teal
     below_lock_in_musical_staff: teal
-- duration: 250ms
+- duration: 1
   lights:
     miss: navy 
     jenny: navy  
@@ -190,7 +190,7 @@
     arrow_lift_ramp_target_left: navy 
     lock: navy 
     below_lock_in_musical_staff: navy 
-- duration: 250ms
+- duration: 1
   lights:
     miss: brown
     jenny: brown 
