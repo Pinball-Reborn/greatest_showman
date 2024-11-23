@@ -40,10 +40,12 @@ slides:
         y: 81%
         font_size: 200
         color: gold
+        font_name: CarnivaleeFreakshow-DLrm
       - type: text
         text: "Stop shaking the game"
         y: 41%
         font_size: 160
+        font_name: CarnivaleeFreakshow-DLrm
         color: red
       - type: image
         image: bar_screen
@@ -54,9 +56,11 @@ slides:
         text: DANGER!
         y: 81%
         font_size: 200
+        font_name: CarnivaleeFreakshow-DLrm
         color: gold
       - type: text
         text: "Be nice to this game"
+        font_name: CarnivaleeFreakshow-DLrm
         y: 41%
         font_size: 160
         color: red
@@ -70,11 +74,13 @@ slides:
         text: TILT!
         y: 81%
         font_size: 200
+        font_name: CarnivaleeFreakshow-DLrm
         color: gold
       - type: text
         text: "You were warned"
         y: 41%
         font_size: 160
+        font_name: CarnivaleeFreakshow-DLrm
         color: red
       - type: image
         image: bar_screen  

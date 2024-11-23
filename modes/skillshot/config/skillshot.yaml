@@ -73,9 +73,10 @@ slides:
   skillshot_start:
     widgets:
       - type: text
-        text: Hit the skillshot
+        text: Hit the flashing skillshot
         color: gold
         font_size: 120
+        font_name: CarnivaleeFreakshow-DLrm
       - type: image
         image: bar_screen
         scale: 1
@@ -87,6 +88,13 @@ slides:
       - type: text
         text: YOU HIT THE SKILL SHOT!
         color: gold
+        font_size: 120
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 75%
+      - type: text
+        text: 200,000 points
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 25%
         font_size: 120
       - type: image
         image: bar_screen

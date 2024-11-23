@@ -58,12 +58,22 @@ slides:
         text: THIS IT ME MULTIBALL
         color: red
         font_size: 120
-        y: 85%
+        y: 95%
       - type: text
         text: SHOOT ORBITS FOR JACKPOT!
-        color: red
+        color: gold
         font_size: 120
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 83%
+      - type: text
+        text: (score)
+        color: gold
+        number_grouping: true
+        min_digits: 2
+        font_size: 140
+        font_name: CarnivaleeFreakshow-DLrm
         y: 15%
+
       - type: video
         video: this_is_me_movie
         volume: 0.6
@@ -75,6 +85,16 @@ slides:
         text: THIS IS ME MULTIBALL
         font_size: 150
         color: gold
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 75%
+      - type: text
+        text: (score)
+        color: gold
+        number_grouping: true
+        min_digits: 2
+        font_size: 140
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 25%
       - type: image
         image: bar_screen
         scale: 1

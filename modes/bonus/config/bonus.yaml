@@ -36,6 +36,7 @@ slides:
     - type: text
       text: Bonus
       font_size: 150
+      font_name: CarnivaleeFreakshow-DLrm
       color: black
     - type: image
       image: curtains
@@ -47,16 +48,19 @@ slides:
       text: "Challenges Completed"
       y: 70%
       font_size: 150
+      font_name: CarnivaleeFreakshow-DLrm
       color: black
     - type: text
       text: "(player|bonus_challenges)x"
       y: 50%
       color: black
       font_size: 140
+      font_name: CarnivaleeFreakshow-DLrm
     - type: text
       text: (score)
       y: 30%
       font_size: 140
+      font_name: CarnivaleeFreakshow-DLrm
       color: black
     - type: image
       image: curtains
@@ -69,15 +73,18 @@ slides:
       y: 70%
       color: black
       font_size: 150
+      font_name: CarnivaleeFreakshow-DLrm
     - type: text
       text: "(player|bonus_ramps)x"
       y: 50%
       color: black
       font_size: 140
+      font_name: CarnivaleeFreakshow-DLrm
     - type: text
       text: (score)
       y: 30%
       font_size: 140
+      font_name: CarnivaleeFreakshow-DLrm
       color: black
     - type: image
       image: curtains
@@ -90,15 +97,18 @@ slides:
       y: 70%
       color: black
       font_size: 150
+      font_name: CarnivaleeFreakshow-DLrm
     - type: text
       text: "(player|drop_bonus)x"
       y: 50%
       color: black
       font_size: 140
+      font_name: CarnivaleeFreakshow-DLrm
     - type: text
       text: (score)
       y: 30%
       font_size: 140
+      font_name: CarnivaleeFreakshow-DLrm
       color: black
     - type: image
       image: curtains
@@ -111,11 +121,13 @@ slides:
       text: Total Bonus
       y: 60%
       font_size: 130
+      font_name: CarnivaleeFreakshow-DLrm
       color: black
     - type: text
       text: (score)
       y: 40%
       font_size: 140
+      font_name: CarnivaleeFreakshow-DLrm
       color: black
     - type: image
       image: curtains
