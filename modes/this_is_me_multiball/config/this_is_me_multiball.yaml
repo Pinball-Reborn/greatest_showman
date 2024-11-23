@@ -53,9 +53,20 @@ slides:
         scale: 1
   
   this_is_me_movie:
-    type: video
-    video: this_is_me_movie
-    volume: 0.6
+    widgets:
+      - type: text
+        text: THIS IT ME MULTIBALL
+        color: red
+        font_size: 120
+        y: 85%
+      - type: text
+        text: SHOOT ORBITS FOR JACKPOT!
+        color: red
+        font_size: 120
+        y: 15%
+      - type: video
+        video: this_is_me_movie
+        volume: 0.6
 
 
   this_is_me_multi_finish:
