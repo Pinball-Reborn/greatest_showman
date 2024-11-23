@@ -218,12 +218,12 @@
     top_right_eject: blue
     
 
-      challenges_a: blue
-      challenges_b: blue
-      challenges_c: blue
-      challenges_d: blue
-      challenges_e: blue    
-      challenges_f: blue
+    challenges_a: blue
+    challenges_b: blue
+    challenges_c: blue
+    challenges_d: blue
+    challenges_e: blue    
+    challenges_f: blue
 
 
     shoot_again: blue
@@ -271,12 +271,12 @@
 
 
 
-      challenges_a: green
-      challenges_b: green
-      challenges_c: green
-      challenges_d: green
-      challenges_e: green     
-      challenges_f: green
+    challenges_a: green
+    challenges_b: green
+    challenges_c: green
+    challenges_d: green
+    challenges_e: green     
+    challenges_f: green
 
 
     shoot_again: green
