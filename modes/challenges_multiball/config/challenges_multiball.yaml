@@ -40,6 +40,11 @@ sounds:
     track: voice
     volume: 0.9
     priority: 100
+  fly_the_ramps:
+    file: fly_the_ramps.wav
+    track: voice
+    volume: 0.9
+    priority: 100
   first_ball_music:
     file: ball1_player1_5.wav
     track: music
@@ -68,6 +73,9 @@ sound_player:
     challenges_multiball:
       action: play
       loops: 0
+    fly_the_ramps:
+      action: play|5s
+      
 
   slide_challenges_multi_finish_active:
     first_ball_music:
@@ -100,12 +108,21 @@ slides:
         text: CHALLENGES MULTIBALL
         color: red
         font_size: 120
-        y: 85%
+        y: 95%
+        font: CarnivaleeFreakshow-DLrm
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        font: CarnivaleeFreakshow-DLrm
+        y: 15%
       - type: text
         text: SHOOT RAMPS FOR JACKPOT!
         color: red
         font_size: 120
-        y: 15%
+        y: 85%
+        font: CarnivaleeFreakshow-DLrm
 
       - type: video
         video: come_alive

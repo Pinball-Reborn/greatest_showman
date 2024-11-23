@@ -231,6 +231,80 @@
         image: curtains
         scale: 1
 
+- duration: 4s
+  slides:
+    last_game_score_slide:
+      widgets:
+      - type: text
+        text: LAST GAME
+        font_size: 120
+        font_name: CarnivaleeFreakshow-DLrm
+        color: gold
+        y: 93%
+      - type: text
+        text: Player 1 
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 80%
+      - type: text
+        text: (machine|player1_score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        color: gold
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 72%
+      - type: text
+        text: Player 2 
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 60%
+      - type: text
+        text: (machine|player2_score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        font_name: CarnivaleeFreakshow-DLrm
+        color: gold
+        y: 52%
+      - type: text
+        text: Player 3 
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 40%
+      - type: text
+        text: (machine|player3_score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        font_name: CarnivaleeFreakshow-DLrm
+        color: gold
+        y: 32%
+      - type: text
+        text: Player 4 
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 20%
+      - type: text
+        text: (machine|player4_score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        color: gold
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 12%
+      - type: image
+        image: curtains
+        scale: 1
+
 
 - duration: 5s
   slides:
@@ -242,12 +316,12 @@
         y: 58%
       - type: text
         text: presents
-        font_size: 70
+        font_size: 125
         font_name: CarnivaleeFreakshow-DLrm
         y: 38%
       - type: text
         text: THE GREATEST SHOWMAN
-        font_size: 120
+        font_size: 165
         font_name: CarnivaleeFreakshow-DLrm
         y: 22%
         color: red
@@ -265,8 +339,9 @@
       widgets:
       - type: text
         text: PRESS START
-        font_size: 100
+        font_size: 190
         font_name: CarnivaleeFreakshow-DLrm
+        y: 57%
         animations:
           pre_show_slide:
           - property: opacity
@@ -279,9 +354,9 @@
       - type: text
         text: FREE PLAY
         color: red
-        font_size: 80
+        font_size: 140
         font_name: CarnivaleeFreakshow-DLrm
-        y: 20%
+        y: 17%
         anchor_y: bottom
       - type: image
         image: curtains
@@ -294,25 +369,7 @@
 
 
 
-- duration: 3s
-  slides:
-    last_game_score_slide:
-      widgets:
-      - type: text
-        text: LAST GAME
-        font_size: 120
-        font_name: CarnivaleeFreakshow-DLrm
-        y: 55%
-      - type: text
-        text: (machine|player1_score)
-        number_grouping: true
-        min_digits: 2
-        font_size: 100
-        font_name: CarnivaleeFreakshow-DLrm
-        y: 32%
-      - type: image
-        image: curtains
-        scale: 1
+
 
 
 
@@ -331,8 +388,8 @@
       - type: text
         text: BUILT ON
         y: 90%
-        font_size: 100
-        font_name: impact
+        font_size: 130
+        font_name: CarnivaleeFreakshow-DLrm
       - type: image
         image: missionpinballlogo
         x: 30%
@@ -489,31 +546,43 @@
         color: gold
         font_size: 70
         font_name: impact
-        y: 65%
+        y: 70%
       - type: text
         text: The Coating Chic
        
         font_size: 70
         font_name: impact
-        y: 58%
+        y: 63%
       - type: text
         text: PRINTING
         color: gold
         font_size: 70
         font_name: impact
-        y: 42%
+        y: 52%
       - type: text
         text: Plastics, various smaller decals
         color: gold
         font_size: 50
         font_name: impact
-        y: 36%
+        y: 46%
       - type: text
         text: Alex Mendes
         
         font_size: 70
         font_name: impact
-        y: 28%
+        y: 36%
+      - type: text
+        text: POP BUMPER ART
+        color: gold
+        font_size: 70
+        font_name: impact
+        y: 22%
+      - type: text
+        text: Metal Mods
+        
+        font_size: 70
+        font_name: impact
+        y: 13%
 
 
       - type: image
