@@ -27,8 +27,8 @@
   lights:
     light_extra_ball: white
 - duration: 1
-  extra_ball:
-    one: white
+  lights:
+    extra_ball: white
 
 
 - duration: 1
@@ -59,8 +59,8 @@
   lights:
     light_extra_ball: red
 - duration: 1
-  extra_ball:
-    one: red
+  lights:
+    extra_ball: red
 
 
 
