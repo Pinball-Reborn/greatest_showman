@@ -35,13 +35,6 @@
 
 - duration: 250ms
   lights:
-    miss: red
-    jenny: red
-    lind: red
-    below_lock_in_musical_staff: red
-    lock: red
-    arrow_lift_ramp_target_right: red
-    arrow_lift_ramp_target_left: red
     arrow_right_orbit: red
 
 - duration: 250ms
@@ -102,13 +95,6 @@
 
 - duration: 250ms
   lights:
-    miss: gold
-    jenny: gold
-    lind: gold
-    below_lock_in_musical_staff: gold
-    lock: gold
-    arrow_lift_ramp_target_right: gold
-    arrow_lift_ramp_target_left: gold
     arrow_right_orbit: gold
 
 - duration: 250ms
@@ -127,6 +113,113 @@
     hat_right_orbit: gold
     arrow_left_inner_orbit: gold
     top_right_eject: gold
+
+
+
+
+- duration: 250ms
+  lights:
+    miss: darkred
+    jenny: darkred
+    lind: darkred
+    arrow_lift_ramp_target_right: darkred
+    arrow_lift_ramp_target_left: darkred
+    lock: darkred
+    below_lock_in_musical_staff: darkred
+- duration: 250ms
+  lights:
+    miss: palevioletred
+    jenny: palevioletred
+    lind: palevioletred
+    arrow_lift_ramp_target_right: palevioletred
+    arrow_lift_ramp_target_left: palevioletred
+    lock: palevioletred
+    below_lock_in_musical_staff: palevioletred
+- duration: 250ms
+  lights:
+    miss: orange
+    jenny: orange 
+    lind: orange
+    arrow_lift_ramp_target_right: orange
+    arrow_lift_ramp_target_left: orange
+    lock: orange
+    below_lock_in_musical_staff: orange
+- duration: 250ms
+  lights:
+    miss: gold
+    jenny: gold 
+    lind: gold
+    arrow_lift_ramp_target_right: gold
+    arrow_lift_ramp_target_left: gold
+    lock: gold
+    below_lock_in_musical_staff: gold
+- duration: 250ms
+  lights:
+    miss: purple
+    jenny: purple 
+    lind: purple
+    arrow_lift_ramp_target_right: purple
+    arrow_lift_ramp_target_left: purple
+    lock: purple
+    below_lock_in_musical_staff: purple
+- duration: 250ms
+  lights:
+    miss: darkslateblue
+    jenny: darkslateblue 
+    lind: darkslateblue
+    arrow_lift_ramp_target_right: darkslateblue
+    arrow_lift_ramp_target_left: darkslateblue
+    lock: darkslateblue
+    below_lock_in_musical_staff: darkslateblue
+- duration: 250ms
+  lights:
+    miss: darkgreen
+    jenny: darkgreen 
+    lind: darkgreen
+    arrow_lift_ramp_target_right: darkgreen 
+    arrow_lift_ramp_target_left: darkgreen
+    lock: darkgreen  
+    below_lock_in_musical_staff: darkgreen
+- duration: 250ms
+  lights:
+    miss: teal
+    jenny: teal 
+    lind: teal
+    arrow_lift_ramp_target_right: teal
+    arrow_lift_ramp_target_left: teal
+    lock: teal
+    below_lock_in_musical_staff: teal
+- duration: 250ms
+  lights:
+    miss: navy 
+    jenny: navy  
+    lind:  navy 
+    arrow_lift_ramp_target_right: navy 
+    arrow_lift_ramp_target_left: navy 
+    lock: navy 
+    below_lock_in_musical_staff: navy 
+- duration: 250ms
+  lights:
+    miss: brown
+    jenny: brown 
+    lind: brown
+    arrow_lift_ramp_target_right: brown
+    arrow_lift_ramp_target_left: brown
+    lock: brown
+    below_lock_in_musical_staff: brown
+- duration: 250ms
+  lights:
+    miss: red
+    jenny: red 
+    lind: red
+    arrow_lift_ramp_target_right: red
+    arrow_lift_ramp_target_left: red
+    lock: red
+    below_lock_in_musical_staff: red
+
+
+
+
 
 
 
