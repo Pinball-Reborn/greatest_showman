@@ -27,7 +27,7 @@
         y: 80%
       - type: text
         text: HIT DROP TARGETS FOR 10x SCORING!
-        font_size: 140
+        font_size: 120
         font_name: CarnivaleeFreakshow-DLrm
         color: gold
         bold: true
