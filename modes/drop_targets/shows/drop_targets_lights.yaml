@@ -1,0 +1,169 @@
+#show_version=6
+- duration: 1
+  lights:
+    skill_shot_1: white
+- duration: 1
+  lights:
+    skill_shot_2: white
+- duration: 1
+  lights:
+    skill_shot_3: white
+- duration: 1
+  lights:
+    skill_shot_round: white
+- duration: 1
+  lights:
+    four: white
+- duration: 1
+  lights:
+    three: white
+- duration: 1
+  lights:
+    two: white
+- duration: 1
+  lights:
+    one: white
+- duration: 1
+  lights:
+    light_extra_ball: white
+- duration: 1
+  extra_ball:
+    one: white
+
+
+- duration: 1
+  lights:
+    skill_shot_1: red
+- duration: 1
+  lights:
+    skill_shot_2: red
+- duration: 1
+  lights:
+    skill_shot_3: red
+- duration: 1
+  lights:
+    skill_shot_round: red
+- duration: 1
+  lights:
+    four: red
+- duration: 1
+  lights:
+    three: red
+- duration: 1
+  lights:
+    two: red
+- duration: 1
+  lights:
+    one: red
+- duration: 1
+  lights:
+    light_extra_ball: red
+- duration: 1
+  extra_ball:
+    one: red
+
+
+
+- duration: 2
+  lights:
+    save_the_show_left: blue
+    save_the_show_right: blue
+    arrow_bottom_left: blue
+
+
+    target_mid_left: blue
+    target_mid_right: blue
+    arrow_outer_left_orbit: blue
+    hat_left_pop_bumpers: blue
+
+
+
+
+
+
+    arrow_right_orbit: blue
+
+    arrow_lift_ramp_target_right: blue
+    arrow_lift_ramp_target_left: blue
+    five_million_when_lit: blue
+
+
+
+    hat_upper_pop_bumpers: blue
+
+    hat_right_orbit: blue
+    arrow_left_inner_orbit: blue
+    top_right_eject: blue
+
+    lind: blue
+    jenny: blue 
+    miss: blue
+    below_lock_in_musical_staff: blue
+    lock: blue
+
+    challenges_a: blue
+    challenges_b: blue
+    challenges_c: blue
+    challenges_d: blue
+    challenges_e: blue    
+    challenges_f: blue
+
+
+    shoot_again: blue
+
+
+
+- duration: 2
+  lights:
+
+    save_the_show_left: green
+    save_the_show_right: green
+    arrow_bottom_left: green
+
+
+    target_mid_left: green
+    target_mid_right: green
+    arrow_outer_left_orbit: green
+    hat_left_pop_bumpers: green
+
+
+
+
+
+
+    arrow_right_orbit: green
+    arrow_lift_ramp_target_right: green
+    arrow_lift_ramp_target_left: green
+
+    five_million_when_lit: green
+
+
+
+    hat_upper_pop_bumpers: green
+
+    hat_right_orbit: green
+    arrow_left_inner_orbit: green
+    top_right_eject: green
+
+    lind: green
+    jenny: green 
+    miss: green
+    below_lock_in_musical_staff: green
+    lock: green
+
+    challenges_a: green
+    challenges_b: green
+    challenges_c: green
+    challenges_d: green
+    challenges_e: green     
+    challenges_f: green
+
+
+    shoot_again: green
+
+
+
+
+
+
+

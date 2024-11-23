@@ -1,209 +1,142 @@
 #show_version=6
 - duration: 1
   lights:
-    shoot_again: red
-
+    lind: white
 - duration: 1
   lights:
-      challenges_a: red
-      challenges_b: red
-      challenges_c: red
-      challenges_d: red
-      challenges_e: red      
-      challenges_f: red
-
+    jenny: white
 - duration: 1
   lights:
-    save_the_show_left: red
-    save_the_show_right: red
-    arrow_bottom_left: red
-
+    miss: white
 - duration: 1
   lights:
-    target_mid_left: red
-    target_mid_right: red
-    arrow_outer_left_orbit: red
-    hat_left_pop_bumpers: red
-
+    below_lock_in_musical_staff: white
 - duration: 1
   lights:
-    skill_shot_1: red
-    skill_shot_2: red
-    skill_shot_3: red
-    skill_shot_round: red
+    lock: white
 
 
 - duration: 1
   lights:
-    arrow_right_orbit: red
-
+    lind: red
 - duration: 1
   lights:
-    five_million_when_lit: red
-    four: red
-    three: red
-    two: red
-    one: red
-
+    jenny: red 
 - duration: 1
   lights:
-    hat_upper_pop_bumpers: red
-    extra_ball: red
-    light_extra_ball: red
-    hat_right_orbit: red
-    arrow_left_inner_orbit: red
-    top_right_eject: red
-    
-
-
-
-
-
+    miss: red
 - duration: 1
   lights:
-    shoot_again: gold
-
+    below_lock_in_musical_staff: red
 - duration: 1
   lights:
-      challenges_a: gold
-      challenges_b: gold
-      challenges_c: gold
-      challenges_d: gold
-      challenges_e: gold      
-      challenges_f: gold
+    lock: red
 
-- duration: 1
+
+
+
+
+- duration: 2
   lights:
-    save_the_show_left: gold
-    save_the_show_right: gold
-    arrow_bottom_left: gold
-
-- duration: 1
-  lights:
-    target_mid_left: gold
-    target_mid_right: gold
-    arrow_outer_left_orbit: gold
-    hat_left_pop_bumpers: gold
-
-- duration: 1
-  lights:
-    skill_shot_1: gold
-    skill_shot_2: gold
-    skill_shot_3: gold
-    skill_shot_round: gold
+    save_the_show_left: purple
+    save_the_show_right: purple
+    arrow_bottom_left: purple
 
 
-- duration: 1
-  lights:
-    arrow_right_orbit: gold
+    target_mid_left: purple
+    target_mid_right: purple
+    arrow_outer_left_orbit: purple
+    hat_left_pop_bumpers: purple
 
-- duration: 1
-  lights:
-    five_million_when_lit: gold
-    four: gold
-    three: gold
-    two: gold
-    one: gold
 
-- duration: 1
-  lights:
-    hat_upper_pop_bumpers: gold
-    extra_ball: gold
-    light_extra_ball: gold
-    hat_right_orbit: gold
-    arrow_left_inner_orbit: gold
-    top_right_eject: gold
+    skill_shot_1: purple
+    skill_shot_2: purple
+    skill_shot_3: purple
+    skill_shot_round: purple
 
 
 
+    arrow_right_orbit: purple
 
-- duration: 1
-  lights:
-    miss: darkred
-    jenny: darkred
-    lind: darkred
-    arrow_lift_ramp_target_right: darkred
-    arrow_lift_ramp_target_left: darkred
-    lock: darkred
-    below_lock_in_musical_staff: darkred
-- duration: 1
-  lights:
-    miss: palevioletred
-    jenny: palevioletred
-    lind: palevioletred
-    arrow_lift_ramp_target_right: palevioletred
-    arrow_lift_ramp_target_left: palevioletred
-    lock: palevioletred
-    below_lock_in_musical_staff: palevioletred
-- duration: 1
-  lights:
-    miss: orange
-    jenny: orange 
-    lind: orange
-    arrow_lift_ramp_target_right: orange
-    arrow_lift_ramp_target_left: orange
-    lock: orange
-    below_lock_in_musical_staff: orange
-
-- duration: 1
-  lights:
-    miss: purple
-    jenny: purple 
-    lind: purple
     arrow_lift_ramp_target_right: purple
     arrow_lift_ramp_target_left: purple
-    lock: purple
-    below_lock_in_musical_staff: purple
-- duration: 1
-  lights:
-    miss: darkslateblue
-    jenny: darkslateblue 
-    lind: darkslateblue
-    arrow_lift_ramp_target_right: darkslateblue
-    arrow_lift_ramp_target_left: darkslateblue
-    lock: darkslateblue
-    below_lock_in_musical_staff: darkslateblue
-- duration: 1
-  lights:
-    miss: darkgreen
-    jenny: darkgreen 
-    lind: darkgreen
-    arrow_lift_ramp_target_right: darkgreen 
-    arrow_lift_ramp_target_left: darkgreen
-    lock: darkgreen  
-    below_lock_in_musical_staff: darkgreen
-- duration: 1
-  lights:
-    miss: teal
-    jenny: teal 
-    lind: teal
-    arrow_lift_ramp_target_right: teal
-    arrow_lift_ramp_target_left: teal
-    lock: teal
-    below_lock_in_musical_staff: teal
-- duration: 1
-  lights:
-    miss: navy 
-    jenny: navy  
-    lind:  navy 
-    arrow_lift_ramp_target_right: navy 
-    arrow_lift_ramp_target_left: navy 
-    lock: navy 
-    below_lock_in_musical_staff: navy 
-- duration: 1
-  lights:
-    miss: brown
-    jenny: brown 
-    lind: brown
-    arrow_lift_ramp_target_right: brown
-    arrow_lift_ramp_target_left: brown
-    lock: brown
-    below_lock_in_musical_staff: brown
+    five_million_when_lit: purple
+    four: purple
+    three: purple
+    two: purple
+    one: purple
+
+
+    hat_upper_pop_bumpers: purple
+    extra_ball: blue
+    light_extra_ball: purple
+    hat_right_orbit: purple
+    arrow_left_inner_orbit: purple
+    top_right_eject: purple
+    
+
+    challenges_a: purple
+    challenges_b: purple
+    challenges_c: purple
+    challenges_d: purple
+    challenges_e: purple  
+    challenges_f: purple
+
+
+    shoot_again: purple
 
 
 
+- duration: 2
+  lights:
+
+    save_the_show_left: green
+    save_the_show_right: green
+    arrow_bottom_left: green
 
 
+    target_mid_left: green
+    target_mid_right: green
+    arrow_outer_left_orbit: green
+    hat_left_pop_bumpers: green
+
+
+    skill_shot_1: green
+    skill_shot_2: green
+    skill_shot_3: green
+    skill_shot_round: green
+
+
+
+    arrow_right_orbit: green
+    arrow_lift_ramp_target_right: green
+    arrow_lift_ramp_target_left: green
+
+    five_million_when_lit: green
+    four: green
+    three: green
+    two: green
+    one: green
+
+
+    hat_upper_pop_bumpers: green
+    extra_ball: green
+    light_extra_ball: green
+    hat_right_orbit: green
+    arrow_left_inner_orbit: green
+    top_right_eject: green
+
+
+
+    challenges_a: green
+    challenges_b: green
+    challenges_c: green
+    challenges_d: green
+    challenges_e: green     
+    challenges_f: green
+
+
+    shoot_again: green
 
 
 
