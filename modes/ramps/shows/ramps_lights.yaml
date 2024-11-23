@@ -158,18 +158,7 @@
     shoot_again: blue
 
 
-- duration: 1
-  lights:
-    shoot_again: green
 
-- duration: 1
-  lights:
-      challenges_a: green
-      challenges_b: green
-      challenges_c: green
-      challenges_d: green
-      challenges_e: green     
-      challenges_f: green
 
 - duration: 1
   lights:
@@ -212,6 +201,21 @@
     hat_right_orbit: green
     arrow_left_inner_orbit: green
     top_right_eject: green
+
+
+- duration: 1
+  lights:
+      challenges_a: green
+      challenges_b: green
+      challenges_c: green
+      challenges_d: green
+      challenges_e: green     
+      challenges_f: green
+
+- duration: 1
+  lights:
+    shoot_again: green
+
 
 
 
