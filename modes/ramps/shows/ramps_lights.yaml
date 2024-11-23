@@ -10,7 +10,7 @@
     miss: white
 - duration: 1
   lights:
-    below_lock_in_musical_staff: darkred
+    below_lock_in_musical_staff: white
 - duration: 1
   lights:
     lock: white
