@@ -20,9 +20,26 @@
       widgets:
       - type: text
         text: 'SUPER RAMPS: (player|ramps_timer_seconds)'
-        font_size: 100
+        font_size: 140
+        font_name: CarnivaleeFreakshow-DLrm
         color: gold
         bold: true
+        y: 80%
+      - type: text
+        text: HIT RAMPS FOR 10x SCORING!
+        font_size: 140
+        font_name: CarnivaleeFreakshow-DLrm
+        color: gold
+        bold: true
+        y: 50%
+      - type: text
+        text: (score)
+        color: gold
+        number_grouping: true
+        min_digits: 2
+        font_size: 140
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 30%
       - type:  image
         image: main_screen_bar
         scale: .9

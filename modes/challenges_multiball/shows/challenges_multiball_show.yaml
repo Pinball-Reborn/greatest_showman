@@ -144,15 +144,7 @@
     arrow_lift_ramp_target_left: orange
     lock: orange
     below_lock_in_musical_staff: orange
-- duration: 250ms
-  lights:
-    miss: gold
-    jenny: gold 
-    lind: gold
-    arrow_lift_ramp_target_right: gold
-    arrow_lift_ramp_target_left: gold
-    lock: gold
-    below_lock_in_musical_staff: gold
+
 - duration: 250ms
   lights:
     miss: purple
@@ -207,15 +199,7 @@
     arrow_lift_ramp_target_left: brown
     lock: brown
     below_lock_in_musical_staff: brown
-- duration: 250ms
-  lights:
-    miss: red
-    jenny: red 
-    lind: red
-    arrow_lift_ramp_target_right: red
-    arrow_lift_ramp_target_left: red
-    lock: red
-    below_lock_in_musical_staff: red
+
 
 
 

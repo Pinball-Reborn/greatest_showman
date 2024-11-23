@@ -101,3 +101,108 @@
 
 
 
+
+- duration: 250ms
+  lights:
+    save_the_show_left: blue
+    save_the_show_right: blue
+    arrow_bottom_left: blue
+
+- duration: 250ms
+  lights:
+    target_mid_left: blue
+    target_mid_right: blue
+    arrow_outer_left_orbit: blue
+    hat_left_pop_bumpers: blue
+
+- duration: 250ms
+  lights:
+    skill_shot_1: blue
+    skill_shot_2: blue
+    skill_shot_3: blue
+    skill_shot_round: blue
+
+
+- duration: 250ms
+  lights:
+    arrow_right_orbit: blue
+
+- duration: 250ms
+  lights:
+    five_million_when_lit: blue
+    four: blue
+    three: blue
+    two: blue
+    one: blue
+
+- duration: 250ms
+  lights:
+    hat_upper_pop_bumpers: blue
+    extra_ball: blue
+    light_extra_ball: blue
+    hat_right_orbit: blue
+    arrow_left_inner_orbit: blue
+    top_right_eject: blue
+    
+
+
+
+
+
+- duration: 250ms
+  lights:
+    shoot_again: green
+
+- duration: 250ms
+  lights:
+      challenges_a: green
+      challenges_b: green
+      challenges_c: green
+      challenges_d: green
+      challenges_e: green     
+      challenges_f: green
+
+- duration: 250ms
+  lights:
+    save_the_show_left: green
+    save_the_show_right: green
+    arrow_bottom_left: green
+
+- duration: 250ms
+  lights:
+    target_mid_left: green
+    target_mid_right: green
+    arrow_outer_left_orbit: green
+    hat_left_pop_bumpers: green
+
+- duration: 250ms
+  lights:
+    skill_shot_1: green
+    skill_shot_2: green
+    skill_shot_3: green
+    skill_shot_round: green
+
+
+- duration: 250ms
+  lights:
+    arrow_right_orbit: green
+
+- duration: 250ms
+  lights:
+    five_million_when_lit: green
+    four: green
+    three: green
+    two: green
+    one: green
+
+- duration: 250ms
+  lights:
+    hat_upper_pop_bumpers: green
+    extra_ball: green
+    light_extra_ball: green
+    hat_right_orbit: green
+    arrow_left_inner_orbit: green
+    top_right_eject: green
+
+
+
