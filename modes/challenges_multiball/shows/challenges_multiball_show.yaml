@@ -84,6 +84,14 @@
 
 
     shoot_again: purple
+    collect_oddities_1: purple
+    collect_oddities_2: purple
+    collect_oddities_3: purple
+    collect_oddities_4: purple
+    collect_oddities_5: purple
+    collect_oddities_6: purple
+    collect_oddities_7: purple
+    collect_oddities_8: purple
 
 
 
@@ -137,6 +145,15 @@
 
 
     shoot_again: green
+    collect_oddities_1: green
+    collect_oddities_2: green
+    collect_oddities_3: green
+    collect_oddities_4: green
+    collect_oddities_5: green
+    collect_oddities_6: green
+    collect_oddities_7: green
+    collect_oddities_8: green
+
 
 
 

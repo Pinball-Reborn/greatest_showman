@@ -1,45 +1,137 @@
 #show_version=6
 - duration: 1
   lights:
-    hat_left_pop_bumpers: darkred
-    hat_upper_pop_bumpers: darkred
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: palevioletred
-    hat_upper_pop_bumpers: palevioletred
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: orange
-    hat_upper_pop_bumpers: orange
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: gold
-    hat_upper_pop_bumpers: gold
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: purple
-    hat_upper_pop_bumpers: purple
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: darkslateblue
-    hat_upper_pop_bumpers: darkslateblue
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: darkgreen
-    hat_upper_pop_bumpers: darkgreen
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: teal
-    hat_upper_pop_bumpers: teal
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: navy
-    hat_upper_pop_bumpers: navy
-- duration: 1
-  lights:
-    hat_left_pop_bumpers: brown
-    hat_upper_pop_bumpers: brown
+    hat_left_pop_bumpers: white
+    hat_upper_pop_bumpers: white
+
 - duration: 1
   lights:
     hat_left_pop_bumpers: red
     hat_upper_pop_bumpers: red
+
+
+- duration: 2
+  lights:
+    save_the_show_left: blue
+    save_the_show_right: blue
+    arrow_bottom_left: blue
+
+
+    target_mid_left: blue
+    target_mid_right: blue
+    arrow_outer_left_orbit: blue
+    
+
+
+    skill_shot_1: blue
+    skill_shot_2: blue
+    skill_shot_3: blue
+    skill_shot_round: blue
+
+
+
+    arrow_right_orbit: blue
+
+    arrow_lift_ramp_target_right: blue
+    arrow_lift_ramp_target_left: blue
+    five_million_when_lit: blue
+    four: blue
+    three: blue
+    two: blue
+    one: blue
+
+    lind: blue
+    jenny: blue 
+    miss: blue
+    below_lock_in_musical_staff: blue
+    lock: blue
+
+    extra_ball: blue
+    light_extra_ball: blue
+    hat_right_orbit: blue
+    arrow_left_inner_orbit: blue
+    top_right_eject: blue
+    
+
+    challenges_a: blue
+    challenges_b: blue
+    challenges_c: blue
+    challenges_d: blue
+    challenges_e: blue    
+    challenges_f: blue
+
+
+    shoot_again: blue
+
+    collect_oddities_1: blue
+    collect_oddities_2: blue
+    collect_oddities_3: blue
+    collect_oddities_4: blue
+    collect_oddities_5: blue
+    collect_oddities_6: blue
+    collect_oddities_7: blue
+    collect_oddities_8: blue
+
+- duration: 2
+  lights:
+
+    save_the_show_left: green
+    save_the_show_right: green
+    arrow_bottom_left: green
+
+
+    target_mid_left: green
+    target_mid_right: green
+    arrow_outer_left_orbit: green
+ 
+
+
+    skill_shot_1: green
+    skill_shot_2: green
+    skill_shot_3: green
+    skill_shot_round: green
+
+
+
+    arrow_right_orbit: green
+    arrow_lift_ramp_target_right: green
+    arrow_lift_ramp_target_left: green
+
+    five_million_when_lit: green
+    four: green
+    three: green
+    two: green
+    one: green
+
+    lind: green
+    jenny: green
+    miss: green
+    below_lock_in_musical_staff: green
+    lock: green
+
+    extra_ball: green
+    light_extra_ball: green
+    hat_right_orbit: green
+    arrow_left_inner_orbit: green
+    top_right_eject: green
+
+
+
+    challenges_a: green
+    challenges_b: green
+    challenges_c: green
+    challenges_d: green
+    challenges_e: green     
+    challenges_f: green
+
+
+    shoot_again: green
+
+    collect_oddities_1: green
+    collect_oddities_2: green
+    collect_oddities_3: green
+    collect_oddities_4: green
+    collect_oddities_5: green
+    collect_oddities_6: green
+    collect_oddities_7: green
+    collect_oddities_8: green
