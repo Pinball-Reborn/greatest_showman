@@ -1,0 +1,173 @@
+#show_version=6
+
+
+- duration: 1
+  lights:
+    arrow_right_orbit: white
+- duration: 1
+  lights:
+    hat_right_orbit: white
+- duration: 1
+  lights:
+    five_million_when_lit: white
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: white
+- duration: 1
+  lights:
+
+    arrow_outer_left_orbit: white
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: white
+
+- duration: 1
+  lights:
+    arrow_right_orbit: red
+- duration: 1
+  lights:
+    hat_right_orbit: red
+- duration: 1
+  lights:
+    five_million_when_lit: red
+- duration: 1
+  lights:
+    arrow_left_inner_orbit: red
+- duration: 1
+  lights:
+
+    arrow_outer_left_orbit: red
+- duration: 1
+  lights:
+    hat_left_pop_bumpers: red
+
+
+
+- duration: 2
+  lights:
+    save_the_show_left: purple
+    save_the_show_right: purple
+    arrow_bottom_left: purple
+
+
+    target_mid_left: purple
+    target_mid_right: purple
+
+
+
+    skill_shot_1: purple
+    skill_shot_2: purple
+    skill_shot_3: purple
+    skill_shot_round: purple
+
+
+    lind: purple
+    jenny: purple
+    miss: purple
+    below_lock_in_musical_staff: purple
+    lock: purple
+
+    arrow_lift_ramp_target_right: purple
+    arrow_lift_ramp_target_left: purple
+
+    four: purple
+    three: purple
+    two: purple
+    one: purple
+
+
+    hat_upper_pop_bumpers: purple
+    extra_ball: purple
+    light_extra_ball: purple
+
+
+    top_right_eject: purple
+    
+
+    challenges_a: purple
+    challenges_b: purple
+    challenges_c: purple
+    challenges_d: purple
+    challenges_e: purple    
+    challenges_f: purple
+
+
+    shoot_again: purple
+
+
+    collect_oddities_1: purple
+    collect_oddities_2: purple
+    collect_oddities_3: purple
+    collect_oddities_4: purple
+    collect_oddities_5: purple
+    collect_oddities_6: purple
+    collect_oddities_7: purple
+    collect_oddities_8: purple
+
+
+- duration: 2
+  lights:
+
+    save_the_show_left: green
+    save_the_show_right: green
+    arrow_bottom_left: green
+
+
+    target_mid_left: green
+    target_mid_right: green
+
+
+
+    skill_shot_1: green
+    skill_shot_2: green
+    skill_shot_3: green
+    skill_shot_round: green
+
+    lind: green
+    jenny: green
+    miss: green
+    below_lock_in_musical_staff: green
+    lock: green
+
+
+    arrow_lift_ramp_target_right: green
+    arrow_lift_ramp_target_left: green
+
+
+    four: green
+    three: green
+    two: green
+    one: green
+
+
+    hat_upper_pop_bumpers: green
+    extra_ball: green
+    light_extra_ball: green
+
+
+    top_right_eject: green
+
+
+
+    challenges_a: green
+    challenges_b: green
+    challenges_c: green
+    challenges_d: green
+    challenges_e: green     
+    challenges_f: green
+
+
+    shoot_again: green
+
+    collect_oddities_1: green
+    collect_oddities_2: green
+    collect_oddities_3: green
+    collect_oddities_4: green
+    collect_oddities_5: green
+    collect_oddities_6: green
+    collect_oddities_7: green
+    collect_oddities_8: green
+
+
+
+

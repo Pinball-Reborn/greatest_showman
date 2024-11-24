@@ -170,5 +170,9 @@ sound_player:
       action: play
       loops: 0
 
-
+show_player:
+  mode_this_is_me_multiball_started: 
+    this_is_me_lights:
+      speed: 10
+      loops: -1
 
