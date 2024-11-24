@@ -56,7 +56,7 @@ slides:
   this_is_me_movie:
     widgets:
       - type: text
-        text: THIS IT ME MULTIBALL
+        text: THIS IS ME MULTIBALL
         color: red
         font_name: CarnivaleeFreakshow-DLrm
         font_size: 120
