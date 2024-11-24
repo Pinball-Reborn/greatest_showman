@@ -602,7 +602,7 @@ diverters:
   ramp_diverter_coil:
     activation_coil: c_ramp_diverter
     type: hold
-    activation_time: 2s
+    activation_time: 1.5s
     activation_switches: s_left_ramp_made
     enable_events: ramp_lock
     disable_events: this_is_me_mb_counter_complete  #left_lock_upper_hit, ball_ended 
