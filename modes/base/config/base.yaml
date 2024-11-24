@@ -458,6 +458,7 @@ counters:
     persist_state: false
     restart_events: ramp_lock, left_lock_upper_lock_light_profile_lit_hit, ball_ending  
     disable_events: mode_this_is_me_multiball_started
+    deactivate_events: mode_this_is_me_multiball_started
 
 
 
