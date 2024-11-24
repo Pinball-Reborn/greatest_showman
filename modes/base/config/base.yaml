@@ -397,7 +397,7 @@ shots:
     profile: lock_light_profile
     advance_events: advance_lock_light_profile
     control_events: 
-      - events: set_lock_light_profile_off, ball_ending
+      - events: set_lock_light_profile_off, ball_ending, this_is_me_mb_counter_complete
         state: 0
     disable_events: mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
 
@@ -456,7 +456,7 @@ counters:
     events_when_complete: ramp_lock, advance_lock_light_profile
     reset_on_complete: true
     persist_state: false
-    restart_events: left_lock_upper_lock_light_profile_lit_hit{this_is_me_mb_counter_complete=false}, ball_ending{this_is_me_mb_counter_complete=false}, ramp_lock{this_is_me_mb_counter_complete=false}
+    restart_events: left_lock_upper_lock_light_profile_lit_hit{this_is_me_mb_counter<4}, ball_ending{this_is_me_mb_counter<4}, ramp_lock{this_is_me_mb_counter<4}
     disable_events: mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
 
 

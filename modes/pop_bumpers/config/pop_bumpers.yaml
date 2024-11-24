@@ -53,15 +53,7 @@ sound_player:
       loops: 0
 
 
-  top_pop_bumpers_bottom_pop_bumpers_hit:
-    jackpot:
-      action: play
-      block: true
 
-  left_pop_bumpers_top_pop_bumpers_hit:
-    jackpot:
-      action: play
-      block: true
 
 
 
@@ -90,7 +82,7 @@ sounds:
     file: million_dreams.wav
     track: music
     volume: 0.6
-    priority: 800
+    priority: 1000
   jackpot:
     file: jackpot.wav
     track: voice
