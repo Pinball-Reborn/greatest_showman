@@ -456,7 +456,7 @@ counters:
     events_when_complete: ramp_lock, advance_lock_light_profile
     reset_on_complete: true
     persist_state: false
-    restart_events: left_lock_upper_lock_light_profile_lit_hit{player_num==current_player.number and this_is_me_mb_counter<=3}, ball_ending{player_num==current_player.number and this_is_me_mb_counter<=3}, ramp_lock{player_num==current_player.number and this_is_me_mb_counter<=3}
+    restart_events: left_lock_upper_lock_light_profile_lit_hit{this_is_me_mb_counter<=3}, ball_ending{this_is_me_mb_counter<=3}, ramp_lock{this_is_me_mb_counter<=3}
     disable_events: mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
 
 
