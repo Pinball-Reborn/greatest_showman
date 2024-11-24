@@ -52,31 +52,18 @@ sound_player:
       delay: 5s
       loops: 0
 
-  top_pop_bumpers_top_pop_bumpers_hit:
-    jackpot:
-      action: play
-      block: true
+
   top_pop_bumpers_bottom_pop_bumpers_hit:
     jackpot:
       action: play
       block: true
-  top_pop_bumpers_left_pop_bumpers_hit:
-    jackpot:
-      action: play
-      block: true
+
   left_pop_bumpers_top_pop_bumpers_hit:
     jackpot:
       action: play
       block: true
 
-  left_pop_bumpers_right_pop_bumpers_hit:
-    jackpot:
-      action: play
-      block: true
-  left_pop_bumpers_left_pop_bumpers_hit:
-    jackpot:
-      action: play
-      block: true
+
 
   timer_pop_bumpers_timer_complete:
     million_dreams:

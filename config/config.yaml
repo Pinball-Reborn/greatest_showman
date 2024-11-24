@@ -303,7 +303,7 @@ coils:
     default_pulse_power: 1.0
   c_ramp_diverter: #ramp diverter
     number: 1-14
-    default_hold_power: 0.5
+    default_hold_power: 0.4
   c_triple_lock_eject: #triple lock eject
     number: 1-15
     default_pulse_ms: 50ms
@@ -602,7 +602,7 @@ diverters:
   ramp_diverter_coil:
     activation_coil: c_ramp_diverter
     type: hold
-    activation_time: 3s
+    activation_time: 2s
     activation_switches: s_left_ramp_made
     enable_events: ramp_lock
     disable_events: left_lock_upper_hit, ball_ended 

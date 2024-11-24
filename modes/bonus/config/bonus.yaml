@@ -58,6 +58,8 @@ slides:
       font_name: CarnivaleeFreakshow-DLrm
     - type: text
       text: (score)
+      number_grouping: true
+      min_digits: 2
       y: 30%
       font_size: 140
       font_name: CarnivaleeFreakshow-DLrm
@@ -82,6 +84,8 @@ slides:
       font_name: CarnivaleeFreakshow-DLrm
     - type: text
       text: (score)
+      number_grouping: true
+      min_digits: 2
       y: 30%
       font_size: 140
       font_name: CarnivaleeFreakshow-DLrm
@@ -106,6 +110,8 @@ slides:
       font_name: CarnivaleeFreakshow-DLrm
     - type: text
       text: (score)
+      number_grouping: true
+      min_digits: 2
       y: 30%
       font_size: 140
       font_name: CarnivaleeFreakshow-DLrm
@@ -125,6 +131,8 @@ slides:
       color: black
     - type: text
       text: (score)
+      number_grouping: true
+      min_digits: 2
       y: 40%
       font_size: 140
       font_name: CarnivaleeFreakshow-DLrm

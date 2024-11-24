@@ -43,3 +43,5 @@
       - type:  image
         image: main_screen_bar
         scale: .9
+
+

@@ -399,6 +399,7 @@ shots:
     control_events: 
       - events: set_lock_light_profile_off, ball_ending
         state: 0
+    disable_events: mode_this_is_me_multiball_started
 
 
 
