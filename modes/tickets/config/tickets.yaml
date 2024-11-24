@@ -24,6 +24,8 @@ show_player:
   mode_tickets_started: 
     tickets_show:
       speed: 1
+    tickets_lights:
+      speed: 8
 
 track_player:
   mode_tickets_started:
