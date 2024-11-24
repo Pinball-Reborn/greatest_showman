@@ -48,6 +48,7 @@ slides:
         text: THIS IS ME MULTIBALL
         font_size: 150
         color: gold
+        font_name: CarnivaleeFreakshow-DLrm
       - type: image
         image: bar_screen
         scale: 1
@@ -57,6 +58,7 @@ slides:
       - type: text
         text: THIS IT ME MULTIBALL
         color: red
+        font_name: CarnivaleeFreakshow-DLrm
         font_size: 120
         y: 95%
       - type: text
