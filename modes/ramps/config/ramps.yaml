@@ -52,6 +52,15 @@ sound_player:
       delay: 5s
       loops: 0  
 
+  left_ramp_ramps_hit:
+    jackpot:
+      action: play
+      block: true
+  right_ramp_ramps_hit:
+    jackpot:
+      action: play
+      block: true
+
   timer_ramps_timer_complete:
     this_is_me:
       action: stop
@@ -76,6 +85,12 @@ sounds:
     track: voice
     volume: 1.5
     priority: 200
+  jackpot:
+    file: jackpot.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
 
 
   

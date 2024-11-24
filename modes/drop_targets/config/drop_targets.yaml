@@ -53,6 +53,24 @@ sound_player:
       track: voice
       delay: 5s
       loops: 0
+
+  single_drop_target_drop_targets_hit:
+    jackpot:
+      action: play
+      block: true
+  front_drop_target_drop_targets_hit:
+    jackpot:
+      action: play
+      block: true
+  middle_drop_target_drop_targets_hit:
+    jackpot:
+      action: play
+      block: true
+  back_drop_target_drop_targets_hit:
+    jackpot:
+      action: play
+      block: true
+
   timer_drop_targets_timer_complete:
     the_other_side:
       action: stop
@@ -77,6 +95,12 @@ sounds:
     volume: 0.6
     priority: 800
 
+  jackpot:
+    file: jackpot.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
   
   
 

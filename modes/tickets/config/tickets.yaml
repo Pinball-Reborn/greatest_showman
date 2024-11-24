@@ -52,6 +52,10 @@ sound_player:
       track: voice
       delay: 5s
       loops: 0
+  tickets_tickets_hit:
+    jackpot:
+      action: play
+      block: true
   timer_tickets_timer_complete:
     come_alive:
       action: stop
@@ -73,6 +77,12 @@ sounds:
     track: voice
     volume: 1.5
     priority: 200
+  jackpot:
+    file: jackpot.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
 
 variable_player:
   tickets_tickets_hit:

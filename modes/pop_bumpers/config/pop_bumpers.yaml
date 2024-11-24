@@ -51,6 +51,33 @@ sound_player:
       track: voice
       delay: 5s
       loops: 0
+
+  top_pop_bumpers_top_pop_bumpers_hit:
+    jackpot:
+      action: play
+      block: true
+  top_pop_bumpers_bottom_pop_bumpers_hit:
+    jackpot:
+      action: play
+      block: true
+  top_pop_bumpers_left_pop_bumpers_hit:
+    jackpot:
+      action: play
+      block: true
+  left_pop_bumpers_top_pop_bumpers_hit:
+    jackpot:
+      action: play
+      block: true
+
+  left_pop_bumpers_right_pop_bumpers_hit:
+    jackpot:
+      action: play
+      block: true
+  left_pop_bumpers_left_pop_bumpers_hit:
+    jackpot:
+      action: play
+      block: true
+
   timer_pop_bumpers_timer_complete:
     million_dreams:
       action: stop
@@ -77,6 +104,12 @@ sounds:
     track: music
     volume: 0.6
     priority: 800
+  jackpot:
+    file: jackpot.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
 
 
 

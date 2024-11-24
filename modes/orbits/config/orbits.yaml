@@ -54,6 +54,20 @@ sound_player:
       delay: 5s
       track: voice
       loops: 0
+
+  inner_orbit_enter_orbits_hit:
+    jackpot:
+      action: play
+      block: true
+  shot_right_orbit_orbits_hit:
+    jackpot:
+      action: play
+      block: true
+  shot_left_orbit_orbits_hit:
+    jackpot:
+      action: play
+      block: true
+
   timer_orbits_timer_complete:
     from_now_on:
       action: stop
@@ -76,6 +90,12 @@ sounds:
     track: music
     volume: 0.6
     priority: 500
+  jackpot:
+    file: jackpot.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
 
   
 
@@ -88,7 +108,7 @@ variable_player:
     score: 80000
   shot_right_orbit_orbits_hit:
     score: 800000
-  shot_left_orbit_hit:
+  shot_left_orbit_orbits_hit:
     score: 800000
   timer_orbits_timer_tick:
     orbits_timer_seconds:

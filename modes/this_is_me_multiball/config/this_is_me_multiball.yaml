@@ -145,7 +145,7 @@ sounds:
     file: shoot_orbits.wav
     track: voice
     volume: 1.5
-    priority: 500
+    priority: 1000
   jackpot:
     file: jackpot.wav
     track: voice
