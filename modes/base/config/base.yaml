@@ -693,13 +693,18 @@ shows:
 
 
 sound_player:
-  mode_base_started{current_player.ball==1 and current_player.number==1}:
+  mode_base_started{current_player.ball==1 and current_player.number==1 and not is_extra_ball}:
     first_ball_music:
       action: play
       delay: 6.1s
       loops: -1
 
-  mode_base_started{current_player.ball>1 or current_player.number>1}:
+  mode_base_started{current_player.ball>1 or current_player.number>1 and not is_extra_ball}:
+    first_ball_music:
+      action: play
+      loops: -1
+
+  mode_base_started{is_extra_ball}:
     first_ball_music:
       action: play
       loops: -1

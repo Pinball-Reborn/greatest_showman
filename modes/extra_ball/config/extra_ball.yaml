@@ -79,7 +79,7 @@ shots:
     profile: shoot_again_profile
     advance_events: extra_ball_lit_hit
     control_events:
-      - events: #start extra ball??
+      - events: ball_started{is_extra_ball}
         state: 0
 
 
@@ -101,6 +101,7 @@ shot_profiles:
         show: off
       - name: lit
         show: red_lit
+    advance_on_hit: false
         
  
 
