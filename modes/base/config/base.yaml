@@ -401,18 +401,7 @@ shots:
         state: 0
     disable_events: mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
 
-#EXTRA BALL SEQUENCE
-#4
-  light_number_4:
-    switch: s_single_drop_target
-    show_tokens: 
-      lights: four
-      color: snow
-    profile: extra_ball_profile
-    advance_events: advance_light_four
-    control_events:
-      - events: extra_ball_lit_hit
-        state: 0
+
     
   
 
@@ -450,15 +439,7 @@ shot_profiles:
         show: 1_lit_color_generic
     advance_on_hit: false
 
-  extra_ball_profile:
-    states:
-      - name: unlit
-        show: off
-      - name: flashing
-        show: color_flashing
-      - name: lit
-        show: 1_lit_color_generic
-    advance_on_hit: false
+
   
 
 counters:
@@ -481,23 +462,7 @@ counters:
     restart_events: left_lock_upper_lock_light_profile_lit_hit, ball_ending, ramp_lock
     disable_events: mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
 
-#EXTRA BALL COUNTERS
-  light_four_counter1:
-    starting_count: 0
-    count_events: single_drop_target_hit
-    count_complete_value: 1
-    start_enabled: true
-    events_when_complete: advance_light_four
-    persist_state: true
-    reset_on_complete: false
-  light_four_counter2:
-    starting_count: 0
-    count_events: single_drop_target_hit
-    count_complete_value: 2
-    start_enabled: true
-    events_when_complete: advance_light_four
-    persist_state: true
-    reset_on_complete: false
+
 
 
 

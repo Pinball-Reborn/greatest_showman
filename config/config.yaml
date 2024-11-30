@@ -639,6 +639,7 @@ modes:
   - skillshot
   - challenges_multiball
   - this_is_me_multiball
+  - extra_ball
   
 player_vars:
   potato:
