@@ -523,7 +523,7 @@ event_player:
     - play_main_screen_slide
     - start_mode_skillshot
 
-  mode_base_started{current_player.ball=='is_extra_ball'}:
+  mode_base_started{is_extra_ball}:
     - play_main_screen_slide
     - start_mode_skillshot
 
