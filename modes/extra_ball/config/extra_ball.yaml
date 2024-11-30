@@ -1,6 +1,6 @@
 #config_version=6
 mode:
-  start_events: game_started, ball_started
+  start_events: ball_started
 
 shots:
 #EXTRA BALL SEQUENCE
@@ -196,9 +196,9 @@ show_player:
     extra_ball_lights:
       action: stop
 
-extra_balls:
-  extra_ball_main:
-    award_events: extra_ball_lit_hit
+#extra_balls:
+  #extra_ball_main:
+    #award_events: extra_ball_lit_hit
 
 variable_player:
   extra_ball_lit_hit:
