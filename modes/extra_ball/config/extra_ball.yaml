@@ -159,7 +159,7 @@ counters:
     count_events: single_drop_target_hit
     count_complete_value: 7
     start_enabled: true
-    events_when_complete: advance_light_extra_ball
+    events_when_complete: extra_ball_lit_hit
     persist_state: true
     reset_on_complete: false  
 
