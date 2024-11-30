@@ -71,6 +71,18 @@ shots:
       - events: extra_ball_lit_hit
         state: 0
 
+#shoot_again
+  light_shoot_again:
+    switch: s_single_drop_target
+    show_tokens:
+      lights: shoot_again
+    profile: shoot_again_profile
+    advance_events: extra_ball_lit_hit
+    control_events:
+      - events: #start extra ball??
+        state: 0
+
+
 shot_profiles:
   extra_ball_profile:
     states:
@@ -82,12 +94,17 @@ shot_profiles:
         show: green_lit
 
     advance_on_hit: false
-  
 
-
+  shoot_again_profile:
+    states: 
+      - name: unlit
+        show: off
+      - name: lit
+        show: red_lit
+        
+ 
 
 shows:
-
   green_lit:
     - duration: -1
       lights: 
@@ -102,7 +119,12 @@ shows:
     - duration: 200ms
       lights: 
         (lights): 
-          color: black     
+          color: black 
+  red_lit:
+    - duration: -1
+      lights: 
+       (lights):
+         color: red    
 
 counters:
 #EXTRA BALL COUNTERS
@@ -173,6 +195,37 @@ show_player:
   extra_ball_lit_hit:
     extra_ball_lights:
       action: stop
+
+extra_balls:
+  extra_ball_main:
+    award_events: extra_ball_lit_hit
+
+variable_player:
+  extra_ball_lit_hit:
+    score: 1000000
+ 
+
+sounds:
+    extra_ball:
+    file: extra_ball.wav
+    track: voice
+    volume: 0.8
+    priority: 1000
+    extra_ball_is_lit:
+    file: extra_ball_is_lit.wav
+    track: voice
+    volume: 0.8
+    priority: 1000
+
+sound_player:
+  extra_ball_lights:
+    extra_ball_is_lit:
+      action: play
+      loops: 0
+  extra_ball_lit_hit:
+    extra_ball:
+      action: play
+      loops: 0
 
   
 
