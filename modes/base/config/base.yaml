@@ -133,7 +133,7 @@ slides:
     widgets:
      -  type: image
         image: extra_ball_screen
-        scale: 0.35
+        scale: 0.30
 
 
 slide_player:
