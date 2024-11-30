@@ -74,12 +74,13 @@ shots:
 shot_profiles:
   extra_ball_profile:
     states:
+      - name: unlit
+        show: off
       - name: flashing
         show: white_flashing
       - name: lit
         show: green_lit
-      - name: unlit
-        show: off
+
     advance_on_hit: false
 
 
@@ -125,7 +126,7 @@ counters:
     count_events: single_drop_target_hit
     count_complete_value: 3
     start_enabled: true
-    events_when_complete: advance_light_three
+    events_when_complete: advance_light_three, advance_light_two
     persist_state: true
     reset_on_complete: false  
 
@@ -134,7 +135,7 @@ counters:
     count_events: single_drop_target_hit
     count_complete_value: 4
     start_enabled: true
-    events_when_complete: advance_light_three, advance_light_two
+    events_when_complete: advance_light_two, advance_light_one
     persist_state: true
     reset_on_complete: false  
   extra_ball_counter5:
@@ -142,7 +143,7 @@ counters:
     count_events: single_drop_target_hit
     count_complete_value: 5
     start_enabled: true
-    events_when_complete: advance_light_two, advance_light_one
+    events_when_complete: advance_light_one, advance_light_light_extra_ball
     persist_state: true
     reset_on_complete: false  
   extra_ball_counter6:
@@ -150,7 +151,7 @@ counters:
     count_events: single_drop_target_hit
     count_complete_value: 6
     start_enabled: true
-    events_when_complete: advance_light_one, advance_light_light_extra_ball
+    events_when_complete: advance_light_light_extra_ball, advance_extra_ball
     persist_state: true
     reset_on_complete: false  
   extra_ball_counter7:
@@ -158,7 +159,7 @@ counters:
     count_events: single_drop_target_hit
     count_complete_value: 7
     start_enabled: true
-    events_when_complete: advance_light_light_extra_ball, advance_extra_ball
+    events_when_complete: advance_extra_ball
     persist_state: true
     reset_on_complete: false  
 
