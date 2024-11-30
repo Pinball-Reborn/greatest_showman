@@ -133,7 +133,7 @@ slides:
     widgets:
      -  type: image
         image: extra_ball_screen
-        scale: 0.25
+        scale: 0.35
 
 
 slide_player:
@@ -1262,12 +1262,7 @@ track_player:
       fade: 1s
     voice:
       action: stop_all_sounds
-  mode_base_started{is_extra_ball}:
-    music:
-      action: stop_all_sounds
-      fade: 0.4s
-    voice:
-      action: stop_all_sounds
+
 
 
     
