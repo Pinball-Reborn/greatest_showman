@@ -510,7 +510,7 @@ shot_groups:
 
 event_player:
   mode_base_started{current_player.ball==1 and current_player.number==1}:
-    - play_ladies_gents_slide
+    - play_ladies_gents_slide{not is_extra_ball}
     - remove_ladies_gents_slide|6s
     - play_main_screen_slide|6.1s
     - start_mode_skillshot|6.2s
@@ -519,11 +519,11 @@ event_player:
 
     
 
-  mode_base_started{current_player.ball>1 or current_player.number>1}:
+  mode_base_started{current_player.ball>1 or current_player.number>1 and not is_extra_ball}:
     - play_main_screen_slide
     - start_mode_skillshot
 
-  mode_base_started{current_player.balls_played>0 and is_extra_ball}:
+  mode_base_started{is_extra_ball}:
     - play_main_screen_slide
     - start_mode_skillshot
 
