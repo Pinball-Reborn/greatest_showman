@@ -15,6 +15,17 @@ shots:
     control_events:
       - events: extra_ball_lit_hit
         state: 0
+#3
+  light_number_3:
+    switch: s_single_drop_target
+    show_tokens: 
+      lights: three
+      color: snow
+    profile: extra_ball_profile
+    advance_events: advance_light_three
+    control_events:
+      - events: extra_ball_lit_hit
+        state: 0
 
 
 shot_profiles:
@@ -63,10 +74,17 @@ counters:
     count_events: single_drop_target_hit
     count_complete_value: 2
     start_enabled: true
-    events_when_complete: advance_light_four
+    events_when_complete: advance_light_four, advance_light_three
     persist_state: true
     reset_on_complete: false  
-
+  light_four_counter3:
+    starting_count: 0
+    count_events: single_drop_target_hit
+    count_complete_value: 3
+    start_enabled: true
+    events_when_complete: advance_light_three
+    persist_state: true
+    reset_on_complete: false  
 
 
 
