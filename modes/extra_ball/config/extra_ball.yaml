@@ -163,6 +163,14 @@ counters:
     persist_state: true
     reset_on_complete: false  
 
+show_player:
+  extra_ball_lit_hit:
+    extra_ball_lights:
+      loops: 2
+      speed: 10
+      priority: 1000
+  
+
 
 
 

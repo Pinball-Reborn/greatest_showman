@@ -1,0 +1,41 @@
+#show_version=6
+- duration: 1
+  lights:
+    four: green
+- duration: 1
+  lights:
+    three: green
+- duration: 1
+  lights:
+    two: green
+- duration: 1
+  lights:
+    one: green
+- duration: 1
+  lights:
+    light_extra_ball: green
+- duration: 1
+  lights:
+    extra_ball: green
+
+
+
+- duration: 1
+  lights:
+    four: white
+- duration: 1
+  lights:
+    three: white
+- duration: 1
+  lights:
+    two: white
+- duration: 1
+  lights:
+    one: white
+- duration: 1
+  lights:
+    light_extra_ball: white
+- duration: 1
+  lights:
+    extra_ball: white
+
