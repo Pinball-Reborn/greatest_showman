@@ -206,12 +206,12 @@ variable_player:
  
 
 sounds:
-    extra_ball:
+  extra_ball:
     file: extra_ball.wav
     track: voice
     volume: 0.8
     priority: 1000
-    extra_ball_is_lit:
+  extra_ball_is_lit:
     file: extra_ball_is_lit.wav
     track: voice
     volume: 0.8
