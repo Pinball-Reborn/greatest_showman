@@ -1,41 +1,41 @@
 #show_version=6
-- duration: 1
+- duration: 200ms
   lights:
     four: green
-- duration: 1
+- duration: 200ms
   lights:
     three: green
-- duration: 1
+- duration: 200ms
   lights:
     two: green
-- duration: 1
+- duration: 200ms
   lights:
     one: green
-- duration: 1
+- duration: 200ms
   lights:
     light_extra_ball: green
-- duration: 1
+- duration: 200ms
   lights:
     extra_ball: green
 
 
 
-- duration: 1
+- duration: 200ms
   lights:
     four: white
-- duration: 1
+- duration: 200ms
   lights:
     three: white
-- duration: 1
+- duration: 200ms
   lights:
     two: white
-- duration: 1
+- duration: 200ms
   lights:
     one: white
-- duration: 1
+- duration: 200ms
   lights:
     light_extra_ball: white
-- duration: 1
+- duration: 200ms
   lights:
     extra_ball: white
 
