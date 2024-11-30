@@ -182,7 +182,7 @@ counters:
     count_events: single_drop_target_hit
     count_complete_value: 7
     start_enabled: true
-    events_when_complete: extra_ball_lit_hit
+    events_when_complete: extra_ball_lit_hit, extra_ball_award_given
     persist_state: true
     reset_on_complete: false  
 
@@ -196,9 +196,9 @@ show_player:
     extra_ball_lights:
       action: stop
 
-#extra_balls:
-  #extra_ball_main:
-    #award_events: extra_ball_lit_hit
+extra_balls:
+  extra_ball_main:
+    award_events: extra_ball_award_given
 
 variable_player:
   extra_ball_lit_hit:
