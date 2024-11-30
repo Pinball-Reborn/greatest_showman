@@ -519,7 +519,7 @@ event_player:
 
     
 
-  mode_base_started{current_player.ball>1 or current_player.number>1 or extra_ball}:
+  mode_base_started{current_player.ball>1 or current_player.number>1 or extra_ball=true}:
     - play_main_screen_slide
     - start_mode_skillshot
 
