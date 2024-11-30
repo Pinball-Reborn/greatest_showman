@@ -10,6 +10,8 @@ slides:
     video: ladies_gents
     volume: 0.3
 
+
+
     
   main_screen:
     widgets:
@@ -127,7 +129,11 @@ slides:
         image: main_screen
         scale: 1
 
-
+  extra_ball_screen:
+    widgets:
+     -  type: image
+        image: extra_ball_screen
+        scale: 1
 
 
 slide_player:
@@ -137,6 +143,11 @@ slide_player:
     main_screen
   remove_ladies_gents_slide:
     ladies_gents: 
+      action: remove
+  play_extra_ball_screen_slide:
+    extra_ball_screen
+  remove_extra_ball_screen_slide:
+    extra_ball_screen:
       action: remove
 
       
@@ -524,8 +535,12 @@ event_player:
     - start_mode_skillshot
 
   mode_base_started{is_extra_ball}:
-    - play_main_screen_slide
-    - start_mode_skillshot
+    - play_extra_ball_screen_slide
+    - remove_extra_ball_screen_slide|3s
+    - play_main_screen_slide|3.1s
+    - start_mode_skillshot|3.2s
+
+
 
   #slide_skillshot_slide_active:
     #clear_slide_queue:
@@ -708,6 +723,11 @@ sound_player:
     first_ball_music:
       action: play
       loops: -1
+
+  play_extra_ball_screen_slide:
+    shoot_again:
+      action: play
+      delay: 0.5s
 
   restart_mode_base:
     first_ball_music:
@@ -970,6 +990,11 @@ sounds:
     file: so_talented.wav
     track: voice
     volume: 0.8
+    priority: 1000
+  shoot_again:
+    file: shoot_again.wav
+    track: voice
+    volume: 0.9
     priority: 1000
   you_cant_quit:
     file: you_cant_quit.wav
