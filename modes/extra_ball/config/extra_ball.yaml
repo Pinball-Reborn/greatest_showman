@@ -166,7 +166,7 @@ counters:
 show_player:
   extra_ball_lights:
     extra_ball_lights:
-      loops: 1
+      loops: -1
       speed: 10
       priority: 1000
   
