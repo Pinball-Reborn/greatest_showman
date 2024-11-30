@@ -1,6 +1,6 @@
 #config_version=6
 mode:
-  start_events: game_started
+  start_events: game_started, ball_started
 
 shots:
 #EXTRA BALL SEQUENCE
