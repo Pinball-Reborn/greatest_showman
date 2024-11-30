@@ -74,12 +74,12 @@ shots:
 shot_profiles:
   extra_ball_profile:
     states:
-      - name: unlit
-        show: off
       - name: flashing
         show: white_flashing
       - name: lit
         show: green_lit
+      - name: unlit
+        show: off
     advance_on_hit: false
 
 
