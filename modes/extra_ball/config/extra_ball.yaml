@@ -151,7 +151,7 @@ counters:
     count_events: single_drop_target_hit
     count_complete_value: 6
     start_enabled: true
-    events_when_complete: advance_light_light_extra_ball, advance_light_extra_ball
+    events_when_complete: advance_light_light_extra_ball, advance_light_extra_ball, extra_ball_lights
     persist_state: true
     reset_on_complete: false  
   extra_ball_counter7:
@@ -164,10 +164,10 @@ counters:
     reset_on_complete: false  
 
 show_player:
-  extra_ball_lit_hit:
+  extra_ball_lights:
     extra_ball_lights:
       loops: 1
-      #speed: 10
+      speed: 10
       priority: 1000
   
 
