@@ -164,14 +164,16 @@ counters:
     persist_state: true
     reset_on_complete: false  
 
-event_player:
+show_player:
   extra_ball_lights:
-    play_extra_ball_lights:
+    extra_ball_lights:
       loops: -1
       speed: 8
       priority: 1000
   extra_ball_lit_hit:
-    stop_extra_ball_lights
+    extra_ball_lights:
+      action: stop
+
   
 
 
