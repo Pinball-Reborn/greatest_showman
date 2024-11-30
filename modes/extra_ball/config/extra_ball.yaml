@@ -82,6 +82,7 @@ shot_profiles:
         show: green_lit
 
     advance_on_hit: false
+  
 
 
 
@@ -163,12 +164,14 @@ counters:
     persist_state: true
     reset_on_complete: false  
 
-show_player:
+event_player:
   extra_ball_lights:
-    extra_ball_lights:
+    play_extra_ball_lights:
       loops: -1
-      speed: 10
+      speed: 8
       priority: 1000
+  extra_ball_lit_hit:
+    stop_extra_ball_lights
   
 
 
