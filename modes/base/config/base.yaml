@@ -242,7 +242,7 @@ variable_player:
   top_pop_bumpers_top_hit:
     score: 8000
     pop: 1
-  s_spinner_active:
+  spinner_hit:
     score: 3000
   stand_up_left_lift_ramp_hit:
     score: 65000
@@ -311,6 +311,10 @@ shots:
     #show_tokens:
      # lights: save_the_show_right
     #profile: my_first_profile
+
+#SPINNER
+  spinner:
+    switch: s_spinner_active
 
 
 #FLIPPERS
@@ -456,8 +460,8 @@ shot_profiles:
 counters:
   five_million_counter:
     starting_count: 0
-    count_events: s_spinner_active_hit #right_flipper_hit, left_flipper_hit
-    count_complete_value: 50
+    count_events: spinner_hit #right_flipper_hit, left_flipper_hit
+    count_complete_value: 20
     start_enabled: true
     persist_state: true
     events_when_complete: advance_five_million_profile, five_million_lit
