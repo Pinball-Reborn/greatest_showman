@@ -38,8 +38,8 @@
 
 - duration: 2
   lights:
-    save_the_show_left: purple
-    save_the_show_right: purple
+    #save_the_show_left: purple
+    #save_the_show_right: purple
     arrow_bottom_left: purple
 
 
@@ -83,7 +83,7 @@
     challenges_f: purple
 
 
-    shoot_again: purple
+    #shoot_again: purple
     collect_oddities_1: purple
     collect_oddities_2: purple
     collect_oddities_3: purple
@@ -98,8 +98,8 @@
 - duration: 2
   lights:
 
-    save_the_show_left: green
-    save_the_show_right: green
+    #save_the_show_left: green
+    #save_the_show_right: green
     arrow_bottom_left: green
 
 
@@ -144,7 +144,7 @@
     challenges_f: green
 
 
-    shoot_again: green
+    #shoot_again: green
     collect_oddities_1: green
     collect_oddities_2: green
     collect_oddities_3: green
