@@ -7,10 +7,18 @@ mode:
 event_player:
   events_when_stopped: enable_qualify, start_mode_base
 
+multiballs: 
+  ramps_multiball:
+    ball_count: 1
+    ball_count_type: add
+    shoot_again: 20s
+    enable_events: mode_ramps_starting
+    start_events:  mode_ramps_started
+
 
 timers:
   ramps_timer:
-    start_value: 20
+    start_value: 21
     end_value: 0
     direction: down
     tick_interval: 1s
@@ -45,6 +53,11 @@ sound_player:
       action: play
       track: music
       delay: 0.1s
+      loops: 0
+    multiball:
+      action: play
+      track: voice
+      delay: 2s
       loops: 0
     shoot_ramps:
       action: play
@@ -91,6 +104,11 @@ sounds:
     volume: 0.9
     priority: 1000
     block: true
+  multiball:
+    file: multiball.wav
+    track: voice
+    volume: 0.9
+    priority: 100
 
 
   
