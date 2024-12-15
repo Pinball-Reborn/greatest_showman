@@ -7,7 +7,13 @@ mode:
 event_player:
   events_when_stopped: enable_qualify, start_mode_base
 
-
+multiballs: 
+  tickets_multiball:
+    ball_count: 1
+    ball_count_type: add
+    shoot_again: 20s
+    enable_events: mode_tickets_starting
+    start_events:  mode_tickets_started
 
 timers:
   tickets_timer:
@@ -46,7 +52,12 @@ sound_player:
       action: play
       track: music
       loops: 0
-      delay: 0.1s
+      delay: 0.1
+    multiball:
+      action: play
+      track: voice
+      delay: 2s
+      loops: 0
     shoot_tickets:
       action: play
       track: voice
@@ -83,6 +94,12 @@ sounds:
     volume: 0.9
     priority: 1000
     block: true
+  multiball:
+    file: multiball.wav
+    track: voice
+    volume: 0.9
+    priority: 100
+
 
 variable_player:
   tickets_tickets_hit:
