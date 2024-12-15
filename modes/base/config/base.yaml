@@ -456,7 +456,7 @@ shot_profiles:
 counters:
   five_million_counter:
     starting_count: 0
-    count_events: right_flipper_hit, left_flipper_hit
+    count_events: s_spinner_active_hit #right_flipper_hit, left_flipper_hit
     count_complete_value: 50
     start_enabled: true
     persist_state: true
