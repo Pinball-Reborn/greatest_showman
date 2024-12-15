@@ -314,7 +314,7 @@ shots:
 
 #SPINNER
   spinner:
-    switch: s_spinner_active
+    switch: s_spinner
 
 
 #FLIPPERS
