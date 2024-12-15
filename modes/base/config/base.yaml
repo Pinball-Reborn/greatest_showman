@@ -461,7 +461,7 @@ counters:
   five_million_counter:
     starting_count: 0
     count_events: spinner_hit #right_flipper_hit, left_flipper_hit
-    count_complete_value: 20
+    count_complete_value: 50
     start_enabled: true
     persist_state: true
     events_when_complete: advance_five_million_profile, five_million_lit
