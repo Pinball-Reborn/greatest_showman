@@ -129,7 +129,7 @@ slides:
         y: 15%
 
       - type: video
-        video: come_alive
+        video: bearded_lady #come_alive
         volume: 0.3
 
   challenges_multi_finish:
@@ -182,6 +182,8 @@ event_player:
 videos:
   come_alive:
     file: come_alive.mpg
+  bearded_lady:
+    file: bearded_lady.mpg
 
 
 
