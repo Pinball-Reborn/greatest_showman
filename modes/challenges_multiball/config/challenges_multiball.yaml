@@ -156,6 +156,7 @@ slide_player:
   play_challenges_multiball_slide:
     challenges_multiball    
   play_come_alive_slide:
+
     come_alive
   remove_challenges_multiball_slide:
     challenges_multiball: 
