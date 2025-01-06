@@ -673,6 +673,7 @@ show_player:
       speed: 5
   ball_save_default_disabled:
     single_flash_color:
+
       show_tokens:
         lights: save_the_show_right, save_the_show_left
         color: red
