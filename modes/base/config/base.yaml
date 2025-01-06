@@ -620,7 +620,7 @@ event_player:
 achievements:
   bearded_lady:
     show_tokens: 
-      lights:
+      lights: collect_oddities_1
       color: red
     show_when_started: color_flashing
     show_when_completed: 1_lit_color_generic
