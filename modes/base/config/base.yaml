@@ -618,11 +618,11 @@ event_player:
     enable_qualify
 
 achievements:
-  bearded_lady
+  bearded_lady:
     show_tokens: 
       lights:
       color: red
-    show_when started: color_flashing
+    show_when_started: color_flashing
     show_when_completed: 1_lit_color_generic
     start_events: start_mode_bearded_lady
     complete_events: light_oddities_1
