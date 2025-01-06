@@ -687,7 +687,7 @@ show_player:
       #speed: 1
     #  loops: 0
      # priority: 1000
-  advance_bearded_lady_profile:
+  light_oddities_1:
     1_lit_color_generic:
       show_tokens:
         lights: collect_oddities_1

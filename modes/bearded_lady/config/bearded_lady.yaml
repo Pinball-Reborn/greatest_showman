@@ -64,7 +64,7 @@ shows:
       lights: 
         (lights): 
           color: black
-  red__lady_lit:
+  red_lady_lit:
     - duration: -1
       lights: 
        (lights):
@@ -80,7 +80,7 @@ counters:
     start_enabled: true
     persist_state: true
     reset_on_complete: false 
-    events_when_complete: advance_bearded_lady_profile    #advance_five_million_profile, five_million_lit
+    events_when_complete: advance_bearded_lady_profile, light_oddities_1    #advance_five_million_profile, five_million_lit
     #restart_events:  #five_million_standup_five_million_profile_lit_hit
 
 
