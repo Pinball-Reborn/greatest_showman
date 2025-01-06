@@ -617,6 +617,15 @@ event_player:
   events_when_started:
     enable_qualify
 
+achievements:
+  bearded_lady
+    show_tokens: 
+      lights:
+      color: red
+    show_when started: color_flashing
+    show_when_completed: 1_lit_color_generic
+    start_events: start_mode_bearded_lady
+    complete_events: light_oddities_1
 
     
 
@@ -690,7 +699,7 @@ show_player:
   light_oddities_1:
     bearded_lady_complete_show:
       speed: 1
-      loops: -1
+      loops: 1
     #1_lit_color_generic:
       #show_tokens:
         #lights: collect_oddities_1

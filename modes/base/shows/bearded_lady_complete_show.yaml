@@ -3,56 +3,81 @@
 - duration: 1
   lights: 
     collect_oddities_1: white
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_2: white
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_3: white
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_4: white
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_5: white
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_6: white
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_7: white
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_8: white
 
 - duration: 1
   lights: 
     collect_oddities_1: red
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_2: blue
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_3: yellow
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_4: green
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_5: purple
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_6: turquoise
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_7: pink
-- duration: 150ms
+- duration: 50ms
   lights: 
     collect_oddities_8: orange
 
-- duration: -1
+- duration: 1
   lights: 
-    collect_oddities_1: red
+    collect_oddities_1: 0
+- duration: 50ms
+  lights: 
+    collect_oddities_2: 0
+- duration: 50ms
+  lights: 
+    collect_oddities_3: 0
+- duration: 50ms
+  lights: 
+    collect_oddities_4: 0
+- duration: 50ms
+  lights: 
+    collect_oddities_5: 0
+- duration: 50ms
+  lights: 
+    collect_oddities_6: 0
+- duration: 50ms
+  lights: 
+    collect_oddities_7: 0
+- duration: 50ms
+  lights: 
+    collect_oddities_8: 0
+
+#- duration: -1
+ # lights: 
+   # collect_oddities_1: red
 
 
 
