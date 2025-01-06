@@ -11,7 +11,10 @@ slides:
     volume: 0.3
 
 
-
+  bearded_lady_video:
+    type: video
+    video: bearded_lady
+    volume: 0.8
     
   main_screen:
     widgets:
@@ -129,11 +132,134 @@ slides:
         image: main_screen
         scale: 1
 
+  main_screen_bearded_lady:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_bearded_lady
+        scale: 1
+
   extra_ball_screen:
     widgets:
      -  type: image
         image: extra_ball_screen
         scale: 0.30
+
+  bearded_lady_image:
+    widgets:
+      - type: image
+        image: bearded_lady
+        scale: 0.95
+
 
 
 slide_player:
@@ -149,6 +275,24 @@ slide_player:
   remove_extra_ball_screen_slide:
     extra_ball_screen:
       action: remove
+  play_bearded_lady_video_slide:
+    bearded_lady_video
+  remove_bearded_lady_video_slide:
+    bearded_lady_video:
+      action: remove
+  play_bearded_lady_image_slide:
+    bearded_lady_image
+  remove_bearded_lady_image_slide:
+    bearded_lady_image:
+      action: remove
+  remove_main_screen_slide:
+    main_screen:
+      action: remove
+  play_main_screen_bearded_lady_slide:
+    main_screen_bearded_lady
+  remove_main_screen_bearded_lady_slide:
+    main_screen_bearded_lady:
+      action: remove
 
       
 
@@ -159,6 +303,9 @@ slide_player:
 videos:
   ladies_gents:
     file: ladies_gents.mpg
+  bearded_lady:
+    file: bearded_lady.mpg
+
 
 
 
@@ -544,6 +691,12 @@ event_player:
     - play_main_screen_slide|3.1s
     - start_mode_skillshot|3.2s
 
+  bearded_lady_complete:
+    - remove_main_screen_slide
+    - play_bearded_lady_video_slide
+    - play_bearded_lady_image_slide|3.2s
+    - play_main_screen_bearded_lady_slide|4.5s
+
 
 
   #slide_skillshot_slide_active:
@@ -824,6 +977,13 @@ sound_player:
     first_ball_music:
       action: play
       loops: -1
+
+  bearded_lady_complete:
+    bearded_lady_collected:
+      action: play
+      loops: -1
+      delay: 3.2s
+
   s_right_bounce_mid_playfield_active:
     animals:
       action: play
@@ -1200,6 +1360,10 @@ sounds:
     file: triple_combo.wav
     volume: 1.2
     priority: 2000
+  bearded_lady_collected:
+    file: bearded_lady_collected.wav
+    volume: 1.5
+    priority: 2500
 
 
 

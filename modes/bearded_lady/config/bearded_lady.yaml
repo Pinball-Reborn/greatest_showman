@@ -81,7 +81,7 @@ counters:
     start_enabled: true
     persist_state: true
     reset_on_complete: false 
-    events_when_complete: advance_bearded_lady_profile, light_oddities_1    #advance_five_million_profile, five_million_lit
+    events_when_complete: advance_bearded_lady_profile, light_oddities_1, bearded_lady_complete   #advance_five_million_profile, five_million_lit
     #restart_events:  #five_million_standup_five_million_profile_lit_hit
 
 
@@ -101,6 +101,31 @@ variable_player:
 
 
 sounds:
+  collect_8_oddities:
+    file: collect_8_oddities.wav
+    track: voice
+    volume: 1.5
+    priority: 1000
+  shoot_the_colored_arrows:
+    file: shoot_the_colored_arrows
+    track: voice
+    volume: 1.5
+    priority: 1000
+
+sound_player:
+  mode_bearded_lady_started:
+    collect_8_oddities:
+      action: play
+      track: voice
+      loops: 0
+    shoot_the_colored_arrows:
+      action: play
+      track: voice
+      loops: 0
+      delay: 3s
+
+
+
 
 
 videos:
