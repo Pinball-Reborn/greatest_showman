@@ -17,7 +17,7 @@ shots:
     control_events: 
       - events: advance_bearded_lady_profile
         state: 2
-  stand_up_left_lift_ramp_beared_lady:
+  stand_up_left_lift_ramp_bearded_lady:
     switch: s_left_stand_up_target_lift_ramp
     show_tokens:
       lights: arrow_lift_ramp_target_left
