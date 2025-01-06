@@ -1,0 +1,119 @@
+#config_version=6
+mode:
+  start_events: start_mode_bearded_lady
+  stop_events: bearded_lady_ended #ball_ended
+  priority: 200
+
+
+
+shots:
+  left_stand_up_bearded_lady:
+    switch: s_left_stand_up_target
+    show_tokens:
+      lights: target_mid_left
+      color: red
+    profile: bearded_lady_profile
+    advance_events: left_stand_up_bearded_lady_flashing_hit
+    control_events: 
+      - events: advance_bearded_lady_profile
+        state: 2
+  stand_up_left_lift_ramp_beared_lady:
+    switch: s_left_stand_up_target_lift_ramp
+    show_tokens:
+      lights: arrow_lift_ramp_target_left
+      color: red
+    profile: bearded_lady_profile
+    advance_events: stand_up_left_lift_ramp_bearded_lady_flashing_hit
+    control_events: 
+      - events: advance_bearded_lady_profile
+        state: 2
+  stand_up_right_lift_ramp_bearded_lady:
+    switch: s_right_stand_up_target_lift_ramp
+    show_tokens:
+      lights: arrow_lift_ramp_target_right
+      color: red
+    profile: bearded_lady_profile
+    advance_events: stand_up_right_lift_ramp_bearded_lady_flashing_hit
+    control_events: 
+      - events: advance_bearded_lady_profile
+        state: 2
+
+
+
+
+shot_profiles:
+  bearded_lady_profile:
+    states:
+      - name: flashing
+        show: red_flashing
+      - name: lit
+        show: red_lady_lit
+      - name: unlit
+        show: off
+    advance_on_hit: false
+
+
+
+shows:
+  red_flashing:
+    - duration: 200ms
+      lights:
+        (lights):
+          color: red
+    - duration: 200ms
+      lights: 
+        (lights): 
+          color: black
+  red__lady_lit:
+    - duration: -1
+      lights: 
+       (lights):
+         color: red 
+
+
+
+counters:
+  bearded_lady_counter:
+    starting_count: 0
+    count_events: left_stand_up_bearded_lady_flashing_hit, stand_up_left_lift_ramp_bearded_lady_flashing_hit, stand_up_right_lift_ramp_bearded_lady_flashing_hit
+    count_complete_value: 3
+    start_enabled: true
+    persist_state: true
+    reset_on_complete: false 
+    events_when_complete: advance_bearded_lady_profile    #advance_five_million_profile, five_million_lit
+    restart_events: none #five_million_standup_five_million_profile_lit_hit
+
+
+
+variable_player:
+  left_stand_up_bearded_lady_flashing_hit:
+    score: 500000
+  stand_up_left_lift_ramp_bearded_lady_flashing_hit:
+    score: 500000
+  stand_up_right_lift_ramp_bearded_lady_flashing_hit:
+    score: 500000
+  advance_bearded_lady_profile:
+    score: 1000000
+
+
+
+
+
+sounds:
+
+
+videos:
+  bearded_lady:
+    file: bearded_lady.mpg
+
+
+
+track_player:
+  mode_bearded_lady_started:
+    music:
+      action: stop_all_sounds
+  mode_bearded_lady_will_stop:
+    __all__:
+      action: stop_all_sounds
+      fade: 1s
+

@@ -640,6 +640,8 @@ modes:
   - challenges_multiball
   - this_is_me_multiball
   - extra_ball
+  - bearded_lady
+
   
 player_vars:
   potato:
