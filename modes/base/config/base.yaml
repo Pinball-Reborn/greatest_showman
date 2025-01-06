@@ -981,7 +981,6 @@ sound_player:
   bearded_lady_complete:
     bearded_lady_collected:
       action: play
-      loops: -1
       delay: 3.2s
 
   s_right_bounce_mid_playfield_active:
