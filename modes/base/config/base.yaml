@@ -694,8 +694,8 @@ event_player:
   bearded_lady_complete:
     - remove_main_screen_slide
     - play_bearded_lady_video_slide
-    - play_bearded_lady_image_slide|3.2s
-    - play_main_screen_bearded_lady_slide|4.5s
+    - play_bearded_lady_image_slide|4s
+    - play_main_screen_bearded_lady_slide|6s
 
 
 
@@ -981,7 +981,7 @@ sound_player:
   bearded_lady_complete:
     bearded_lady_collected:
       action: play
-      delay: 3.2s
+      delay: 4.2s
 
   s_right_bounce_mid_playfield_active:
     animals:
