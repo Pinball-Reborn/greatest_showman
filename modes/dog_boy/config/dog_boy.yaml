@@ -1,0 +1,337 @@
+#config_version=6
+mode:
+  start_events: start_mode_dog_boy
+  stop_events: bearded_lady_complete, game_ending #ball_ended
+  restart_on_next_ball: true
+  events_when_stopped: start_mode_tom_thumb
+  priority: 200
+
+
+
+
+shots:
+   right_stand_up_dog_boy:
+    switch: s_stand_up_target_right
+    show_tokens:
+      lights: target_mid_right
+      color: blue
+    profile: dog_boy_profile
+    advance_events: right_stand_up_dog_boy_flashing_hit
+    control_events: 
+      - events: advance_dog_boy_profile
+        state: 2 
+
+   stand_up_left_lift_ramp_dog_boy:
+    switch: s_left_stand_up_target_lift_ramp
+    show_tokens: 
+      lights: arrow_lift_ramp_target_left
+      color: blue
+    profile: dog_boy_profile
+    advance_events: right_stand_up_dog_boy_flashing_hit
+    control_events: 
+      - events: advance_dog_boy_profile
+        state: 2 
+
+   front_drop_target_dog_boy:
+    switch: s_3_bank_drop_target_1
+    show_tokens:
+      lights: skill_shot_1, skill_shot_2, skill_shot_3
+      color: blue
+    profile: dog_boy_profile
+    advance_events: drop_target_dog_boy_flashing_hit
+    control_events: 
+      - events: advance_dog_boy_profile
+        state: 2 
+
+   middle_drop_target_dog_boy:
+    switch: s_3_bank_drop_target_3
+    show_tokens:
+      lights: skill_shot_1, skill_shot_2, skill_shot_3
+      color: blue
+    profile: dog_boy_profile
+    advance_events: drop_target_dog_boy_flashing_hit
+    control_events: 
+      - events: advance_dog_boy_profile
+        state: 2 
+   back_drop_target_dog_boy:
+    switch: s_3_bank_drop_target_3
+    show_tokens:
+      lights: skill_shot_1, skill_shot_2, skill_shot_3
+      color: blue
+    profile: dog_boy_profile
+    advance_events: drop_target_dog_boy_flashing_hit
+    control_events: 
+      - events: advance_dog_boy_profile
+        state: 2 
+
+
+
+
+
+
+shot_profiles:
+  dog_boy_profile:
+    states:
+      - name: flashing
+        show: blue_flashing
+      - name: lit
+        show: dog_boy_lit
+      - name: unlit
+        show: off
+    advance_on_hit: false
+
+
+
+shows:
+  blue_flashing:
+    - duration: 200ms
+      lights:
+        (lights):
+          color: blue
+    - duration: 200ms
+      lights: 
+        (lights): 
+          color: black
+  dog_boy_lit:
+    - duration: -1
+      lights: 
+       (lights):
+         color: blue 
+
+
+
+counters:
+  dog_boy_counter:
+    starting_count: 0
+    count_events: dog_boy_drop, right_stand_up_dog_boy_flashing_hit, stand_up_left_lift_ramp_dog_boy_flashing_hit
+    count_complete_value: 3
+    start_enabled: true
+    persist_state: true
+    reset_on_complete: false 
+    events_when_complete: advance_dog_boy_profile, light_oddities_2, dog_boy_complete  
+    #restart_events:  #five_million_standup_five_million_profile_lit_hit
+  dog_boy_drop_counter:
+    starting_count: 0
+    count_events: front_drop_target_dog_boy_flashing_hit, middle_drop_target_dog_boy_flashing_hit, back_drop_target_dog_boy_flashing_hit
+    count_complete_value: 1 
+    start_enabled: true
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: dog_boy_drop
+
+
+
+variable_player:
+  dog_boy_drop:
+    score: 500000
+  right_stand_up_dog_boy_flashing_hit:
+    score: 500000
+  stand_up_leftt_lift_ramp_dog_boy_flashing_hit:
+    score: 500000
+  advance_dog_boy_profile:
+    score: 1000000
+
+
+
+
+
+sounds:
+  collect_8_oddities:
+    file: collect_8_oddities.wav
+    track: voice
+    volume: 1.5
+    priority: 1000
+  shoot_the_colored_arrows:
+    file: shoot_the_colored_arrows
+    track: voice
+    volume: 1.5
+    priority: 1000
+
+sound_player:
+  mode_dog_boy_started:
+    collect_8_oddities:
+      action: play
+      track: voice
+      loops: 0
+    shoot_the_colored_arrows:
+      action: play
+      track: voice
+      loops: 0
+      delay: 3s
+
+
+
+
+
+videos:
+  bearded_lady:
+    file: bearded_lady.mpg
+
+
+
+slides:
+  main_screen_bearded_lady:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_bearded_lady
+        scale: 1
+
+  bearded_lady_image:
+    widgets:
+      - type: image
+        image: bearded_lady
+        scale: 0.95
+
+  bearded_lady_video:
+    type: video
+    video: bearded_lady
+    volume: 0.8
+    
+
+
+slide_player:
+  remove_main_screen_slide:
+    main_screen:
+      action: remove
+  play_main_screen_bearded_lady_slide:
+    main_screen_bearded_lady
+
+  play_bearded_lady_video_slide:
+    bearded_lady_video
+  remove_bearded_lady_video_slide:
+    bearded_lady_video:
+      action: remove
+  play_bearded_lady_image_slide:
+    bearded_lady_image
+  remove_bearded_lady_image_slide:
+    bearded_lady_image:
+      action: remove
+
+
+event_player:
+  mode_dog_boy_started:
+    - remove_main_screen_slide
+    - play_bearded_lady_video_slide
+    - play_bearded_lady_image_slide|4s
+    - play_main_screen_bearded_lady_slide|7s
+
+
+track_player:
+  mode_dog_boy_started:
+    music:
+      action: stop_all_sounds
+  mode_dog_boy_will_stop:
+    __all__:
+      action: stop_all_sounds
+      fade: 1s
+

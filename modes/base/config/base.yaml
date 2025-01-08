@@ -11,10 +11,7 @@ slides:
     volume: 0.3
 
 
-  bearded_lady_video:
-    type: video
-    video: bearded_lady
-    volume: 0.8
+
     
   main_screen:
     widgets:
@@ -254,11 +251,7 @@ slides:
         image: extra_ball_screen
         scale: 0.30
 
-  bearded_lady_image:
-    widgets:
-      - type: image
-        image: bearded_lady
-        scale: 0.95
+
 
 
 
@@ -275,24 +268,11 @@ slide_player:
   remove_extra_ball_screen_slide:
     extra_ball_screen:
       action: remove
-  play_bearded_lady_video_slide:
-    bearded_lady_video
-  remove_bearded_lady_video_slide:
-    bearded_lady_video:
-      action: remove
-  play_bearded_lady_image_slide:
-    bearded_lady_image
-  remove_bearded_lady_image_slide:
-    bearded_lady_image:
-      action: remove
+
   remove_main_screen_slide:
     main_screen:
       action: remove
-  play_main_screen_bearded_lady_slide:
-    main_screen_bearded_lady
-  remove_main_screen_bearded_lady_slide:
-    main_screen_bearded_lady:
-      action: remove
+
 
       
 
@@ -346,6 +326,7 @@ variable_player:
     score: 17000
     drops: 1
   #3_bank_drop_target_2_hit:
+
   middle_drop_target_hit:
     score: 17000
     drops: 1
@@ -673,10 +654,10 @@ shot_groups:
 event_player:
   mode_base_started{current_player.ball==1 and current_player.number==1 and not is_extra_ball}:
     - play_ladies_gents_slide
-    - remove_ladies_gents_slide|6s
-    - play_main_screen_slide|6.1s
-    - start_mode_skillshot|6.2s
-    #- play_skillshot_slide|6.2s
+    - remove_ladies_gents_slide|7s
+    - play_main_screen_slide|7.1s
+    - start_mode_skillshot|7.2s
+    #- play_skillshot_slide|7.2s
 
 
     
@@ -691,11 +672,11 @@ event_player:
     - play_main_screen_slide|3.1s
     - start_mode_skillshot|3.2s
 
-  bearded_lady_complete:
-    - remove_main_screen_slide
-    - play_bearded_lady_video_slide
-    - play_bearded_lady_image_slide|4s
-    - play_main_screen_bearded_lady_slide|6s
+ # bearded_lady_complete:
+   # - remove_main_screen_slide
+   # - play_bearded_lady_video_slide
+   # - play_bearded_lady_image_slide|4s
+    #- play_main_screen_bearded_lady_slide|6s
 
 
 
@@ -779,6 +760,22 @@ achievements:
     show_when_completed: 1_lit_color_generic
     start_events: start_mode_bearded_lady
     complete_events: light_oddities_1
+  dog_boy:
+    show_tokens: 
+      lights: collect_oddities_2
+      color: blue
+    show_when_started: color_flashing
+    show_when_completed: 1_lit_color_generic
+    start_events: start_mode_dog_boy
+    complete_events: light_oddities_2
+  tom_thumb:
+    show_tokens: 
+      lights: collect_oddities_3
+      color: yellow
+    show_when_started: color_flashing
+    show_when_completed: 1_lit_color_generic
+    start_events: start_tom_thumb_boy
+    complete_events: light_oddities_3
 
     
 
@@ -980,6 +977,14 @@ sound_player:
 
   bearded_lady_complete:
     bearded_lady_collected:
+      action: play
+      delay: 4.2s
+  tom_thumb_complete:
+    tom_thumb_collected:
+      action: play
+      delay: 4.2s
+  dog_boy_complete:
+    dog_boy_collected:
       action: play
       delay: 4.2s
 
@@ -1363,6 +1368,15 @@ sounds:
     file: bearded_lady_collected.wav
     volume: 1.5
     priority: 2500
+  dog_boy_collected:
+    file: dog_boy_collected.wav
+    volume: 1.5
+    priority: 2500
+  tom_thumb_collected:
+    file: tom_thumb_collected.wav
+    volume: 1.5
+    priority: 2500
+
 
 
 

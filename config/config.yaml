@@ -641,6 +641,8 @@ modes:
   - this_is_me_multiball
   - extra_ball
   - bearded_lady
+  - dog_boy
+  - tom_thumb
 
   
 player_vars:
