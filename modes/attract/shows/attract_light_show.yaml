@@ -11,6 +11,9 @@
     hat_left_pop_bumpers: red
     below_lock_in_musical_staff: red
     arrow_outer_left_orbit: red
+    ball_1_locked: red
+    ball_2_locked: red
+    ball_3_locked: red
     
 - duration: 1
   lights:
@@ -24,3 +27,9 @@
     hat_left_pop_bumpers: gold
     below_lock_in_musical_staff: gold
     arrow_outer_left_orbit: gold
+    ball_1_locked: gold
+    ball_2_locked: gold
+    ball_3_locked: gold
+
+
+

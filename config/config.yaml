@@ -461,6 +461,15 @@ lights:
   arrow_bottom_left:
     number: playfield-3-10
     type: rgb
+  ball_1_locked:
+    number: playfield-3-11
+    type: rgb
+  ball_2_locked:
+    number: playfield-3-12
+    type: rgb
+  ball_3_locked:
+    number: playfield-3-13
+    type: rgb
  
 
 playfields:
