@@ -17,6 +17,16 @@
 - duration: 1
   lights:
     challenges_f: red
+- duration: 1
+  lights:
+    ball_1_locked: red
+- duration: 1
+  lights:
+    ball_2_locked: red
+- duration: 1
+  lights:
+    ball_3_locked: red
+
 
 - duration: 1
   lights:
@@ -36,3 +46,13 @@
 - duration: 1
   lights:
     challenges_a: gold
+- duration: 1
+  lights:
+    ball_1_locked: gold
+- duration: 1
+  lights:
+    ball_2_locked: gold
+- duration: 1
+  lights:
+    ball_3_locked: gold
+
