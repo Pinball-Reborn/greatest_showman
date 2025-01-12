@@ -170,7 +170,7 @@ videos:
 
 
 slides:
-   main_screen_bearded_lady:
+  main_screen_bearded_lady:
     widgets:
       - type: text
         text: (score)
@@ -285,6 +285,7 @@ slides:
       - type: image
         image: main_screen_bearded_lady
         scale: 1
+
 
   bearded_lady_image:
     widgets:
