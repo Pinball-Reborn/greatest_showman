@@ -325,7 +325,10 @@ event_player:
     #- play_bearded_lady_video_slide
     #- play_bearded_lady_image_slide|4s
     - play_main_screen_bearded_lady_slide #|7s
-        priority: 100
+
+  restart_mode_dog_boy:
+    - remove_main_screen_slide
+    - play_main_screen_bearded_lady_slide
 
 
 track_player:

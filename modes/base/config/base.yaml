@@ -727,9 +727,8 @@ event_player:
   dog_boy_complete:
     - remove_main_screen_bearded_lady_slide
     - play_dog_boy_video_slide
-        priority: 500
     - play_dog_boy_image_slide|4s
-        priority: 500
+
 
 
 
@@ -810,7 +809,7 @@ achievements:
       lights: collect_oddities_1
       color: red
     show_when_started: color_flashing
-    show_when_completed: 1_lit_color_generic
+    show_when_completed: oddities_lit
     start_events: start_mode_bearded_lady
     complete_events: light_oddities_1
   dog_boy:
@@ -818,7 +817,7 @@ achievements:
       lights: collect_oddities_2
       color: blue
     show_when_started: color_flashing
-    show_when_completed: 1_lit_color_generic
+    show_when_completed: oddities_lit
     start_events: start_mode_dog_boy
     complete_events: light_oddities_2
   tom_thumb:
@@ -826,7 +825,7 @@ achievements:
       lights: collect_oddities_3
       color: yellow
     show_when_started: color_flashing
-    show_when_completed: 1_lit_color_generic
+    show_when_completed: oddities_lit
     start_events: start_tom_thumb_boy
     complete_events: light_oddities_3
 
@@ -901,7 +900,7 @@ show_player:
      # priority: 1000
   light_oddities_1:
     bearded_lady_complete_show:
-      speed: 1
+      speed: 3
       loops: 1
     #1_lit_color_generic:
       #show_tokens:
@@ -929,6 +928,15 @@ shows:
       lights: 
         (lights): 
           color: black
+  oddities_lit:
+    - duration: 2s
+      lights:
+       (lights): 
+          color: black
+    - duration: -1
+      lights:
+        (lights): (color)
+    
 
 
 
