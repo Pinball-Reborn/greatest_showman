@@ -271,8 +271,8 @@ slides:
 
 
 slide_player:
-  remove_main_screen_slide:
-    main_screen:
+  remove_main_screen_bearded_lady_slide:
+    main_screen_beared_lady:
       action: remove
   play_main_screen_dog_boy_slide:
     main_screen_dog_boy
@@ -286,12 +286,14 @@ slide_player:
     dog_boy_image
   remove_dog_boy_image_slide:
     dog_boy_image:
-      action: remove
+      action: remove  
+
+
 
 
 event_player:
   mode_tom_thumb_started:
-    - remove_main_screen_slide
+    - remove_main_screen_beareded_lady_slide
    # - play_dog_boy_video_slide
    # - play_dog_boy_image_slide|4s
     - play_main_screen_dog_boy_slide|7s

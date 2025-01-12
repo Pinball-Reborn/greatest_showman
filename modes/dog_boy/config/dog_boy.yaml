@@ -321,7 +321,7 @@ slide_player:
 
 event_player:
   mode_dog_boy_started:
-    - remove_main_screen_slide
+    - remove_main_screen_slide|6.5s
     #- play_bearded_lady_video_slide
     #- play_bearded_lady_image_slide|4s
     - play_main_screen_bearded_lady_slide #|7s

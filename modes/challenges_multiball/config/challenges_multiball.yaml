@@ -13,7 +13,7 @@ multiballs:
   quick_add_2_ball:
     ball_count: 2
     ball_count_type: add
-    #shoot_again: 20s
+    shoot_again: 20s
     enable_events: mode_challenges_multiball_starting
     start_events:  mode_challenges_multiball_started
 
