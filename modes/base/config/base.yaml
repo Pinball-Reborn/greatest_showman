@@ -251,6 +251,27 @@ slides:
         image: extra_ball_screen
         scale: 0.30
 
+  bearded_lady_image:
+    widgets:
+      - type: image
+        image: bearded_lady
+        scale: 0.95
+
+  bearded_lady_video:
+    type: video
+    video: bearded_lady
+    volume: 0.8
+    
+  dog_boy_image:
+    widgets:
+      - type: image
+        image: dog_boy
+        scale: 0.95
+
+  dog_boy_video:
+    type: video
+    video: dog_boy
+    volume: 0.8
 
 
 
@@ -272,6 +293,29 @@ slide_player:
   remove_main_screen_slide:
     main_screen:
       action: remove
+  play_bearded_lady_video_slide:
+    bearded_lady_video
+  remove_bearded_lady_video_slide:
+    bearded_lady_video:
+      action: remove
+  play_bearded_lady_image_slide:
+    bearded_lady_image
+  remove_bearded_lady_image_slide:
+    bearded_lady_image:
+      action: remove
+  play_main_screen_dog_boy_slide:
+    main_screen_dog_boy
+
+  play_dog_boy_video_slide:
+    dog_boy_video
+  remove_dog_boy_video_slide:
+    dog_boy_video:
+      action: remove
+  play_dog_boy_image_slide:
+    dog_boy_image
+  remove_dog_boy_image_slide:
+    dog_boy_image:
+      action: remove
 
 
       
@@ -285,6 +329,8 @@ videos:
     file: ladies_gents.mpg
   bearded_lady:
     file: bearded_lady.mpg
+  dog_boy:
+    file: dog_boy.mpg
 
 
 
@@ -672,11 +718,16 @@ event_player:
     - play_main_screen_slide|3.1s
     - start_mode_skillshot|3.2s
 
- # bearded_lady_complete:
-   # - remove_main_screen_slide
-   # - play_bearded_lady_video_slide
-   # - play_bearded_lady_image_slide|4s
+  bearded_lady_complete:
+    - remove_main_screen_slide
+    - play_bearded_lady_video_slide
+    - play_bearded_lady_image_slide|4s
     #- play_main_screen_bearded_lady_slide|6s
+
+  dog_boy_complete:
+    - remove_main_screen_bearded_lady_slide
+    - play_dog_boy_video_slide
+    - play_dog_boy_image_slide|4s
 
 
 

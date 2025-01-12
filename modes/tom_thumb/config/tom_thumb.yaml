@@ -1,7 +1,7 @@
 #config_version=6
 mode:
   start_events: start_tom_thumb_boy
-  stop_events: ton_thumb_complete, game_ending #ball_ended
+  stop_events: tom_thumb_complete, game_ending #ball_ended
   restart_on_next_ball: true
   events_when_stopped: start_mode_irsh_giant
   priority: 200
@@ -292,8 +292,8 @@ slide_player:
 event_player:
   mode_tom_thumb_started:
     - remove_main_screen_slide
-    - play_dog_boy_video_slide
-    - play_dog_boy_image_slide|4s
+   # - play_dog_boy_video_slide
+   # - play_dog_boy_image_slide|4s
     - play_main_screen_dog_boy_slide|7s
 
 
