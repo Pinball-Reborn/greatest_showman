@@ -163,9 +163,7 @@ sound_player:
 
 
 
-videos:
-  bearded_lady:
-    file: bearded_lady.mpg
+
 
 
 
@@ -287,16 +285,6 @@ slides:
         scale: 1
 
 
-  bearded_lady_image:
-    widgets:
-      - type: image
-        image: bearded_lady
-        scale: 0.95
-
-  bearded_lady_video:
-    type: video
-    video: bearded_lady
-    volume: 0.8
     
 
 
@@ -307,24 +295,14 @@ slide_player:
   play_main_screen_bearded_lady_slide:
     main_screen_bearded_lady
 
-  play_bearded_lady_video_slide:
-    bearded_lady_video
-  remove_bearded_lady_video_slide:
-    bearded_lady_video:
-      action: remove
-  play_bearded_lady_image_slide:
-    bearded_lady_image
-  remove_bearded_lady_image_slide:
-    bearded_lady_image:
-      action: remove
+
 
 
 event_player:
   mode_dog_boy_started:
     - remove_main_screen_slide|6.5s
-    #- play_bearded_lady_video_slide
-    #- play_bearded_lady_image_slide|4s
-    - play_main_screen_bearded_lady_slide #|7s
+
+    - play_main_screen_bearded_lady_slide|7s
 
   restart_mode_dog_boy:
     - remove_main_screen_slide
