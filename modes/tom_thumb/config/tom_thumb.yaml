@@ -379,6 +379,9 @@ slide_player:
       action: remove
   play_main_screen_dog_boy_slide:
     main_screen_dog_boy
+  remove_main_screen_slide:
+    main_screen:
+      action: remove
 
 
 
@@ -387,8 +390,8 @@ slide_player:
 
 event_player:
   mode_tom_thumb_started:
+    - remove_main_screen_slide
     - remove_main_screen_beareded_lady_slide
-
     - play_main_screen_dog_boy_slide|7s
 
 
