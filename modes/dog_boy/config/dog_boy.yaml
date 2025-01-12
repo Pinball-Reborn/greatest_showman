@@ -27,7 +27,7 @@ shots:
       lights: arrow_lift_ramp_target_left
       color: blue
     profile: dog_boy_profile
-    advance_events: right_stand_up_dog_boy_flashing_hit
+    advance_events: stand_up_left_lift_ramp_dog_boy_flashing_hit
     control_events: 
       - events: advance_dog_boy_profile
         state: 2 
@@ -152,12 +152,12 @@ sound_player:
       action: play
       track: voice
       loops: 0
-      delay: 5s
+      delay: 8s
     shoot_the_colored_arrows:
       action: play
       track: voice
       loops: 0
-      delay: 7s
+      delay: 10s
 
 
 
@@ -324,7 +324,8 @@ event_player:
     - remove_main_screen_slide
     #- play_bearded_lady_video_slide
     #- play_bearded_lady_image_slide|4s
-    - play_main_screen_bearded_lady_slide|7s
+    - play_main_screen_bearded_lady_slide #|7s
+        priority: 100
 
 
 track_player:

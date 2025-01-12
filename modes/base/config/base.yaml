@@ -727,7 +727,9 @@ event_player:
   dog_boy_complete:
     - remove_main_screen_bearded_lady_slide
     - play_dog_boy_video_slide
+        priority: 500
     - play_dog_boy_image_slide|4s
+        priority: 500
 
 
 
