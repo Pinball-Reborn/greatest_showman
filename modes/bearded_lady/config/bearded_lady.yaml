@@ -119,6 +119,7 @@ sound_player:
       action: play
       track: voice
       loops: 0
+      delay: 0.5s
     shoot_the_colored_arrows:
       action: play
       track: voice

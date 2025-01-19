@@ -1,0 +1,293 @@
+#config_version=6
+mode:
+  start_events: start_mode_trapeze_artist
+  stop_events: trapeze_artist_complete, game_ending #ball_ended
+  restart_on_next_ball: true
+  events_when_stopped: start_mode_tattooed_man
+  priority: 200
+
+
+
+
+shots:
+  middle_stand_up_trapeze_artist: #K
+    switch: s_middle_stand_up_target
+    show_tokens:
+      lights:  five_million_when_lit
+      color: pink
+    profile: trapeze_artist_profile
+    advance_events: middle_stand_up_trapeze_artist_flashing_hit
+    control_events: 
+      - events: advance_trapeze_artist_profile
+        state: 2 
+  right_ramp_trapeze_artist: #H
+    switch: s_back_ramp_made
+    show_tokens:
+      lights: lock, below_lock_in_musical_staff
+      color: pink
+    profile: trapeze_artist_profile
+    advance_events: right_ramp_trapeze_artist_flashing_hit
+    control_events:
+      - events: advance_trapeze_artist_profile
+        state: 2  
+   right_stand_up_trapeze_artist:  #E
+    switch: s_stand_up_target_right
+    show_tokens:
+      lights: target_mid_right
+      color: pink
+    profile: trapeze_artist_profile
+    advance_events: right_stand_up_trapeze_artist_flashing_hit
+    control_events: 
+      - events: advance_trapeze_artist_profile
+        state: 2 
+  
+
+
+shot_profiles:
+  trapeze_artist_profile:
+    states:
+      - name: flashing
+        show: pink_flashing
+      - name: lit
+        show: trapeze_artist_lit
+      - name: unlit
+        show: off
+    advance_on_hit: false
+
+
+
+shows:
+  pink_flashing:
+    - duration: 200ms
+      lights:
+        (lights):
+          color: yellow
+    - duration: 200ms
+      lights: 
+        (lights): 
+          color: black
+  trapeze_artist_lit:
+    - duration: -1
+      lights: 
+       (lights):
+         color: yellow 
+
+
+
+counters:
+  trapeze_artist_counter:
+    starting_count: 0
+    count_events: middle_stand_up_trapeze_artist_flashing_hit, right_ramp_trapeze_artist_flashing_hit, right_stand_up_trapeze_artist_flashing_hit
+    count_complete_value: 3
+    start_enabled: true
+    persist_state: true
+    reset_on_complete: false 
+    events_when_complete: advance_trapeze_artist_profile, light_oddities_7, trapeze_artist_complete 
+    #restart_events:  #five_million_standup_five_million_profile_lit_hit
+
+
+
+
+variable_player:
+  middle_stand_up_trapeze_artist_flashing_hit:
+    score: 500000
+  right_ramp_trapeze_artist_flashing_hit:
+    score: 500000
+  right_stand_up_trapeze_artist_flashing_hit:
+    score: 500000
+  advance_trapeze_artist_profile:
+    score: 1000000
+
+
+
+
+
+sounds:
+  collect_8_oddities:
+    file: collect_8_oddities.wav
+    track: voice
+    volume: 1.5
+    priority: 1000
+  shoot_the_colored_arrows:
+    file: shoot_the_colored_arrows
+    track: voice
+    volume: 1.5
+    priority: 1000
+
+sound_player:
+  mode_trapeze_artist_started:
+    collect_8_oddities:
+      action: play
+      track: voice
+      loops: 0
+      delay: 8s
+    shoot_the_colored_arrows:
+      action: play
+      track: voice
+      loops: 0
+      delay: 10s
+
+
+
+
+
+
+
+
+
+slides:
+  main_screen_siamese_twins:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_siamese_twins
+        scale: 1
+
+    
+
+
+slide_player:
+  remove_main_screen_lord_of_leeds_slide:
+    main_screen_lord_of_leeds:
+      action: remove
+  play_main_screen_siamese_twins_slide:
+    main_screen_siamese_twins
+  remove_main_screen_slide:
+    main_screen:
+      action: remove
+
+
+
+
+
+
+event_player:
+  mode_trapeze_artist_started:
+    - remove_main_screen_slide
+    - remove_main_screen_lord_of_leeds_slide
+    - play_main_screen_siamese_twins_slide|7s
+
+  restart_mode_trapeze_artist:
+    - remove_main_screen_slide
+    - remove_main_screen_lord_of_leeds_slide
+    - play_main_screen_siamese_twins_slide
+
+
+track_player:
+  mode_trapeze_artist_started:
+    music:
+      action: stop_all_sounds
+  mode_trapeze_artist_will_stop:
+    __all__:
+      action: stop_all_sounds
+      fade: 1s
+

@@ -361,6 +361,706 @@ slides:
         image: main_screen_dog_boy
         scale: 1
 
+  main_screen_tom_thumb:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_tom_thumb
+        scale: 1
+
+  main_screen_irish_giant:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_irish_giant
+        scale: 1
+
+  main_screen_lord_of_leeds:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_lord_of_leeds
+        scale: 1
+
+
+  main_screen_siamese_twins:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_siamese_twins
+        scale: 1
+
+  main_screen_trapeze_artist:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_trapeze_artist
+        scale: 1
+
+  main_screen_tattooed_man:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_tattooed_man
+        scale: 1
+
+
+
+
 
   extra_ball_screen:
     widgets:
@@ -390,6 +1090,72 @@ slides:
     video: dog_boy
     volume: 0.8
 
+  tom_thumb_image:
+    widgets:
+      - type: image
+        image: tom_thumb
+        scale: 0.95
+
+  tom_thumb_video:
+    type: video
+    video: tom_thumb
+    volume: 0.8
+
+  irish_giant_image:
+    widgets:
+      - type: image
+        image: irish_giant
+        scale: 0.95
+
+  irish_giant_video:
+    type: video
+    video: irish_giant
+    volume: 0.8
+
+  lord_of_leeds_image:
+    widgets:
+      - type: image
+        image: lord_of_leeds
+        scale: 0.95
+
+  lord_of_leeds_video:
+    type: video
+    video: lord_of_leeds
+    volume: 0.8
+
+  siamese_twins_image:
+    widgets:
+      - type: image
+        image: siamese_twins
+        scale: 0.95
+
+  siamese_twins_video:
+    type: video
+    video: siamese_twins
+    volume: 0.8
+
+
+  trapeze_artist_image:
+    widgets:
+      - type: image
+        image: trapeze_artist
+        scale: 0.95
+
+  trapeze_artist_video:
+    type: video
+    video: trapeze_artist
+    volume: 0.8
+
+  tattooed_man_image:
+    widgets:
+      - type: image
+        image: tattooed_man
+        scale: 0.95
+
+  tattooed_man_video:
+    type: video
+    video: tattooed_man
+    volume: 0.8
 
 
 
@@ -410,6 +1176,8 @@ slide_player:
   remove_main_screen_slide:
     main_screen:
       action: remove
+
+#BEARDED LADY
   play_bearded_lady_video_slide:
     bearded_lady_video
   remove_bearded_lady_video_slide:
@@ -420,14 +1188,12 @@ slide_player:
   remove_bearded_lady_image_slide:
     bearded_lady_image:
       action: remove
-  play_main_screen_dog_boy_slide:
-    main_screen_dog_boy
   play_main_screen_bearded_lady_slide:
     main_screen_bearded_lady
   remove_main_screen_bearded_lady_slide:
     main_screen_bearded_lady:
       action: remove
-
+#DOG BOY
   play_dog_boy_video_slide:
     dog_boy_video
   remove_dog_boy_video_slide:
@@ -438,16 +1204,117 @@ slide_player:
   remove_dog_boy_image_slide:
     dog_boy_image:
       action: remove
-
+  play_main_screen_dog_boy_slide:
+    main_screen_dog_boy
   remove_main_screen_dog_boy_slide:
     main_screen_dog_boy:
       action: remove
 
+#TOM THUMB
+  play_tom_thumb_video_slide:
+    tom_thumb_video
+  remove_tom_thumb_video_slide:
+    tom_thumb_video:
+      action: remove
+  play_tom_thumb_image_slide:
+    tom_thumb_image
+  remove_tom_thumb_image_slide:
+    tom_thumb_image:
+      action: remove
+  play_main_screen_tom_thumb_slide:
+    main_screen_tom_thumb
+  remove_main_screen_tom_thumb_slide:
+    main_screen_tom_thumb:
+      action: remove
 
-      
+#IRISH GIANT
+  play_irish_giant_video_slide:
+    irish_giant_video
+  remove_irish_giant_video_slide:
+    irish_giant_video:
+      action: remove
+  play_irish_giant_image_slide:
+    irish_giant_image
+  remove_irish_giant_image_slide:
+    irish_giant_image:
+      action: remove
+  play_main_screen_irish_giant_slide:
+    main_screen_irish_giant
+  remove_main_screen_irish_giant_slide:
+    main_screen_irish_giant:
+      action: remove     
+
+#LORD OF LEEDS
+  play_lord_of_leeds_video_slide:
+    lord_of_leeds_video
+  remove_lord_of_leeds_video_slide:
+    lord_of_leeds_video:
+      action: remove
+  play_lord_of_leeds_image_slide:
+    lord_of_leeds_image
+  remove_lord_of_leeds_image_slide:
+    lord_of_leeds_image:
+      action: remove
+  play_main_screen_lord_of_leeds_slide:
+    main_screen_lord_of_leeds
+  remove_main_screen_lord_of_leeds_slide:
+    main_screen_lord_of_leeds:
+      action: remove   
 
 
+#SIAMESE TWINS
+  play_siamese_twins_video_slide:
+    siamese_twins_video
+  remove_siamese_twins_video_slide:
+    siamese_twins_video:
+      action: remove
+  play_siamese_twins_image_slide:
+    siamese_twins_image
+  remove_siamese_twins_image_slide:
+    siamese_twins_image:
+      action: remove
+  play_main_screen_siamese_twins_slide:
+    main_screen_siamese_twins
+  remove_main_screen_siamese_twins_slide:
+    main_screen_siamese_twins:
+      action: remove   
 
+
+#TRAPEZE ARTIST
+  play_trapeze_artist_video_slide:
+    trapeze_artist_video
+  remove_trapeze_artist_video_slide:
+    trapeze_artist_video:
+      action: remove
+  play_trapeze_artist_image_slide:
+    trapeze_artist_image
+  remove_trapeze_artist_image_slide:
+    trapeze_artist_image:
+      action: remove
+  play_main_screen_trapeze_artist_slide:
+    main_screen_trapeze_artist
+  remove_main_screen_trapeze_artist_slide:
+    main_screen_trapeze_artist:
+      action: remove   
+
+
+#TATTOOED MAN
+
+  play_tattooed_man_video_slide:
+    tattooed_man_video
+  remove_tattooed_man_video_slide:
+    tattooed_man_video:
+      action: remove
+  play_tattooed_man_image_slide:
+    tattooed_man_image
+  remove_tattooed_man_image_slide:
+    tattooed_man_image:
+      action: remove
+  play_main_screen_tattooed_man_slide:
+    main_screen_tattooed_man
+  remove_main_screen_tattooed_man_slide:
+    main_screen_tattooed_man:
+      action: remove   
     
 
 videos:
@@ -457,6 +1324,20 @@ videos:
     file: bearded_lady.mpg
   dog_boy:
     file: dog_boy.mpg
+  tom_thumb:
+    file: tom_thumb.mpg
+  irish_giant:
+    file: irish_giant.mpg
+  lord_of_leeds:
+    file: lord_of_leeds.mpg
+  siamese_twins:
+    file: siamese_twins.mpg
+  trapeze_artist:
+    file: trapeze_artist.mpg
+  tattooed_man:
+    file: tattooed_man.mpg
+
+
 
 
 
@@ -847,18 +1728,59 @@ event_player:
   bearded_lady_complete:
     - remove_main_screen_slide
     - play_bearded_lady_video_slide
-    - remove_bearded_lady_video_slide|4.2s
-    - play_bearded_lady_image_slide|4.3s
+    - remove_bearded_lady_video_slide|4.3s
+    - play_bearded_lady_image_slide|4.4s
     - remove_bearded_lady_image_slide|6.4s
     #- play_main_screen_bearded_lady_slide|6s
 
   dog_boy_complete:
     - remove_main_screen_bearded_lady_slide
     - play_dog_boy_video_slide
-    - remove_dog_boy_video_slide|4s
-    - play_dog_boy_image_slide|4.1s
+    - remove_dog_boy_video_slide|4.5s
+    - play_dog_boy_image_slide|4.6s
     - remove_dog_boy_image_slide|6.4s
 
+  tom_thumb_complete:
+    - remove_main_screen_dog_boy_slide
+    - play_tom_thumb_video_slide
+    - remove_tom_thumb_video_slide|4.5s
+    - play_tom_thumb_image_slide|4.6s
+    - remove_tom_thumb_image_slide|6.4s   
+
+  irish_giant_complete:
+    - remove_main_screen_tom_thumb_slide
+    - play_irish_giant_video_slide
+    - remove_irish_giant_video_slide|4.5s
+    - play_irish_giant_image_slide|4.6s
+    - remove_irish_giant_image_slide|6.4s   
+
+  lord_of_leeds_complete:
+    - remove_main_screen_irish_giant_slide
+    - play_lord_of_leeds_video_slide
+    - remove_lord_of_leeds_video_slide|4.5s
+    - play_lord_of_leeds_image_slide|4.6s
+    - remove_lord_of_leeds_image_slide|6.4s   
+
+  siamese_twins_complete:
+    - remove_main_screen_lord_of_leeds_slide
+    - play_siamese_twins_video_slide
+    - remove_siamese_twins_video_slide|4.5s
+    - play_siamese_twins_image_slide|4.6s
+    - remove_siamese_twins_image_slide|6.4s   
+
+  trapeze_artist_complete:
+    - remove_main_screen_siamese_twins_slide
+    - play_trapeze_artist_video_slide
+    - remove_trapeze_artist_video_slide|4.5s
+    - play_trapeze_artist_image_slide|4.6s
+    - remove_trapeze_artist_image_slide|6.4s  
+
+  tattooed_man_complete:
+    - remove_main_screen_trapeze_artist_slide
+    - play_tattooed_man_video_slide
+    - remove_tattooed_man_video_slide|4.5s
+    - play_tattooed_man_image_slide|4.6s
+    - remove_tattooed_man_image_slide|6.4s  
 
 
 
@@ -956,8 +1878,48 @@ achievements:
       color: yellow
     show_when_started: color_flashing
     show_when_completed: oddities_lit
-    start_events: start_tom_thumb_boy
+    start_events: start_tom_thumb
     complete_events: light_oddities_3
+  irish_giant:
+    show_tokens: 
+      lights: collect_oddities_4
+      color: green
+    show_when_started: color_flashing
+    show_when_completed: oddities_lit
+    start_events: start_irish_giant
+    complete_events: light_oddities_4
+  lord_of_leeds:
+    show_tokens: 
+      lights: collect_oddities_5
+      color: purple
+    show_when_started: color_flashing
+    show_when_completed: oddities_lit
+    start_events: start_lord_of_leeds
+    complete_events: light_oddities_5
+  siamese_twins:
+    show_tokens: 
+      lights: collect_oddities_6
+      color: turquoise
+    show_when_started: color_flashing
+    show_when_completed: oddities_lit
+    start_events: start_siamese_twins
+    complete_events: light_oddities_6
+  trapeze_artist:
+    show_tokens: 
+      lights: collect_oddities_7
+      color: pink
+    show_when_started: color_flashing
+    show_when_completed: oddities_lit
+    start_events: start_trapeze_artist
+    complete_events: light_oddities_7
+  tattooed_man:
+    show_tokens: 
+      lights: collect_oddities_8
+      color: orange
+    show_when_started: color_flashing
+    show_when_completed: oddities_lit
+    start_events: start_orange
+    complete_events: light_oddities_8
 
     
 
@@ -1178,6 +2140,27 @@ sound_player:
     dog_boy_collected:
       action: play
       delay: 4.2s
+  irish_giant_complete:
+    irish_giant_collected:
+      action: play
+      delay: 4.2s
+  lord_of_leeds_complete:
+    lord_of_leeds_collected:
+      action: play
+      delay: 4.2s
+  siamese_twins_complete:
+    siamese_twins_collected: 
+      action: play
+      delay: 4.2s
+  trapeze_artist_complete:
+    trapeze_artist_collected:
+      action: play
+      delay: 4.2s
+  tattooed_man_complete:
+    tattooed_man_collected:
+      action: play
+      delay: 4.2s
+
 
   s_right_bounce_mid_playfield_active:
     animals:
@@ -1567,6 +2550,28 @@ sounds:
     file: tom_thumb_collected.wav
     volume: 1.5
     priority: 2500
+  irish_giant_collected:
+    file: irish_giant_collected.wav
+    volume: 1.5
+    priority: 2500
+  lord_of_leeds_collected:
+    file: lord_of_leeds_collected.wav
+    volume: 1.5
+    priority: 2500
+  siamese_twins_collected:
+    file: siamese_twins_collected.wav
+    volume: 1.5
+    priority: 2500
+  tattooed_man_collected:
+    file: tattooed_man_collected.wav
+    volume: 1.5
+    priority: 2500
+  trapeze_artist_collected:
+    file: trapeze_artist_collected.wav
+    volume: 1.5
+    priority: 2500
+
+
 
 
 
