@@ -68,7 +68,7 @@ shows:
     - duration: 200ms
       lights:
         (lights):
-          color: yellow
+          color: green
     - duration: 200ms
       lights: 
         (lights): 
@@ -77,7 +77,7 @@ shows:
     - duration: -1
       lights: 
        (lights):
-         color: yellow 
+         color: green 
 
 
 
@@ -281,7 +281,7 @@ event_player:
   mode_irish_giant_started:
     - remove_main_screen_slide
     - remove_main_screen_dog_boy_slide
-    - play_main_screen_tom_thumb_slide|7s
+    - play_main_screen_tom_thumb_slide|6.2s
 
   restart_mode_irish_giant:
     - remove_main_screen_slide

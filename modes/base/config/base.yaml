@@ -1743,8 +1743,8 @@ event_player:
   tom_thumb_complete:
     - remove_main_screen_dog_boy_slide
     - play_tom_thumb_video_slide
-    - remove_tom_thumb_video_slide|4.5s
-    - play_tom_thumb_image_slide|4.6s
+    - remove_tom_thumb_video_slide|4.9s
+    - play_tom_thumb_image_slide|5s
     - remove_tom_thumb_image_slide|6.4s   
 
   irish_giant_complete:
