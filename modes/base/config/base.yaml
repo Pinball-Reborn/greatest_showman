@@ -1878,7 +1878,7 @@ achievements:
       color: yellow
     show_when_started: color_flashing
     show_when_completed: oddities_lit
-    start_events: start_tom_thumb
+    start_events: start_mode_tom_thumb
     complete_events: light_oddities_3
   irish_giant:
     show_tokens: 
@@ -1886,7 +1886,7 @@ achievements:
       color: green
     show_when_started: color_flashing
     show_when_completed: oddities_lit
-    start_events: start_irish_giant
+    start_events: start_mode_irish_giant
     complete_events: light_oddities_4
   lord_of_leeds:
     show_tokens: 
@@ -1894,7 +1894,7 @@ achievements:
       color: purple
     show_when_started: color_flashing
     show_when_completed: oddities_lit
-    start_events: start_lord_of_leeds
+    start_events: start_mode_lord_of_leeds
     complete_events: light_oddities_5
   siamese_twins:
     show_tokens: 
@@ -1902,7 +1902,7 @@ achievements:
       color: turquoise
     show_when_started: color_flashing
     show_when_completed: oddities_lit
-    start_events: start_siamese_twins
+    start_events: start_mode_siamese_twins
     complete_events: light_oddities_6
   trapeze_artist:
     show_tokens: 
@@ -1910,7 +1910,7 @@ achievements:
       color: pink
     show_when_started: color_flashing
     show_when_completed: oddities_lit
-    start_events: start_trapeze_artist
+    start_events: start_mode_trapeze_artist
     complete_events: light_oddities_7
   tattooed_man:
     show_tokens: 
@@ -1918,7 +1918,7 @@ achievements:
       color: orange
     show_when_started: color_flashing
     show_when_completed: oddities_lit
-    start_events: start_orange
+    start_events: start_mode_tattooed_man
     complete_events: light_oddities_8
 
     
