@@ -256,7 +256,7 @@ slides:
         font_size: 60
         number_grouping: true
       - type: image
-        image: main_tom_thumb_boy
+        image: main_screen_tom_thumb
         scale: 1
 
       
