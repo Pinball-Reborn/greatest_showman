@@ -63,7 +63,7 @@ shows:
     - duration: 200ms
       lights:
         (lights):
-          color: yellow
+          color: purple
     - duration: 200ms
       lights: 
         (lights): 
@@ -72,7 +72,7 @@ shows:
     - duration: -1
       lights: 
        (lights):
-         color: yellow 
+         color: purple
 
 
 

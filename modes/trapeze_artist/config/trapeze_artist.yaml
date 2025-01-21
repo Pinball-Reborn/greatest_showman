@@ -61,7 +61,7 @@ shows:
     - duration: 200ms
       lights:
         (lights):
-          color: yellow
+          color: pink
     - duration: 200ms
       lights: 
         (lights): 
@@ -70,7 +70,7 @@ shows:
     - duration: -1
       lights: 
        (lights):
-         color: yellow 
+         color: pink 
 
 
 

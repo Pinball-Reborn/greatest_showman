@@ -30,15 +30,21 @@ shots:
     control_events:
       - events: advance_siamese_twins_profile
         state: 2
+
   inner_orbit_siamese_twins: #L
     switch: s_inner_orbit_enter
     show_tokens: 
       lights: arrow_left_inner_orbit
       color: turquoise
+    profile: siamese_twins_profile
     advance_events: inner_orbit_siamese_twins_flashing_hit
     control_events:
       - events: advance_siamese_twins_profile
         state: 2
+
+
+
+
 
 
 
@@ -63,7 +69,7 @@ shows:
     - duration: 200ms
       lights:
         (lights):
-          color: yellow
+          color: turquoise
     - duration: 200ms
       lights: 
         (lights): 
@@ -72,7 +78,7 @@ shows:
     - duration: -1
       lights: 
        (lights):
-         color: yellow 
+         color: turquoise
 
 
 
