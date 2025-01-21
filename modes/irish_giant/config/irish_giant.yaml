@@ -30,7 +30,7 @@ shots:
     control_events:
       - events: advance_irish_giant_profile
         state: 2   
-   right_stand_up_irish_giant:  #E
+  right_stand_up_irish_giant:  #E
     switch: s_stand_up_target_right
     show_tokens:
       lights: target_mid_right

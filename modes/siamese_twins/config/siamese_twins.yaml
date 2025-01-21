@@ -19,7 +19,7 @@ shots:
     advance_events: single_drop_target_siamese_twins_flashing_hit
     control_events:
       - events: advance_siamese_twins_profile
-        state:2
+        state: 2
   left_orbit_siamese_twins:  #B
     switch: s_left_orbit_bottom
     show_tokens:

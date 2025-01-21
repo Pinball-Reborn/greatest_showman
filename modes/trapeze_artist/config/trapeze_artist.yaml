@@ -8,12 +8,11 @@ mode:
 
 
 
-
 shots:
   middle_stand_up_trapeze_artist: #K
     switch: s_middle_stand_up_target
     show_tokens:
-      lights:  five_million_when_lit
+      lights: five_million_when_lit
       color: pink
     profile: trapeze_artist_profile
     advance_events: middle_stand_up_trapeze_artist_flashing_hit
@@ -30,7 +29,7 @@ shots:
     control_events:
       - events: advance_trapeze_artist_profile
         state: 2  
-   right_stand_up_trapeze_artist:  #E
+  right_stand_up_trapeze_artist:  #E
     switch: s_stand_up_target_right
     show_tokens:
       lights: target_mid_right
@@ -40,6 +39,7 @@ shots:
     control_events: 
       - events: advance_trapeze_artist_profile
         state: 2 
+
   
 
 
