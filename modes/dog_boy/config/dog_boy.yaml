@@ -10,7 +10,7 @@ mode:
 
 
 shots:
-   right_stand_up_dog_boy:
+  right_stand_up_dog_boy:
     switch: s_stand_up_target_right
     show_tokens:
       lights: target_mid_right
@@ -21,7 +21,7 @@ shots:
       - events: advance_dog_boy_profile
         state: 2 
 
-   stand_up_left_lift_ramp_dog_boy:
+  stand_up_left_lift_ramp_dog_boy:
     switch: s_left_stand_up_target_lift_ramp
     show_tokens: 
       lights: arrow_lift_ramp_target_left
@@ -32,7 +32,7 @@ shots:
       - events: advance_dog_boy_profile
         state: 2 
 
-   front_drop_target_dog_boy:
+  front_drop_target_dog_boy:
     switch: s_3_bank_drop_target_1
     show_tokens:
       lights: skill_shot_1, skill_shot_2, skill_shot_3
@@ -43,7 +43,7 @@ shots:
       - events: advance_dog_boy_profile
         state: 2 
 
-   middle_drop_target_dog_boy:
+  middle_drop_target_dog_boy:
     switch: s_3_bank_drop_target_3
     show_tokens:
       lights: skill_shot_1, skill_shot_2, skill_shot_3
@@ -53,7 +53,7 @@ shots:
     control_events: 
       - events: advance_dog_boy_profile
         state: 2 
-   back_drop_target_dog_boy:
+  back_drop_target_dog_boy:
     switch: s_3_bank_drop_target_3
     show_tokens:
       lights: skill_shot_1, skill_shot_2, skill_shot_3

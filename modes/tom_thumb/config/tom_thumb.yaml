@@ -13,7 +13,7 @@ shots:
   middle_stand_up_tom_thumb: #K
     switch: s_middle_stand_up_target
     show_tokens:
-      lights:  five_million_when_lit
+      lights: five_million_when_lit
       color: yellow
     profile: tom_thumb_profile
     advance_events: middle_stand_up_tom_thumb_flashing_hit
@@ -260,7 +260,7 @@ slides:
 
 slide_player:
   remove_main_screen_bearded_lady_slide:
-    main_screen_beared_lady:
+    main_screen_bearded_lady:
       action: remove
   play_main_screen_dog_boy_slide:
     main_screen_dog_boy

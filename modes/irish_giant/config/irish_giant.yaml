@@ -277,6 +277,8 @@ slide_player:
 
 
 
+
+
 event_player:
   mode_irish_giant_started:
     - remove_main_screen_slide
