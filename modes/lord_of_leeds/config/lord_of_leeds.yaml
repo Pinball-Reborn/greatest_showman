@@ -21,9 +21,9 @@ shots:
       - events: advance_lord_of_leeds_profile
         state: 2  
   right_ramp_lord_of_leeds: #H
-    switch: s_back_ramp_made
+    switch: s_left_ramp_made
     show_tokens:
-      lights: lock, below_lock_in_musical_staff
+      lights: lock
       color: purple
     profile: lord_of_leeds_profile
     advance_events: right_ramp_lord_of_leeds_flashing_hit

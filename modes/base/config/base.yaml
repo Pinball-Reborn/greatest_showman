@@ -1556,7 +1556,7 @@ shots:
     switch: s_left_ticket_booth
 
 #RAMPS
-  left_ramp:
+  left_ramp: #exit on left, but enter on right (lift ramp)
     switch: s_left_ramp_made
 
   right_ramp:
