@@ -21,7 +21,7 @@ shots:
       - events: advance_tattooed_man_profile
         state: 2
   right_ramp_tattooed_man: #H
-    switch: s_back_ramp_made
+    switch: s_left_ramp_made
     show_tokens:
       lights: lock, below_lock_in_musical_staff
       color: orange
@@ -31,7 +31,7 @@ shots:
       - events: advance_tattooed_man_profile
         state: 2  
   left_ramp_tattooed_man: #I
-    switch: s_left_ramp_made
+    switch: s_back_ramp_made
     show_tokens:
       lights: miss, jenny, lind
       color: orange

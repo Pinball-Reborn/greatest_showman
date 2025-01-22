@@ -20,7 +20,7 @@ shots:
       - events: advance_trapeze_artist_profile
         state: 2 
   right_ramp_trapeze_artist: #H
-    switch: s_back_ramp_made
+    switch: s_left_ramp_made
     show_tokens:
       lights: lock, below_lock_in_musical_staff
       color: pink
