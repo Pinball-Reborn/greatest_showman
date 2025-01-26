@@ -1768,8 +1768,8 @@ event_player:
   lord_of_leeds_complete:
     - remove_main_screen_irish_giant_slide
     - play_lord_of_leeds_video_slide
-    - remove_lord_of_leeds_video_slide|4.6s
-    - play_lord_of_leeds_image_slide|4.7s
+    - remove_lord_of_leeds_video_slide|4.5s
+    - play_lord_of_leeds_image_slide|4.55s
     - remove_lord_of_leeds_image_slide|7.1s   
 
   siamese_twins_complete:
