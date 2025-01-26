@@ -1928,7 +1928,7 @@ achievements:
       color: red
     show_when_completed: 1_lit_color_generic
     complete_events: counter_this_is_me_mb_counter_hit{count==1}
-    enable_events: ball_started
+    enable_events: mode_base_started
 
 
 
