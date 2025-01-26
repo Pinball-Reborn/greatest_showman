@@ -2031,10 +2031,13 @@ show_player:
     bearded_lady_complete_show:
       speed: 8
       loops: 1
-    #1_lit_color_generic:
-      #show_tokens:
-        #lights: collect_oddities_1
-        #color: red
+  tattooed_man_complete:
+    1_lit_color_generic:
+      show_tokens:
+        lights: challenges_e
+        color: red
+
+
 
    
 
