@@ -123,7 +123,7 @@ sounds:
   rewrite_the_stars:
     file: rewrite_the_stars.wav
     track: music
-    volume: 0.7
+    volume: 0.5
     priority: 900
 
 sound_player:

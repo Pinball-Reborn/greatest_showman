@@ -115,8 +115,8 @@ sounds:
   rewrite_the_stars:
     file: rewrite_the_stars.wav
     track: music
-    volume: 0.7
-    priority: 900
+    volume: 0.5
+    priority: 600
 
 sound_player:
   mode_bearded_lady_started:
@@ -124,7 +124,7 @@ sound_player:
       action: play
       track: music
       loops: -1
-      delay: 0.5s
+      delay: 4.2s
     collect_8_oddities:
       action: play
       track: voice

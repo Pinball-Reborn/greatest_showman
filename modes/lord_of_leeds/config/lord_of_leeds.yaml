@@ -23,7 +23,7 @@ shots:
   right_ramp_lord_of_leeds: #H
     switch: s_left_ramp_made
     show_tokens:
-      lights: lock
+      lights: below_lock_in_musical_staff
       color: purple
     profile: lord_of_leeds_profile
     advance_events: right_ramp_lord_of_leeds_flashing_hit
@@ -51,7 +51,7 @@ shot_profiles:
       - name: flashing
         show: purple_flashing
       - name: lit
-        show: tom_thumb_lit
+        show: lord_of_leeds_lit
       - name: unlit
         show: off
     advance_on_hit: false
@@ -118,7 +118,7 @@ sounds:
   rewrite_the_stars:
     file: rewrite_the_stars.wav
     track: music
-    volume: 0.7
+    volume: 0.5
     priority: 900
 
 sound_player:
