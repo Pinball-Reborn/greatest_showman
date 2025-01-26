@@ -1944,14 +1944,14 @@ achievements:
     show_tokens: 
       lights: ball_2_locked
       color: red
-     show_when_completed: 1_lit_color_generic
+    show_when_completed: 1_lit_color_generic
     complete_events: light_ball_2_lock
     start_events: mode_base_started, advance_lock_light_profile  
   ball_three_locked:
     show_tokens: 
       lights: ball_3_locked
       color: red
-     show_when_completed: 1_lit_color_generic
+    show_when_completed: 1_lit_color_generic
     complete_events: light_ball_3_lock
     start_events: mode_base_started, advance_lock_light_profile 
 
