@@ -2037,12 +2037,42 @@ show_player:
   light_oddities_1:
     oddities_complete_show:
       speed: 9
-      loops: 1
+      loops: 0
       priority: 10000
   light_oddities_2:
     oddities_complete_show:
       speed: 9
-      loops: 1
+      loops: 0
+      priority: 10000
+  light_oddities_3:
+    oddities_complete_show:
+      speed: 9
+      loops: 0
+      priority: 10000
+  light_oddities_4:
+    oddities_complete_show:
+      speed: 9
+      loops: 0
+      priority: 10000
+  light_oddities_5:
+    oddities_complete_show:
+      speed: 9
+      loops: 0
+      priority: 10000
+  light_oddities_6:
+    oddities_complete_show:
+      speed: 9
+      loops: 0
+      priority: 10000
+  light_oddities_7:
+    oddities_complete_show:
+      speed: 9
+      loops: 0
+      priority: 10000
+  light_oddities_8:
+    oddities_complete_show:
+      speed: 9
+      loops: 0
       priority: 10000
   
   #tattooed_man_complete:
