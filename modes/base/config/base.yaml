@@ -1747,8 +1747,8 @@ event_player:
   dog_boy_complete:
     - remove_main_screen_bearded_lady_slide
     - play_dog_boy_video_slide
-    - remove_dog_boy_video_slide|4.35s
-    - play_dog_boy_image_slide|4.4s
+    - remove_dog_boy_video_slide|4.45s
+    - play_dog_boy_image_slide|4.5s
     - remove_dog_boy_image_slide|7.1s
 
   tom_thumb_complete:
@@ -1768,15 +1768,15 @@ event_player:
   lord_of_leeds_complete:
     - remove_main_screen_irish_giant_slide
     - play_lord_of_leeds_video_slide
-    - remove_lord_of_leeds_video_slide|4.5s
-    - play_lord_of_leeds_image_slide|4.55s
+    - remove_lord_of_leeds_video_slide|4.6s
+    - play_lord_of_leeds_image_slide|4.65s
     - remove_lord_of_leeds_image_slide|7.1s   
 
   siamese_twins_complete:
     - remove_main_screen_lord_of_leeds_slide
     - play_siamese_twins_video_slide
-    - remove_siamese_twins_video_slide|4.6s
-    - play_siamese_twins_image_slide|4.7s
+    - remove_siamese_twins_video_slide|4.5s
+    - play_siamese_twins_image_slide|4.55s
     - remove_siamese_twins_image_slide|7.1s   
 
   trapeze_artist_complete:
@@ -2171,35 +2171,35 @@ sound_player:
   bearded_lady_complete:
     bearded_lady_collected:
       action: play
-      delay: 4.4s
+      delay: 4.5s
   tom_thumb_complete:
     tom_thumb_collected:
       action: play
-      delay: 4.4s
+      delay: 4.6s
   dog_boy_complete:
     dog_boy_collected:
       action: play
-      delay: 4.4s
+      delay: 4.5s
   irish_giant_complete:
     irish_giant_collected:
       action: play
-      delay: 4.4s
+      delay: 4.5s
   lord_of_leeds_complete:
     lord_of_leeds_collected:
       action: play
-      delay: 4.4s
+      delay: 4.5s
   siamese_twins_complete:
     siamese_twins_collected: 
       action: play
-      delay: 4.4s
+      delay: 4.5s
   trapeze_artist_complete:
     trapeze_artist_collected:
       action: play
-      delay: 4.4s
+      delay: 4.5s
   tattooed_man_complete:
     tattooed_man_collected:
       action: play
-      delay: 4.4s
+      delay: 4.5s
 
 
   s_right_bounce_mid_playfield_active:
