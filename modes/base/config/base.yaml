@@ -1739,9 +1739,9 @@ event_player:
   bearded_lady_complete:
     - remove_main_screen_slide
     - play_bearded_lady_video_slide
-    - remove_bearded_lady_video_slide|4.0s
-    - play_bearded_lady_image_slide|4.1s
-    - remove_bearded_lady_image_slide|6.6s
+    - remove_bearded_lady_video_slide|3.9s
+    - play_bearded_lady_image_slide|4s
+    - remove_bearded_lady_image_slide|6.8s
     #- play_main_screen_bearded_lady_slide|6s
 
   dog_boy_complete:
@@ -1749,7 +1749,7 @@ event_player:
     - play_dog_boy_video_slide
     - remove_dog_boy_video_slide|4.2s
     - play_dog_boy_image_slide|4.3s
-    - remove_dog_boy_image_slide|6.6s
+    - remove_dog_boy_image_slide|6.8s
 
   tom_thumb_complete:
     - remove_main_screen_dog_boy_slide
@@ -1763,7 +1763,7 @@ event_player:
     - play_irish_giant_video_slide
     - remove_irish_giant_video_slide|4.5s
     - play_irish_giant_image_slide|4.6s
-    - remove_irish_giant_image_slide|5.8s   
+    - remove_irish_giant_image_slide|6.8s   
 
   lord_of_leeds_complete:
     - remove_main_screen_irish_giant_slide
