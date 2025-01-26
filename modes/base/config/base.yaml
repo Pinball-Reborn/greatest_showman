@@ -1780,7 +1780,9 @@ event_player:
     - play_tattooed_man_video_slide
     - remove_tattooed_man_video_slide|4.5s
     - play_tattooed_man_image_slide|4.6s
-    - remove_tattooed_man_image_slide|6.4s  
+    - remove_tattooed_man_image_slide|6.4s 
+
+   
 
 
 
@@ -1998,6 +2000,14 @@ show_player:
       #show_tokens:
         #lights: collect_oddities_1
         #color: red
+  counter_this_is_me_mb_counter_hit{count==1}:
+    1_lit_color_generic:
+      show_tokens:
+        lights: ball_1_locked
+        color: red
+      action: play
+   
+
   
 
       
