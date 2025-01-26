@@ -155,9 +155,9 @@ slide_player:
 
 
 track_player:
-  mode_bearded_lady_started:
-    music:
-      action: stop
+  #mode_bearded_lady_started:
+    #music:
+      #action: stop_all_sounds
   mode_bearded_lady_will_stop:
     __all__:
       action: stop_all_sounds
