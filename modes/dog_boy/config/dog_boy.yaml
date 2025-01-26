@@ -145,9 +145,19 @@ sounds:
     track: voice
     volume: 1.5
     priority: 1000
+  rewrite_the_stars:
+    file: rewrite_the_stars.wav
+    track: music
+    volume: 1
+    priority: 900
 
 sound_player:
   mode_dog_boy_started:
+    rewrite_the_stars:
+      action: play
+      track: music
+      loops: -1
+      delay: 0.5s
     collect_8_oddities:
       action: play
       track: voice
