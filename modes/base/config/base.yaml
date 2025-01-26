@@ -2029,7 +2029,7 @@ show_player:
      # priority: 1000
   light_oddities_1:
     bearded_lady_complete_show:
-      speed: 3
+      speed: 8
       loops: 1
     #1_lit_color_generic:
       #show_tokens:

@@ -286,8 +286,8 @@ event_player:
     - remove_main_screen_siamese_twins_slide
     - play_main_screen_trapeze_artist_slide|7s
     - play_collect_8_oddities|7.2s
-    - play_shoot_the_colored_arrows|8.5s
-    - play_rewrite_the_stars|10.5s
+    - play_shoot_the_colored_arrows|10.2s
+    - play_rewrite_the_stars|12.2s
 
   restart_mode_tattooed_man:
     - remove_main_screen_slide
