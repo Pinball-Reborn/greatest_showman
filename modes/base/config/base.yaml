@@ -1668,6 +1668,12 @@ counters:
     count_complete_value: 3
     persist_state: true
     events_when_complete: this_is_me_mb_counter_complete
+  ball_one_locked_counter:
+    count_events: left_lock_upper_hit
+    count_complete_value: 1
+    persist_state: true
+    events_when_complete: light_ball_1_lock
+
   
 
 sequence_shots:
@@ -1927,8 +1933,8 @@ achievements:
       lights: ball_1_locked
       color: red
     show_when_completed: 1_lit_color_generic
-    complete_events: counter_this_is_me_mb_counter_hit{count==1}
-    enable_events: mode_base_started
+    complete_events: light_ball_1_lock
+    start_events: mode_base_started, advance_lock_light_profile
 
 
 
