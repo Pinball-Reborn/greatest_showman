@@ -304,9 +304,9 @@ event_player:
   mode_dog_boy_started:
     - remove_main_screen_slide|6.5s
     - play_main_screen_bearded_lady_slide|6.6s
-    - play_collect_8_oddities|7.25s
-    - play_shoot_the_colored_arrows|8s
-    - play_rewrite_the_stars|10s
+    - play_collect_8_oddities|7.2s
+    - play_shoot_the_colored_arrows|8.5s
+    - play_rewrite_the_stars|10.5s
 
   restart_mode_dog_boy:
     - remove_main_screen_slide
