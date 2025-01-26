@@ -1933,6 +1933,12 @@ achievements:
     show_when_completed: oddities_lit
     start_events: start_mode_tattooed_man
     complete_events: light_oddities_8
+  challenges_completed:
+    show_tokens: 
+      lights: challenges_f
+      color: red
+    show_when_completed: 1_lit_color_generic
+    complete_events: tattooed_man_complete
   ball_one_locked:
     show_tokens:
       lights: ball_1_locked
@@ -2031,11 +2037,11 @@ show_player:
     bearded_lady_complete_show:
       speed: 8
       loops: 1
-  tattooed_man_complete:
-    1_lit_color_generic:
-      show_tokens:
-        lights: challenges_f
-        color: red
+  #tattooed_man_complete:
+    #1_lit_color_generic:
+     # show_tokens:
+       # lights: challenges_f
+        #color: red
 
 
 
