@@ -2036,12 +2036,12 @@ show_player:
      # priority: 1000
   light_oddities_1:
     oddities_complete_show:
-      speed: 1
+      speed: 9
       loops: 1
       priority: 10000
   light_oddities_2:
     oddities_complete_show:
-      speed: 1
+      speed: 9
       loops: 1
       priority: 10000
   
