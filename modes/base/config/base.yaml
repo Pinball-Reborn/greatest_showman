@@ -1667,12 +1667,17 @@ counters:
     count_events: left_lock_upper_hit
     count_complete_value: 3
     persist_state: true
-    events_when_complete: this_is_me_mb_counter_complete
+    events_when_complete: this_is_me_mb_counter_complete, light_ball_3_lock
   ball_one_locked_counter:
     count_events: left_lock_upper_hit
     count_complete_value: 1
     persist_state: true
     events_when_complete: light_ball_1_lock
+  ball_two_locked_counter:
+    count_events: left_lock_upper_hit
+    count_complete_value: 2
+    persist_state: true
+    events_when_complete: light_ball_2_lock
 
   
 
@@ -1935,6 +1940,20 @@ achievements:
     show_when_completed: 1_lit_color_generic
     complete_events: light_ball_1_lock
     start_events: mode_base_started, advance_lock_light_profile
+  ball_two_locked:
+    show_tokens: 
+      lights: ball_2_locked
+      color: red
+     show_when_completed: 1_lit_color_generic
+    complete_events: light_ball_2_lock
+    start_events: mode_base_started, advance_lock_light_profile  
+  ball_three_locked:
+    show_tokens: 
+      lights: ball_3_locked
+      color: red
+     show_when_completed: 1_lit_color_generic
+    complete_events: light_ball_3_lock
+    start_events: mode_base_started, advance_lock_light_profile 
 
 
 
