@@ -2034,7 +2034,7 @@ show_player:
   tattooed_man_complete:
     1_lit_color_generic:
       show_tokens:
-        lights: challenges_e
+        lights: challenges_f
         color: red
 
 
