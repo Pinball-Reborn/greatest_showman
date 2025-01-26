@@ -121,10 +121,10 @@ sounds:
 
 
 event_player:
-  bearded_lady_started:
-    - play_sound_collect_8_oddities|1s
-    - play_sound_shoot_the_colored_arrows|4s
-    - play_sound_rewrite_the_stars|4.3s
+  mode_bearded_lady_started:
+    - play_collect_8_oddities|1s
+    - play_shoot_the_colored_arrows|4s
+    - play_rewrite_the_stars|4.3s
 
 sound_player:
   play_collect_8_oddities:
