@@ -106,27 +106,36 @@ sounds:
     file: collect_8_oddities.wav
     track: voice
     volume: 1.5
-    priority: 1000
+    #priority: 1000
   shoot_the_colored_arrows:
     file: shoot_the_colored_arrows
     track: voice
     volume: 1.5
-    priority: 1000
+    #priority: 1000
   rewrite_the_stars:
     file: rewrite_the_stars.wav
     track: music
     volume: 0.5
-    priority: 1100
+    #priority: 1100
 
 
 
 event_player:
   bearded_lady_started:
-    - play_sound_collect_8_oddities|1s
-    - play_sound_shoot_the_colored_arrows|4s
-    - play_music_rewrite_the_stars|4.3s
+    - play_collect_8_oddities|1s
+    - play_shoot_the_colored_arrows|4s
+    - play_rewrite_the_stars|4.3s
 
-  
+sound_player:
+  play_collect_8_oddities:
+    collect_8_oddities:
+      priority: 1000
+  play_shoot_the_colored_arrows:
+    shoot_the_colored_arrows:
+      priority: 1000
+  play_rewrite_the_stars:
+    rewrite_the_stars:
+      priority: 1000  
 
 
 
