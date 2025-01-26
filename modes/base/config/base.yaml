@@ -1922,6 +1922,14 @@ achievements:
     show_when_completed: oddities_lit
     start_events: start_mode_tattooed_man
     complete_events: light_oddities_8
+  ball_one_locked:
+    show_tokens:
+      lights: ball_1_locked
+      color: red
+    show_when_completed: 1_lit_color_generic
+    complete_events: counter_this_is_me_mb_counter_hit{count==1}
+
+
 
     
 
@@ -2000,12 +2008,7 @@ show_player:
       #show_tokens:
         #lights: collect_oddities_1
         #color: red
-  counter_this_is_me_mb_counter_hit{count==1}:
-    1_lit_color_generic:
-      show_tokens:
-        lights: ball_1_locked
-        color: red
-      action: play
+
    
 
   
