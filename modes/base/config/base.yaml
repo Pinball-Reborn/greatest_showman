@@ -2035,9 +2035,16 @@ show_player:
     #  loops: 0
      # priority: 1000
   light_oddities_1:
-    bearded_lady_complete_show:
-      speed: 8
+    oddities_complete_show:
+      speed: 1
       loops: 1
+      priority: 10000
+  light_oddities_2:
+    oddities_complete_show:
+      speed: 1
+      loops: 1
+      priority: 10000
+  
   #tattooed_man_complete:
     #1_lit_color_generic:
      # show_tokens:

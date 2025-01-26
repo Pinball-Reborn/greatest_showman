@@ -3,25 +3,25 @@
 - duration: 1
   lights: 
     collect_oddities_1: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_2: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_3: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_4: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_5: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_6: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_7: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_8: white
 
@@ -30,50 +30,50 @@
 - duration: 1
   lights: 
     collect_oddities_1: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_2: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_3: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_4: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_5: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_6: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_7: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_8: black
 
 - duration: 1
   lights: 
     collect_oddities_1: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_2: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_3: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_4: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_5: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_6: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_7: white
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_8: white
 
@@ -82,25 +82,25 @@
 - duration: 1
   lights: 
     collect_oddities_1: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_2: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_3: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_4: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_5: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_6: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_7: black
-- duration: 20ms
+- duration: 10ms
   lights: 
     collect_oddities_8: black
 
