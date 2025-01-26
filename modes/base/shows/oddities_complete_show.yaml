@@ -1,6 +1,6 @@
 #show_version=6
 
-- duration: 1
+- duration: 10ms
   lights: 
     collect_oddities_1: white
 - duration: 10ms
@@ -27,7 +27,7 @@
 
 
 
-- duration: 1
+- duration: 10ms
   lights: 
     collect_oddities_1: black
 - duration: 10ms
@@ -52,7 +52,7 @@
   lights: 
     collect_oddities_8: black
 
-- duration: 1
+- duration: 10ms
   lights: 
     collect_oddities_1: white
 - duration: 10ms
@@ -79,7 +79,7 @@
 
 
 
-- duration: 1
+- duration: 10ms
   lights: 
     collect_oddities_1: black
 - duration: 10ms

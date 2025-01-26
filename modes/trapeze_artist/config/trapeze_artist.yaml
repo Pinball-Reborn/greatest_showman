@@ -22,7 +22,7 @@ shots:
   right_ramp_trapeze_artist: #H
     switch: s_left_ramp_made
     show_tokens:
-      lights: lock, below_lock_in_musical_staff
+      lights: below_lock_in_musical_staff
       color: pink
     profile: trapeze_artist_profile
     advance_events: right_ramp_trapeze_artist_flashing_hit

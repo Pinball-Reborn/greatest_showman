@@ -1,0 +1,40 @@
+#config_version=6
+mode:
+  start_events: start_mode_greatest_showman_multiball
+  priority: 10000
+  stop_events: balls_in_play{balls==1}
+  events_when_stopped:  restart_base_mode
+
+multiballs: 
+  quick_add_5_ball:
+    ball_count: 5
+    ball_count_type: add
+    shoot_again: 20s
+    enable_events: mode_greatest_showman_multiball_starting
+    start_events:  mode_greatest_showman_multiball_started
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+track_player:
+  mode_greatest_showman_multiball_started:
+    music:
+      action: stop_all_sounds
+  mode_greatest_showman_multiball_will_stop:
+    __all__:
+      action: stop_all_sounds
+      fade: 0.5s
