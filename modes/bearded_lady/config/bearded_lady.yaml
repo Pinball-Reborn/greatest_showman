@@ -129,12 +129,15 @@ event_player:
 sound_player:
   play_collect_8_oddities:
     collect_8_oddities:
+      action: play
       priority: 1000
   play_shoot_the_colored_arrows:
     shoot_the_colored_arrows:
+      action: play
       priority: 1000
   play_rewrite_the_stars:
     rewrite_the_stars:
+      action: play
       priority: 1000  
 
 
@@ -155,11 +158,15 @@ slide_player:
 
 
 track_player:
-  #mode_bearded_lady_started:
-    #music:
-      #action: stop_all_sounds
+  mode_bearded_lady_started:
+    music:
+      action: stop_all_sounds
   mode_bearded_lady_will_stop:
     __all__:
       action: stop_all_sounds
       fade: 0.5s
+
+
+
+
 
