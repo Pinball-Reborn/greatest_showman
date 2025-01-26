@@ -124,22 +124,21 @@ sounds:
     priority: 900
 
 sound_player:
-  mode_tom_thumb_started:
-    rewrite_the_stars:
-      action: play
-      track: music
-      loops: -1
-      delay: 7.2s
+  play_collect_8_oddities:
     collect_8_oddities:
       action: play
-      track: voice
-      loops: 0
-      delay: 8s
+      priority: 1000
+  play_shoot_the_colored_arrows:
     shoot_the_colored_arrows:
       action: play
-      track: voice
-      loops: 0
-      delay: 10s
+      priority: 1000
+  play_rewrite_the_stars:
+    rewrite_the_stars:
+      action: play
+      priority: 1000  
+
+
+
 
 
 
@@ -288,6 +287,9 @@ event_player:
     - remove_main_screen_slide
     - remove_main_screen_bearded_lady_slide
     - play_main_screen_dog_boy_slide|7s
+    - play_collect_8_oddities|7.25s
+    - play_shoot_the_colored_arrows|8s
+    - play_rewrite_the_stars|10s
 
   restart_mode_tom_thumb:
     - remove_main_screen_slide

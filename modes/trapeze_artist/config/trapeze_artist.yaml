@@ -119,23 +119,20 @@ sounds:
     volume: 0.5
     priority: 900
 
+
 sound_player:
-  mode_trapeze_artist_started:
-    rewrite_the_stars:
-      action: play
-      track: music
-      loops: -1
-      delay: 7.2s
+  play_collect_8_oddities:
     collect_8_oddities:
       action: play
-      track: voice
-      loops: 0
-      delay: 8s
+      priority: 1000
+  play_shoot_the_colored_arrows:
     shoot_the_colored_arrows:
       action: play
-      track: voice
-      loops: 0
-      delay: 10s
+      priority: 1000
+  play_rewrite_the_stars:
+    rewrite_the_stars:
+      action: play
+      priority: 1000  
 
 
 
@@ -285,6 +282,9 @@ event_player:
     - remove_main_screen_slide
     - remove_main_screen_lord_of_leeds_slide
     - play_main_screen_siamese_twins_slide|7s
+    - play_collect_8_oddities|7.2s
+    - play_shoot_the_colored_arrows|8s
+    - play_rewrite_the_stars|10s
 
   restart_mode_trapeze_artist:
     - remove_main_screen_slide

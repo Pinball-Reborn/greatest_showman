@@ -1720,7 +1720,7 @@ event_player:
     - play_ladies_gents_slide
     - remove_ladies_gents_slide|7s
     - play_main_screen_slide|7.1s
-    - start_mode_skillshot|7.2s
+    - start_mode_skillshot|7.25s
     #- play_skillshot_slide|7.2s
 
 
