@@ -1768,8 +1768,8 @@ event_player:
   lord_of_leeds_complete:
     - remove_main_screen_irish_giant_slide
     - play_lord_of_leeds_video_slide
-    - remove_lord_of_leeds_video_slide|4.6s
-    - play_lord_of_leeds_image_slide|4.65s
+    - remove_lord_of_leeds_video_slide|4.7s
+    - play_lord_of_leeds_image_slide|4.75s
     - remove_lord_of_leeds_image_slide|7.1s   
 
   siamese_twins_complete:
@@ -1782,8 +1782,8 @@ event_player:
   trapeze_artist_complete:
     - remove_main_screen_siamese_twins_slide
     - play_trapeze_artist_video_slide
-    - remove_trapeze_artist_video_slide|4.4s
-    - play_trapeze_artist_image_slide|4.5s
+    - remove_trapeze_artist_video_slide|4.3s
+    - play_trapeze_artist_image_slide|4.35s
     - remove_trapeze_artist_image_slide|7.1s  
 
   tattooed_man_complete:
