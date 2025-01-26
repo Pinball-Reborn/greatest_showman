@@ -120,11 +120,6 @@ sounds:
 
 sound_player:
   mode_bearded_lady_started:
-    rewrite_the_stars:
-      action: play
-      track: music
-      loops: -1
-      delay: 4.2s
     collect_8_oddities:
       action: play
       track: voice
@@ -135,6 +130,11 @@ sound_player:
       track: voice
       loops: 0
       delay: 4s
+    rewrite_the_stars:
+      action: play
+      track: music
+      loops: -1
+      delay: 4.2s
 
 
 
@@ -157,9 +157,9 @@ slide_player:
 track_player:
   mode_bearded_lady_started:
     music:
-      action: stop_all_sounds
+      action: stop
   mode_bearded_lady_will_stop:
     __all__:
       action: stop_all_sounds
-      fade: 1s
+      fade: 0.5s
 

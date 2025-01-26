@@ -23,7 +23,7 @@ shots:
   right_ramp_tattooed_man: #H
     switch: s_left_ramp_made
     show_tokens:
-      lights: lock, below_lock_in_musical_staff
+      lights: below_lock_in_musical_staff
       color: orange
     profile: tattooed_man_profile
     advance_events: right_ramp_tattooed_man_flashing_hit
