@@ -118,7 +118,7 @@ sounds:
   rewrite_the_stars:
     file: rewrite_the_stars.wav
     track: music
-    volume: 1
+    volume: 0.7
     priority: 900
 
 sound_player:
@@ -127,7 +127,7 @@ sound_player:
       action: play
       track: music
       loops: -1
-      delay: 0.5s
+      delay: 7.2
     collect_8_oddities:
       action: play
       track: voice

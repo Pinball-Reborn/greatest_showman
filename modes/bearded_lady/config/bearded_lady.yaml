@@ -115,7 +115,7 @@ sounds:
   rewrite_the_stars:
     file: rewrite_the_stars.wav
     track: music
-    volume: 1
+    volume: 0.7
     priority: 900
 
 sound_player:
@@ -129,12 +129,12 @@ sound_player:
       action: play
       track: voice
       loops: 0
-      delay: 0.5s
+      delay: 1s
     shoot_the_colored_arrows:
       action: play
       track: voice
       loops: 0
-      delay: 3s
+      delay: 4s
 
 
 
