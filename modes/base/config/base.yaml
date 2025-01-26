@@ -1741,7 +1741,7 @@ event_player:
     - play_bearded_lady_video_slide
     - remove_bearded_lady_video_slide|4.1s
     - play_bearded_lady_image_slide|4.2s
-    - remove_bearded_lady_image_slide|6.3s
+    - remove_bearded_lady_image_slide|6.2s
     #- play_main_screen_bearded_lady_slide|6s
 
   dog_boy_complete:
