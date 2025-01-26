@@ -1937,6 +1937,7 @@ achievements:
     show_tokens: 
       lights: challenges_f
       color: red
+    start_events: start_mode_tattooed_man
     show_when_completed: 1_lit_color_generic
     complete_events: tattooed_man_complete
   ball_one_locked:
