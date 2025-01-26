@@ -1739,17 +1739,17 @@ event_player:
   bearded_lady_complete:
     - remove_main_screen_slide
     - play_bearded_lady_video_slide
-    - remove_bearded_lady_video_slide|4.1s
-    - play_bearded_lady_image_slide|4.2s
-    - remove_bearded_lady_image_slide|6.2s
+    - remove_bearded_lady_video_slide|4.0s
+    - play_bearded_lady_image_slide|4.1s
+    - remove_bearded_lady_image_slide|5.9s
     #- play_main_screen_bearded_lady_slide|6s
 
   dog_boy_complete:
     - remove_main_screen_bearded_lady_slide
     - play_dog_boy_video_slide
-    - remove_dog_boy_video_slide|4.6s
-    - play_dog_boy_image_slide|4.7s
-    - remove_dog_boy_image_slide|6.5s
+    - remove_dog_boy_video_slide|4.3s
+    - play_dog_boy_image_slide|4.4s
+    - remove_dog_boy_image_slide|5.9s
 
   tom_thumb_complete:
     - remove_main_screen_dog_boy_slide
