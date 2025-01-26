@@ -44,7 +44,7 @@ shots:
         state: 2 
 
   middle_drop_target_dog_boy:
-    switch: s_3_bank_drop_target_3
+    switch: s_3_bank_drop_target_2
     show_tokens:
       lights: skill_shot_1, skill_shot_2, skill_shot_3
       color: blue
