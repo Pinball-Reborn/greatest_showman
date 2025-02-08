@@ -2,7 +2,7 @@
 mode:
   start_events: start_mode_bearded_lady
   stop_events: bearded_lady_complete, game_ending #ball_ended
-  restart_on_next_ball: true
+  #restart_on_next_ball: true
   events_when_stopped: start_mode_dog_boy
   priority: 200
 
@@ -105,12 +105,12 @@ sounds:
   collect_8_oddities:
     file: collect_8_oddities.wav
     track: voice
-    volume: 1.5
+    volume: 1
     #priority: 1000
   shoot_the_colored_arrows:
     file: shoot_the_colored_arrows
     track: voice
-    volume: 1.5
+    volume: 1
     #priority: 1000
   rewrite_the_stars:
     file: rewrite_the_stars.wav
