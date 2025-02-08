@@ -3,7 +3,7 @@ mode:
   start_events: start_mode_irish_giant
   stop_events: irish_giant_complete, game_ending #ball_ended
   restart_on_next_ball: true
-  events_when_stopped: start_mode_lord_of_leeds
+  #events_when_stopped: start_mode_lord_of_leeds
   priority: 200
 
 
@@ -89,7 +89,7 @@ counters:
     start_enabled: true
     persist_state: true
     reset_on_complete: false 
-    events_when_complete: advance_irish_giant_profile, light_oddities_4, irish_giant_complete 
+    events_when_complete: advance_irish_giant_profile, light_oddities_4, irish_giant_complete, start_mode_lord_of_leeds 
     #restart_events:  #five_million_standup_five_million_profile_lit_hit
 
 

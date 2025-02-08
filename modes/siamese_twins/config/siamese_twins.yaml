@@ -3,7 +3,7 @@ mode:
   start_events: start_mode_siamese_twins
   stop_events: siamese_twins_complete, game_ending #ball_ended
   restart_on_next_ball: true
-  events_when_stopped: start_mode_trapeze_artist
+  #events_when_stopped: start_mode_trapeze_artist
   priority: 200
 
 
@@ -90,7 +90,7 @@ counters:
     start_enabled: true
     persist_state: true
     reset_on_complete: false 
-    events_when_complete: advance_siamese_twins_profile, light_oddities_6, siamese_twins_complete 
+    events_when_complete: advance_siamese_twins_profile, light_oddities_6, siamese_twins_complete, start_mode_trapeze_artist 
     #restart_events:  #five_million_standup_five_million_profile_lit_hit
 
 

@@ -3,7 +3,7 @@ mode:
   start_events: start_mode_lord_of_leeds
   stop_events: lord_of_leeds_complete, game_ending #ball_ended
   restart_on_next_ball: true
-  events_when_stopped: start_mode_siamese_twins
+  #events_when_stopped: start_mode_siamese_twins
   priority: 200
 
 
@@ -84,7 +84,7 @@ counters:
     start_enabled: true
     persist_state: true
     reset_on_complete: false 
-    events_when_complete: advance_lord_of_leeds_profile, light_oddities_5, lord_of_leeds_complete 
+    events_when_complete: advance_lord_of_leeds_profile, light_oddities_5, lord_of_leeds_complete, start_mode_siamese_twins 
     #restart_events:  #five_million_standup_five_million_profile_lit_hit
 
 

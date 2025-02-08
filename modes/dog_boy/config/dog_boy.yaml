@@ -3,7 +3,7 @@ mode:
   start_events: start_mode_dog_boy
   stop_events: dog_boy_complete, game_ending #ball_ended
   restart_on_next_ball: true
-  events_when_stopped: start_mode_tom_thumb
+  #events_when_stopped: start_mode_tom_thumb
   priority: 200
 
 
@@ -108,7 +108,7 @@ counters:
     start_enabled: true
     persist_state: true
     reset_on_complete: false 
-    events_when_complete: advance_dog_boy_profile, light_oddities_2, dog_boy_complete  
+    events_when_complete: advance_dog_boy_profile, light_oddities_2, dog_boy_complete, start_mode_tom_thumb
     #restart_events:  #five_million_standup_five_million_profile_lit_hit
   dog_boy_drop_counter:
     starting_count: 0
