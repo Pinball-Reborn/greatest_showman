@@ -13,6 +13,73 @@ multiballs:
     enable_events: mode_greatest_showman_multiball_starting
     start_events:  mode_greatest_showman_multiball_started
 
+sounds:
+  jackpot:
+    file: jackpot.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
+  multiball:
+    file: multiball.wav
+    track: voice
+    volume: 0.9
+    priority: 100
+
+
+sound_player:
+  mode_greatest_showman_multiball_started:
+    multiball:
+      action: play
+      loops: 0
+
+slides:
+  final_multiball:
+    widgets:
+      - type: text
+        text: GREATEST SHOWMAN MULTIBALL
+        color: red
+        font_size: 110
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 95%
+      - type: text
+        text: (score)
+        color: gold
+        number_grouping: true
+        min_digits: 2
+        font_size: 160
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 15% 
+      - type: video
+        video: final_multiball
+        volume: 0.3    
+
+
+slide_player:
+  play_final_multiball_slide:
+    final_multiball    
+
+  remove_final_multiball_slide:
+    final_multiball: 
+      action: remove
+
+  #play_final_multi_finish_slide:
+    #challenges_multi_finish
+
+event_player:
+  mode_greatest_showman_multiball_started:
+    - play_final_multiball_slide
+    #- remove_challenges_multiball_slide|1s
+    #- play_come_alive_slide|1.1s
+    #- remove_come_alive_slide|61.5s
+    #- play_challenges_multi_finish_slide|61.6s
+  balls_in_play{balls==0}:
+    - stop_mode_greatest_showman_multiball
+
+shots:
+
+
+variable_player:
 
 
 
@@ -38,3 +105,7 @@ track_player:
     __all__:
       action: stop_all_sounds
       fade: 0.5s
+
+videos:
+  final_multiball:
+    file: final_multiball.mpg
