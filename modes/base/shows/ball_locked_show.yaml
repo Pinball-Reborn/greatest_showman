@@ -1,906 +1,372 @@
 #show_version=6
-- duration: 50ms
+-duration: 100ms
   lights:
-    hat_upper_pop_bumpers: 'AE740F'
+    shoot_again: 'FE0000'
     
-- duration: 50ms
-  lights:
-    hat_upper_pop_bumpers: '945F0C'
+#No change this frame - take another step
+#  lights:
+-duration: 100ms
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    extra_ball: 'AB690D'
-    hat_upper_pop_bumpers: '734609'
-    light_extra_ball: 'C0750F'
- 
-- duration: 50ms
-  lights:
-    arrow_left_inner_orbit: 'C06F0E'
-    extra_ball: '90540A'
-    hat_upper_pop_bumpers: '533006'
-    light_extra_ball: 'AD640C'
-    one: 'C1700E'
-  
+    challenges_c: 'FE0000'
+    challenges_d: 'FE0000'
+    challenges_e: 'FE0000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_left_inner_orbit: 'AA5E0C'
-    extra_ball: '6E3D08'
-    five_million_when_lit: 'BC680D'
-    hat_upper_pop_bumpers: '301B03'
-    light_extra_ball: '904F0A'
-    one: 'AC5F0C'
-    two: 'BE690D'
+    challenges_a: 'FE0000'
+    challenges_b: 'FE0000'
+    challenges_f: 'FE0000'
     
+#No change this frame - take another step
+#  lights:
+-duration: 100ms
     
-- duration: 50ms
-  lights:
-    arrow_left_inner_orbit: '8C4A09'
-    extra_ball: '4B2705'
-    five_million_when_lit: 'A4560B'
-    hat_right_orbit: 'C0650C'
-    hat_upper_pop_bumpers: '140A01'
-    light_extra_ball: '6F3B07'
-    miss: 'C1660C'
-    one: '8F4C09'
-    three: 'BC630C'
-    top_right_eject: 'B8610C'
-    two: 'A8590B'
- 
+#No change this frame - take another step
+#  lights:-duration: 100ms
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_left_inner_orbit: '693507'
-    arrow_lift_ramp_target_left: 'BA5E0C'
-    extra_ball: '291403'
-    five_million_when_lit: '834208'
-    four: 'B75C0C'
-    hat_right_orbit: 'AA550B'
-    hat_upper_pop_bumpers: '000000'
-    jenny: 'BF600C'
-    light_extra_ball: '4B2605'
-    miss: 'A9550B'
-    one: '6C3607'
-    three: 'A2520A'
-    top_right_eject: '9C4E0A'
-    two: '874409'
- 
+    save_the_show_right: 'FE0000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_left_inner_orbit: '472104'
-    arrow_lift_ramp_target_right: 'C55D0C'
-    arrow_lift_ramp_target_left: 'A14C09'
-
-    arrow_right_orbit: 'C25C0B'
-    extra_ball: '0E0701'
-    five_million_when_lit: '612E06'
-    four: '9A4909'
-    hat_right_orbit: '8A4108'
-    jenny: 'A64F0A'
-    light_extra_ball: '291302'
-    lind: 'C35C0B'
-
-    miss: '8A4108'
-    one: '492304'
-    three: '813D08'
-    top_right_eject: '7B3A07'
-    two: '663006'
-
-
-- duration: 50ms
-  lights:
-    arrow_left_inner_orbit: '251002'
-    arrow_lift_ramp_target_right: 'AC4D0A'
-    arrow_lift_ramp_target_left: '7E3907'
-
-    arrow_right_orbit: 'A74B0A'
-    below_lock_in_musical_staff: 'C1570B'
-    extra_ball: '000000'
-    five_million_when_lit: '3D1B04'
-    four: '773607'
-    hat_left_pop_bumpers: 'C2570B'
-    hat_right_orbit: '652E06'
-    jenny: '853C08'
-    light_extra_ball: '0E0601'
-    lind: 'AA4C0A'
-
-    miss: '652E06'
-    one: '261102'
-    three: '5D2A05'
-    top_right_eject: '562705'
-    two: '411D04'
-
+    save_the_show_left: 'FE0000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_left_inner_orbit: '0B0501'
-    arrow_lift_ramp_target_right: '8C3C07'
-    arrow_lift_ramp_target_left: '5A2605'
-
-    arrow_right_orbit: '883A07'
-    below_lock_in_musical_staff: 'A84809'
-    five_million_when_lit: '1E0D02'
-    four: '542404'
-    hat_left_pop_bumpers: 'A94809'
-    hat_right_orbit: '421C03'
-    jenny: '612905'
-    light_extra_ball: '000000'
-    lind: '8B3B07'
-
-    miss: '421C03'
-    one: '0C0501'
-    skill_shot_2: 'CA560B'
-    skill_shot_3: 'BC500A'
-    skill_shot_round: 'CA560B'
-    three: '3A1903'
-    top_right_eject: '341603'
-    two: '210E02'
+    arrow_bottom_left: 'FE0000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_left_inner_orbit: '000000'
-    arrow_lift_ramp_target_right: '672905'
-    arrow_lift_ramp_target_left: '351503'
-
-    arrow_outer_left_orbit: 'CA510A'
-    arrow_right_orbit: '622705'
-    below_lock_in_musical_staff: '863606'
-    collect_oddities_1: 'C9510A'
-    collect_oddities_6: 'CD530A'
-    collect_oddities_7: 'BE4D09'
-    collect_oddities_8: 'BC4C09'
-    five_million_when_lit: '040200'
-    four: '301302'
-    hat_left_pop_bumpers: '863606'
-    hat_right_orbit: '210D02'
-    jenny: '3C1803'
-    lind: '652905'
-
-    miss: '200D02'
-    one: '000000'
-    skill_shot_2: 'B04708'
-    skill_shot_3: '9E4007'
-    skill_shot_round: 'B34808'
-    three: '1A0A01'
-    top_right_eject: '160901'
-    two: '070300'
- 
-    
-- duration: 50ms
-  lights:
-    arrow_lift_ramp_target_right: '441903'
-    arrow_lift_ramp_target_left: '170901'
-
-    arrow_outer_left_orbit: 'B34308'
-    arrow_right_orbit: '3E1703'
-    below_lock_in_musical_staff: '632505'
-    collect_oddities_1: 'B14308'
-    collect_oddities_2: 'C64A09'
-    collect_oddities_5: 'CD4D0A'
-    collect_oddities_6: 'B74509'
-    collect_oddities_7: 'A03C08'
-    collect_oddities_8: 'A03C07'
-    five_million_when_lit: '000000'
-    four: '130701'
-    hat_left_pop_bumpers: '622505'
-    hat_right_orbit: '080300'
-    jenny: '1D0B01'
-    lind: '401803'
-
-    miss: '080300'
-    skill_shot_1: 'C84B09'
-    skill_shot_2: '913707'
-    skill_shot_3: '7B2E06'
-    skill_shot_round: '943807'
-    three: '030100'
-    top_right_eject: '000000'
-    two: '000000'
-
-    
-- duration: 50ms
-  lights:
-    arrow_lift_ramp_target_right: '210C01'
-    arrow_lift_ramp_target_left: '000000'
-
-    arrow_outer_left_orbit: '913306'
-    arrow_right_orbit: '1C0A01'
-    below_lock_in_musical_staff: '3D1503'
-    collect_oddities_1: '8E3206'
-    collect_oddities_2: 'A93C07'
-    collect_oddities_3: 'C04408'
-    collect_oddities_4: 'C24508'
-    collect_oddities_5: 'B33F08'
-    collect_oddities_6: '963506'
-    collect_oddities_7: '7C2C05'
-    collect_oddities_8: '7B2C05'
-    four: '000000'
-    hat_left_pop_bumpers: '3C1503'
-    hat_right_orbit: '000000'
-    jenny: '030100'
-    lind: '1E0B01'
-
-    miss: '000000'
-    skill_shot_1: 'AD3D07'
-    skill_shot_2: '6B2604'
-    skill_shot_3: '541E04'
-    skill_shot_round: '6E2705'
-    target_mid_left: 'C24508'
-    three: '000000'
-
-    
-- duration: 50ms
-  lights:
-    arrow_lift_ramp_target_right: '080300'
-
-    arrow_outer_left_orbit: '6B2404'
-    arrow_right_orbit: '040100'
-    below_lock_in_musical_staff: '1C0901'
-    collect_oddities_1: '6A2304'
-    collect_oddities_2: '882D06'
-    collect_oddities_3: 'A33607'
-    collect_oddities_4: 'A43607'
-    collect_oddities_5: '933106'
-    collect_oddities_6: '712605'
-    collect_oddities_7: '581D04'
-    collect_oddities_8: '551C04'
-    hat_left_pop_bumpers: '1C0901'
-    jenny: '000000'
-    lind: '060200'
-
-    skill_shot_1: '8B2E06'
-    skill_shot_2: '461703'
-    skill_shot_3: '311002'
-    skill_shot_round: '491803'
-    target_mid_left: 'A53707'
-
-    
-- duration: 50ms
-  lights:
-    arrow_lift_ramp_target_right: '000000'
-
-    arrow_outer_left_orbit: '451503'
-    arrow_right_orbit: '000000'
-    below_lock_in_musical_staff: '040100'
-    collect_oddities_1: '431502'
-    collect_oddities_2: '611E04'
-    collect_oddities_3: '7D2705'
-    collect_oddities_4: '7F2705'
-    collect_oddities_5: '6D2204'
-    collect_oddities_6: '4A1703'
-    collect_oddities_7: '320F02'
-    collect_oddities_8: '300F02'
-    hat_left_pop_bumpers: '030100'
-    lind: '000000'
-    skill_shot_1: '631F04'
-    skill_shot_2: '220B01'
-    skill_shot_3: '120601'
-    skill_shot_round: '250B01'
-    target_mid_left: '802805'
-    target_mid_right: 'CB3F07'
-
-    
-- duration: 50ms
-  lights:
-    arrow_outer_left_orbit: '240A01'
-    below_lock_in_musical_staff: '000000'
-    collect_oddities_1: '220A01'
-    collect_oddities_2: '3C1102'
-    collect_oddities_3: '571903'
-    collect_oddities_4: '5A1903'
-    collect_oddities_5: '471403'
-    collect_oddities_6: '280B01'
-    collect_oddities_7: '140601'
-    collect_oddities_8: '120501'
-    hat_left_pop_bumpers: '000000'
-    skill_shot_1: '3F1202'
-    skill_shot_2: '090200'
-    skill_shot_3: '000000'
-    skill_shot_round: '0A0300'
-    target_mid_left: '5B1A03'
-    target_mid_right: 'B03206'
-
-    
-- duration: 50ms
-  lights:
-    arrow_outer_left_orbit: '070200'
-    collect_oddities_1: '060200'
-    collect_oddities_2: '1A0701'
-    collect_oddities_3: '310D02'
-    collect_oddities_4: '340E02'
-    collect_oddities_5: '230901'
-    collect_oddities_6: '0B0300'
-    collect_oddities_7: '000000'
-    collect_oddities_8: '000000'
-    skill_shot_1: '1C0701'
-    skill_shot_2: '000000'
-    skill_shot_round: '000000'
-    target_mid_left: '340E02'
-    target_mid_right: '8B2504'
-
-    
-- duration: 50ms
-  lights:
-    arrow_outer_left_orbit: '000000'
-    collect_oddities_1: '000000'
-    collect_oddities_2: '000000'
-    collect_oddities_3: '130501'
-    collect_oddities_4: '140501'
-    collect_oddities_5: '080200'
-    collect_oddities_6: '000000'
-    skill_shot_1: '040100'
-    target_mid_left: '140501'
-    target_mid_right: '651903'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: 'D42F06'
-    collect_oddities_3: '000000'
-    collect_oddities_4: '000000'
-    collect_oddities_5: '000000'
-    skill_shot_1: '000000'
-    target_mid_left: '000000'
-    target_mid_right: '3D0E02'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: 'B72505'
-    target_mid_right: '1B0501'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: '921A03'
-    save_the_show_left: 'D72705'
-    save_the_show_right: 'D62705'
-    target_mid_right: '000000'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: '6A1102'
-    save_the_show_left: 'B91E03'
-    save_the_show_right: 'B81E03'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: '410901'
-    challenges_f: 'E82104'
-    save_the_show_left: '911502'
-    save_the_show_right: '901502'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: '1D0400'
-    challenges_a: 'D21A03'
-    challenges_b: 'D91A03'
-    challenges_c: 'E21C03'
-    challenges_d: 'E41C03'
-    challenges_e: 'DB1B03'
-    challenges_f: 'D11903'
-    save_the_show_left: '690D01'
-    save_the_show_right: '680D01'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: '040000'
-    challenges_a: 'AF1202'
-    challenges_b: 'B81302'
-    challenges_c: 'C41402'
-    challenges_d: 'C71502'
-    challenges_e: 'BC1402'
-    challenges_f: 'AD1202'
-    save_the_show_left: '3E0601'
-    save_the_show_right: '3D0601'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: '000000'
-    challenges_a: '860C01'
-    challenges_b: '920D01'
-    challenges_c: '9F0E01'
-    challenges_d: 'A10E01'
-    challenges_e: '950D01'
-    challenges_f: '860C01'
-    save_the_show_left: '1C0200'
-    save_the_show_right: '1C0200'
-    
-- duration: 50ms
-  lights:
-    challenges_a: '5A0601'
-    challenges_b: '660701'
-    challenges_c: '740801'
-    challenges_d: '760801'
-    challenges_e: '680701'
-    challenges_f: '5A0601'
-    save_the_show_left: '000000'
-    save_the_show_right: '000000'
-    shoot_again: 'D90F02'
-    
-- duration: 50ms
-  lights:
-    challenges_a: '330200'
-    challenges_b: '3D0300'
-    challenges_c: '4A0400'
-    challenges_d: '4D0400'
-    challenges_e: '410300'
-    challenges_f: '320200'
-    shoot_again: 'B80901'
-    
-- duration: 50ms
-  lights:
-    challenges_a: '110100'
-    challenges_b: '180100'
-    challenges_c: '230100'
-    challenges_d: '250100'
-    challenges_e: '1B0100'
-    challenges_f: '110100'
-    shoot_again: '8D0501'
-    
-- duration: 50ms
-  lights:
-    challenges_a: '000000'
-    challenges_b: '000000'
-    challenges_c: '060000'
-    challenges_d: '080000'
-    challenges_e: '000000'
-    challenges_f: '000000'
-    shoot_again: '620200'
-    
-- duration: 50ms
-  lights:
-    challenges_c: '000000'
-    challenges_d: '000000'
-    shoot_again: '360000'
-    
-- duration: 50ms
-  lights:
-    challenges_c: '060000'
-    challenges_d: '080000'
-    shoot_again: '620200'
-    
-- duration: 50ms
-  lights:
-    challenges_a: '110100'
-    challenges_b: '180100'
-    challenges_c: '230100'
-    challenges_d: '250100'
-    challenges_e: '1B0100'
-    challenges_f: '110100'
-    shoot_again: '8D0501'
-    
-- duration: 50ms
-  lights:
-    challenges_a: '330200'
-    challenges_b: '3D0300'
-    challenges_c: '4A0400'
-    challenges_d: '4D0400'
-    challenges_e: '410300'
-    challenges_f: '320200'
-    shoot_again: 'B80901'
-    
-- duration: 50ms
-  lights:
-    challenges_a: '5A0601'
-    challenges_b: '660701'
-    challenges_c: '740801'
-    challenges_d: '760801'
-    challenges_e: '680701'
-    challenges_f: '5A0601'
-    shoot_again: 'D90F02'
-    
-- duration: 50ms
-  lights:
-    challenges_a: '860C01'
-    challenges_b: '920D01'
-    challenges_c: '9F0E01'
-    challenges_d: 'A10E01'
-    challenges_e: '950D01'
-    challenges_f: '860C01'
-    save_the_show_left: '1C0200'
-    save_the_show_right: '1C0200'
     shoot_again: '000000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_bottom_left: '040000'
-    challenges_a: 'AF1202'
-    challenges_b: 'B81302'
-    challenges_c: 'C41402'
-    challenges_d: 'C71502'
-    challenges_e: 'BC1402'
-    challenges_f: 'AD1202'
-    save_the_show_left: '3E0601'
-    save_the_show_right: '3D0601'
+    collect_oddities_4: 'FE0000'
+    collect_oddities_5: 'FE0000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_bottom_left: '1D0400'
-    challenges_a: 'D21A03'
-    challenges_b: 'D91A03'
-    challenges_c: 'E21C03'
-    challenges_d: 'E41C03'
-    challenges_e: 'DB1B03'
-    challenges_f: 'D11903'
-    save_the_show_left: '690D01'
-    save_the_show_right: '680D01'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: '410901'
-    challenges_a: '000000'
-    challenges_b: '000000'
-    challenges_c: '000000'
-    challenges_d: '000000'
-    challenges_e: '000000'
-    challenges_f: 'E82104'
-    save_the_show_left: '911502'
-    save_the_show_right: '901502'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: '6A1102'
-    challenges_f: '000000'
-    save_the_show_left: 'B91E03'
-    save_the_show_right: 'B81E03'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: '921A03'
-    save_the_show_left: 'D72705'
-    save_the_show_right: 'D62705'
-    
-- duration: 50ms
-  lights:
-    arrow_bottom_left: 'B72505'
+    collect_oddities_3: 'FE0000'
+    collect_oddities_6: 'FE0000'
     save_the_show_left: '000000'
     save_the_show_right: '000000'
-    target_mid_right: '1B0501'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_bottom_left: 'D42F06'
-    target_mid_right: '3D0E02'
+    challenges_e: '000000'
+    challenges_f: '000000'
+    collect_oddities_7: 'FE0000'
+    skill_shot_3: 'FE0000'
+    skill_shot_round: 'FE0000'
+    target_mid_left: 'FE0000'
     
-- duration: 50ms
+-duration: 100ms
+  lights:
+    challenges_a: '000000'
+    challenges_d: '000000'
+    target_mid_right: 'FE0000'
+    
+-duration: 100ms
+  lights:
+    challenges_b: '000000'
+    challenges_c: '000000'
+    collect_oddities_2: 'FE0000'
+    collect_oddities_8: 'FE0000'
+    
+-duration: 100ms
   lights:
     arrow_bottom_left: '000000'
-    collect_oddities_3: '130501'
-    collect_oddities_4: '140501'
-    collect_oddities_5: '080200'
-    skill_shot_1: '040100'
-    target_mid_left: '140501'
-    target_mid_right: '651903'
+    : 'FE0000'
+    collect_oddities_1: 'FE0000'
+    jenny: 'FE0000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_outer_left_orbit: '070200'
-    collect_oddities_1: '060200'
-    collect_oddities_2: '1A0701'
-    collect_oddities_3: '310D02'
-    collect_oddities_4: '340E02'
-    collect_oddities_5: '230901'
-    collect_oddities_6: '0B0300'
-    skill_shot_1: '1C0701'
-    target_mid_left: '340E02'
-    target_mid_right: '8B2504'
+    lind: 'FE0000'
+    miss: 'FE0000'
+    skill_shot_1: 'FE0000'
+    skill_shot_2: 'FE0000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_outer_left_orbit: '240A01'
-    collect_oddities_1: '220A01'
-    collect_oddities_2: '3C1102'
-    collect_oddities_3: '571903'
-    collect_oddities_4: '5A1903'
-    collect_oddities_5: '471403'
-    collect_oddities_6: '280B01'
-    collect_oddities_7: '140601'
-    collect_oddities_8: '120501'
-    skill_shot_1: '3F1202'
-    skill_shot_2: '090200'
-    skill_shot_round: '0A0300'
-    target_mid_left: '5B1A03'
-    target_mid_right: 'B03206'
-
+    below_lock_in_musical_staff: 'FE0000'
+    hat_left_pop_bumpers: 'FE0000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_outer_left_orbit: '451503'
-    below_lock_in_musical_staff: '040100'
-    collect_oddities_1: '431502'
-    collect_oddities_2: '611E04'
-    collect_oddities_3: '7D2705'
-    collect_oddities_4: '7F2705'
-    collect_oddities_5: '6D2204'
-    collect_oddities_6: '4A1703'
-    collect_oddities_7: '320F02'
-    collect_oddities_8: '300F02'
-    hat_left_pop_bumpers: '030100'
-    skill_shot_1: '631F04'
-    skill_shot_2: '220B01'
-    skill_shot_3: '120601'
-    skill_shot_round: '250B01'
-    target_mid_left: '802805'
-    target_mid_right: 'CB3F07'
- 
-    
-- duration: 50ms
-  lights:
-    arrow_lift_ramp_target_right: '080300'
-
-    arrow_outer_left_orbit: '6B2404'
-    arrow_right_orbit: '040100'
-    below_lock_in_musical_staff: '1C0901'
-    collect_oddities_1: '6A2304'
-    collect_oddities_2: '882D06'
-    collect_oddities_3: 'A33607'
-    collect_oddities_4: 'A43607'
-    collect_oddities_5: '933106'
-    collect_oddities_6: '712605'
-    collect_oddities_7: '581D04'
-    collect_oddities_8: '551C04'
-    hat_left_pop_bumpers: '1C0901'
-    lind: '060200'
-    skill_shot_1: '8B2E06'
-    skill_shot_2: '461703'
-    skill_shot_3: '311002'
-    skill_shot_round: '491803'
-    target_mid_left: 'A53707'
+    arrow_left_inner_orbit: 'FE0000'
+    four: 'FE0000'
     target_mid_right: '000000'
-
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_lift_ramp_target_right: '210C01'
-
-    arrow_outer_left_orbit: '913306'
-    arrow_right_orbit: '1C0A01'
-    below_lock_in_musical_staff: '3D1503'
-    collect_oddities_1: '8E3206'
-    collect_oddities_2: 'A93C07'
-    collect_oddities_3: 'C04408'
-    collect_oddities_4: 'C24508'
-    collect_oddities_5: 'B33F08'
-    collect_oddities_6: '963506'
-    collect_oddities_7: '7C2C05'
-    collect_oddities_8: '7B2C05'
-    hat_left_pop_bumpers: '3C1503'
-    jenny: '030100'
-    lind: '1E0B01'
-
-    skill_shot_1: 'AD3D07'
-    skill_shot_2: '6B2604'
-    skill_shot_3: '541E04'
-    skill_shot_round: '6E2705'
-    target_mid_left: 'C24508'
-
+    arrow_lift_ramp_target_right: 'FE0000'
+    arrow_lift_ramp_target_left: 'FE0000'
+    five_million_when_lit: 'FE0000'
+    lock: 'FE0000'
+    three: 'FE0000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_lift_ramp_target_right: '441903'
-    arrow_lift_ramp_target_left: '170901'
-
-    arrow_outer_left_orbit: 'B34308'
-    arrow_right_orbit: '3E1703'
-    below_lock_in_musical_staff: '632505'
-    collect_oddities_1: 'B14308'
-    collect_oddities_2: 'C64A09'
+    arrow_right_orbit: 'FE0000'
+    two: 'FE0000'
+    
+-duration: 100ms
+  lights:
+    : '000000'
+    one: 'FE0000'
+    skill_shot_1: '000000'
+    
+-duration: 100ms
+  lights:
+    hat_right_orbit: 'FE0000'
+    light_extra_ball: 'FE0000'
+    target_mid_left: '000000'
+    top_right_eject: 'FE0000'
+    
+-duration: 100ms
+  lights:
     collect_oddities_3: '000000'
     collect_oddities_4: '000000'
-    collect_oddities_5: 'CD4D0A'
-    collect_oddities_6: 'B74509'
-    collect_oddities_7: 'A03C08'
-    collect_oddities_8: 'A03C07'
-    four: '130701'
-    hat_left_pop_bumpers: '622505'
-    hat_right_orbit: '080300'
-    jenny: '1D0B01'
-    lind: '401803'
-
-    miss: '080300'
-    skill_shot_1: 'C84B09'
-    skill_shot_2: '913707'
-    skill_shot_3: '7B2E06'
-    skill_shot_round: '943807'
-    target_mid_left: '000000'
-    three: '030100'
- 
-    
-- duration: 50ms
-  lights:
-    arrow_lift_ramp_target_right: '672905'
-    arrow_lift_ramp_target_left: '351503'
-
-    arrow_outer_left_orbit: 'CA510A'
-    arrow_right_orbit: '622705'
-    below_lock_in_musical_staff: '863606'
-    collect_oddities_1: 'C9510A'
-    collect_oddities_2: '000000'
     collect_oddities_5: '000000'
-    collect_oddities_6: 'CD530A'
-    collect_oddities_7: 'BE4D09'
-    collect_oddities_8: 'BC4C09'
-    five_million_when_lit: '040200'
-    four: '301302'
-    hat_left_pop_bumpers: '863606'
-    hat_right_orbit: '210D02'
-    jenny: '3C1803'
-    lind: '652905'
-
-    miss: '200D02'
-    skill_shot_1: '000000'
-    skill_shot_2: 'B04708'
-    skill_shot_3: '9E4007'
-    skill_shot_round: 'B34808'
-    three: '1A0A01'
-    top_right_eject: '160901'
-    two: '070300'
-
+    extra_ball: 'FE0000'
+    hat_left_pop_bumpers: '000000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_left_inner_orbit: '0B0501'
-    arrow_lift_ramp_target_right: '8C3C07'
-    arrow_lift_ramp_target_left: '5A2605'
-
-    arrow_outer_left_orbit: '000000'
-    arrow_right_orbit: '883A07'
-    below_lock_in_musical_staff: 'A84809'
     collect_oddities_1: '000000'
+    collect_oddities_2: '000000'
     collect_oddities_6: '000000'
     collect_oddities_7: '000000'
     collect_oddities_8: '000000'
-    five_million_when_lit: '1E0D02'
-    four: '542404'
-    hat_left_pop_bumpers: 'A94809'
-    hat_right_orbit: '421C03'
-    jenny: '612905'
-    lind: '8B3B07'
-
-    miss: '421C03'
-    one: '0C0501'
-    skill_shot_2: 'CA560B'
-    skill_shot_3: 'BC500A'
-    skill_shot_round: 'CA560B'
-    three: '3A1903'
-    top_right_eject: '341603'
-    two: '210E02'
- 
+    hat_upper_pop_bumpers: 'FE0000'
+    skill_shot_round: '000000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_left_inner_orbit: '251002'
-    arrow_lift_ramp_target_right: 'AC4D0A'
-    arrow_lift_ramp_target_left: '7E3907'
-
-    arrow_right_orbit: 'A74B0A'
-    below_lock_in_musical_staff: 'C1570B'
-    five_million_when_lit: '3D1B04'
-    four: '773607'
-    hat_left_pop_bumpers: 'C2570B'
-    hat_right_orbit: '652E06'
-    jenny: '853C08'
-    light_extra_ball: '0E0601'
-    lind: 'AA4C0A'
-
-    miss: '652E06'
-    one: '261102'
     skill_shot_2: '000000'
     skill_shot_3: '000000'
-    skill_shot_round: '000000'
-    three: '5D2A05'
-    top_right_eject: '562705'
-    two: '411D04'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_left_inner_orbit: '472104'
-    arrow_lift_ramp_target_right: 'C55D0C'
-    arrow_lift_ramp_target_left: 'A14C09'
-
-    arrow_right_orbit: 'C25C0B'
-    below_lock_in_musical_staff: '000000'
-    extra_ball: '0E0701'
-    five_million_when_lit: '612E06'
-    four: '9A4909'
-    hat_left_pop_bumpers: '000000'
-    hat_right_orbit: '8A4108'
-    jenny: 'A64F0A'
-    light_extra_ball: '291302'
-    lind: 'C35C0B'
-
-    miss: '8A4108'
-    one: '492304'
-    three: '813D08'
-    top_right_eject: '7B3A07'
-    two: '663006'
-
-    
-- duration: 50ms
-  lights:
-    arrow_left_inner_orbit: '693507'
     arrow_lift_ramp_target_right: '000000'
-    arrow_lift_ramp_target_left: 'BA5E0C'
-
-    arrow_right_orbit: '000000'
-    extra_ball: '291403'
-    five_million_when_lit: '834208'
-    four: 'B75C0C'
-    hat_right_orbit: 'AA550B'
-    jenny: 'BF600C'
-    light_extra_ball: '4B2605'
-    lind: '000000'
-
-    miss: 'A9550B'
-    one: '6C3607'
-    three: 'A2520A'
-    top_right_eject: '9C4E0A'
-    two: '874409'
-
-    
-- duration: 50ms
-  lights:
-    arrow_left_inner_orbit: '8C4A09'
-    arrow_lift_ramp_target_left: '000000'
-    extra_ball: '4B2705'
-    five_million_when_lit: 'A4560B'
-    four: '000000'
-    hat_right_orbit: 'C0650C'
-    hat_upper_pop_bumpers: '140A01'
+    below_lock_in_musical_staff: '000000'
     jenny: '000000'
-    light_extra_ball: '6F3B07'
-    miss: 'C1660C'
-    one: '8F4C09'
-    three: 'BC630C'
-    top_right_eject: 'B8610C'
-    two: 'A8590B'
-
+    lind: '000000'
     
-- duration: 50ms
+-duration: 100ms
   lights:
-    arrow_left_inner_orbit: 'AA5E0C'
-    extra_ball: '6E3D08'
-    five_million_when_lit: 'BC680D'
-    hat_right_orbit: '000000'
-    hat_upper_pop_bumpers: '301B03'
-    light_extra_ball: '904F0A'
+    arrow_lift_ramp_target_left: '000000'
+    arrow_right_orbit: '000000'
+    four: '000000'
+    lock: '000000'
     miss: '000000'
-    one: 'AC5F0C'
+    
+-duration: 100ms
+  lights:
+    five_million_when_lit: '000000'
+    hat_right_orbit: '000000'
     three: '000000'
     top_right_eject: '000000'
-    two: 'BE690D'
-
-    
-- duration: 50ms
-  lights:
-    arrow_left_inner_orbit: 'C06F0E'
-    extra_ball: '90540A'
-    five_million_when_lit: '000000'
-    hat_upper_pop_bumpers: '533006'
-    light_extra_ball: 'AD640C'
-    one: 'C1700E'
     two: '000000'
- 
     
-- duration: 50ms
+-duration: 100ms
   lights:
     arrow_left_inner_orbit: '000000'
-    extra_ball: 'AB690D'
-    hat_upper_pop_bumpers: '734609'
-    light_extra_ball: 'C0750F'
+    light_extra_ball: '000000'
     one: '000000'
-
     
-- duration: 50ms
+-duration: 100ms
   lights:
     extra_ball: '000000'
-    hat_upper_pop_bumpers: '945F0C'
-    light_extra_ball: '000000'
-
     
-- duration: 50ms
-  lights:
-    hat_upper_pop_bumpers: 'AE740F'
-    
-- duration: 50ms
+-duration: 100ms
   lights:
     hat_upper_pop_bumpers: '000000'
+    shoot_again: 'FE8200'
+    
+#No change this frame - take another step
+#  lights:
+-duration: 100ms
+    
+-duration: 100ms
+  lights:
+    challenges_c: 'FE8200'
+    challenges_d: 'FE8200'
+    challenges_e: 'FE8200'
+    challenges_f: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    challenges_a: 'FE8200'
+    challenges_b: 'FE8200'
+    
+#No change this frame - take another step
+#  lights:
+-duration: 100ms
+    
+#No change this frame - take another step
+#  lights:
+-duration: 100ms
+    
+-duration: 100ms
+  lights:
+    save_the_show_left: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    arrow_bottom_left: 'FE8200'
+    save_the_show_right: 'FE8200'
+    
+#No change this frame - take another step
+#  lights:
+-duration: 100ms
+    
+-duration: 100ms
+  lights:
+    shoot_again: '000000'
+    
+-duration: 100ms
+  lights:
+    collect_oddities_4: 'FE8200'
+    collect_oddities_5: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    challenges_f: '000000'
+    collect_oddities_3: 'FE8200'
+    collect_oddities_6: 'FE8200'
+    save_the_show_left: '000000'
+    save_the_show_right: '000000'
+    target_mid_left: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    challenges_d: '000000'
+    challenges_e: '000000'
+    collect_oddities_7: 'FE8200'
+    skill_shot_3: 'FE8200'
+    skill_shot_round: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    challenges_a: '000000'
+    target_mid_right: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    challenges_b: '000000'
+    challenges_c: '000000'
+    collect_oddities_2: 'FE8200'
+    collect_oddities_8: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    arrow_bottom_left: '000000'
+    : 'FE8200'
+    collect_oddities_1: 'FE8200'
+    jenny: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    lind: 'FE8200'
+    miss: 'FE8200'
+    skill_shot_1: 'FE8200'
+    skill_shot_2: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    below_lock_in_musical_staff: 'FE8200'
+    hat_left_pop_bumpers: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    arrow_left_inner_orbit: 'FE8200'
+    four: 'FE8200'
+    target_mid_right: '000000'
+    
+-duration: 100ms
+  lights:
+    arrow_lift_ramp_target_right: 'FE8200'
+    arrow_lift_ramp_target_left: 'FE8200'
+    five_million_when_lit: 'FE8200'
+    lock: 'FE8200'
+    three: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    arrow_right_orbit: 'FE8200'
+    skill_shot_1: '000000'
+    two: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    : '000000'
+    one: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    hat_right_orbit: 'FE8200'
+    light_extra_ball: 'FE8200'
+    target_mid_left: '000000'
+    top_right_eject: 'FE8200'
+    
+-duration: 100ms
+  lights:
+    collect_oddities_3: '000000'
+    collect_oddities_4: '000000'
+    collect_oddities_5: '000000'
+    extra_ball: 'FE8200'
+    hat_left_pop_bumpers: '000000'
+    
+-duration: 100ms
+  lights:
+    collect_oddities_1: '000000'
+    collect_oddities_2: '000000'
+    collect_oddities_6: '000000'
+    collect_oddities_7: '000000'
+    collect_oddities_8: '000000'
+    hat_upper_pop_bumpers: 'FE8200'
+    skill_shot_round: '000000'
+    
+-duration: 100ms
+  lights:
+    skill_shot_2: '000000'
+    skill_shot_3: '000000'
+    
+-duration: 100ms
+  lights:
+    arrow_lift_ramp_target_right: '000000'
+    below_lock_in_musical_staff: '000000'
+    jenny: '000000'
+    lind: '000000'
+    
+-duration: 100ms
+  lights:
+    arrow_lift_ramp_target_left: '000000'
+    arrow_right_orbit: '000000'
+    four: '000000'
+    lock: '000000'
+    miss: '000000'
+    
+-duration: 100ms
+  lights:
+    five_million_when_lit: '000000'
+    hat_right_orbit: '000000'
+    three: '000000'
+    top_right_eject: '000000'
+    two: '000000'
+    
+-duration: 100ms
+  lights:
+    arrow_left_inner_orbit: '000000'
+    light_extra_ball: '000000'
+    one: '000000'
+    
+-duration: 100ms
+  lights:
+    extra_ball: '000000'
     
