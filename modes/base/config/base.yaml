@@ -1391,6 +1391,7 @@ variable_player:
     standup_hit: 1
   middle_stand_up_hit:
     standup_hit: 1
+    score: 65000
   left_pop_bumpers_top_hit:
     score: 8000
     pop: 1
@@ -1399,7 +1400,7 @@ variable_player:
     score: 8000
     pop: 1
   left_orbit_hit:
-    score: 8000
+    score: 80000
     orbit: 1
   top_pop_bumpers_left_hit:
     score: 8000
@@ -2080,6 +2081,16 @@ show_player:
      # show_tokens:
        # lights: challenges_f
         #color: red
+  counter_this_is_me_mb_counter_hit{count==1}:
+    ball_locked_show:
+      speed: 1
+      loops: 0
+      priority: 5000
+  counter_this_is_me_mb_counter_hit{count==2}:
+    ball_locked_show:
+      speed: 1
+      loops: 0
+      priority: 5000
 
 
 
@@ -2247,6 +2258,28 @@ sound_player:
     tattooed_man_collected:
       action: play
       delay: 4.5s
+
+
+  left_stand_up_hit:
+    target_sounds:
+      action: play
+      loops: 0
+  middle_stand_up_hit:
+    target_sounds:
+      action: play
+      loops: 0
+  right_stand_up_hit:
+    target_sounds:
+      action: play
+      loops: 0
+  stand_up_left_lift_ramp_hit:
+    target_sounds:
+      action: play
+      loops: 0
+  stand_up_right_lift_ramp_hit:
+    target_sounds:
+      action: play
+      loops: 0
 
 
   s_right_bounce_mid_playfield_active:
@@ -2629,41 +2662,117 @@ sounds:
     file: bearded_lady_collected.wav
     volume: 1.5
     priority: 2500
+    track: voice
   dog_boy_collected:
     file: dog_boy_collected.wav
     volume: 1.5
     priority: 2500
+    track: voice
   tom_thumb_collected:
     file: tom_thumb_collected.wav
     volume: 1.5
     priority: 2500
+    track: voice
   irish_giant_collected:
     file: irish_giant_collected.wav
     volume: 1.5
     priority: 2500
+    track: voice
   lord_of_leeds_collected:
     file: lord_of_leeds_collected.wav
     volume: 1.5
     priority: 2500
+    track: voice
   siamese_twins_collected:
     file: siamese_twins_collected.wav
     volume: 1.5
     priority: 2500
+    track: voice
   tattooed_man_collected:
     file: tattooed_man_collected.wav
     volume: 1.5
     priority: 2500
+    track: voice
   trapeze_artist_collected:
     file: trapeze_artist_collected.wav
     volume: 1.5
     priority: 2500
+    track: voice
 
-
-
+  cymbal1:
+    file: cymbal1.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
+  explosion1:
+    file: explosion1.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
+  explosion2:
+    file: explosion2.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
+  honk1:
+    file: honk1.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
+  orchestra1:
+    file: orchestra1.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
+  orchestra2:
+    file: orchestra2.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
+  orchestra3:
+    file: orchestra3.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
+  orchestra4:
+    file: orchestra4.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
+  orchestra5:
+    file: orchestra5.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
+  orchestra6:
+    file: orchestra6.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
+  orchestra7:
+    file: orchestra7.wav
+    track: sfx
+    volume: 0.3
+    priority: 50 
 
 
 
 sound_pools:
+  target_sounds:
+    type: random
+    track: sfx
+    sounds:
+      - cymbal1
+      - explosion1
+      - explosion2
+      - honk1
+      - orchestra1
+      - orchestra2
+      - orchestra3
+      - orchestra4
+      - orchestra5
+      - orchestra6
+      - orchestra7
   ball_save_callout:
     type: random
     track: voice

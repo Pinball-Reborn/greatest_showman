@@ -3,7 +3,7 @@ mode:
   start_events: start_mode_greatest_showman_multiball
   priority: 10000
   stop_events: balls_in_play{balls==1}
-  events_when_stopped:  restart_base_mode
+  events_when_stopped:  start_mode_base2 #restart_base_mode
 
 multiballs: 
   quick_add_5_ball:
@@ -77,13 +77,170 @@ event_player:
     - stop_mode_greatest_showman_multiball
 
 shots:
+#SPINNER
+  gsmb_spinner:
+    switch: s_spinner
+
+
+#POP BUMPERS
+  gsmb_top_pop_bumpers_top:
+    switch: s_top_pop_bumpers_top
+
+    tags: upper_pops
+  gsmb_top_pop_bumpers_bottom:
+    switch: s_top_pop_bumpers_bottom
+
+    tags: upper_pops
+  gsmb_top_pop_bumpers_left:
+    switch: s_top_pop_bumpers_left
+
+    tags: upper_pops
+  gsmb_left_pop_bumpers_top:
+    switch: s_left_pop_bumpers_top
+
+  gsmb_left_pop_bumpers_right:
+    switch: s_left_pop_bumpers_right
+
+  gsmb_left_pop_bumpers_left:
+    switch: s_left_pop_bumpers_left
+
+
+#ORBITS
+  gsmb_shot_left_orbit:
+    enable_events: left_orbit_hit
+  gsmb_shot_right_orbit:
+    enable_events: right_orbit_hit
+  gsmb_shot_inner_orbit: 
+    enable_events: inner_orbit_hit
+
+#DROP TARGETS
+
+  gsmb_single_drop_target:
+    switch: s_single_drop_target
+
+  gsmb_front_drop_target:
+    switch: s_3_bank_drop_target_1
+
+  gsmb_middle_drop_target:
+    switch: s_3_bank_drop_target_2
+
+  gsmb_back_drop_target:
+    switch: s_3_bank_drop_target_3
+
+#TICKET BOOTHS
+
+  gsmb_tickets:
+    switch: s_left_ticket_booth
+
+#RAMPS
+  gsmb_left_ramp: #exit on left, but enter on right (lift ramp)
+    switch: s_left_ramp_made
+
+  gsmb_right_ramp:
+    switch: s_back_ramp_made
+
+#5 Million stand up
+  gsmb_five_million_standup:
+    switch: s_middle_stand_up_target
+
+#STAND UPS
+  gsmb_left_stand_up:
+    switch: s_left_stand_up_target
+  gsmb_middle_stand_up:
+    switch: s_middle_stand_up_target
+  gsmb_right_stand_up:
+    switch: s_stand_up_target_right
+  gsmb_stand_up_left_lift_ramp:
+    switch: s_left_stand_up_target_lift_ramp
+  gsmb_stand_up_right_lift_ramp:
+    switch: s_right_stand_up_target_lift_ramp
+
+
 
 
 variable_player:
 
+#SPINNER
+  gsmb_spinner_hit:
+    score: 30000
+
+
+#POP BUMPERS
+  gsmb_top_pop_bumpers_top_hit:
+    score: 80000
+
+  gsmb_top_pop_bumpers_bottom_hit:
+    score: 80000
+  gsmb_top_pop_bumpers_left_hit:
+    score: 80000
+  gsmb_left_pop_bumpers_top_hit:
+    score: 80000
+
+  gsmb_left_pop_bumpers_right_hit:
+    score: 80000
+
+  gsmb_left_pop_bumpers_left_hit:
+    score: 80000
+
+
+#ORBITS
+  gsmb_shot_left_orbit_hit:
+    score: 800000
+  gsmb_shot_right_orbit_hit:
+    score: 800000
+  gsmb_shot_inner_orbit_hit: 
+    score: 800000
+
+#DROP TARGETS
+
+  gsmb_single_drop_target_hit:
+    score: 1250000
+
+  gsmb_front_drop_target_hit:
+    score: 170000
+
+  gsmb_middle_drop_target_hit:
+    score: 170000
+
+  gsmb_back_drop_target_hit:
+    score: 170000
+
+#TICKET BOOTHS
+
+  gsmb_tickets_hit:
+    score: 125000
+
+#RAMPS
+  gsmb_left_ramp_hit: 
+    score:  800000
+
+  gsmb_right_ramp_hit:
+    score: 800000
+
+#5 Million shot
+  gsmb_five_million_standup_hit:
+    score: 650000
+
+#STAND UPS
+  gsmb_left_stand_up_hit:
+    score: 650000
+  gsmb_middle_stand_up_hit:
+    score: 650000
+  gsmb_right_stand_up_hit:
+    score: 650000
+  gsmb_stand_up_left_lift_ramp_hit:
+    score: 650000
+  gsmb_stand_up_right_lift_ramp_hit:
+    score: 650000
 
 
 
+
+show_player:
+  mode_greatest_showman_multiball_started: 
+    greatest_showman_multiball_show:
+      speed: 1
+      loops: -1
 
 
 

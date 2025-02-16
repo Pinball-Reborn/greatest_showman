@@ -1,0 +1,143 @@
+#config_version=6
+mode:
+  start_events: start_mode_base2
+  priority: 10000
+  stop_events: game_ending
+  #events_when_stopped:  start_mode_base2 
+
+slide_player:
+  play_main_screen_tattooed_man_slide:
+    main_screen_tattooed_man
+  remove_main_screen_tattooed_man_slide:
+    main_screen_tattooed_man:
+      action: remove   
+
+slides:
+ main_screen_tattooed_man:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_tattooed_man
+        scale: 1
+
+event_player:
+  mode_base2_started{current_player.ball>1 or current_player.number>1 and not is_extra_ball}:
+    - play_main_screen_tattooed_man_slide
+    - start_mode_skillshot
+
+  mode_base2_started{is_extra_ball}:
+    - play_extra_ball_screen_slide
+    - remove_extra_ball_screen_slide|3s
+    - play_main_screen_tattooed_man_slide|3.1s
+    - start_mode_skillshot|3.2s
+
+
