@@ -2081,14 +2081,14 @@ show_player:
      # show_tokens:
        # lights: challenges_f
         #color: red
-  counter_this_is_me_mb_counter_hit{count==1}:
+  light_ball_2_lock:
     ball_locked_show:
-      speed: 8
+      speed: 1
       loops: 0
       priority: 5000
-  counter_this_is_me_mb_counter_hit{count==2}:
+  light_ball_1_lock:
     ball_locked_show:
-      speed: 8
+      speed: 1
       loops: 0
       priority: 5000
 
