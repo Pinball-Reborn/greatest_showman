@@ -49,7 +49,7 @@
     two: '804014'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '804014'
     arrow_outer_left_orbit: '7F0101'
@@ -62,7 +62,7 @@
     target_mid_left: '7F0101'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_lift_ramp_target_left: '807900'
     challenges_a: '4E2A76'
@@ -73,7 +73,7 @@
     target_mid_right: '045363'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_b: '4E2A76'
     challenges_c: '4E2A76'
@@ -91,7 +91,7 @@
     three: '807900'
     two: '807900'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '7A0666'
     arrow_lift_ramp_target_right: '115926'
@@ -107,7 +107,7 @@
     save_the_show_left: '7A0666'
     skill_shot_2: '115926'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '807900'
     below_lock_in_musical_staff: '115926'
