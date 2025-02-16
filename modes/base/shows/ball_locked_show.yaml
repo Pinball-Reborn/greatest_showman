@@ -3,18 +3,18 @@
   lights:
     hat_upper_pop_bumpers: 'AE740F'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     hat_upper_pop_bumpers: '945F0C'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     extra_ball: 'AB690D'
     hat_upper_pop_bumpers: '734609'
     light_extra_ball: 'C0750F'
  
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: 'C06F0E'
     extra_ball: '90540A'
@@ -23,7 +23,7 @@
     one: 'C1700E'
   
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: 'AA5E0C'
     extra_ball: '6E3D08'
@@ -34,7 +34,7 @@
     two: 'BE690D'
     
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '8C4A09'
     extra_ball: '4B2705'
@@ -49,7 +49,7 @@
     two: 'A8590B'
  
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '693507'
     arrow_lift_ramp_target_left: 'BA5E0C'
@@ -67,7 +67,7 @@
     two: '874409'
  
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '472104'
     arrow_lift_ramp_target_right: 'C55D0C'
@@ -89,7 +89,7 @@
     two: '663006'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '251002'
     arrow_lift_ramp_target_right: 'AC4D0A'
@@ -113,7 +113,7 @@
     two: '411D04'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '0B0501'
     arrow_lift_ramp_target_right: '8C3C07'
@@ -138,7 +138,7 @@
     top_right_eject: '341603'
     two: '210E02'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '000000'
     arrow_lift_ramp_target_right: '672905'
@@ -168,7 +168,7 @@
     two: '070300'
  
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_lift_ramp_target_right: '441903'
     arrow_lift_ramp_target_left: '170901'
@@ -199,7 +199,7 @@
     two: '000000'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_lift_ramp_target_right: '210C01'
     arrow_lift_ramp_target_left: '000000'
@@ -230,7 +230,7 @@
     three: '000000'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_lift_ramp_target_right: '080300'
 
@@ -256,7 +256,7 @@
     target_mid_left: 'A53707'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_lift_ramp_target_right: '000000'
 
@@ -281,7 +281,7 @@
     target_mid_right: 'CB3F07'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_outer_left_orbit: '240A01'
     below_lock_in_musical_staff: '000000'
@@ -302,7 +302,7 @@
     target_mid_right: 'B03206'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_outer_left_orbit: '070200'
     collect_oddities_1: '060200'
@@ -320,7 +320,7 @@
     target_mid_right: '8B2504'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_outer_left_orbit: '000000'
     collect_oddities_1: '000000'
@@ -333,7 +333,7 @@
     target_mid_left: '140501'
     target_mid_right: '651903'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: 'D42F06'
     collect_oddities_3: '000000'
@@ -343,32 +343,32 @@
     target_mid_left: '000000'
     target_mid_right: '3D0E02'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: 'B72505'
     target_mid_right: '1B0501'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '921A03'
     save_the_show_left: 'D72705'
     save_the_show_right: 'D62705'
     target_mid_right: '000000'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '6A1102'
     save_the_show_left: 'B91E03'
     save_the_show_right: 'B81E03'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '410901'
     challenges_f: 'E82104'
     save_the_show_left: '911502'
     save_the_show_right: '901502'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '1D0400'
     challenges_a: 'D21A03'
@@ -380,7 +380,7 @@
     save_the_show_left: '690D01'
     save_the_show_right: '680D01'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '040000'
     challenges_a: 'AF1202'
@@ -392,7 +392,7 @@
     save_the_show_left: '3E0601'
     save_the_show_right: '3D0601'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '000000'
     challenges_a: '860C01'
@@ -404,7 +404,7 @@
     save_the_show_left: '1C0200'
     save_the_show_right: '1C0200'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_a: '5A0601'
     challenges_b: '660701'
@@ -416,7 +416,7 @@
     save_the_show_right: '000000'
     shoot_again: 'D90F02'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_a: '330200'
     challenges_b: '3D0300'
@@ -426,7 +426,7 @@
     challenges_f: '320200'
     shoot_again: 'B80901'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_a: '110100'
     challenges_b: '180100'
@@ -436,7 +436,7 @@
     challenges_f: '110100'
     shoot_again: '8D0501'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_a: '000000'
     challenges_b: '000000'
@@ -446,19 +446,19 @@
     challenges_f: '000000'
     shoot_again: '620200'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_c: '000000'
     challenges_d: '000000'
     shoot_again: '360000'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_c: '060000'
     challenges_d: '080000'
     shoot_again: '620200'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_a: '110100'
     challenges_b: '180100'
@@ -468,7 +468,7 @@
     challenges_f: '110100'
     shoot_again: '8D0501'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_a: '330200'
     challenges_b: '3D0300'
@@ -478,7 +478,7 @@
     challenges_f: '320200'
     shoot_again: 'B80901'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_a: '5A0601'
     challenges_b: '660701'
@@ -488,7 +488,7 @@
     challenges_f: '5A0601'
     shoot_again: 'D90F02'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     challenges_a: '860C01'
     challenges_b: '920D01'
@@ -500,7 +500,7 @@
     save_the_show_right: '1C0200'
     shoot_again: '000000'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '040000'
     challenges_a: 'AF1202'
@@ -512,7 +512,7 @@
     save_the_show_left: '3E0601'
     save_the_show_right: '3D0601'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '1D0400'
     challenges_a: 'D21A03'
@@ -524,7 +524,7 @@
     save_the_show_left: '690D01'
     save_the_show_right: '680D01'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '410901'
     challenges_a: '000000'
@@ -536,32 +536,32 @@
     save_the_show_left: '911502'
     save_the_show_right: '901502'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '6A1102'
     challenges_f: '000000'
     save_the_show_left: 'B91E03'
     save_the_show_right: 'B81E03'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '921A03'
     save_the_show_left: 'D72705'
     save_the_show_right: 'D62705'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: 'B72505'
     save_the_show_left: '000000'
     save_the_show_right: '000000'
     target_mid_right: '1B0501'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: 'D42F06'
     target_mid_right: '3D0E02'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_bottom_left: '000000'
     collect_oddities_3: '130501'
@@ -571,7 +571,7 @@
     target_mid_left: '140501'
     target_mid_right: '651903'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_outer_left_orbit: '070200'
     collect_oddities_1: '060200'
@@ -584,7 +584,7 @@
     target_mid_left: '340E02'
     target_mid_right: '8B2504'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_outer_left_orbit: '240A01'
     collect_oddities_1: '220A01'
@@ -602,7 +602,7 @@
     target_mid_right: 'B03206'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_outer_left_orbit: '451503'
     below_lock_in_musical_staff: '040100'
@@ -623,7 +623,7 @@
     target_mid_right: 'CB3F07'
  
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_lift_ramp_target_right: '080300'
 
@@ -648,7 +648,7 @@
     target_mid_right: '000000'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_lift_ramp_target_right: '210C01'
 
@@ -674,7 +674,7 @@
     target_mid_left: 'C24508'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_lift_ramp_target_right: '441903'
     arrow_lift_ramp_target_left: '170901'
@@ -705,7 +705,7 @@
     three: '030100'
  
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_lift_ramp_target_right: '672905'
     arrow_lift_ramp_target_left: '351503'
@@ -736,7 +736,7 @@
     two: '070300'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '0B0501'
     arrow_lift_ramp_target_right: '8C3C07'
@@ -766,7 +766,7 @@
     two: '210E02'
  
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '251002'
     arrow_lift_ramp_target_right: 'AC4D0A'
@@ -791,7 +791,7 @@
     top_right_eject: '562705'
     two: '411D04'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '472104'
     arrow_lift_ramp_target_right: 'C55D0C'
@@ -815,7 +815,7 @@
     two: '663006'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '693507'
     arrow_lift_ramp_target_right: '000000'
@@ -837,7 +837,7 @@
     two: '874409'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '8C4A09'
     arrow_lift_ramp_target_left: '000000'
@@ -855,7 +855,7 @@
     two: 'A8590B'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: 'AA5E0C'
     extra_ball: '6E3D08'
@@ -870,7 +870,7 @@
     two: 'BE690D'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: 'C06F0E'
     extra_ball: '90540A'
@@ -881,7 +881,7 @@
     two: '000000'
  
     
-- time: '+1'
+- time: '+5ms'
   lights:
     arrow_left_inner_orbit: '000000'
     extra_ball: 'AB690D'
@@ -890,18 +890,18 @@
     one: '000000'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     extra_ball: '000000'
     hat_upper_pop_bumpers: '945F0C'
     light_extra_ball: '000000'
 
     
-- time: '+1'
+- time: '+5ms'
   lights:
     hat_upper_pop_bumpers: 'AE740F'
     
-- time: '+1'
+- time: '+5ms'
   lights:
     hat_upper_pop_bumpers: '000000'
     

@@ -2083,12 +2083,12 @@ show_player:
         #color: red
   counter_this_is_me_mb_counter_hit{count==1}:
     ball_locked_show:
-      speed: 1
+      speed: 8
       loops: 0
       priority: 5000
   counter_this_is_me_mb_counter_hit{count==2}:
     ball_locked_show:
-      speed: 1
+      speed: 8
       loops: 0
       priority: 5000
 
