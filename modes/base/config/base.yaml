@@ -2083,12 +2083,12 @@ show_player:
         #color: red
   light_ball_2_lock:
     ball_locked_show:
-      speed: 3
+      speed: 4
       loops: 0
       priority: 10000
   light_ball_1_lock:
     ball_locked_show:
-      speed: 3
+      speed: 4
       loops: 0
       priority: 10000
 

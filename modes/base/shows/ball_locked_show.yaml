@@ -186,7 +186,7 @@
 - duration: 100ms
   lights:
     hat_upper_pop_bumpers: '000000'
-    shoot_again: 'FE8200'
+    shoot_again: gold
     
 #No change this frame - take another step
 #  lights:
@@ -194,15 +194,15 @@
     
 - duration: 100ms
   lights:
-    challenges_c: 'FE8200'
-    challenges_d: 'FE8200'
-    challenges_e: 'FE8200'
-    challenges_f: 'FE8200'
+    challenges_c: gold
+    challenges_d: gold
+    challenges_e: gold
+    challenges_f: gold
     
 - duration: 100ms
   lights:
-    challenges_a: 'FE8200'
-    challenges_b: 'FE8200'
+    challenges_a: gold
+    challenges_b: gold
     
 #No change this frame - take another step
 #  lights:
@@ -214,12 +214,12 @@
     
 - duration: 100ms
   lights:
-    save_the_show_left: 'FE8200'
+    save_the_show_left: gold
     
 - duration: 100ms
   lights:
-    arrow_bottom_left: 'FE8200'
-    save_the_show_right: 'FE8200'
+    arrow_bottom_left: gold
+    save_the_show_right: gold
     
 #No change this frame - take another step
 #  lights:
@@ -231,88 +231,88 @@
     
 - duration: 100ms
   lights:
-    collect_oddities_4: 'FE8200'
-    collect_oddities_5: 'FE8200'
+    collect_oddities_4: gold
+    collect_oddities_5: gold
     
 - duration: 100ms
   lights:
     challenges_f: '000000'
-    collect_oddities_3: 'FE8200'
-    collect_oddities_6: 'FE8200'
+    collect_oddities_3: gold
+    collect_oddities_6: gold
     save_the_show_left: '000000'
     save_the_show_right: '000000'
-    target_mid_left: 'FE8200'
+    target_mid_left: gold
     
 - duration: 100ms
   lights:
     challenges_d: '000000'
     challenges_e: '000000'
-    collect_oddities_7: 'FE8200'
-    skill_shot_3: 'FE8200'
-    skill_shot_round: 'FE8200'
+    collect_oddities_7: gold
+    skill_shot_3: gold
+    skill_shot_round: gold
     
 - duration: 100ms
   lights:
     challenges_a: '000000'
-    target_mid_right: 'FE8200'
+    target_mid_right: gold
     
 - duration: 100ms
   lights:
     challenges_b: '000000'
     challenges_c: '000000'
-    collect_oddities_2: 'FE8200'
-    collect_oddities_8: 'FE8200'
+    collect_oddities_2: gold
+    collect_oddities_8: gold
     
 - duration: 100ms
   lights:
     arrow_bottom_left: '000000'
 
-    collect_oddities_1: 'FE8200'
+    collect_oddities_1: gold
     jenny: 'FE8200'
     
 - duration: 100ms
   lights:
     lind: 'FE8200'
     miss: 'FE8200'
-    skill_shot_1: 'FE8200'
-    skill_shot_2: 'FE8200'
+    skill_shot_1: gold
+    skill_shot_2: gold
     
 - duration: 100ms
   lights:
-    below_lock_in_musical_staff: 'FE8200'
-    hat_left_pop_bumpers: 'FE8200'
+    below_lock_in_musical_staff: gold
+    hat_left_pop_bumpers: gold
     
 - duration: 100ms
   lights:
-    arrow_left_inner_orbit: 'FE8200'
-    four: 'FE8200'
+    arrow_left_inner_orbit: gold
+    four: gold
     target_mid_right: '000000'
     
 - duration: 100ms
   lights:
-    arrow_lift_ramp_target_right: 'FE8200'
-    arrow_lift_ramp_target_left: 'FE8200'
-    five_million_when_lit: 'FE8200'
-    lock: 'FE8200'
-    three: 'FE8200'
+    arrow_lift_ramp_target_right: gold
+    arrow_lift_ramp_target_left: gold
+    five_million_when_lit: gold
+    lock: gold
+    three: gold
     
 - duration: 100ms
   lights:
-    arrow_right_orbit: 'FE8200'
+    arrow_right_orbit: gold
     skill_shot_1: '000000'
-    two: 'FE8200'
+    two: gold
     
 - duration: 100ms
   lights:
 
-    one: 'FE8200'
+    one: gold
     
 - duration: 100ms
   lights:
-    hat_right_orbit: 'FE8200'
-    light_extra_ball: 'FE8200'
+    hat_right_orbit: gold
+    light_extra_ball: gold
     target_mid_left: '000000'
-    top_right_eject: 'FE8200'
+    top_right_eject: gold
     
 - duration: 100ms
   lights:
@@ -329,7 +329,7 @@
     collect_oddities_6: '000000'
     collect_oddities_7: '000000'
     collect_oddities_8: '000000'
-    hat_upper_pop_bumpers: 'FE8200'
+    hat_upper_pop_bumpers: gold
     skill_shot_round: '000000'
     
 - duration: 100ms
