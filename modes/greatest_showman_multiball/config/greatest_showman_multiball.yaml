@@ -25,13 +25,59 @@ sounds:
     track: voice
     volume: 0.9
     priority: 100
+  youve_collected_the_oddities:
+    file: youve_collected_the_oddities.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
+  greatest_showman_mb:
+    file: greatest_showman_mb.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
+  hit_everything:
+    file: hit_everything.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
+  its_time_to_start_the_show:
+    file: its_time_to_start_the_show.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
+  all_targets_10_times:
+    file: all_targets_10_times.wav
+    track: voice
+    volume: 0.9
+    priority: 1000
+    block: true
 
 
 sound_player:
   mode_greatest_showman_multiball_started:
-    multiball:
+    youve_collected_the_oddities:
       action: play
       loops: 0
+    its_time_to_start_the_show:
+      action: play
+      loops: 0
+      delay: 2s
+    greatest_showman_mb:
+      action: play
+      loops: 0
+      delay: 5s
+    hit_everything:
+      action: play
+      loops: 0
+      delay: 10s
+    all_targets_10_times:
+      action: play
+      loops: 0
+      delay: 15s
 
 slides:
   final_multiball:
@@ -241,15 +287,6 @@ show_player:
     greatest_showman_multiball_show:
       speed: 1
       loops: -1
-
-
-
-
-
-
-
-
-
 
 
 

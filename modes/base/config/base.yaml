@@ -2388,11 +2388,11 @@ sound_player:
       action: play
       loops: 0
   counter_this_is_me_mb_counter_hit{count==1}:
-    ball_locked:
+    ball_1_locked:
       action: play
       loops: 0
   counter_this_is_me_mb_counter_hit{count==2}:
-    ball_locked:
+    ball_2_locked:
       action: play
       loops: 0
   this_is_me_mb_counter_complete:
@@ -2402,6 +2402,10 @@ sound_player:
       delay: 1s
   triple_combo_hit:
     triple_combo:
+      action: play
+      loops: 0
+  game_ending:
+    thanks_for_playing:
       action: play
       loops: 0
    
@@ -2698,6 +2702,22 @@ sounds:
     volume: 1.5
     priority: 2500
     track: voice
+  ball_1_locked:
+    file: ball_1_locked.wav
+    volume: 1
+    priority: 2500
+    track: voice
+  ball_2_locked:
+    file: ball_2_locked.wav
+    volume: 1
+    priority: 2500
+    track: voice
+  thanks_for_playing:
+    file: thanks_for_playing.wav
+    volume: 1
+    priority: 2500
+    track: voice
+
 
   cymbal1:
     file: cymbal1.wav
