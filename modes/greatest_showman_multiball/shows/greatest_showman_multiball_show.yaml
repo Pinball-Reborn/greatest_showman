@@ -15,7 +15,7 @@
     
 - duration: 50ms
   lights:
-    : '3E0000'
+
     challenges_d: red
     challenges_e: red
     challenges_f: red
@@ -23,7 +23,7 @@
     
 - duration: 50ms
   lights:
-    : red
+
     challenges_a: red
     challenges_b: red
     challenges_c: red
@@ -60,7 +60,7 @@
     
 - duration: 50ms
   lights:
-    : red
+
     five_million_when_lit: red
     hat_upper_pop_bumpers: red
     
