@@ -613,7 +613,7 @@ diverters:
     type: hold
     activation_time: 1.5s
     activation_switches: s_left_ramp_made
-    enable_events: ramp_lock
+    enable_events: ramp_lock_1, ramp_lock_2, ramp_lock_3
     disable_events: left_lock_upper_hit, ball_ended 
   lock_empty_coil:
     activation_coil: c_triple_lock_eject
