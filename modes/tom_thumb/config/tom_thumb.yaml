@@ -293,7 +293,7 @@ event_player:
     - remove_main_screen_bearded_lady_slide
     - play_main_screen_dog_boy_slide|7s
     - play_collect_8_oddities|7.2s
-    - play_shoot_the_flahsing_targets|10.2s
+    - play_shoot_the_flashing_targets|10.2s
     - play_rewrite_the_stars|12.5s
 
   restart_mode_tom_thumb:
