@@ -140,4 +140,20 @@ event_player:
     - play_main_screen_tattooed_man_slide|3.1s
     - start_mode_skillshot|3.2s
 
+sound_player:
+  game_ending:
+    thanks_for_playing:
+      action: play
+      loops: 0
+      delay: 5s
+
+   
+
+sounds:
+    thanks_for_playing:
+    file: thanks_for_playing.wav
+    volume: 1.5
+    priority: 2500
+    track: voice
+
 

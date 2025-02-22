@@ -2404,11 +2404,7 @@ sound_player:
     triple_combo:
       action: play
       loops: 0
-  game_ending:
-    thanks_for_playing:
-      action: play
-      loops: 0
-   
+
 
 
 
@@ -2709,11 +2705,6 @@ sounds:
     track: voice
   ball_2_locked:
     file: ball_2_locked.wav
-    volume: 1
-    priority: 2500
-    track: voice
-  thanks_for_playing:
-    file: thanks_for_playing.wav
     volume: 1
     priority: 2500
     track: voice

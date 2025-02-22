@@ -1,19 +1,19 @@
 #show_version=6
-- duration: 150ms
+- duration: 50ms
   lights:
     save_the_show_right: red
     target_mid_left: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     save_the_show_right: red
     target_mid_left: red
     
 #No change this frame - take another step
 #  lights:
-- duration: 150ms
+- duration: 50ms
     
-- duration: 150ms
+- duration: 50ms
   lights:
 
     challenges_d: red
@@ -21,7 +21,7 @@
     challenges_f: red
     shoot_again: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
 
     challenges_a: red
@@ -29,42 +29,42 @@
     challenges_c: red
     shoot_again: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     challenges_a: red
     hat_left_pop_bumpers: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_bottom_left: red
     save_the_show_left: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     save_the_show_left: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     target_mid_left: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     miss: red
     skill_shot_round: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_left_inner_orbit: red
     jenny: red
     skill_shot_round: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
 
     five_million_when_lit: red
     hat_upper_pop_bumpers: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     extra_ball: red
     four: red
@@ -72,7 +72,7 @@
     one: red
     two: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     four: red
     hat_left_pop_bumpers: red
@@ -80,31 +80,31 @@
     three: red
     two: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_lift_ramp_target_left: red
     skill_shot_3: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     lock: red
     top_right_eject: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_lift_ramp_target_right: red
     arrow_right_orbit: red
     below_lock_in_musical_staff: red
     hat_right_orbit: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_right_orbit: red
     collect_oddities_7: red
     miss: red
     skill_shot_round: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_left_inner_orbit: red
     collect_oddities_7: red
@@ -114,14 +114,14 @@
     skill_shot_2: red
     skill_shot_round: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     collect_oddities_1: red
     collect_oddities_6: red
     five_million_when_lit: red
     skill_shot_1: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     collect_oddities_2: red
     extra_ball: red
@@ -131,7 +131,7 @@
     three: '490000'
     two: '010000'
     
-- duration: 150ms
+- duration: 50ms
   lights:
     collect_oddities_3: red
     collect_oddities_4: red
@@ -141,21 +141,21 @@
     three: red
     two: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_lift_ramp_target_left: red
     collect_oddities_5: red
     skill_shot_3: red
     target_mid_right: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     hat_right_orbit: red
     lock: red
     skill_shot_3: red
     top_right_eject: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_lift_ramp_target_right: red
     arrow_right_orbit: red
@@ -163,12 +163,12 @@
     hat_right_orbit: red
     save_the_show_right: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     collect_oddities_7: red
     skill_shot_2: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     challenges_d: red
     challenges_e: red
@@ -178,7 +178,7 @@
     collect_oddities_8: red
     skill_shot_2: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     challenges_b: red
     challenges_c: red
@@ -187,13 +187,13 @@
     shoot_again: red
     skill_shot_1: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     challenges_a: red
     collect_oddities_2: red
     collect_oddities_6: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_bottom_left: red
     collect_oddities_3: red
@@ -202,27 +202,27 @@
     save_the_show_left: red
     target_mid_right: red
     
-- duration: 150ms
+- duration: 50ms
   lights:
     collect_oddities_5: red
     save_the_show_left: red
     target_mid_left: red
 
-- duration: 150ms
+- duration: 50ms
   lights:
     save_the_show_right: blue
     target_mid_left: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     save_the_show_right: blue
     target_mid_left: blue
     
 #No change this frame - take another step
 #  lights:
-- duration: 150ms
+- duration: 50ms
     
-- duration: 150ms
+- duration: 50ms
   lights:
 
     challenges_d: blue
@@ -230,7 +230,7 @@
     challenges_f: blue
     shoot_again: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
 
     challenges_a: blue
@@ -238,42 +238,42 @@
     challenges_c: blue
     shoot_again: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     challenges_a: blue
     hat_left_pop_bumpers: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_bottom_left: blue
     save_the_show_left: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     save_the_show_left: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     target_mid_left: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     miss: blue
     skill_shot_round: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_left_inner_orbit: blue
     jenny: blue
     skill_shot_round: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
 
     five_million_when_lit: blue
     hat_upper_pop_bumpers: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     extra_ball: blue
     four: blue
@@ -281,7 +281,7 @@
     one: blue
     two: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     four: blue
     hat_left_pop_bumpers: blue
@@ -289,31 +289,31 @@
     three: blue
     two: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_lift_ramp_target_left: blue
     skill_shot_3: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     lock: blue
     top_right_eject: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_lift_ramp_target_right: blue
     arrow_right_orbit: blue
     below_lock_in_musical_staff: blue
     hat_right_orbit: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_right_orbit: blue
     collect_oddities_7: blue
     miss: blue
     skill_shot_round: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_left_inner_orbit: blue
     collect_oddities_7: blue
@@ -323,14 +323,14 @@
     skill_shot_2: blue
     skill_shot_round: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     collect_oddities_1: blue
     collect_oddities_6: blue
     five_million_when_lit: blue
     skill_shot_1: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     collect_oddities_2: blue
     extra_ball: blue
@@ -340,7 +340,7 @@
     three: '490000'
     two: '010000'
     
-- duration: 150ms
+- duration: 50ms
   lights:
     collect_oddities_3: blue
     collect_oddities_4: blue
@@ -350,21 +350,21 @@
     three: blue
     two: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_lift_ramp_target_left: blue
     collect_oddities_5: blue
     skill_shot_3: blue
     target_mid_right: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     hat_right_orbit: blue
     lock: blue
     skill_shot_3: blue
     top_right_eject: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_lift_ramp_target_right: blue
     arrow_right_orbit: blue
@@ -372,12 +372,12 @@
     hat_right_orbit: blue
     save_the_show_right: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     collect_oddities_7: blue
     skill_shot_2: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     challenges_d: blue
     challenges_e: blue
@@ -387,7 +387,7 @@
     collect_oddities_8: blue
     skill_shot_2: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     challenges_b: blue
     challenges_c: blue
@@ -396,13 +396,13 @@
     shoot_again: blue
     skill_shot_1: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     challenges_a: blue
     collect_oddities_2: blue
     collect_oddities_6: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     arrow_bottom_left: blue
     collect_oddities_3: blue
@@ -411,11 +411,1266 @@
     save_the_show_left: blue
     target_mid_right: blue
     
-- duration: 150ms
+- duration: 50ms
   lights:
     collect_oddities_5: blue
     save_the_show_left: blue
     target_mid_left: blue
     
+- duration: 50ms
+  lights:
+    save_the_show_right: yellow
+    target_mid_left: yellow
+    
+- duration: 50ms
+  lights:
+    save_the_show_right: yellow
+    target_mid_left: yellow
+    
+#No change this frame - take another step
+#  lights:
+- duration: 50ms
+    
+- duration: 50ms
+  lights:
+
+    challenges_d: yellow
+    challenges_e: yellow
+    challenges_f: yellow
+    shoot_again: yellow
+    
+- duration: 50ms
+  lights:
+
+    challenges_a: yellow
+    challenges_b: yellow
+    challenges_c: yellow
+    shoot_again: yellow
+    
+- duration: 50ms
+  lights:
+    challenges_a: yellow
+    hat_left_pop_bumpers: yellow
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: yellow
+    save_the_show_left: yellow
+    
+- duration: 50ms
+  lights:
+    save_the_show_left: yellow
+    
+- duration: 50ms
+  lights:
+    target_mid_left: yellow
+    
+- duration: 50ms
+  lights:
+    miss: yellow
+    skill_shot_round: yellow
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: yellow
+    jenny: yellow
+    skill_shot_round: yellow
+    
+- duration: 50ms
+  lights:
+
+    five_million_when_lit: yellow
+    hat_upper_pop_bumpers: yellow
+    
+- duration: 50ms
+  lights:
+    extra_ball: yellow
+    four: yellow
+    light_extra_ball: yellow
+    one: yellow
+    two: yellow
+    
+- duration: 50ms
+  lights:
+    four: yellow
+    hat_left_pop_bumpers: yellow
+    lind: yellow
+    three: yellow
+    two: yellow
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: yellow
+    skill_shot_3: yellow
+    
+- duration: 50ms
+  lights:
+    lock: yellow
+    top_right_eject: yellow
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: yellow
+    arrow_right_orbit: yellow
+    below_lock_in_musical_staff: yellow
+    hat_right_orbit: yellow
+    
+- duration: 50ms
+  lights:
+    arrow_right_orbit: yellow
+    collect_oddities_7: yellow
+    miss: yellow
+    skill_shot_round: yellow
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: yellow
+    collect_oddities_7: yellow
+    collect_oddities_8: yellow
+    hat_upper_pop_bumpers: yellow
+    jenny: yellow
+    skill_shot_2: yellow
+    skill_shot_round: yellow
+    
+- duration: 50ms
+  lights:
+    collect_oddities_1: yellow
+    collect_oddities_6: yellow
+    five_million_when_lit: yellow
+    skill_shot_1: yellow
+    
+- duration: 50ms
+  lights:
+    collect_oddities_2: yellow
+    extra_ball: yellow
+    four: '210000'
+    light_extra_ball: yellow
+    one: yellow
+    three: '490000'
+    two: '010000'
+    
+- duration: 50ms
+  lights:
+    collect_oddities_3: yellow
+    collect_oddities_4: yellow
+    collect_oddities_5: yellow
+    four: yellow
+    lind: yellow
+    three: yellow
+    two: yellow
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: yellow
+    collect_oddities_5: yellow
+    skill_shot_3: yellow
+    target_mid_right: yellow
+    
+- duration: 50ms
+  lights:
+    hat_right_orbit: yellow
+    lock: yellow
+    skill_shot_3: yellow
+    top_right_eject: yellow
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: yellow
+    arrow_right_orbit: yellow
+    below_lock_in_musical_staff: yellow
+    hat_right_orbit: yellow
+    save_the_show_right: yellow
+    
+- duration: 50ms
+  lights:
+    collect_oddities_7: yellow
+    skill_shot_2: yellow
+    
+- duration: 50ms
+  lights:
+    challenges_d: yellow
+    challenges_e: yellow
+    challenges_f: yellow
+    collect_oddities_1: yellow
+    collect_oddities_7: yellow
+    collect_oddities_8: yellow
+    skill_shot_2: yellow
+    
+- duration: 50ms
+  lights:
+    challenges_b: yellow
+    challenges_c: yellow
+    collect_oddities_1: yellow
+    collect_oddities_6: yellow
+    shoot_again: yellow
+    skill_shot_1: yellow
+    
+- duration: 50ms
+  lights:
+    challenges_a: yellow
+    collect_oddities_2: yellow
+    collect_oddities_6: yellow
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: yellow
+    collect_oddities_3: yellow
+    collect_oddities_4: yellow
+    collect_oddities_5: yellow
+    save_the_show_left: yellow
+    target_mid_right: yellow
+    
+- duration: 50ms
+  lights:
+    collect_oddities_5: yellow
+    save_the_show_left: yellow
+    target_mid_left: yellow
+    
+- duration: 50ms
+  lights:
+    save_the_show_right: green
+    target_mid_left: green
+    
+- duration: 50ms
+  lights:
+    save_the_show_right: green
+    target_mid_left: green
+    
+#No change this frame - take another step
+#  lights:
+- duration: 50ms
+    
+- duration: 50ms
+  lights:
+
+    challenges_d: green
+    challenges_e: green
+    challenges_f: green
+    shoot_again: green
+    
+- duration: 50ms
+  lights:
+
+    challenges_a: green
+    challenges_b: green
+    challenges_c: green
+    shoot_again: green
+    
+- duration: 50ms
+  lights:
+    challenges_a: green
+    hat_left_pop_bumpers: green
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: green
+    save_the_show_left: green
+    
+- duration: 50ms
+  lights:
+    save_the_show_left: green
+    
+- duration: 50ms
+  lights:
+    target_mid_left: green
+    
+- duration: 50ms
+  lights:
+    miss: green
+    skill_shot_round: green
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: green
+    jenny: green
+    skill_shot_round: green
+    
+- duration: 50ms
+  lights:
+
+    five_million_when_lit: green
+    hat_upper_pop_bumpers: green
+    
+- duration: 50ms
+  lights:
+    extra_ball: green
+    four: green
+    light_extra_ball: green
+    one: green
+    two: green
+    
+- duration: 50ms
+  lights:
+    four: green
+    hat_left_pop_bumpers: green
+    lind: green
+    three: green
+    two: green
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: green
+    skill_shot_3: green
+    
+- duration: 50ms
+  lights:
+    lock: green
+    top_right_eject: green
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: green
+    arrow_right_orbit: green
+    below_lock_in_musical_staff: green
+    hat_right_orbit: green
+    
+- duration: 50ms
+  lights:
+    arrow_right_orbit: green
+    collect_oddities_7: green
+    miss: green
+    skill_shot_round: green
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: green
+    collect_oddities_7: green
+    collect_oddities_8: green
+    hat_upper_pop_bumpers: green
+    jenny: green
+    skill_shot_2: green
+    skill_shot_round: green
+    
+- duration: 50ms
+  lights:
+    collect_oddities_1: green
+    collect_oddities_6: green
+    five_million_when_lit: green
+    skill_shot_1: green
+    
+- duration: 50ms
+  lights:
+    collect_oddities_2: green
+    extra_ball: green
+    four: '210000'
+    light_extra_ball: green
+    one: green
+    three: '490000'
+    two: '010000'
+    
+- duration: 50ms
+  lights:
+    collect_oddities_3: green
+    collect_oddities_4: green
+    collect_oddities_5: green
+    four: green
+    lind: green
+    three: green
+    two: green
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: green
+    collect_oddities_5: green
+    skill_shot_3: green
+    target_mid_right: green
+    
+- duration: 50ms
+  lights:
+    hat_right_orbit: green
+    lock: green
+    skill_shot_3: green
+    top_right_eject: green
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: green
+    arrow_right_orbit: green
+    below_lock_in_musical_staff: green
+    hat_right_orbit: green
+    save_the_show_right: green
+    
+- duration: 50ms
+  lights:
+    collect_oddities_7: green
+    skill_shot_2: green
+    
+- duration: 50ms
+  lights:
+    challenges_d: green
+    challenges_e: green
+    challenges_f: green
+    collect_oddities_1: green
+    collect_oddities_7: green
+    collect_oddities_8: green
+    skill_shot_2: green
+    
+- duration: 50ms
+  lights:
+    challenges_b: green
+    challenges_c: green
+    collect_oddities_1: green
+    collect_oddities_6: green
+    shoot_again: green
+    skill_shot_1: green
+    
+- duration: 50ms
+  lights:
+    challenges_a: green
+    collect_oddities_2: green
+    collect_oddities_6: green
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: green
+    collect_oddities_3: green
+    collect_oddities_4: green
+    collect_oddities_5: green
+    save_the_show_left: green
+    target_mid_right: green
+    
+- duration: 50ms
+  lights:
+    collect_oddities_5: green
+    save_the_show_left: green
+    target_mid_left: green
+    
+- duration: 50ms
+  lights:
+    save_the_show_right: purple
+    target_mid_left: purple
+    
+- duration: 50ms
+  lights:
+    save_the_show_right: purple
+    target_mid_left: purple
+    
+#No change this frame - take another step
+#  lights:
+- duration: 50ms
+    
+- duration: 50ms
+  lights:
+
+    challenges_d: purple
+    challenges_e: purple
+    challenges_f: purple
+    shoot_again: purple
+    
+- duration: 50ms
+  lights:
+
+    challenges_a: purple
+    challenges_b: purple
+    challenges_c: purple
+    shoot_again: purple
+    
+- duration: 50ms
+  lights:
+    challenges_a: purple
+    hat_left_pop_bumpers: purple
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: purple
+    save_the_show_left: purple
+    
+- duration: 50ms
+  lights:
+    save_the_show_left: purple
+    
+- duration: 50ms
+  lights:
+    target_mid_left: purple
+    
+- duration: 50ms
+  lights:
+    miss: purple
+    skill_shot_round: purple
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: purple
+    jenny: purple
+    skill_shot_round: purple
+    
+- duration: 50ms
+  lights:
+
+    five_million_when_lit: purple
+    hat_upper_pop_bumpers: purple
+    
+- duration: 50ms
+  lights:
+    extra_ball: purple
+    four: purple
+    light_extra_ball: purple
+    one: purple
+    two: purple
+    
+- duration: 50ms
+  lights:
+    four: purple
+    hat_left_pop_bumpers: purple
+    lind: purple
+    three: purple
+    two: purple
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: purple
+    skill_shot_3: purple
+    
+- duration: 50ms
+  lights:
+    lock: purple
+    top_right_eject: purple
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: purple
+    arrow_right_orbit: purple
+    below_lock_in_musical_staff: purple
+    hat_right_orbit: purple
+    
+- duration: 50ms
+  lights:
+    arrow_right_orbit: purple
+    collect_oddities_7: purple
+    miss: purple
+    skill_shot_round: purple
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: purple
+    collect_oddities_7: purple
+    collect_oddities_8: purple
+    hat_upper_pop_bumpers: purple
+    jenny: purple
+    skill_shot_2: purple
+    skill_shot_round: purple
+    
+- duration: 50ms
+  lights:
+    collect_oddities_1: purple
+    collect_oddities_6: purple
+    five_million_when_lit: purple
+    skill_shot_1: purple
+    
+- duration: 50ms
+  lights:
+    collect_oddities_2: purple
+    extra_ball: purple
+    four: '210000'
+    light_extra_ball: purple
+    one: purple
+    three: '490000'
+    two: '010000'
+    
+- duration: 50ms
+  lights:
+    collect_oddities_3: purple
+    collect_oddities_4: purple
+    collect_oddities_5: purple
+    four: purple
+    lind: purple
+    three: purple
+    two: purple
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: purple
+    collect_oddities_5: purple
+    skill_shot_3: purple
+    target_mid_right: purple
+    
+- duration: 50ms
+  lights:
+    hat_right_orbit: purple
+    lock: purple
+    skill_shot_3: purple
+    top_right_eject: purple
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: purple
+    arrow_right_orbit: purple
+    below_lock_in_musical_staff: purple
+    hat_right_orbit: purple
+    save_the_show_right: purple
+    
+- duration: 50ms
+  lights:
+    collect_oddities_7: purple
+    skill_shot_2: purple
+    
+- duration: 50ms
+  lights:
+    challenges_d: purple
+    challenges_e: purple
+    challenges_f: purple
+    collect_oddities_1: purple
+    collect_oddities_7: purple
+    collect_oddities_8: purple
+    skill_shot_2: purple
+    
+- duration: 50ms
+  lights:
+    challenges_b: purple
+    challenges_c: purple
+    collect_oddities_1: purple
+    collect_oddities_6: purple
+    shoot_again: purple
+    skill_shot_1: purple
+    
+- duration: 50ms
+  lights:
+    challenges_a: purple
+    collect_oddities_2: purple
+    collect_oddities_6: purple
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: purple
+    collect_oddities_3: purple
+    collect_oddities_4: purple
+    collect_oddities_5: purple
+    save_the_show_left: purple
+    target_mid_right: purple
+    
+- duration: 50ms
+  lights:
+    collect_oddities_5: purple
+    save_the_show_left: purple
+    target_mid_left: purple
+
+- duration: 50ms
+  lights:
+    save_the_show_right: turquoise
+    target_mid_left: turquoise
+    
+- duration: 50ms
+  lights:
+    save_the_show_right: turquoise
+    target_mid_left: turquoise
+    
+#No change this frame - take another step
+#  lights:
+- duration: 50ms
+    
+- duration: 50ms
+  lights:
+
+    challenges_d: turquoise
+    challenges_e: turquoise
+    challenges_f: turquoise
+    shoot_again: turquoise
+    
+- duration: 50ms
+  lights:
+
+    challenges_a: turquoise
+    challenges_b: turquoise
+    challenges_c: turquoise
+    shoot_again: turquoise
+    
+- duration: 50ms
+  lights:
+    challenges_a: turquoise
+    hat_left_pop_bumpers: turquoise
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: turquoise
+    save_the_show_left: turquoise
+    
+- duration: 50ms
+  lights:
+    save_the_show_left: turquoise
+    
+- duration: 50ms
+  lights:
+    target_mid_left: turquoise
+    
+- duration: 50ms
+  lights:
+    miss: turquoise
+    skill_shot_round: turquoise
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: turquoise
+    jenny: turquoise
+    skill_shot_round: turquoise
+    
+- duration: 50ms
+  lights:
+
+    five_million_when_lit: turquoise
+    hat_upper_pop_bumpers: turquoise
+    
+- duration: 50ms
+  lights:
+    extra_ball: turquoise
+    four: turquoise
+    light_extra_ball: turquoise
+    one: turquoise
+    two: turquoise
+    
+- duration: 50ms
+  lights:
+    four: turquoise
+    hat_left_pop_bumpers: turquoise
+    lind: turquoise
+    three: turquoise
+    two: turquoise
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: turquoise
+    skill_shot_3: turquoise
+    
+- duration: 50ms
+  lights:
+    lock: turquoise
+    top_right_eject: turquoise
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: turquoise
+    arrow_right_orbit: turquoise
+    below_lock_in_musical_staff: turquoise
+    hat_right_orbit: turquoise
+    
+- duration: 50ms
+  lights:
+    arrow_right_orbit: turquoise
+    collect_oddities_7: turquoise
+    miss: turquoise
+    skill_shot_round: turquoise
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: turquoise
+    collect_oddities_7: turquoise
+    collect_oddities_8: turquoise
+    hat_upper_pop_bumpers: turquoise
+    jenny: turquoise
+    skill_shot_2: turquoise
+    skill_shot_round: turquoise
+    
+- duration: 50ms
+  lights:
+    collect_oddities_1: turquoise
+    collect_oddities_6: turquoise
+    five_million_when_lit: turquoise
+    skill_shot_1: turquoise
+    
+- duration: 50ms
+  lights:
+    collect_oddities_2: turquoise
+    extra_ball: turquoise
+    four: '210000'
+    light_extra_ball: turquoise
+    one: turquoise
+    three: '490000'
+    two: '010000'
+    
+- duration: 50ms
+  lights:
+    collect_oddities_3: turquoise
+    collect_oddities_4: turquoise
+    collect_oddities_5: turquoise
+    four: turquoise
+    lind: turquoise
+    three: turquoise
+    two: turquoise
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: turquoise
+    collect_oddities_5: turquoise
+    skill_shot_3: turquoise
+    target_mid_right: turquoise
+    
+- duration: 50ms
+  lights:
+    hat_right_orbit: turquoise
+    lock: turquoise
+    skill_shot_3: turquoise
+    top_right_eject: turquoise
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: turquoise
+    arrow_right_orbit: turquoise
+    below_lock_in_musical_staff: turquoise
+    hat_right_orbit: turquoise
+    save_the_show_right: turquoise
+    
+- duration: 50ms
+  lights:
+    collect_oddities_7: turquoise
+    skill_shot_2: turquoise
+    
+- duration: 50ms
+  lights:
+    challenges_d: turquoise
+    challenges_e: turquoise
+    challenges_f: turquoise
+    collect_oddities_1: turquoise
+    collect_oddities_7: turquoise
+    collect_oddities_8: turquoise
+    skill_shot_2: turquoise
+    
+- duration: 50ms
+  lights:
+    challenges_b: turquoise
+    challenges_c: turquoise
+    collect_oddities_1: turquoise
+    collect_oddities_6: turquoise
+    shoot_again: turquoise
+    skill_shot_1: turquoise
+    
+- duration: 50ms
+  lights:
+    challenges_a: turquoise
+    collect_oddities_2: turquoise
+    collect_oddities_6: turquoise
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: turquoise
+    collect_oddities_3: turquoise
+    collect_oddities_4: turquoise
+    collect_oddities_5: turquoise
+    save_the_show_left: turquoise
+    target_mid_right: turquoise
+    
+- duration: 50ms
+  lights:
+    collect_oddities_5: turquoise
+    save_the_show_left: turquoise
+    target_mid_left: turquoise
+    
 
     
+- duration: 50ms
+  lights:
+    save_the_show_right: pink
+    target_mid_left: pink
+    
+- duration: 50ms
+  lights:
+    save_the_show_right: pink
+    target_mid_left: pink
+    
+#No change this frame - take another step
+#  lights:
+- duration: 50ms
+    
+- duration: 50ms
+  lights:
+
+    challenges_d: pink
+    challenges_e: pink
+    challenges_f: pink
+    shoot_again: pink
+    
+- duration: 50ms
+  lights:
+
+    challenges_a: pink
+    challenges_b: pink
+    challenges_c: pink
+    shoot_again: pink
+    
+- duration: 50ms
+  lights:
+    challenges_a: pink
+    hat_left_pop_bumpers: pink
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: pink
+    save_the_show_left: pink
+    
+- duration: 50ms
+  lights:
+    save_the_show_left: pink
+    
+- duration: 50ms
+  lights:
+    target_mid_left: pink
+    
+- duration: 50ms
+  lights:
+    miss: pink
+    skill_shot_round: pink
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: pink
+    jenny: pink
+    skill_shot_round: pink
+    
+- duration: 50ms
+  lights:
+
+    five_million_when_lit: pink
+    hat_upper_pop_bumpers: pink
+    
+- duration: 50ms
+  lights:
+    extra_ball: pink
+    four: pink
+    light_extra_ball: pink
+    one: pink
+    two: pink
+    
+- duration: 50ms
+  lights:
+    four: pink
+    hat_left_pop_bumpers: pink
+    lind: pink
+    three: pink
+    two: pink
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: pink
+    skill_shot_3: pink
+    
+- duration: 50ms
+  lights:
+    lock: pink
+    top_right_eject: pink
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: pink
+    arrow_right_orbit: pink
+    below_lock_in_musical_staff: pink
+    hat_right_orbit: pink
+    
+- duration: 50ms
+  lights:
+    arrow_right_orbit: pink
+    collect_oddities_7: pink
+    miss: pink
+    skill_shot_round: pink
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: pink
+    collect_oddities_7: pink
+    collect_oddities_8: pink
+    hat_upper_pop_bumpers: pink
+    jenny: pink
+    skill_shot_2: pink
+    skill_shot_round: pink
+    
+- duration: 50ms
+  lights:
+    collect_oddities_1: pink
+    collect_oddities_6: pink
+    five_million_when_lit: pink
+    skill_shot_1: pink
+    
+- duration: 50ms
+  lights:
+    collect_oddities_2: pink
+    extra_ball: pink
+    four: '210000'
+    light_extra_ball: pink
+    one: pink
+    three: '490000'
+    two: '010000'
+    
+- duration: 50ms
+  lights:
+    collect_oddities_3: pink
+    collect_oddities_4: pink
+    collect_oddities_5: pink
+    four: pink
+    lind: pink
+    three: pink
+    two: pink
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: pink
+    collect_oddities_5: pink
+    skill_shot_3: pink
+    target_mid_right: pink
+    
+- duration: 50ms
+  lights:
+    hat_right_orbit: pink
+    lock: pink
+    skill_shot_3: pink
+    top_right_eject: pink
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: pink
+    arrow_right_orbit: pink
+    below_lock_in_musical_staff: pink
+    hat_right_orbit: pink
+    save_the_show_right: pink
+    
+- duration: 50ms
+  lights:
+    collect_oddities_7: pink
+    skill_shot_2: pink
+    
+- duration: 50ms
+  lights:
+    challenges_d: pink
+    challenges_e: pink
+    challenges_f: pink
+    collect_oddities_1: pink
+    collect_oddities_7: pink
+    collect_oddities_8: pink
+    skill_shot_2: pink
+    
+- duration: 50ms
+  lights:
+    challenges_b: pink
+    challenges_c: pink
+    collect_oddities_1: pink
+    collect_oddities_6: pink
+    shoot_again: pink
+    skill_shot_1: pink
+    
+- duration: 50ms
+  lights:
+    challenges_a: pink
+    collect_oddities_2: pink
+    collect_oddities_6: pink
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: pink
+    collect_oddities_3: pink
+    collect_oddities_4: pink
+    collect_oddities_5: pink
+    save_the_show_left: pink
+    target_mid_right: pink
+    
+- duration: 50ms
+  lights:
+    collect_oddities_5: pink
+    save_the_show_left: pink
+    target_mid_left: pink
+    
+- duration: 50ms
+  lights:
+    save_the_show_right: orange
+    target_mid_left: orange
+    
+- duration: 50ms
+  lights:
+    save_the_show_right: orange
+    target_mid_left: orange
+    
+#No change this frame - take another step
+#  lights:
+- duration: 50ms
+    
+- duration: 50ms
+  lights:
+
+    challenges_d: orange
+    challenges_e: orange
+    challenges_f: orange
+    shoot_again: orange
+    
+- duration: 50ms
+  lights:
+
+    challenges_a: orange
+    challenges_b: orange
+    challenges_c: orange
+    shoot_again: orange
+    
+- duration: 50ms
+  lights:
+    challenges_a: orange
+    hat_left_pop_bumpers: orange
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: orange
+    save_the_show_left: orange
+    
+- duration: 50ms
+  lights:
+    save_the_show_left: orange
+    
+- duration: 50ms
+  lights:
+    target_mid_left: orange
+    
+- duration: 50ms
+  lights:
+    miss: orange
+    skill_shot_round: orange
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: orange
+    jenny: orange
+    skill_shot_round: orange
+    
+- duration: 50ms
+  lights:
+
+    five_million_when_lit: orange
+    hat_upper_pop_bumpers: orange
+    
+- duration: 50ms
+  lights:
+    extra_ball: orange
+    four: orange
+    light_extra_ball: orange
+    one: orange
+    two: orange
+    
+- duration: 50ms
+  lights:
+    four: orange
+    hat_left_pop_bumpers: orange
+    lind: orange
+    three: orange
+    two: orange
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: orange
+    skill_shot_3: orange
+    
+- duration: 50ms
+  lights:
+    lock: orange
+    top_right_eject: orange
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: orange
+    arrow_right_orbit: orange
+    below_lock_in_musical_staff: orange
+    hat_right_orbit: orange
+    
+- duration: 50ms
+  lights:
+    arrow_right_orbit: orange
+    collect_oddities_7: orange
+    miss: orange
+    skill_shot_round: orange
+    
+- duration: 50ms
+  lights:
+    arrow_left_inner_orbit: orange
+    collect_oddities_7: orange
+    collect_oddities_8: orange
+    hat_upper_pop_bumpers: orange
+    jenny: orange
+    skill_shot_2: orange
+    skill_shot_round: orange
+    
+- duration: 50ms
+  lights:
+    collect_oddities_1: orange
+    collect_oddities_6: orange
+    five_million_when_lit: orange
+    skill_shot_1: orange
+    
+- duration: 50ms
+  lights:
+    collect_oddities_2: orange
+    extra_ball: orange
+    four: '210000'
+    light_extra_ball: orange
+    one: orange
+    three: '490000'
+    two: '010000'
+    
+- duration: 50ms
+  lights:
+    collect_oddities_3: orange
+    collect_oddities_4: orange
+    collect_oddities_5: orange
+    four: orange
+    lind: orange
+    three: orange
+    two: orange
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_left: orange
+    collect_oddities_5: orange
+    skill_shot_3: orange
+    target_mid_right: orange
+    
+- duration: 50ms
+  lights:
+    hat_right_orbit: orange
+    lock: orange
+    skill_shot_3: orange
+    top_right_eject: orange
+    
+- duration: 50ms
+  lights:
+    arrow_lift_ramp_target_right: orange
+    arrow_right_orbit: orange
+    below_lock_in_musical_staff: orange
+    hat_right_orbit: orange
+    save_the_show_right: orange
+    
+- duration: 50ms
+  lights:
+    collect_oddities_7: orange
+    skill_shot_2: orange
+    
+- duration: 50ms
+  lights:
+    challenges_d: orange
+    challenges_e: orange
+    challenges_f: orange
+    collect_oddities_1: orange
+    collect_oddities_7: orange
+    collect_oddities_8: orange
+    skill_shot_2: orange
+    
+- duration: 50ms
+  lights:
+    challenges_b: orange
+    challenges_c: orange
+    collect_oddities_1: orange
+    collect_oddities_6: orange
+    shoot_again: orange
+    skill_shot_1: orange
+    
+- duration: 50ms
+  lights:
+    challenges_a: orange
+    collect_oddities_2: orange
+    collect_oddities_6: orange
+    
+- duration: 50ms
+  lights:
+    arrow_bottom_left: orange
+    collect_oddities_3: orange
+    collect_oddities_4: orange
+    collect_oddities_5: orange
+    save_the_show_left: orange
+    target_mid_right: orange
+    
+- duration: 50ms
+  lights:
+    collect_oddities_5: orange
+    save_the_show_left: orange
+    target_mid_left: orange
+    
+
