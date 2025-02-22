@@ -40,7 +40,7 @@ sounds:
   hit_everything:
     file: hit_everything.wav
     track: voice
-    volume: 1.5
+    volume: 1.9
     priority: 1000
     block: true
   its_time_to_start_the_show:
@@ -52,7 +52,7 @@ sounds:
   all_targets_10_times:
     file: all_targets_10_times.wav
     track: voice
-    volume: 1.5
+    volume: 1.9
     priority: 1000
     block: true
 
@@ -62,22 +62,23 @@ sound_player:
     youve_collected_the_oddities:
       action: play
       loops: 0
+      delay: 3s
     its_time_to_start_the_show:
       action: play
       loops: 0
-      delay: 2s
+      delay: 5s
     greatest_showman_mb:
       action: play
       loops: 0
-      delay: 5s
+      delay: 7s
     hit_everything:
       action: play
       loops: 0
-      delay: 10s
+      delay: 12s
     all_targets_10_times:
       action: play
       loops: 0
-      delay: 15s
+      delay: 17s
 
 slides:
   final_multiball:
@@ -120,7 +121,7 @@ slide_player:
 
 event_player:
   mode_greatest_showman_multiball_started:
-    - play_final_multiball_slide|3.5s
+    - play_final_multiball_slide|6s
     #- remove_challenges_multiball_slide|1s
     #- play_come_alive_slide|1.1s
     #- remove_come_alive_slide|61.5s

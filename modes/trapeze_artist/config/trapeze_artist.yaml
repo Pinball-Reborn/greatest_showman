@@ -118,6 +118,11 @@ sounds:
     track: music
     volume: 0.5
     priority: 900
+  shoot_the_flashing_targets:
+    file: shoot_the_flashing_targets.wav
+    track: voice
+    volume: 1.5
+    priority: 1000
 
 
 sound_player:
@@ -125,8 +130,8 @@ sound_player:
     collect_8_oddities:
       action: play
       priority: 1000
-  play_shoot_the_colored_arrows:
-    shoot_the_colored_arrows:
+  play_shoot_the_flashing_targets:
+    shoot_the_flashing_targets:
       action: play
       priority: 1000
   play_rewrite_the_stars:
@@ -283,7 +288,7 @@ event_player:
     - remove_main_screen_lord_of_leeds_slide
     - play_main_screen_siamese_twins_slide|7s
     - play_collect_8_oddities|7.2s
-    - play_shoot_the_colored_arrows|10.2s
+    - play_shoot_the_flashing_targets|10.2s
     - play_rewrite_the_stars|12.2s
 
   restart_mode_trapeze_artist:
