@@ -19,7 +19,7 @@
     challenges_d: red
     challenges_e: red
     challenges_f: red
-    shoot_again: red
+
     
 - duration: 25ms
   lights:
@@ -27,7 +27,7 @@
     challenges_a: red
     challenges_b: red
     challenges_c: red
-    shoot_again: red
+
     
 - duration: 25ms
   lights:
@@ -184,7 +184,7 @@
     challenges_c: red
     collect_oddities_1: red
     collect_oddities_6: red
-    shoot_again: red
+
     skill_shot_1: red
     
 - duration: 25ms
@@ -228,7 +228,7 @@
     challenges_d: blue
     challenges_e: blue
     challenges_f: blue
-    shoot_again: blue
+     : blue
     
 - duration: 25ms
   lights:
@@ -236,7 +236,7 @@
     challenges_a: blue
     challenges_b: blue
     challenges_c: blue
-    shoot_again: blue
+     : blue
     
 - duration: 25ms
   lights:
@@ -393,7 +393,7 @@
     challenges_c: blue
     collect_oddities_1: blue
     collect_oddities_6: blue
-    shoot_again: blue
+     : blue
     skill_shot_1: blue
     
 - duration: 25ms
@@ -437,7 +437,7 @@
     challenges_d: yellow
     challenges_e: yellow
     challenges_f: yellow
-    shoot_again: yellow
+     : yellow
     
 - duration: 25ms
   lights:
@@ -445,7 +445,7 @@
     challenges_a: yellow
     challenges_b: yellow
     challenges_c: yellow
-    shoot_again: yellow
+     : yellow
     
 - duration: 25ms
   lights:
@@ -602,7 +602,7 @@
     challenges_c: yellow
     collect_oddities_1: yellow
     collect_oddities_6: yellow
-    shoot_again: yellow
+     : yellow
     skill_shot_1: yellow
     
 - duration: 25ms
@@ -646,7 +646,7 @@
     challenges_d: green
     challenges_e: green
     challenges_f: green
-    shoot_again: green
+     : green
     
 - duration: 25ms
   lights:
@@ -654,7 +654,7 @@
     challenges_a: green
     challenges_b: green
     challenges_c: green
-    shoot_again: green
+     : green
     
 - duration: 25ms
   lights:
@@ -811,7 +811,7 @@
     challenges_c: green
     collect_oddities_1: green
     collect_oddities_6: green
-    shoot_again: green
+     : green
     skill_shot_1: green
     
 - duration: 25ms
@@ -855,7 +855,7 @@
     challenges_d: purple
     challenges_e: purple
     challenges_f: purple
-    shoot_again: purple
+     : purple
     
 - duration: 25ms
   lights:
@@ -863,7 +863,7 @@
     challenges_a: purple
     challenges_b: purple
     challenges_c: purple
-    shoot_again: purple
+     : purple
     
 - duration: 25ms
   lights:
@@ -1020,7 +1020,7 @@
     challenges_c: purple
     collect_oddities_1: purple
     collect_oddities_6: purple
-    shoot_again: purple
+     : purple
     skill_shot_1: purple
     
 - duration: 25ms
@@ -1064,7 +1064,7 @@
     challenges_d: turquoise
     challenges_e: turquoise
     challenges_f: turquoise
-    shoot_again: turquoise
+     : turquoise
     
 - duration: 25ms
   lights:
@@ -1072,7 +1072,7 @@
     challenges_a: turquoise
     challenges_b: turquoise
     challenges_c: turquoise
-    shoot_again: turquoise
+     : turquoise
     
 - duration: 25ms
   lights:
@@ -1229,7 +1229,7 @@
     challenges_c: turquoise
     collect_oddities_1: turquoise
     collect_oddities_6: turquoise
-    shoot_again: turquoise
+     : turquoise
     skill_shot_1: turquoise
     
 - duration: 25ms
@@ -1275,7 +1275,7 @@
     challenges_d: pink
     challenges_e: pink
     challenges_f: pink
-    shoot_again: pink
+     : pink
     
 - duration: 25ms
   lights:
@@ -1283,7 +1283,7 @@
     challenges_a: pink
     challenges_b: pink
     challenges_c: pink
-    shoot_again: pink
+     : pink
     
 - duration: 25ms
   lights:
@@ -1440,7 +1440,7 @@
     challenges_c: pink
     collect_oddities_1: pink
     collect_oddities_6: pink
-    shoot_again: pink
+     : pink
     skill_shot_1: pink
     
 - duration: 25ms
@@ -1484,7 +1484,7 @@
     challenges_d: orange
     challenges_e: orange
     challenges_f: orange
-    shoot_again: orange
+     : orange
     
 - duration: 25ms
   lights:
@@ -1492,7 +1492,7 @@
     challenges_a: orange
     challenges_b: orange
     challenges_c: orange
-    shoot_again: orange
+     : orange
     
 - duration: 25ms
   lights:
@@ -1649,7 +1649,7 @@
     challenges_c: orange
     collect_oddities_1: orange
     collect_oddities_6: orange
-    shoot_again: orange
+     : orange
     skill_shot_1: orange
     
 - duration: 25ms
