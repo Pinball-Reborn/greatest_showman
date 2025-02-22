@@ -1653,11 +1653,11 @@ counters:
     count_events: top_pop_bumpers_top_hit, top_pop_bumpers_bottom_hit, top_pop_bumpers_left_hit
     count_complete_value: 10
     start_enabled: true
-    events_when_complete: ramp_lock, advance_lock_light_profile
+    events_when_complete: ramp_lock_1, advance_lock_light_profile
     reset_on_complete: false
     persist_state: false
     restart_events:  ball_ending, #ramp_lock
-    disable_events: mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
+    disable_events: ramp_lock_1 #mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
   ramp_diverter_2:
     starting_count: 0
     count_complete_value: 10
@@ -1666,9 +1666,9 @@ counters:
     enable_events: light_ball_1_lock
     reset_on_complete: false
     persist_state: false
-    events_when_complete: ramp_lock, advance_lock_light_profile
+    events_when_complete: ramp_lock_2, advance_lock_light_profile
     restart_events:  ball_ending, #ramp_lock
-    disable_events: mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
+    disable_events: ramp_lock_2 #mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
   ramp_diverter_3:
     starting_count: 0
     count_complete_value: 10
@@ -1677,9 +1677,9 @@ counters:
     enable_events: light_ball_2_lock
     reset_on_complete: false
     persist_state: false
-    events_when_complete: ramp_lock, advance_lock_light_profile
+    events_when_complete: ramp_lock_3, advance_lock_light_profile
     restart_events:  ball_ending, #ramp_lock
-    disable_events: mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
+    disable_events: ramp_lock_3 #mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
 
 
 
@@ -2402,7 +2402,15 @@ sound_player:
     combo:
       action: play
       loops: 0
-  ramp_lock:
+  ramp_lock_1:
+    ball_lock:
+      action: play
+      loops: 0
+  ramp_lock_2:
+    ball_lock:
+      action: play
+      loops: 0
+  ramp_lock_3:
     ball_lock:
       action: play
       loops: 0
