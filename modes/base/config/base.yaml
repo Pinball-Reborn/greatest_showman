@@ -1657,6 +1657,7 @@ counters:
     reset_on_complete: false
     persist_state: false
     restart_events:  ball_ending, #ramp_lock
+    disable_on_complete: true
     disable_events: ramp_lock_1 #mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
   ramp_diverter_2:
     starting_count: 0
@@ -1668,6 +1669,7 @@ counters:
     persist_state: false
     events_when_complete: ramp_lock_2, advance_lock_light_profile
     restart_events:  ball_ending, #ramp_lock
+    disable_on_complete: true
     disable_events: ramp_lock_2 #mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
   ramp_diverter_3:
     starting_count: 0
@@ -1679,6 +1681,7 @@ counters:
     persist_state: false
     events_when_complete: ramp_lock_3, advance_lock_light_profile
     restart_events:  ball_ending, #ramp_lock
+    disable_on_complete: true
     disable_events: ramp_lock_3 #mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
 
 
