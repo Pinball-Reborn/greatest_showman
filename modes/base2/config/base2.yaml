@@ -150,7 +150,7 @@ sound_player:
    
 
 sounds:
-    thanks_for_playing:
+  thanks_for_playing:
     file: thanks_for_playing.wav
     volume: 1.5
     priority: 2500
