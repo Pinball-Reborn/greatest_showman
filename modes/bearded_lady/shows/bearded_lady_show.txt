@@ -1,0 +1,267 @@
+#show_version=6
+- duration: 25ms
+  lights:
+
+
+    collect_oddities_5: 'snow'
+    collect_oddities_7: 'snow'
+    one: 'snow'
+    
+- duration: 25ms 
+  lights:
+
+
+    collect_oddities_5: 'snow'
+    collect_oddities_7: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_left_inner_orbit: 'snow'
+
+
+    collect_oddities_7: 'snow'
+    two: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_bottom_left: 'snow'
+    arrow_left_inner_orbit: 'snow'
+    collect_oddities_6: 'snow'
+    lock: 'snow'
+
+    two: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_bottom_left: 'snow'
+    collect_oddities_2: 'snow'
+    collect_oddities_3: 'snow'
+    collect_oddities_6: 'snow'
+    lock: 'snow'
+    skill_shot_2: 'snow'
+
+    two: 'snow'
+    
+- duration: 25ms 
+  lights:
+
+    collect_oddities_1: 'snow'
+    collect_oddities_2: 'snow'
+    collect_oddities_3: 'snow'
+    extra_ball: 'snow'
+    five_million_when_lit: 'snow'
+    hat_right_orbit: 'snow'
+    lock: 'snow'
+    skill_shot_2: 'snow'
+    skill_shot_3: 'snow'
+
+    target_mid_right: 'snow'
+    three: 'snow'
+    
+- duration: 25ms 
+  lights:
+
+    collect_oddities_1: 'snow'
+    extra_ball: 'snow'
+    five_million_when_lit: 'snow'
+    hat_right_orbit: 'snow'
+    skill_shot_2: 'snow'
+    skill_shot_3: 'snow'
+    target_mid_right: 'snow'
+    three: 'snow'
+    
+- duration: 25ms 
+  lights:
+    below_lock_in_musical_staff: 'snow'
+    collect_oddities_4: 'snow'
+    extra_ball: 'snow'
+    skill_shot_3: 'snow'
+    three: 'snow'
+    
+- duration: 25ms 
+  lights:
+    below_lock_in_musical_staff: 'snow'
+    collect_oddities_4: 'snow'
+    top_right_eject: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_right_orbit: 'snow'
+    collect_oddities_8: 'snow'
+    four: 'snow'
+    skill_shot_1: 'snow'
+    top_right_eject: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_right_orbit: 'snow'
+    collect_oddities_8: 'snow'
+    four: 'snow'
+    miss: 'snow'
+    skill_shot_1: 'snow'
+    skill_shot_round: 'snow'
+    
+- duration: 25ms 
+  lights:
+    hat_left_pop_bumpers: 'snow'
+    light_extra_ball: 'snow'
+    miss: 'snow'
+    skill_shot_round: 'snow'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_5: 'snow'
+    hat_left_pop_bumpers: 'snow'
+    light_extra_ball: 'snow'
+    skill_shot_round: 'snow'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_5: 'snow'
+    lind: 'snow'
+    skill_shot_round: 'snow'
+    
+- duration: 25ms 
+  lights:
+
+    collect_oddities_5: 'snow'
+    collect_oddities_7: 'snow'
+    hat_upper_pop_bumpers: 'snow'
+    jenny: 'snow'
+    lind: 'snow'
+    one: 'snow'
+    
+- duration: 25ms 
+  lights:
+
+    collect_oddities_7: 'snow'
+    hat_upper_pop_bumpers: 'snow'
+    jenny: 'snow'
+    one: 'snow'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_6: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_left_inner_orbit: 'snow'
+
+    collect_oddities_6: 'snow'
+    lock: 'snow'
+    two: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_left_inner_orbit: 'snow'
+
+    collect_oddities_2: 'snow'
+    collect_oddities_6: 'snow'
+    hat_right_orbit: 'snow'
+    lock: 'snow'
+    skill_shot_3: 'snow'
+    two: 'snow'
+    
+- duration: 25ms 
+  lights:
+
+    collect_oddities_1: 'snow'
+    collect_oddities_2: 'snow'
+    collect_oddities_3: 'snow'
+    extra_ball: 'snow'
+    five_million_when_lit: 'snow'
+    hat_right_orbit: 'snow'
+    skill_shot_2: 'snow'
+    skill_shot_3: 'snow'
+    skill_shot_round: 'snow'
+    three: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_bottom_left: 'snow'
+
+    collect_oddities_1: 'snow'
+    collect_oddities_3: 'snow'
+    extra_ball: 'snow'
+    five_million_when_lit: 'snow'
+    skill_shot_2: 'snow'
+    skill_shot_3: 'snow'
+    skill_shot_round: 'snow'
+    target_mid_right: 'snow'
+    three: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_bottom_left: 'snow'
+    below_lock_in_musical_staff: 'snow'
+    extra_ball: 'snow'
+    skill_shot_round: 'snow'
+
+    target_mid_right: 'snow'
+    top_right_eject: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_bottom_left: 'snow'
+    below_lock_in_musical_staff: 'snow'
+    collect_oddities_4: 'snow'
+    four: 'F2F1F1'
+    skill_shot_round: 'snow'
+
+    top_right_eject: 'snow'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_4: 'snow'
+    four: 'snow'
+    skill_shot_round: 'snow'
+
+    top_right_eject: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_right_orbit: 'snow'
+    collect_oddities_4: 'snow'
+    collect_oddities_8: 'snow'
+    miss: 'BAB9B9'
+    skill_shot_1: 'snow'
+    
+- duration: 25ms 
+  lights:
+    arrow_right_orbit: 'snow'
+    collect_oddities_8: 'snow'
+    hat_left_pop_bumpers: 'snow'
+    light_extra_ball: 'snow'
+    miss: 'snow'
+    skill_shot_1: 'snow'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_8: 'snow'
+    hat_left_pop_bumpers: 'snow'
+    light_extra_ball: 'snow'
+    skill_shot_1: 'snow'
+    
+#No change this frame - take another step
+#  lights:
+- duration: 25ms 
+    
+- duration: 25ms 
+  lights:
+    hat_upper_pop_bumpers: 'snow'
+    jenny: 'snow'
+    lind: 'snow'
+    
+- duration: 25ms 
+  lights:
+    hat_upper_pop_bumpers: 'snow'
+    jenny: 'snow'
+    lind: 'snow'
+    one: 'snow'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_5: 'snow'
+    lind: 'snow'
+    one: 'snow'
+    

@@ -155,6 +155,12 @@ slides:
 
 slide_player:
 
+show_player:
+  mode_bearded_lady_started: 
+    bearded_lady_show:
+      speed: 1
+      loops: -1
+
 
 
 track_player:
