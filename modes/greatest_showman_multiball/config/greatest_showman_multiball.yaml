@@ -2,7 +2,7 @@
 mode:
   start_events: start_mode_greatest_showman_multiball
   priority: 10000
-  stop_events: balls_in_play{balls==1}
+  stop_events: balls_in_play{balls==1}, stop_mode_greatest_showman_multiball
   events_when_stopped: restart_base_mode #start_mode_base2 
 
 multiballs: 
@@ -34,13 +34,13 @@ sounds:
   greatest_showman_mb:
     file: greatest_showman_mb.wav
     track: voice
-    volume: 1.9
+    volume: 1.5
     priority: 6000
     block: true
   hit_everything:
     file: hit_everything.wav
     track: voice
-    volume: 1.9
+    volume: 1.5
     priority: 6000
     block: true
   its_time_to_start_the_show:
@@ -52,33 +52,34 @@ sounds:
   all_targets_10_times:
     file: all_targets_10_times.wav
     track: voice
-    volume: 1.9
+    volume: 1.5
     priority: 6000
     block: true
 
 
 sound_player:
-  mode_greatest_showman_multiball_started:
-    youve_collected_the_oddities:
-      action: play
-      loops: 0
-      delay: 6s
-    its_time_to_start_the_show:
-      action: play
-      loops: 0
-      delay: 8s
-    greatest_showman_mb:
-      action: play
-      loops: 0
-      delay: 10s
-    hit_everything:
-      action: play
-      loops: 0
-      delay: 12s
-    all_targets_10_times:
-      action: play
-      loops: 0
-      delay: 17s
+    play_youve_collected_the_oddities:
+      youve_collected_the_oddities:
+        action: play
+        priority: 1000 
+    play_its_time_to_start_the_show:
+      its_time_to_start_the_show:
+        action: play
+        priority: 1000 
+    play_greatest_showman_mb:
+      greatest_showman_mb:
+        action: play
+        priority: 1000 
+    play_hit_everything:
+      hit_everything:
+        action: play
+        priority: 1000 
+    play_all_targets_10_times:
+      all_targets_10_times:
+        action: play
+        priority: 1000 
+
+
 
 slides:
   final_multiball:
@@ -105,7 +106,125 @@ slides:
         y: 15% 
       - type: video
         video: final_multiball
-        volume: 0.3    
+        volume: 0.3 
+  main_screen_tattooed_man:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 100
+        y: 22%
+      - type: text
+        text: PLAYER (number)
+        y: 32%
+        font_size: 50
+      - type: text
+        text: (ball)
+        x: 18%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: 3
+        x: 25.6%
+        y: 34.7%
+        color: black
+        font_size: 45
+      - type: text
+        text: (orbit)
+        x: 3.2%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.95%
+        y: 72%
+        font_size: 33
+        color: black
+      - type: text
+        text: (drops)
+        x: 3%
+        y: 56%
+        font_size: 33
+        color: black
+      - type: text
+        text: 10
+        x: 7.8%
+        y: 56%
+        font_size: 33
+        color: black    
+      - type: text
+        text: (ramps)
+        x: 2.9%
+        y: 41.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 4
+        x: 7.55%
+        y: 41.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (tickets)
+        x: 2.6%
+        y: 25.7%
+        font_size: 33
+        color: black
+      - type: text
+        text: 8
+        x: 7.5%
+        y: 25.7%
+        font_size: 33
+        color: black  
+      - type: text
+        text: (pop)
+        x: 2.6%
+        y: 10%
+        font_size: 33
+        color: black
+      - type: text
+        text: 80
+        x: 7.32%
+        y: 10%
+        font_size: 25
+        color: black  
+      - type: text
+        text: (player1|score)
+        x: 20%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player2|score)
+        x: 40%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player3|score)
+        x: 59%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: text
+        text: (player4|score)
+        x: 78%
+        y: 9%
+        color: white
+        font_size: 60
+        number_grouping: true
+      - type: image
+        image: main_screen_tattooed_man
+        scale: 1
+
+
+  
 
 
 slide_player:
@@ -116,19 +235,28 @@ slide_player:
     final_multiball: 
       action: remove
 
-  #play_final_multi_finish_slide:
-    #challenges_multi_finish
+  play_main_screen_tattooed_man_slide:
+    main_screen_tattooed_man
+  remove_main_screen_tattooed_man_slide:
+    main_screen_tattooed_man:
+      action: remove
 
 event_player:
   mode_greatest_showman_multiball_started:
-    - play_final_multiball_slide|10s
-    #- remove_challenges_multiball_slide|1s
-    #- play_come_alive_slide|1.1s
-    #- remove_come_alive_slide|61.5s
-    #- play_challenges_multi_finish_slide|61.6s
+    - play_youve_collected_the_oddities|6s
+    - play_final_multiball_slide|8s
+    - play_its_time_to_start_the_show|8.1s
+    - play_greatest_showman_mb|9.5s
+    - play_hit_everything| 12s
+    - play_all_targets_10_times|17s
 
-  balls_in_play{balls==0}:
+
+
+
+  balls_in_play{balls==1}:
     - stop_mode_greatest_showman_multiball
+    - remove_final_multiball_slide
+    - play_main_screen_tattooed_man_slide
 
 shots:
 #SPINNER
