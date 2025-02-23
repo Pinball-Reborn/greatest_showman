@@ -131,7 +131,7 @@ slides:
         scale: 1
 
 event_player:
-  mode_base2_started{not is_extra_ball}: #{current_player.ball>1 or current_player.number>1 and not is_extra_ball}:
+  mode_base2_started: #{not is_extra_ball}: #{current_player.ball>1 or current_player.number>1 and not is_extra_ball}:
     - play_main_screen_tattooed_man_slide
     - start_mode_skillshot
 
