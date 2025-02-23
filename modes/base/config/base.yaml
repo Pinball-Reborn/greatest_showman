@@ -1594,7 +1594,7 @@ shots:
     profile: lock_light_profile
     advance_events: advance_lock_light_profile
     control_events: 
-      - events: set_lock_light_profile_off, ball_ending
+      - events: set_lock_light_profile_off, left_lock_upper_hit #ball_ending
         state: 0
     disable_events: mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
 
@@ -1655,10 +1655,10 @@ counters:
     start_enabled: true
     events_when_complete: ramp_lock_1, advance_lock_light_profile
     reset_on_complete: false
-    persist_state: false
-    restart_events:  ball_ending, #ramp_lock
+    persist_state: true
+    #restart_events:  ball_ending
     disable_on_complete: true
-    disable_events: ramp_lock_1 #mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
+    disable_events: ramp_lock_1 
   ramp_diverter_2:
     starting_count: 0
     count_complete_value: 10
@@ -1666,11 +1666,11 @@ counters:
     start_enabled: false
     enable_events: light_ball_1_lock
     reset_on_complete: false
-    persist_state: false
+    persist_state: true
     events_when_complete: ramp_lock_2, advance_lock_light_profile
-    restart_events:  ball_ending, #ramp_lock
+    #restart_events:  ball_ending
     disable_on_complete: true
-    disable_events: ramp_lock_2 #mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
+    disable_events: ramp_lock_2 
   ramp_diverter_3:
     starting_count: 0
     count_complete_value: 10
@@ -1678,11 +1678,11 @@ counters:
     start_enabled: false
     enable_events: light_ball_2_lock
     reset_on_complete: false
-    persist_state: false
+    persist_state: true
     events_when_complete: ramp_lock_3, advance_lock_light_profile
-    restart_events:  ball_ending, #ramp_lock
+    #restart_events:  ball_ending
     disable_on_complete: true
-    disable_events: ramp_lock_3 #mode_this_is_me_multiball_started, this_is_me_mb_counter_complete
+    disable_events: ramp_lock_3 
 
 
 
