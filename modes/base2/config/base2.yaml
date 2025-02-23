@@ -19,7 +19,7 @@ slide_player:
       action: remove 
 
 slides:
- main_screen_tattooed_man:
+  main_screen_tattooed_man:
     widgets:
       - type: text
         text: (score)
@@ -171,9 +171,12 @@ event_player:
     - play_main_screen_tattooed_man_slide|3.1s
     - start_mode_skillshot|3.2s
 
-  ball_ending:
+  game_ending:
     - play_thanks_slide
     - start_mode_bonus|7
+
+  ball_ending:
+    - start_mode_bonus
    
 
 
