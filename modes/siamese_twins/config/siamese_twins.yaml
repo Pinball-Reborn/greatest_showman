@@ -20,16 +20,7 @@ shots:
     control_events:
       - events: advance_siamese_twins_profile
         state: 2
-  left_orbit_siamese_twins:  #B
-    switch: s_left_orbit_bottom
-    show_tokens:
-      lights: arrow_outer_left_orbit
-      color: turquoise
-    profile: siamese_twins_profile
-    advance_events: left_orbit_siamese_twins_flashing_hit
-    control_events:
-      - events: advance_siamese_twins_profile
-        state: 2
+
 
   inner_orbit_siamese_twins: #L
     switch: s_inner_orbit_enter
@@ -41,6 +32,16 @@ shots:
     control_events:
       - events: advance_siamese_twins_profile
         state: 2
+  left_return_siamese_twins:  #A
+    switch: s_left_return_lane
+    show_tokens:
+      lights: arrow_bottom_left
+      color: turquoise
+    profile: siamese_twins_profile
+    advance_events: left_return_siamese_twins_flashing_hit
+    control_events:
+      - events: advance_siamese_twins_profile
+        state: 2   
 
 
 
@@ -85,13 +86,13 @@ shows:
 counters:
   siamese_twins_counter:
     starting_count: 0
-    count_events: single_drop_target_siamese_twins_flashing_hit, left_orbit_siamese_twins_flashing_hit, inner_orbit_siamese_twins_flashing_hit
+    count_events: single_drop_target_siamese_twins_flashing_hit, left_return_siamese_twins_flashing_hit, inner_orbit_siamese_twins_flashing_hit
     count_complete_value: 3
     start_enabled: true
     persist_state: true
     reset_on_complete: false 
     events_when_complete: advance_siamese_twins_profile, light_oddities_6, siamese_twins_complete, start_mode_trapeze_artist 
-    #restart_events:  #five_million_standup_five_million_profile_lit_hit
+    
 
 
 
@@ -99,7 +100,7 @@ counters:
 variable_player:
   single_drop_target_siamese_twins_flashing_hit:
     score: 500000
-  left_orbit_siamese_twins_flashing_hit:
+  left_return_siamese_twins_flashing_hit:
     score: 500000
   inner_orbit_siamese_twins_flashing_hit:
     score: 500000
