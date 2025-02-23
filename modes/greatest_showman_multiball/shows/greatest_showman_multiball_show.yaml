@@ -1,12 +1,12 @@
 #show_version=6
 - duration: 25ms
   lights:
-    save_the_show_right: red
+  
     target_mid_left: red
     
 - duration: 25ms
   lights:
-    save_the_show_right: red
+  
     target_mid_left: red
     
 #No change this frame - take another step
@@ -36,11 +36,11 @@
 - duration: 25ms
   lights:
     arrow_bottom_left: red
-    save_the_show_left: red
+    
     
 - duration: 25ms
   lights:
-    save_the_show_left: red
+ 
     
 - duration: 25ms
   lights:
@@ -160,7 +160,7 @@
     arrow_right_orbit: red
     below_lock_in_musical_staff: red
     hat_right_orbit: red
-    save_the_show_right: red
+ 
     
 - duration: 25ms
   lights:
@@ -198,23 +198,23 @@
     collect_oddities_3: red
     collect_oddities_4: red
     collect_oddities_5: red
-    save_the_show_left: red
+
     target_mid_right: red
     
 - duration: 25ms
   lights:
     collect_oddities_5: red
-    save_the_show_left: red
+
     target_mid_left: red
 
 - duration: 25ms
   lights:
-    save_the_show_right: blue
+   
     target_mid_left: blue
     
 - duration: 25ms
   lights:
-    save_the_show_right: blue
+
     target_mid_left: blue
     
 #No change this frame - take another step
@@ -245,11 +245,11 @@
 - duration: 25ms
   lights:
     arrow_bottom_left: blue
-    save_the_show_left: blue
+   
     
 - duration: 25ms
   lights:
-    save_the_show_left: blue
+    
     
 - duration: 25ms
   lights:
@@ -354,7 +354,7 @@
     arrow_lift_ramp_target_left: blue
     collect_oddities_5: blue
     skill_shot_3: blue
-    target_mid_right: blue
+   
     
 - duration: 25ms
   lights:
@@ -369,7 +369,7 @@
     arrow_right_orbit: blue
     below_lock_in_musical_staff: blue
     hat_right_orbit: blue
-    save_the_show_right: blue
+    
     
 - duration: 25ms
   lights:
@@ -407,23 +407,23 @@
     collect_oddities_3: blue
     collect_oddities_4: blue
     collect_oddities_5: blue
-    save_the_show_left: blue
+
     target_mid_right: blue
     
 - duration: 25ms
   lights:
     collect_oddities_5: blue
-    save_the_show_left: blue
+   
     target_mid_left: blue
     
 - duration: 25ms
   lights:
-    save_the_show_right: yellow
+   
     target_mid_left: yellow
     
 - duration: 25ms
   lights:
-    save_the_show_right: yellow
+    
     target_mid_left: yellow
     
 #No change this frame - take another step
@@ -454,11 +454,10 @@
 - duration: 25ms
   lights:
     arrow_bottom_left: yellow
-    save_the_show_left: yellow
-    
+  
 - duration: 25ms
   lights:
-    save_the_show_left: yellow
+    
     
 - duration: 25ms
   lights:
@@ -578,7 +577,7 @@
     arrow_right_orbit: yellow
     below_lock_in_musical_staff: yellow
     hat_right_orbit: yellow
-    save_the_show_right: yellow
+    
     
 - duration: 25ms
   lights:
@@ -616,23 +615,23 @@
     collect_oddities_3: yellow
     collect_oddities_4: yellow
     collect_oddities_5: yellow
-    save_the_show_left: yellow
+  
     target_mid_right: yellow
     
 - duration: 25ms
   lights:
     collect_oddities_5: yellow
-    save_the_show_left: yellow
+   
     target_mid_left: yellow
     
 - duration: 25ms
   lights:
-    save_the_show_right: green
+    
     target_mid_left: green
     
 - duration: 25ms
   lights:
-    save_the_show_right: green
+    
     target_mid_left: green
     
 #No change this frame - take another step
@@ -663,11 +662,11 @@
 - duration: 25ms
   lights:
     arrow_bottom_left: green
-    save_the_show_left: green
+ 
     
 - duration: 25ms
   lights:
-    save_the_show_left: green
+  
     
 - duration: 25ms
   lights:
@@ -787,7 +786,7 @@
     arrow_right_orbit: green
     below_lock_in_musical_staff: green
     hat_right_orbit: green
-    save_the_show_right: green
+
     
 - duration: 25ms
   lights:
@@ -825,23 +824,23 @@
     collect_oddities_3: green
     collect_oddities_4: green
     collect_oddities_5: green
-    save_the_show_left: green
+ 
     target_mid_right: green
     
 - duration: 25ms
   lights:
     collect_oddities_5: green
-    save_the_show_left: green
+  
     target_mid_left: green
     
 - duration: 25ms
   lights:
-    save_the_show_right: purple
+  
     target_mid_left: purple
     
 - duration: 25ms
   lights:
-    save_the_show_right: purple
+
     target_mid_left: purple
     
 #No change this frame - take another step
@@ -872,11 +871,11 @@
 - duration: 25ms
   lights:
     arrow_bottom_left: purple
-    save_the_show_left: purple
+   
     
 - duration: 25ms
   lights:
-    save_the_show_left: purple
+   
     
 - duration: 25ms
   lights:
@@ -996,7 +995,7 @@
     arrow_right_orbit: purple
     below_lock_in_musical_staff: purple
     hat_right_orbit: purple
-    save_the_show_right: purple
+  
     
 - duration: 25ms
   lights:
@@ -1034,23 +1033,23 @@
     collect_oddities_3: purple
     collect_oddities_4: purple
     collect_oddities_5: purple
-    save_the_show_left: purple
+  
     target_mid_right: purple
     
 - duration: 25ms
   lights:
     collect_oddities_5: purple
-    save_the_show_left: purple
+
     target_mid_left: purple
 
 - duration: 25ms
   lights:
-    save_the_show_right: turquoise
+    
     target_mid_left: turquoise
     
 - duration: 25ms
   lights:
-    save_the_show_right: turquoise
+   
     target_mid_left: turquoise
     
 #No change this frame - take another step
@@ -1080,11 +1079,11 @@
 - duration: 25ms
   lights:
     arrow_bottom_left: turquoise
-    save_the_show_left: turquoise
+
     
 - duration: 25ms
   lights:
-    save_the_show_left: turquoise
+  
     
 - duration: 25ms
   lights:
@@ -1204,7 +1203,7 @@
     arrow_right_orbit: turquoise
     below_lock_in_musical_staff: turquoise
     hat_right_orbit: turquoise
-    save_the_show_right: turquoise
+   
     
 - duration: 25ms
   lights:
@@ -1242,25 +1241,25 @@
     collect_oddities_3: turquoise
     collect_oddities_4: turquoise
     collect_oddities_5: turquoise
-    save_the_show_left: turquoise
+
     target_mid_right: turquoise
     
 - duration: 25ms
   lights:
     collect_oddities_5: turquoise
-    save_the_show_left: turquoise
+
     target_mid_left: turquoise
     
 
     
 - duration: 25ms
   lights:
-    save_the_show_right: pink
+  
     target_mid_left: pink
     
 - duration: 25ms
   lights:
-    save_the_show_right: pink
+
     target_mid_left: pink
     
 #No change this frame - take another step
@@ -1291,11 +1290,11 @@
 - duration: 25ms
   lights:
     arrow_bottom_left: pink
-    save_the_show_left: pink
+ 
     
 - duration: 25ms
   lights:
-    save_the_show_left: pink
+ 
     
 - duration: 25ms
   lights:
@@ -1415,7 +1414,7 @@
     arrow_right_orbit: pink
     below_lock_in_musical_staff: pink
     hat_right_orbit: pink
-    save_the_show_right: pink
+  
     
 - duration: 25ms
   lights:
@@ -1453,23 +1452,23 @@
     collect_oddities_3: pink
     collect_oddities_4: pink
     collect_oddities_5: pink
-    save_the_show_left: pink
+
     target_mid_right: pink
     
 - duration: 25ms
   lights:
     collect_oddities_5: pink
-    save_the_show_left: pink
+  
     target_mid_left: pink
     
 - duration: 25ms
   lights:
-    save_the_show_right: orange
+  
     target_mid_left: orange
     
 - duration: 25ms
   lights:
-    save_the_show_right: orange
+ 
     target_mid_left: orange
     
 #No change this frame - take another step
@@ -1500,11 +1499,11 @@
 - duration: 25ms
   lights:
     arrow_bottom_left: orange
-    save_the_show_left: orange
+    
     
 - duration: 25ms
   lights:
-    save_the_show_left: orange
+    
     
 - duration: 25ms
   lights:
@@ -1624,7 +1623,7 @@
     arrow_right_orbit: orange
     below_lock_in_musical_staff: orange
     hat_right_orbit: orange
-    save_the_show_right: orange
+    
     
 - duration: 25ms
   lights:
@@ -1662,13 +1661,13 @@
     collect_oddities_3: orange
     collect_oddities_4: orange
     collect_oddities_5: orange
-    save_the_show_left: orange
+
     target_mid_right: orange
     
 - duration: 25ms
   lights:
     collect_oddities_5: orange
-    save_the_show_left: orange
+
     target_mid_left: orange
     
 
