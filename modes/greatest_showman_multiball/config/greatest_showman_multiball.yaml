@@ -3,7 +3,7 @@ mode:
   start_events: start_mode_greatest_showman_multiball
   priority: 10000
   stop_events: balls_in_play{balls==1}
-  events_when_stopped:  start_mode_base2, #restart_base_mode
+  events_when_stopped: start_mode_base2, #restart_base_mode
 
 multiballs: 
   quick_add_5_ball:
