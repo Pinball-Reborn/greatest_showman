@@ -265,3 +265,271 @@
     lind: 'snow'
     one: 'snow'
     
+
+- duration: 25ms
+  lights:
+
+
+    collect_oddities_5: '000000'
+    collect_oddities_7: '000000'
+    one: '000000'
+    
+- duration: 25ms 
+  lights:
+
+
+    collect_oddities_5: '000000'
+    collect_oddities_7: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_left_inner_orbit: '000000'
+
+
+    collect_oddities_7: '000000'
+    two: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_bottom_left: '000000'
+    arrow_left_inner_orbit: '000000'
+    collect_oddities_6: '000000'
+    lock: '000000'
+
+    two: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_bottom_left: '000000'
+    collect_oddities_2: '000000'
+    collect_oddities_3: '000000'
+    collect_oddities_6: '000000'
+    lock: '000000'
+    skill_shot_2: '000000'
+
+    two: '000000'
+    
+- duration: 25ms 
+  lights:
+
+    collect_oddities_1: '000000'
+    collect_oddities_2: '000000'
+    collect_oddities_3: '000000'
+    extra_ball: '000000'
+    five_million_when_lit: '000000'
+    hat_right_orbit: '000000'
+    lock: '000000'
+    skill_shot_2: '000000'
+    skill_shot_3: '000000'
+
+    target_mid_right: '000000'
+    three: '000000'
+    
+- duration: 25ms 
+  lights:
+
+    collect_oddities_1: '000000'
+    extra_ball: '000000'
+    five_million_when_lit: '000000'
+    hat_right_orbit: '000000'
+    skill_shot_2: '000000'
+    skill_shot_3: '000000'
+    target_mid_right: '000000'
+    three: '000000'
+    
+- duration: 25ms 
+  lights:
+    below_lock_in_musical_staff: '000000'
+    collect_oddities_4: '000000'
+    extra_ball: '000000'
+    skill_shot_3: '000000'
+    three: '000000'
+    
+- duration: 25ms 
+  lights:
+    below_lock_in_musical_staff: '000000'
+    collect_oddities_4: '000000'
+    top_right_eject: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_right_orbit: '000000'
+    collect_oddities_8: '000000'
+    four: '000000'
+    skill_shot_1: '000000'
+    top_right_eject: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_right_orbit: '000000'
+    collect_oddities_8: '000000'
+    four: '000000'
+    miss: '000000'
+    skill_shot_1: '000000'
+    skill_shot_round: '000000'
+    
+- duration: 25ms 
+  lights:
+    hat_left_pop_bumpers: '000000'
+    light_extra_ball: '000000'
+    miss: '000000'
+    skill_shot_round: '000000'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_5: '000000'
+    hat_left_pop_bumpers: '000000'
+    light_extra_ball: '000000'
+    skill_shot_round: '000000'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_5: '000000'
+    lind: '000000'
+    skill_shot_round: '000000'
+    
+- duration: 25ms 
+  lights:
+
+    collect_oddities_5: '000000'
+    collect_oddities_7: '000000'
+    hat_upper_pop_bumpers: '000000'
+    jenny: '000000'
+    lind: '000000'
+    one: '000000'
+    
+- duration: 25ms 
+  lights:
+
+    collect_oddities_7: '000000'
+    hat_upper_pop_bumpers: '000000'
+    jenny: '000000'
+    one: '000000'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_6: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_left_inner_orbit: '000000'
+
+    collect_oddities_6: '000000'
+    lock: '000000'
+    two: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_left_inner_orbit: '000000'
+
+    collect_oddities_2: '000000'
+    collect_oddities_6: '000000'
+    hat_right_orbit: '000000'
+    lock: '000000'
+    skill_shot_3: '000000'
+    two: '000000'
+    
+- duration: 25ms 
+  lights:
+
+    collect_oddities_1: '000000'
+    collect_oddities_2: '000000'
+    collect_oddities_3: '000000'
+    extra_ball: '000000'
+    five_million_when_lit: '000000'
+    hat_right_orbit: '000000'
+    skill_shot_2: '000000'
+    skill_shot_3: '000000'
+    skill_shot_round: '000000'
+    three: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_bottom_left: '000000'
+
+    collect_oddities_1: '000000'
+    collect_oddities_3: '000000'
+    extra_ball: '000000'
+    five_million_when_lit: '000000'
+    skill_shot_2: '000000'
+    skill_shot_3: '000000'
+    skill_shot_round: '000000'
+    target_mid_right: '000000'
+    three: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_bottom_left: '000000'
+    below_lock_in_musical_staff: '000000'
+    extra_ball: '000000'
+    skill_shot_round: '000000'
+
+    target_mid_right: '000000'
+    top_right_eject: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_bottom_left: '000000'
+    below_lock_in_musical_staff: '000000'
+    collect_oddities_4: '000000'
+    four: 'F2F1F1'
+    skill_shot_round: '000000'
+
+    top_right_eject: '000000'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_4: '000000'
+    four: '000000'
+    skill_shot_round: '000000'
+
+    top_right_eject: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_right_orbit: '000000'
+    collect_oddities_4: '000000'
+    collect_oddities_8: '000000'
+    miss: 'BAB9B9'
+    skill_shot_1: '000000'
+    
+- duration: 25ms 
+  lights:
+    arrow_right_orbit: '000000'
+    collect_oddities_8: '000000'
+    hat_left_pop_bumpers: '000000'
+    light_extra_ball: '000000'
+    miss: '000000'
+    skill_shot_1: '000000'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_8: '000000'
+    hat_left_pop_bumpers: '000000'
+    light_extra_ball: '000000'
+    skill_shot_1: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- duration: 25ms 
+    
+- duration: 25ms 
+  lights:
+    hat_upper_pop_bumpers: '000000'
+    jenny: '000000'
+    lind: '000000'
+    
+- duration: 25ms 
+  lights:
+    hat_upper_pop_bumpers: '000000'
+    jenny: '000000'
+    lind: '000000'
+    one: '000000'
+    
+- duration: 25ms 
+  lights:
+    collect_oddities_5: '000000'
+    lind: '000000'
+    one: '000000'
+    
+
