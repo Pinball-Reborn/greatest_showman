@@ -39,7 +39,7 @@
     
     
 - duration: 25ms
-  lights:
+  #lights:
  
     
 - duration: 25ms
@@ -248,7 +248,7 @@
    
     
 - duration: 25ms
-  lights:
+  #lights:
     
     
 - duration: 25ms
@@ -456,7 +456,7 @@
     arrow_bottom_left: yellow
   
 - duration: 25ms
-  lights:
+  #lights:
     
     
 - duration: 25ms
@@ -665,7 +665,7 @@
  
     
 - duration: 25ms
-  lights:
+  #lights:
   
     
 - duration: 25ms
@@ -874,7 +874,7 @@
    
     
 - duration: 25ms
-  lights:
+  #lights:
    
     
 - duration: 25ms
@@ -1082,7 +1082,7 @@
 
     
 - duration: 25ms
-  lights:
+  #lights:
   
     
 - duration: 25ms
@@ -1293,7 +1293,7 @@
  
     
 - duration: 25ms
-  lights:
+  #lights:
  
     
 - duration: 25ms
@@ -1502,7 +1502,7 @@
     
     
 - duration: 25ms
-  lights:
+  #lights:
     
     
 - duration: 25ms
