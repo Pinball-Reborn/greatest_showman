@@ -1,0 +1,59 @@
+#config_version=6
+mode:
+  start_events: start_mode_thanks
+  priority: 1000
+  stop_events: stop_thanks_mode
+
+slide_player:
+  play_thanks_slide:
+    thanks
+  remove_thanks_slide:
+    thanks:
+      action: remove 
+
+slides:
+  thanks:
+    widgets:
+      - type: text
+        text: THANK YOU FOR PLAYING!
+        color: red
+        font_size: 110
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 95%
+      - type: text
+        text: WE HOPE YOU HAD FUN!
+        color: gold
+        font_size: 120
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 55%
+      - type: text
+        text: (score)
+        color: gold
+        number_grouping: true
+        min_digits: 2
+        font_size: 160
+        font_name: CarnivaleeFreakshow-DLrm
+        y: 15% 
+      - type: image
+        image: curtains  
+
+event_player:
+  mode_thanks_started:
+    - play_thanks_slide
+    - stop_mode_thanks|6s
+
+sound_player:
+  play_thanks_slide:
+    thanks_for_playing:
+      action: play
+      loops: 0
+      delay: 3s
+
+   
+
+sounds:
+  thanks_for_playing:
+    file: thanks_for_playing.wav
+    volume: 1.5
+    priority: 2500
+    track: voice

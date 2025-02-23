@@ -1891,6 +1891,11 @@ event_player:
   events_when_started:
     enable_qualify
 
+queue_relay_player:
+  game_ending:
+    post: start_mode_thanks
+    wait_for: stop_thanks_mode
+
 achievements:
   bearded_lady:
     show_tokens: 

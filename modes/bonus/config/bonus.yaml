@@ -2,7 +2,7 @@
 
 mode:
   start_events: ball_ending, start_mode_bonus
-  priority: 500
+  priority: 5000
 
 
 mode_settings: 

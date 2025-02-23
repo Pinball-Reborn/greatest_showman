@@ -4,7 +4,7 @@ mode:
   priority: 10000
   stop_events: game_ending
   restart_on_next_ball: true
-  #events_when_stopped:  play_thanks_slide
+  #events_when_started: restart_base_mode
 
 slide_player:
   play_main_screen_tattooed_man_slide:
@@ -12,11 +12,7 @@ slide_player:
   remove_main_screen_tattooed_man_slide:
     main_screen_tattooed_man:
       action: remove  
-  play_thanks_slide:
-    thanks
-  remove_thanks_slide:
-    thanks:
-      action: remove 
+
 
 slides:
   main_screen_tattooed_man:
@@ -135,30 +131,7 @@ slides:
         image: main_screen_tattooed_man
         scale: 1
 
-  thanks:
-    widgets:
-      - type: text
-        text: THANK YOU FOR PLAYING!
-        color: red
-        font_size: 110
-        font_name: CarnivaleeFreakshow-DLrm
-        y: 95%
-      - type: text
-        text: WE HOPE YOU HAD FUN!
-        color: gold
-        font_size: 120
-        font_name: CarnivaleeFreakshow-DLrm
-        y: 83%
-      - type: text
-        text: (score)
-        color: gold
-        number_grouping: true
-        min_digits: 2
-        font_size: 160
-        font_name: CarnivaleeFreakshow-DLrm
-        y: 15% 
-      - type: image
-        image: curtains   
+
 
 event_player:
   mode_base2_started: #{not is_extra_ball}: #{current_player.ball>1 or current_player.number>1 and not is_extra_ball}:
@@ -171,29 +144,10 @@ event_player:
     - play_main_screen_tattooed_man_slide|3.1s
     - start_mode_skillshot|3.2s
 
-  game_ending:
-    - play_thanks_slide
-    - start_mode_bonus|7
-
-  ball_ending:
-    - start_mode_bonus
-   
-
-
-sound_player:
-  play_thanks_slide:
-    thanks_for_playing:
-      action: play
-      loops: 0
-      delay: 3s
 
    
 
-sounds:
-  thanks_for_playing:
-    file: thanks_for_playing.wav
-    volume: 1.5
-    priority: 2500
-    track: voice
+
+
 
 
