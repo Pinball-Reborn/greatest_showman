@@ -1904,7 +1904,7 @@ achievements:
     show_when_started: color_flashing
     show_when_completed: oddities_lit
     start_events: start_mode_bearded_lady
-    complete_events: light_oddities_1
+    complete_events: light_oddities_1, bearded_lady_complete
   dog_boy:
     show_tokens: 
       lights: collect_oddities_2
