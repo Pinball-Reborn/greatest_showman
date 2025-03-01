@@ -55,6 +55,11 @@ sounds:
     volume: 1.5
     priority: 6000
     block: true
+  rewrite_the_stars:
+    file: rewrite_the_stars.wav
+    track: music
+    volume: 0.5
+    priority: 900
 
 
 sound_player:
@@ -78,6 +83,10 @@ sound_player:
       all_targets_10_times:
         action: play
         priority: 1000 
+    play_rewrite_the_stars:
+      rewrite_the_stars:
+        action: play
+        priority: 1000  
 
 
 
@@ -257,6 +266,7 @@ event_player:
     #- stop_mode_greatest_showman_multiball
     - remove_final_multiball_slide
     - play_main_screen_tattooed_man_slide
+    - play_rewrite_the_stars
     #- start_mode_base
     
 
