@@ -80,7 +80,7 @@ counters:
     count_events: left_stand_up_bearded_lady_flashing_hit, stand_up_left_lift_ramp_bearded_lady_flashing_hit, stand_up_right_lift_ramp_bearded_lady_flashing_hit
     count_complete_value: 3
     start_enabled: true
-    persist_state: false #true
+    persist_state: true
     reset_on_complete: false 
     events_when_complete: advance_bearded_lady_profile, light_oddities_1, bearded_lady_complete, start_mode_dog_boy   #advance_five_million_profile, five_million_lit
     #restart_events:  #five_million_standup_five_million_profile_lit_hit
