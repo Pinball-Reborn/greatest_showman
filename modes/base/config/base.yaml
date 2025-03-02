@@ -1762,8 +1762,8 @@ event_player:
   bearded_lady_complete:
     - remove_main_screen_slide
     - play_bearded_lady_video_slide
-    - play_oddities_complete_show_show
-    - play_bearded_lady_red_show|2s
+    - play_show_oddities_complete_show
+    - play_show_bearded_lady_red|2s
     - remove_bearded_lady_video_slide|3.85s
     - play_bearded_lady_image_slide|3.9s
     - remove_bearded_lady_image_slide|7.1s
