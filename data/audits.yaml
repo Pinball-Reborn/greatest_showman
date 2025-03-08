@@ -61,18 +61,18 @@ missing_switches:
   s_upper_right_flipper_eos: 2
 player:
   score:
-    average: 13298437
+    average: 0
     top:
-    - 112789300
-    - 75261600
-    - 74413500
-    - 67004700
-    - 63711200
-    - 62144400
-    - 61519600
-    - 61120500
-    - 60342400
-    - 59673100
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 
     total: 943
 shots:
   back_drop_target: 3446
