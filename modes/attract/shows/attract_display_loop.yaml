@@ -440,7 +440,41 @@
         type: move_in
         duration: 1s
         direction: top
+- duration: 5s
+  slides:
+    transpo:
+      widgets:
+      - type: text
+        text: SPECIAL THANKS FOR 
+        color: gold
+        font_size: 70
+        font_name: impact
+        y: 75%
+      - type: text
+        text: GAME TRANSPORTATION TO 
+        color: gold
+        font_size: 70
+        font_name: impact
+        y: 65%
+      - type: text
+        text: TEXAS PINBALL FESTIVAL 2025
+        color: gold
+        font_size: 70
+        font_name: impact
+        y: 55%
+      - type: text
+        text: Joseph Trotter
+        font_size: 70
+        font_name: impact
+        y: 45%
+      - type: image
+        image: curtains
+        scale: 1
 
+      transition:
+        type: move_in
+        duration: 1s
+        direction: right
 - duration: 5s
   slides:
     art:
