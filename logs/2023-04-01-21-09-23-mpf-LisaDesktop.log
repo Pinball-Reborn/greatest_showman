@@ -1,5 +1,0 @@
-2023-04-01 21:09:23,975 : INFO : root : Loading config.
-2023-04-01 21:09:23,978 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
-2023-04-01 21:09:23,978 : INFO : ConfigProcessor : Loading config from file C:\Users\lisas\.local\pipx\venvs\mpf\lib\site-packages\mpf\mpfconfig.yaml.
-2023-04-01 21:09:24,027 : INFO : ConfigProcessor : Loading config: C:\Users\lisas\.local\pipx\venvs\mpf\lib\site-packages\mpf\mpfconfig.yaml
-2023-04-01 21:09:24,028 : INFO : ConfigProcessor : Loading config from file C:\pinball\greatest_showman\config\config.yaml.

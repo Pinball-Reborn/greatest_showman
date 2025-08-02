@@ -150,7 +150,7 @@ sound_player:
 
 
 slides:
-  main_screen_dog_boy:
+  main_screen_lord_of_leeds:
     widgets:
       - type: text
         text: (score)
