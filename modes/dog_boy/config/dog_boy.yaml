@@ -3,6 +3,7 @@ mode:
   start_events: start_mode_dog_boy
   stop_events: dog_boy_complete, game_ending #ball_ended
   restart_on_next_ball: true
+  events_when_started: reset_drop_bank, reset_single_drop_target
   #events_when_stopped: start_mode_tom_thumb
   priority: 200
 

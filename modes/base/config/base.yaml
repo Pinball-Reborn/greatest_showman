@@ -1702,6 +1702,12 @@ counters:
     persist_state: true
     events_when_complete: light_ball_2_lock
 
+  reset_drop_target_counter:
+    count_events: right_flipper_hit, left_flipper_hit
+    count_complete_value: 50
+    persist_state: false
+    events_when_complete: reset_drop_bank, reset_single_drop_target
+
   
 
 sequence_shots:

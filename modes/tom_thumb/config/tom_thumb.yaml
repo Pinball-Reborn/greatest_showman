@@ -4,6 +4,7 @@ mode:
   stop_events: tom_thumb_complete, game_ending #ball_ended
   restart_on_next_ball: true
   #events_when_stopped: start_mode_irish_giant
+  events_when_started: reset_drop_bank, reset_single_drop_target
   priority: 200
 
 

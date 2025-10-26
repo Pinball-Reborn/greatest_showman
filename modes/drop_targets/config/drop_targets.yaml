@@ -2,6 +2,7 @@
 mode:
   start_events: start_mode_drop_targets
   stop_events: timer_drop_targets_timer_complete, ball_ended 
+  events_when_started: reset_drop_bank, reset_single_drop_target
   priority: 200
 
 event_player:
